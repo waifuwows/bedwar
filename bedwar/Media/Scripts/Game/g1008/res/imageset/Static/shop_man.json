@@ -1,0 +1,86 @@
+{
+    "frames": {
+        "btn_0_activity_mystery": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        },
+        "img_0_bd": {
+            "frame": {
+                "x": 211,
+                "y": 1,
+                "w": 627,
+                "h": 254
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 627,
+                "h": 254
+            },
+            "sourceSize": {
+                "w": 627,
+                "h": 254
+            }
+        },
+        "img_0_bd_h": {
+            "frame": {
+                "x": 839,
+                "y": 1,
+                "w": 38,
+                "h": 25
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 38,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 38,
+                "h": 25
+            }
+        },
+        "img_0_bd_v": {
+            "frame": {
+                "x": 878,
+                "y": 1,
+                "w": 59,
+                "h": 195
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 59,
+                "h": 195
+            },
+            "sourceSize": {
+                "w": 59,
+                "h": 195
+            }
+        }
+    },
+    "meta": {
+        "image": "shop_man.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 938,
+            "h": 256
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

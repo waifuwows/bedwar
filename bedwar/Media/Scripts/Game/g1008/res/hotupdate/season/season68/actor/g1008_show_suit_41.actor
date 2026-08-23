@@ -1,0 +1,205 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ActorTemplates>
+	<ActorTemplate name="g1008_show_suit_41.actor" Originalscale="0.68 0.68 0.68" Skeleton="boy_01.skel" AttackScale="1" TextHeight="0" IsShowShadow="true" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1" ThreadPriority="1">
+		<SubActors>
+		</SubActors>
+		<BodyParts>
+			<BodyPart MasterName="body" SlaveName="suit_30_wood" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g1008_chest_30_rainbow_wood.skin" ChangeColor = "0 2.64305e-38 2.64305e-38 1.092e-38" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1" UseSky = "true">
+				</Skin>
+				<Skin MeshName = "g1008_chest_1_30_rainbow_wood.skin" ChangeColor = "0 0 0 0" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+				<Skin MeshName = "g1008_thigh_30_rainbow_wood.skin" ChangeColor = "1.07626e-19 0 0 0" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+				<Skin MeshName = "g1008_thigh_1_30_rainbow_wood.skin" ChangeColor = "6.14408e-21 6.19702e-21 6.3029e-21 6.24996e-21" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1" UseSky = "true">
+				</Skin>
+				<Effect>
+					<FileName value="g1008_suit_30_rainbow_wood_idle_01.effect"/>
+					<SocketName value="s_back"/>
+					<Position_X value="-1.077"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="-180"/>
+					<pitch value="-8.14222e-13"/>
+					<roll value="90"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_suit_30_rainbow_wood_idle_02.effect"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_suit_30_rainbow_wood_idle_03.effect"/>
+					<SocketName value="s_back"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_shears_30.effect"/>
+					<SocketName value="s_hand_r"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_head_30_rainbow_wood.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_wing_30_rainbow_wood.mesh"/>
+					<SocketName value="s_back"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_foot_30_l_rainbow_wood.mesh"/>
+					<SocketName value="s_foot_l"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_foot_30_r_rainbow_wood.mesh"/>
+					<SocketName value="s_foot_r"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_shears_30.mesh"/>
+					<SocketName value="s_hand_r"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1.5"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1" UseSky = "true">
+					<FileName value="g1008_wing_1_30_rainbow_wood.mesh"/>
+					<SocketName value="s_back"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1" UseSky = "true">
+					<FileName value="g1008_head_1_30_rainbow_wood.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+		</Skills>
+		<Anims>
+				<Anim Name="g1008_suit_01_idle_gold.anim"/>
+				<Anim Name="g1008_suit_01_show_gold.anim"/>
+				<Anim Name="g1008_suit_03_idle_emerald.anim"/>
+				<Anim Name="g1008_suit_03_show_emerald.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

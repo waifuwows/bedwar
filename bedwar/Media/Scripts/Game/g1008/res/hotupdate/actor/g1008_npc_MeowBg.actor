@@ -1,0 +1,230 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ActorTemplates>
+	<ActorTemplate name="g1008_npc_MeowBg.actor" Originalscale="1.1 1.1 1.1" Skeleton="boy_01.skel" AttackScale="1" TextHeight="0" IsShowShadow="false" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1">
+		<BodyParts>
+			<BodyPart MasterName="custom_hair" SlaveName="33" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1" Group="">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="1503_hair_boy.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_crown" SlaveName="4" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1" Group="">
+				<Effect>
+					<FileName value="snowing.effect"/>
+					<SocketName value="s_back"/>
+					<Position_X value="-1.9"/>
+					<Position_Y value="0"/>
+					<Position_Z value="-0.2"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="-90"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="04_crown_widget.mesh"/>
+					<SocketName value="s_back"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_hat" SlaveName="9" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1" Group="">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="27_crown_boy.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_scarf" SlaveName="43" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1" Group="">
+				<Effect>
+					<FileName value="460_shoulder_widget.effect"/>
+					<SocketName value="bip01"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.5"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+			</BodyPart>
+			<BodyPart MasterName="clothes_tops" SlaveName="10037" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1" Group="">
+				<Skin MeshName = "10037_clothes_widget.skin" ChangeColor = "1.4013e-45 -0.487196 0.0893673 -0.567287" UVSpeed = "0 0" LocalAlpha = "1" UseBloom = "false">
+				</Skin>
+				<Effect>
+					<FileName value="bedwars_skin_mc_10037_3.effect"/>
+					<SocketName value="b_r_upperarm"/>
+					<Position_X value="-0.0156719"/>
+					<Position_Y value="0.00957477"/>
+					<Position_Z value="-0.00232331"/>
+					<yaw value="180"/>
+					<pitch value="8.14222e-13"/>
+					<roll value="116.5"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="bedwars_skin_mc_10037_4.effect"/>
+					<SocketName value="b_l_upperarm"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.00462258"/>
+					<Position_Z value="0"/>
+					<yaw value="-2.48076"/>
+					<pitch value="-0.308902"/>
+					<roll value="82.5064"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+			</BodyPart>
+			<BodyPart MasterName="clothes_pants" SlaveName="10037" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1" Group="">
+				<Skin MeshName = "10037_thigh_widget.skin" ChangeColor = "1.4013e-45 -0.487196 0.0893673 -0.567287" UVSpeed = "0 0" LocalAlpha = "1" UseBloom = "false">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="custom_shoes" SlaveName="10037" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1" Group="">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="10037_shoes_l_widget.mesh"/>
+					<SocketName value="s_foot_l"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="10037_shoes_r_widget.mesh"/>
+					<SocketName value="s_foot_r"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_front" SlaveName="662" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1" Group="">
+				<Effect>
+					<FileName value="662_front_widget.effect"/>
+					<SocketName value="s_back"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.05"/>
+					<Position_Z value="-0.057"/>
+					<yaw value="0"/>
+					<pitch value="15"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="662_front_widget.mesh"/>
+					<SocketName value="s_back"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.05"/>
+					<Position_Z value="-0.057"/>
+					<yaw value="0"/>
+					<pitch value="15"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_face" SlaveName="637" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1" Group="">
+				<Effect>
+					<FileName value="637_face_widget.effect"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="637_face_widget.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1" UseSky = "true">
+					<FileName value="637_face_widget_01.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_wing" SlaveName="671" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1" Group="">
+				<Effect>
+					<FileName value="671_wing_widget.effect"/>
+					<SocketName value="s_back"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1.4"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill Name="idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "christmas_wave_boy.anim" BeginTime = "0" Times = "-1" Length = "6.7" FadeTime = "0.2" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+		</Skills>
+		<Anims>
+				<Anim Name="boy_stand05.anim"/>
+				<Anim Name="christmas_wave_boy.anim"/>
+				<Anim Name="g2042_look.anim"/>
+				<Anim Name="xiaoyuan.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

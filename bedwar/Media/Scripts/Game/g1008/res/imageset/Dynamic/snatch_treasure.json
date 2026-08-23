@@ -1,0 +1,158 @@
+{
+    "frames": {
+        "btn_identity_slc": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 61,
+                "h": 61
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 61,
+                "h": 61
+            },
+            "sourceSize": {
+                "w": 61,
+                "h": 61
+            }
+        },
+        "btn_initial_reward": {
+            "frame": {
+                "x": 63,
+                "y": 1,
+                "w": 61,
+                "h": 61
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 61,
+                "h": 61
+            },
+            "sourceSize": {
+                "w": 61,
+                "h": 61
+            }
+        },
+        "head_chicken": {
+            "frame": {
+                "x": 125,
+                "y": 1,
+                "w": 49,
+                "h": 49
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 49,
+                "h": 49
+            },
+            "sourceSize": {
+                "w": 49,
+                "h": 49
+            }
+        },
+        "head_wolf": {
+            "frame": {
+                "x": 175,
+                "y": 1,
+                "w": 49,
+                "h": 49
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 49,
+                "h": 49
+            },
+            "sourceSize": {
+                "w": 49,
+                "h": 49
+            }
+        },
+        "icon_vs": {
+            "frame": {
+                "x": 225,
+                "y": 1,
+                "w": 38,
+                "h": 31
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 38,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 38,
+                "h": 31
+            }
+        },
+        "img_flag_red": {
+            "frame": {
+                "x": 264,
+                "y": 1,
+                "w": 646,
+                "h": 106
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 646,
+                "h": 106
+            },
+            "sourceSize": {
+                "w": 646,
+                "h": 106
+            }
+        },
+        "img_flagblue": {
+            "frame": {
+                "x": 1,
+                "y": 108,
+                "w": 646,
+                "h": 106
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 646,
+                "h": 106
+            },
+            "sourceSize": {
+                "w": 646,
+                "h": 106
+            }
+        },
+        "img_select_bd": {
+            "frame": {
+                "x": 1,
+                "y": 215,
+                "w": 1020,
+                "h": 611
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 1020,
+                "h": 611
+            },
+            "sourceSize": {
+                "w": 1020,
+                "h": 611
+            }
+        }
+    },
+    "meta": {
+        "image": "snatch_treasure.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 1022,
+            "h": 827
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

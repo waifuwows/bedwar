@@ -1,0 +1,50 @@
+{
+    "frames": {
+        "icon_lucky9": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "icon_set_trial": {
+            "frame": {
+                "x": 130,
+                "y": 1,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        }
+    },
+    "meta": {
+        "image": "ad_activity_icon.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 259,
+            "h": 130
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

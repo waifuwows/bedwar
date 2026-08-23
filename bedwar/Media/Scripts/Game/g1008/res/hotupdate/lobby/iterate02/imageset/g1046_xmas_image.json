@@ -1,0 +1,122 @@
+{
+    "frames": {
+        "img_0_icon_fishing": {
+            "frame": {
+                "x": 259,
+                "y": 1,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "img_0_icon_gift1": {
+            "frame": {
+                "x": 388,
+                "y": 1,
+                "w": 327,
+                "h": 336
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 327,
+                "h": 336
+            },
+            "sourceSize": {
+                "w": 327,
+                "h": 336
+            }
+        },
+        "img_0_icon_gift2": {
+            "frame": {
+                "x": 1,
+                "y": 338,
+                "w": 327,
+                "h": 336
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 327,
+                "h": 336
+            },
+            "sourceSize": {
+                "w": 327,
+                "h": 336
+            }
+        },
+        "img_0_icon_gift3": {
+            "frame": {
+                "x": 329,
+                "y": 338,
+                "w": 327,
+                "h": 336
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 327,
+                "h": 336
+            },
+            "sourceSize": {
+                "w": 327,
+                "h": 336
+            }
+        },
+        "img_0_icon_giftcard": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "img_0_icon_snow": {
+            "frame": {
+                "x": 130,
+                "y": 1,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        }
+    },
+    "meta": {
+        "image": "g1046_xmas_image.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 716,
+            "h": 675
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "common.proto";
+
+message Block
+{
+    int32 id = 1;           // 方块ID
+    int32 type = 2;         // 方块类型
+    int32 meta = 3;         // 方块状态
+    Position position = 4;  // 方块位置
+}

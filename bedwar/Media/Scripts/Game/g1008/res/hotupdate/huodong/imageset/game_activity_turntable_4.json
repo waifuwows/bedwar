@@ -1,0 +1,122 @@
+{
+    "frames": {
+        "bg": {
+            "frame": {
+                "x": 1,
+                "y": 316,
+                "w": 800,
+                "h": 600
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 800,
+                "h": 600
+            },
+            "sourceSize": {
+                "w": 800,
+                "h": 600
+            }
+        },
+        "btn_draw": {
+            "frame": {
+                "x": 223,
+                "y": 1,
+                "w": 212,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 212,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 212,
+                "h": 91
+            }
+        },
+        "img_0_sale_red": {
+            "frame": {
+                "x": 112,
+                "y": 1,
+                "w": 110,
+                "h": 49
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 110,
+                "h": 49
+            },
+            "sourceSize": {
+                "w": 110,
+                "h": 49
+            }
+        },
+        "img_base": {
+            "frame": {
+                "x": 1,
+                "y": 93,
+                "w": 428,
+                "h": 185
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 428,
+                "h": 185
+            },
+            "sourceSize": {
+                "w": 428,
+                "h": 185
+            }
+        },
+        "img_bd_center": {
+            "frame": {
+                "x": 430,
+                "y": 93,
+                "w": 222,
+                "h": 222
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 222,
+                "h": 222
+            },
+            "sourceSize": {
+                "w": 222,
+                "h": 222
+            }
+        },
+        "img_sale_purple": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 110,
+                "h": 49
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 110,
+                "h": 49
+            },
+            "sourceSize": {
+                "w": 110,
+                "h": 49
+            }
+        }
+    },
+    "meta": {
+        "image": "game_activity_turntable_4.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 802,
+            "h": 917
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

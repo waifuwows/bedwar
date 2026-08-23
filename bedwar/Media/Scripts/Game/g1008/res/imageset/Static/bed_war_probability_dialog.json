@@ -1,0 +1,86 @@
+{
+    "frames": {
+        "bg": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 144,
+                "h": 163
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 144,
+                "h": 163
+            },
+            "sourceSize": {
+                "w": 144,
+                "h": 163
+            }
+        },
+        "close": {
+            "frame": {
+                "x": 1,
+                "y": 165,
+                "w": 51,
+                "h": 54
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 51,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 51,
+                "h": 54
+            }
+        },
+        "line": {
+            "frame": {
+                "x": 53,
+                "y": 165,
+                "w": 2,
+                "h": 54
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 2,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 2,
+                "h": 54
+            }
+        },
+        "text_bg": {
+            "frame": {
+                "x": 56,
+                "y": 165,
+                "w": 37,
+                "h": 57
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 37,
+                "h": 57
+            },
+            "sourceSize": {
+                "w": 37,
+                "h": 57
+            }
+        }
+    },
+    "meta": {
+        "image": "bed_war_probability_dialog.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 146,
+            "h": 223
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

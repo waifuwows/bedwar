@@ -1,0 +1,41 @@
+{
+  "attackEffect": {
+    "effectName": "explosion.effect",
+    "effectScale": 1,
+    "soundData": {
+      "soundId": 0,
+      "soundType": "2d"
+    }
+  },
+  "checkStrategy": "obbCheck",
+  "collisionStrategy": "disappear",
+  "damageData": {
+    "canKillPlayer": true,
+    "damage": 15,
+    "damageType": "explosion",
+    "enableHurtFormula": true,
+    "hitBuffList": [],
+    "knockBackDis": 0
+  },
+  "duration": 2200,
+  "explosionRange": 2,
+  "explosionSpecialEffect": {
+    "duration": 5000,
+    "effectType": "createFire",
+    "fireProbability": 0.3
+  },
+  "extraBounds": {
+    "x": 0.8,
+    "y": 0.8,
+    "z": 0.8
+  },
+  "hitEffect": {
+    "effectName": "",
+    "effectScale": 1
+  },
+  "showEffect": {
+    "effectName": "g1008_legendary_props_scarecrow_attack.effect",
+    "effectScale": 1
+  },
+  "speed": 26
+}

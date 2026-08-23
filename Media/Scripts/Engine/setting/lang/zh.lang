@@ -1,0 +1,5 @@
+custom_room_resource_load_error_retry=资源加载失败，请退出游戏重新进入。\\n如果问题依旧存在请清理资源后重进游戏。
+chat_moderation_menu_report=举报用户
+chat_moderation_menu_block=屏蔽用户
+chat_moderation_report_success=举报%s成功
+chat_moderation_block_success=屏蔽%s成功

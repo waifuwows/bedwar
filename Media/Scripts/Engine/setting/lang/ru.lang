@@ -1,0 +1,5 @@
+custom_room_resource_load_error_retry=Не удалось загрузить ресурсы. Выйдите из игры и войдите снова.\\nЕсли проблема сохранится, очистите ресурсы и снова войдите в игру.
+chat_moderation_menu_report=Пожаловаться
+chat_moderation_menu_block=Заблокировать
+chat_moderation_report_success=Жалоба на %s отправлена
+chat_moderation_block_success=%s успешно заблокирован

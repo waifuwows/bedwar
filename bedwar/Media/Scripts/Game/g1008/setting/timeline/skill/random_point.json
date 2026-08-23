@@ -1,0 +1,13 @@
+{
+  "timeline": "random_point_trigger",
+  "conditionList": [
+    {
+      "radius": 18,
+      "conditionType": "WithinRadius"
+    }
+  ],
+  "triggerRotate": {
+    "radius": 18,
+    "rotateType": "RecentTarget"
+  }
+}

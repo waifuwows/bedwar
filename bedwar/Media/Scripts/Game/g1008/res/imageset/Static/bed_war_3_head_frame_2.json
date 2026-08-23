@@ -1,0 +1,158 @@
+{
+    "frames": {
+        "g1008_touxiangkuang_65": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_touxiangkuang_66": {
+            "frame": {
+                "x": 130,
+                "y": 1,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_touxiangkuang_67": {
+            "frame": {
+                "x": 259,
+                "y": 1,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_touxiangkuang_68": {
+            "frame": {
+                "x": 1,
+                "y": 130,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_touxiangkuang_69": {
+            "frame": {
+                "x": 130,
+                "y": 130,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_touxiangkuang_70": {
+            "frame": {
+                "x": 259,
+                "y": 130,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_touxiangkuang_71": {
+            "frame": {
+                "x": 1,
+                "y": 259,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_touxiangkuang_72": {
+            "frame": {
+                "x": 130,
+                "y": 259,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        }
+    },
+    "meta": {
+        "image": "bed_war_3_head_frame_2.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 388,
+            "h": 388
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

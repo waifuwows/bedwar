@@ -1,0 +1,32 @@
+{
+    "frames": {
+        "yurenjie_512": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 512,
+                "h": 512
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 512,
+                "h": 512
+            },
+            "sourceSize": {
+                "w": 512,
+                "h": 512
+            }
+        }
+    },
+    "meta": {
+        "image": "yurenjie_512.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 512,
+            "h": 512
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

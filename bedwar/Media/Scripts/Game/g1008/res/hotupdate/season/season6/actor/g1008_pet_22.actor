@@ -1,0 +1,53 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ActorTemplates>
+	<ActorTemplate name="g1008_pet_22.actor" Originalscale="1 1 1" Skeleton="g2038_pet_20_2.skel" AttackScale="1" TextHeight="0" IsShowShadow="true" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1"  ThreadPriority="0" LodLevel="3">
+		<SubActors>
+		</SubActors>
+		<BodyParts>
+			<BodyPart MasterName="body" SlaveName="default" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Effect>
+					<FileName value="g1008_loading_fire.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<Position_X value="0"/>
+					<Position_Y value="1"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_pet_22" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2038_pet_20_2.skin" ChangeColor = "5.24414e-35 5.24403e-35 5.24392e-35 5.24381e-35" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill Name="idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2038_pet_20_2_idle.anim" BeginTime = "0" Times = "-1" Length = "8.666" FadeTime = "0.25" Channel = "" TimeScale = "1.3">
+				</Animation>
+				<ActorScaleChange  beginScale = "1" endScale = "1" >
+				</ActorScaleChange>
+			</Skill>
+			<Skill Name="run" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2038_pet_20_2_walk.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.25" Channel = "" TimeScale = "2">
+				</Animation>
+				<ActorScaleChange  beginScale = "1" endScale = "1" >
+				</ActorScaleChange>
+			</Skill>
+			<Skill Name="taunt" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2038_pet_20_2_rangedAttack.anim" BeginTime = "0" Times = "1" Length = "2.066" FadeTime = "0.25" Channel = "" TimeScale = "0.95">
+				</Animation>
+				<ActorScaleChange  beginScale = "1" endScale = "1" >
+				</ActorScaleChange>
+			</Skill>
+		</Skills>
+		<Anims>
+				<Anim Name="g2038_pet_20_2_idle.anim"/>
+				<Anim Name="g2038_pet_20_2_rangedAttack.anim"/>
+				<Anim Name="g2038_pet_20_2_walk.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

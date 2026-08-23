@@ -1,0 +1,68 @@
+{
+    "frames": {
+        "img_0_show_center": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 360,
+                "h": 160
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 360,
+                "h": 160
+            },
+            "sourceSize": {
+                "w": 360,
+                "h": 160
+            }
+        },
+        "img_0_show_left": {
+            "frame": {
+                "x": 362,
+                "y": 1,
+                "w": 93,
+                "h": 93
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 93,
+                "h": 93
+            },
+            "sourceSize": {
+                "w": 93,
+                "h": 93
+            }
+        },
+        "img_0_show_right": {
+            "frame": {
+                "x": 456,
+                "y": 1,
+                "w": 233,
+                "h": 187
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 233,
+                "h": 187
+            },
+            "sourceSize": {
+                "w": 233,
+                "h": 187
+            }
+        }
+    },
+    "meta": {
+        "image": "game_activity_blind_big_reward.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 690,
+            "h": 189
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

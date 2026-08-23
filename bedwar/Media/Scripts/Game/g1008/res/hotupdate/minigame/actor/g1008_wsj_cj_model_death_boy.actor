@@ -1,0 +1,106 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ActorTemplates>
+	<ActorTemplate name="g1008_wsj_cj_model_death_boy.actor" Originalscale="0.68 0.68 0.68" Skeleton="boy_01.skel" AttackScale="1" TextHeight="0" IsShowShadow="true" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1" ThreadPriority="1">
+		<SubActors>
+		</SubActors>
+		<BodyParts>
+			<BodyPart MasterName="body" SlaveName="01" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "158_trousers_widget.skin" ChangeColor = "1.06529e-38 2.39859e-38 9.45307e-39 2.8026e-45" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+				<Skin MeshName = "158_trunk_widget.skin" ChangeColor = "1.06529e-38 2.39859e-38 9.45307e-39 2.8026e-45" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="158_shose_l_widget.mesh"/>
+					<SocketName value="s_foot_l"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="158_shose_r_widget.mesh"/>
+					<SocketName value="s_foot_r"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="02_hair_boy.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_wsj_cj_model_death_face.mesh"/>
+					<SocketName value="b_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill Name="death_01" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_wsj_cj_model_death_01.anim" BeginTime = "0" Times = "1" Length = "2" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="death_02" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_wsj_cj_model_death_02.anim" BeginTime = "0" Times = "1" Length = "2" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="death_03" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_wsj_cj_model_death_03.anim" BeginTime = "0" Times = "1" Length = "2" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+		</Skills>
+		<Anims>
+				<Anim Name="g1008_wsj_cj_model_death_01.anim"/>
+				<Anim Name="g1008_wsj_cj_model_death_02.anim"/>
+				<Anim Name="g1008_wsj_cj_model_death_03.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

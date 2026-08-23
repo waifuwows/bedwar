@@ -1,0 +1,176 @@
+{
+    "frames": {
+        "img_0_dividing_line": {
+            "frame": {
+                "x": 1,
+                "y": 393,
+                "w": 553,
+                "h": 2
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 553,
+                "h": 2
+            },
+            "sourceSize": {
+                "w": 553,
+                "h": 2
+            }
+        },
+        "img_0_questionnaire01": {
+            "frame": {
+                "x": 83,
+                "y": 1,
+                "w": 46,
+                "h": 60
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 46,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 46,
+                "h": 60
+            }
+        },
+        "img_0_questionnaire02": {
+            "frame": {
+                "x": 571,
+                "y": 197,
+                "w": 284,
+                "h": 195
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 284,
+                "h": 195
+            },
+            "sourceSize": {
+                "w": 284,
+                "h": 195
+            }
+        },
+        "img_0_questionnaire03": {
+            "frame": {
+                "x": 286,
+                "y": 197,
+                "w": 284,
+                "h": 195
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 284,
+                "h": 195
+            },
+            "sourceSize": {
+                "w": 284,
+                "h": 195
+            }
+        },
+        "img_0_questionnaire04": {
+            "frame": {
+                "x": 1,
+                "y": 197,
+                "w": 284,
+                "h": 195
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 284,
+                "h": 195
+            },
+            "sourceSize": {
+                "w": 284,
+                "h": 195
+            }
+        },
+        "img_0_questionnaire05": {
+            "frame": {
+                "x": 415,
+                "y": 1,
+                "w": 284,
+                "h": 195
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 284,
+                "h": 195
+            },
+            "sourceSize": {
+                "w": 284,
+                "h": 195
+            }
+        },
+        "img_0_questionnaire06": {
+            "frame": {
+                "x": 130,
+                "y": 1,
+                "w": 284,
+                "h": 195
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 284,
+                "h": 195
+            },
+            "sourceSize": {
+                "w": 284,
+                "h": 195
+            }
+        },
+        "img_0_selected01": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 38,
+                "h": 38
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 38,
+                "h": 38
+            },
+            "sourceSize": {
+                "w": 38,
+                "h": 38
+            }
+        },
+        "img_0_selected02": {
+            "frame": {
+                "x": 40,
+                "y": 1,
+                "w": 42,
+                "h": 34
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 34
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 34
+            }
+        }
+    },
+    "meta": {
+        "image": "bedwar_questionnaire.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 856,
+            "h": 396
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

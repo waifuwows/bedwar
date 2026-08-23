@@ -1,0 +1,54 @@
+{
+  "?tips": "圆心爆炸（预警）",
+  "actionList": [ {
+    "actionType": "PlayWarningEffect",
+    "durationTick": 60,
+    "effectScale": 3,
+    "index": 1,
+    "innerEffectName": "g1008_pve_attack_circle_02.effect",
+    "outEffectName": "g1008_pve_attack_circle_01.effect",
+    "startTick": 1,
+    "timelineName": "near_explosion_dark"
+  }, {
+    "actionType": "CauseDamage",
+    "attackEffect": {
+      "effectName": "g1008_skill_firerange.effect",
+      "effectScale": 1.7,
+      "rotateType": "none"
+    },
+    "damage": 1,
+    "damageData": {
+      "canKillPlayer": true,
+      "damage": 12,
+      "damageType": "generic",
+      "enableHurtFormula": true,
+      "hitBuffList": [],
+      "knockBackDis": 1
+    },
+    "durationTick": 0,
+    "hitEffect": {
+      "effectName": "",
+      "effectScale": 1
+    },
+    "index": 2,
+    "knockBackDis": 20,
+    "searchTargetsData": {
+      "radius": 6,
+      "searchType": "circular"
+    },
+    "soundData": {
+      "soundId": 0,
+      "soundType": "2d"
+    },
+    "startTick": 60,
+    "timelineName": "near_explosion_dark"
+  }, {
+    "actionType": "PlayAnim",
+    "animName": "taunt",
+    "durationTick": 0,
+    "index": 3,
+    "startTick": 5,
+    "timelineName": "near_explosion_dark"
+  } ],
+  "endTick": 61
+}

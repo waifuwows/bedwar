@@ -1,0 +1,153 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ActorTemplates>
+	<ActorTemplate name="g1008_npc_Badiy.actor" Originalscale="1.1 1.1 1.1" Skeleton="boy_01.skel" AttackScale="1" TextHeight="0" IsShowShadow="false" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1">
+		<BodyParts>
+			<BodyPart MasterName="custom_hair" SlaveName="688" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1" Group="">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="688_hair_widget.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_hat" SlaveName="11" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1" Group="">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="34_crown_boy.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.0428083"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_front" SlaveName="663" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1" Group="">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="663_front_widget.mesh"/>
+					<SocketName value="s_back"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_glasses" SlaveName="20" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1" Group="">
+				<StaticMesh LocalAlpha = "0.7">
+					<FileName value="103_crown_widget.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="-0.009"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_scarf" SlaveName="12" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1" Group="">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="12_scarf_boy.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_face" SlaveName="2" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1" Group="">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="01_face_boy.mesh"/>
+					<SocketName value="b_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="clothes_tops" SlaveName="38" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1" Group="">
+				<Skin MeshName = "38_trunk_widget.skin" ChangeColor = "1.4013e-45 -0.487196 0.0893673 -0.567287" UVSpeed = "0 0" LocalAlpha = "1" UseBloom = "false">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="clothes_pants" SlaveName="100" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1" Group="">
+				<Skin MeshName = "101_trousers_widget.skin" ChangeColor = "2.10195e-44 2.43428e-39 1.4013e-45 0" UVSpeed = "0 0" LocalAlpha = "1" UseBloom = "false">
+				</Skin>
+				<Skin MeshName = "101_trousers_widget_01.skin" ChangeColor = "2.10195e-44 2.43451e-39 1.4013e-45 0" UVSpeed = "0 0" LocalAlpha = "1" UseBloom = "false">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="custom_shoes" SlaveName="663" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1" Group="">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="2034_shoe_l_widget.mesh"/>
+					<SocketName value="s_foot_l"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="2034_shoe_r_widget.mesh"/>
+					<SocketName value="s_foot_r"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_wing" SlaveName="5" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1" Group="">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="05_wing_widget.mesh"/>
+					<SocketName value="s_back"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill Name="idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "christmas_wave_boy.anim" BeginTime = "0" Times = "-1" Length = "6.7" FadeTime = "0.2" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+		</Skills>
+		<Anims>
+				<Anim Name="boy_stand05.anim"/>
+				<Anim Name="christmas_wave_boy.anim"/>
+				<Anim Name="g2042_look.anim"/>
+				<Anim Name="xiaoyuan.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

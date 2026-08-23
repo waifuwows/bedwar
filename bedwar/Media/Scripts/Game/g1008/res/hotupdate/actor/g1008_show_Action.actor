@@ -1,0 +1,1239 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ActorTemplates>
+	<ActorTemplate name="g1008_show_Action.actor" Originalscale="0.68 0.68 0.68" Skeleton="boy_01.skel" AttackScale="1" TextHeight="0" IsShowShadow="true" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1" ThreadPriority="1">
+		<SubActors>
+		</SubActors>
+		<BodyParts>
+			<BodyPart MasterName="body" SlaveName="1" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "05_shoes_l_armor_widget.skin" ChangeColor = "3.12241e-39 1.9254e-38 1.45038e-38 2.8026e-45" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+				<Skin MeshName = "05_shoes_r_armor_widget.skin" ChangeColor = "3.12241e-39 1.9254e-38 1.45038e-38 2.8026e-45" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+				<Skin MeshName = "05_trousers_armor_widget.skin" ChangeColor = "3.12241e-39 1.9254e-38 1.45038e-38 2.8026e-45" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+				<Skin MeshName = "05_trunk_armor_widget.skin" ChangeColor = "3.12241e-39 1.9254e-38 1.45038e-38 2.8026e-45" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="02_face_boy.mesh"/>
+					<SocketName value="b_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="05_hair_armor_widget.mesh"/>
+					<SocketName value="b_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_sword_104.mesh"/>
+					<SocketName value="s_hand_r"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="2" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "05_shoes_l_armor_widget.skin" ChangeColor = "3.12241e-39 1.9254e-38 1.45038e-38 2.8026e-45" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+				<Skin MeshName = "05_shoes_r_armor_widget.skin" ChangeColor = "3.12241e-39 1.9254e-38 1.45038e-38 2.8026e-45" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+				<Skin MeshName = "05_trousers_armor_widget.skin" ChangeColor = "3.12241e-39 1.9254e-38 1.45038e-38 2.8026e-45" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+				<Skin MeshName = "05_trunk_armor_widget.skin" ChangeColor = "3.12241e-39 1.9254e-38 1.45038e-38 2.8026e-45" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="02_face_boy.mesh"/>
+					<SocketName value="b_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="05_hair_armor_widget.mesh"/>
+					<SocketName value="b_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill Name="idle_52" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_suit_05_rainbow_wood_idle.anim" BeginTime = "0" Times = "-1" Length = "1.7" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_suit_05_rainbow_wood_idle_04.effect"/>
+					<SocketName value="s_hand_r"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="taunt_01" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_taunt_01.anim" BeginTime = "0" Times = "-1" Length = "3.033" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_fx_taunt_1.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="taunt_02" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_taunt_02.anim" BeginTime = "0" Times = "-1" Length = "3.3" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_fx_taunt_2_1.effect"/>
+					<SocketName value="b_head"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_fx_taunt_2_2.effect"/>
+					<SocketName value="b_neck"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="-0.12624"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_fx_taunt_2_3.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="0.280981"/>
+					<Position_Y value="0.733404"/>
+					<Position_Z value="0.652059"/>
+					<yaw value="0"/>
+					<pitch value="15"/>
+					<roll value="0"/>
+					<scale value="0.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="3.3"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_fx_taunt_2_4.effect"/>
+					<SocketName value="s_hand_l"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="3.3"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="taunt_03" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_taunt_03.anim" BeginTime = "0" Times = "-1" Length = "3.3" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_fx_taunt_3.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="3.3"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="taunt_04" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_taunt_04.anim" BeginTime = "0" Times = "-1" Length = "3.033" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_05" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_taunt_05.anim" BeginTime = "0" Times = "-1" Length = "1.033" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_fx_taunt_5_1.effect"/>
+					<SocketName value="s_foot_l"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_fx_taunt_5_1.effect"/>
+					<SocketName value="s_foot_r"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_fx_taunt_5_2.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.02"/>
+					<Times value="-1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0.03"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="taunt_06" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_taunt_06.anim" BeginTime = "0" Times = "-1" Length = "2.033" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_fx_taunt_6_1.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="2.03"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_fx_taunt_6_2.effect"/>
+					<SocketName value="s_hand_l"/>
+					<BeginTime value="0.02"/>
+					<Times value="-1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="taunt_07" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_taunt_07.anim" BeginTime = "0" Times = "-1" Length = "2.533" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_08" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_taunt_08.anim" BeginTime = "0" Times = "-1" Length = "1.833" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_fx_taunt_8.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.057"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="taunt_09" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_taunt_09.anim" BeginTime = "0" Times = "-1" Length = "1.866" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_10" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_taunt_10.anim" BeginTime = "0" Times = "-1" Length = "0.733" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_11" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_taunt_11.anim" BeginTime = "0" Times = "-1" Length = "3.566" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_12" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_taunt_12.anim" BeginTime = "0" Times = "-1" Length = "1.033" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_13" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_taunt_13.anim" BeginTime = "0" Times = "-1" Length = "0.966" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_14" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_taunt_14.anim" BeginTime = "0" Times = "-1" Length = "0.8" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_15" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_taunt_15.anim" BeginTime = "0" Times = "-1" Length = "1.633" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_16" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_taunt_16.anim" BeginTime = "0" Times = "-1" Length = "0.7" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_17" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_taunt_17.anim" BeginTime = "0" Times = "-1" Length = "0.766" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_18" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_19.anim" BeginTime = "0" Times = "-1" Length = "3.2" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_boy_taunt_18.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.22"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1.9"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="taunt_20" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_20.anim" BeginTime = "0" Times = "-1" Length = "6.833" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_boy_taunt_20.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="taunt_21" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2042_look.anim" BeginTime = "0" Times = "-1" Length = "6.266" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_22" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_22.anim" BeginTime = "0" Times = "-1" Length = "3.833" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<ActorScaleChange  beginScale = "0.75" endScale = "0.75" >
+				</ActorScaleChange>
+			</Skill>
+			<Skill Name="taunt_23" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_23.anim" BeginTime = "0" Times = "-1" Length = "2.666" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_taunt_23.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<ActorScaleChange  beginScale = "0.75" endScale = "0.75" >
+				</ActorScaleChange>
+			</Skill>
+			<Skill Name="taunt_24" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_24.anim" BeginTime = "0" Times = "1" Length = "6.566" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_boy_taunt_24.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="taunt_25" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_25.anim" BeginTime = "0" Times = "1" Length = "6.7" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_boy_taunt_25.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="taunt_27" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_27.anim" BeginTime = "0" Times = "-1" Length = "2.866" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_boy_taunt_27.effect"/>
+					<SocketName value="s_hand_r"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="taunt_28" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_28.anim" BeginTime = "0" Times = "-1" Length = "7.766" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_boy_taunt_28.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="taunt_29" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_29.anim" BeginTime = "0" Times = "-1" Length = "3.933" FadeTime = "0.25" Channel = "" TimeScale = "1.25">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_30" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_30.anim" BeginTime = "0" Times = "-1" Length = "18.866" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_31" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_31.anim" BeginTime = "0" Times = "-1" Length = "6.8" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_32" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_32.anim" BeginTime = "0" Times = "-1" Length = "10.866" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_33" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_33.anim" BeginTime = "0" Times = "-1" Length = "10.2" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_34" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_34.anim" BeginTime = "0" Times = "-1" Length = "10.2" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_35" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_35.anim" BeginTime = "0" Times = "-1" Length = "7.4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_37" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_37.anim" BeginTime = "0" Times = "-1" Length = "4.766" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_38" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_38.anim" BeginTime = "0" Times = "-1" Length = "4.766" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_39" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_39.anim" BeginTime = "0" Times = "-1" Length = "9.666" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_40" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_40.anim" BeginTime = "0" Times = "-1" Length = "8.866" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_41" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_41.anim" BeginTime = "0" Times = "-1" Length = "5.833" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_42" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_42.anim" BeginTime = "0" Times = "-1" Length = "8.166" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_43" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_43.anim" BeginTime = "0" Times = "-1" Length = "17.7" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_44" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_44.anim" BeginTime = "0" Times = "-1" Length = "3.066" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_50" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_50.anim" BeginTime = "0" Times = "-1" Length = "5.433" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_51" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_51.anim" BeginTime = "0" Times = "-1" Length = "2.033" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_52" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_suit_05_rainbow_wood_show.anim" BeginTime = "0" Times = "1" Length = "9.6" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_suit_05_rainbow_wood_show.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_suit_05_rainbow_wood_show_3.effect"/>
+					<SocketName value="s_hand_r"/>
+					<BeginTime value="3.44"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_suit_05_rainbow_wood_show_3.effect"/>
+					<SocketName value="s_hand_r"/>
+					<BeginTime value="3.1"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_suit_05_rainbow_wood_show_3.effect"/>
+					<SocketName value="s_hand_r"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="taunt_53" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_53.anim" BeginTime = "0" Times = "-1" Length = "3.333" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_54" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_54.anim" BeginTime = "0" Times = "-1" Length = "5.7" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_55" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_55.anim" BeginTime = "0" Times = "-1" Length = "7.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_56" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_56.anim" BeginTime = "0" Times = "-1" Length = "4.2" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_57" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_57.anim" BeginTime = "0" Times = "-1" Length = "4.2" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_58" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_58.anim" BeginTime = "0" Times = "-1" Length = "3.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_59" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_59.anim" BeginTime = "0" Times = "-1" Length = "3.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_60" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_60.anim" BeginTime = "0" Times = "-1" Length = "3" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_61" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_61.anim" BeginTime = "0" Times = "-1" Length = "3.866" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_62" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_62.anim" BeginTime = "0" Times = "-1" Length = "3.566" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_taunt_62_gun.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="taunt_63" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_63.anim" BeginTime = "0" Times = "-1" Length = "3.566" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_boy_taunt_63.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="taunt_64" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_64.anim" BeginTime = "0" Times = "-1" Length = "3.45" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_65" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_65.anim" BeginTime = "0" Times = "-1" Length = "2.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1048_vampire_shoes_l.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="taunt_66" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_66.anim" BeginTime = "0" Times = "-1" Length = "7.766" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_boy_taunt_66.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="taunt_67" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_67.anim" BeginTime = "0" Times = "-1" Length = "7.766" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_68" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_68.anim" BeginTime = "0" Times = "-1" Length = "3.45" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_69" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_69.anim" BeginTime = "0" Times = "-1" Length = "3.45" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_70" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_70.anim" BeginTime = "0" Times = "-1" Length = "1.066" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_boy_taunt_70_drum.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.03"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1.1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="taunt_71" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_71_show.anim" BeginTime = "0" Times = "-1" Length = "3.766" FadeTime = "0" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_boy_taunt_71_show.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.03"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1.1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="taunt_72" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_72_show.anim" BeginTime = "0" Times = "-1" Length = "3.766" FadeTime = "0" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt_73" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_73.anim" BeginTime = "0" Times = "-1" Length = "2.766" FadeTime = "0" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_boy_taunt_73.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.03"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1.1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="taunt_74" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_74.anim" BeginTime = "0" Times = "-1" Length = "1.266" FadeTime = "0" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_boy_taunt_74.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0.3"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1.1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="taunt_75" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_75.anim" BeginTime = "0" Times = "-1" Length = "1.033" FadeTime = "0" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_boy_taunt_75.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1.1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="taunt_76" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_76.anim" BeginTime = "0" Times = "-1" Length = "7.766" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_boy_taunt_76.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="0.5"/>
+					<Position_Y value="-1"/>
+					<Position_Z value="-0.3"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="taunt_77" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_77.anim" BeginTime = "0" Times = "-1" Length = "7.766" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_boy_taunt_77.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-1.6"/>
+					<Position_Z value="-0.3"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="taunt_78" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_78.anim" BeginTime = "0" Times = "-1" Length = "7.766" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_boy_taunt_78.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-1.6"/>
+					<Position_Z value="-0.3"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="taunt_79" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_79_show.anim" BeginTime = "0" Times = "-1" Length = "2.866" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_boy_taunt_79.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="taunt_80" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_80.anim" BeginTime = "0" Times = "-1" Length = "2.866" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_boy_taunt_80.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="taunt_81" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_81.anim" BeginTime = "0" Times = "-1" Length = "2.866" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="idle_72" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_72_idle.anim" BeginTime = "0" Times = "-1" Length = "3.766" FadeTime = "0" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="idle_73" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_73_idle.anim" BeginTime = "0" Times = "-1" Length = "3.766" FadeTime = "0" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="idle_79" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_boy_taunt_79_idle.anim" BeginTime = "0" Times = "-1" Length = "3.766" FadeTime = "0" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+		</Skills>
+		<Anims>
+				<Anim Name="boy_taunt_01.anim"/>
+				<Anim Name="boy_taunt_02.anim"/>
+				<Anim Name="boy_taunt_03.anim"/>
+				<Anim Name="boy_taunt_04.anim"/>
+				<Anim Name="boy_taunt_05.anim"/>
+				<Anim Name="boy_taunt_06.anim"/>
+				<Anim Name="boy_taunt_07.anim"/>
+				<Anim Name="boy_taunt_08.anim"/>
+				<Anim Name="boy_taunt_09.anim"/>
+				<Anim Name="boy_taunt_10.anim"/>
+				<Anim Name="boy_taunt_11.anim"/>
+				<Anim Name="boy_taunt_12.anim"/>
+				<Anim Name="boy_taunt_13.anim"/>
+				<Anim Name="boy_taunt_14.anim"/>
+				<Anim Name="boy_taunt_15.anim"/>
+				<Anim Name="boy_taunt_16.anim"/>
+				<Anim Name="boy_taunt_17.anim"/>
+				<Anim Name="g1008_boy_taunt_18.anim"/>
+				<Anim Name="g1008_boy_taunt_19.anim"/>
+				<Anim Name="g1008_boy_taunt_20.anim"/>
+				<Anim Name="g2042_look.anim"/>
+				<Anim Name="g1008_boy_taunt_22.anim"/>
+				<Anim Name="g1008_boy_taunt_23.anim"/>
+				<Anim Name="g1008_boy_taunt_24.anim"/>
+				<Anim Name="g1008_boy_taunt_25.anim"/>
+				<Anim Name="g1008_boy_taunt_27.anim"/>
+				<Anim Name="g1008_boy_taunt_28.anim"/>
+				<Anim Name="g1008_boy_taunt_29.anim"/>
+				<Anim Name="g1008_boy_taunt_30.anim"/>
+				<Anim Name="g1008_boy_taunt_31.anim"/>
+				<Anim Name="g1008_boy_taunt_32.anim"/>
+				<Anim Name="g1008_boy_taunt_33.anim"/>
+				<Anim Name="g1008_boy_taunt_34.anim"/>
+				<Anim Name="g1008_boy_taunt_35.anim"/>
+				<Anim Name="g1008_boy_taunt_37.anim"/>
+				<Anim Name="g1008_boy_taunt_38.anim"/>
+				<Anim Name="g1008_boy_taunt_39.anim"/>
+				<Anim Name="g1008_boy_taunt_40.anim"/>
+				<Anim Name="g1008_boy_taunt_41.anim"/>
+				<Anim Name="g1008_boy_taunt_42.anim"/>
+				<Anim Name="g1008_boy_taunt_43.anim"/>
+				<Anim Name="g1008_boy_taunt_44.anim"/>
+				<Anim Name="g1008_boy_taunt_50.anim"/>
+				<Anim Name="g1008_boy_taunt_51.anim"/>
+				<Anim Name="g1008_boy_taunt_53.anim"/>
+				<Anim Name="g1008_boy_taunt_53_idle.anim"/>
+				<Anim Name="g1008_boy_taunt_54.anim"/>
+				<Anim Name="g1008_boy_taunt_54_idle.anim"/>
+				<Anim Name="g1008_boy_taunt_55.anim"/>
+				<Anim Name="g1008_boy_taunt_55_idle.anim"/>
+				<Anim Name="g1008_boy_taunt_56.anim"/>
+				<Anim Name="g1008_boy_taunt_57.anim"/>
+				<Anim Name="g1008_boy_taunt_58.anim"/>
+				<Anim Name="g1008_boy_taunt_59.anim"/>
+				<Anim Name="g1008_boy_taunt_60.anim"/>
+				<Anim Name="g1008_boy_taunt_61.anim"/>
+				<Anim Name="g1008_boy_idle_56.anim"/>
+				<Anim Name="g1008_suit_05_rainbow_wood_idle.anim"/>
+				<Anim Name="g1008_suit_05_rainbow_wood_show.anim"/>
+				<Anim Name="g1008_boy_taunt_62.anim"/>
+				<Anim Name="g1008_boy_taunt_63.anim"/>
+				<Anim Name="g1008_boy_taunt_64.anim"/>
+				<Anim Name="g1008_boy_taunt_65.anim"/>
+				<Anim Name="g1008_boy_taunt_66.anim"/>
+				<Anim Name="g1008_boy_taunt_67.anim"/>
+				<Anim Name="g1008_boy_taunt_68.anim"/>
+				<Anim Name="g1008_boy_taunt_69.anim"/>
+				<Anim Name="g1008_boy_taunt_70.anim"/>
+				<Anim Name="g1008_boy_taunt_71_show.anim"/>
+				<Anim Name="g1008_boy_taunt_71_idle.anim"/>
+				<Anim Name="g1008_boy_taunt_72_show.anim"/>
+				<Anim Name="g1008_boy_taunt_72_idle.anim"/>
+				<Anim Name="g1008_boy_taunt_73.anim"/>
+				<Anim Name="g1008_boy_taunt_73_idle.anim"/>
+				<Anim Name="g1008_boy_taunt_74.anim"/>
+				<Anim Name="g1008_boy_taunt_75.anim"/>
+				<Anim Name="g1008_boy_taunt_76.anim"/>
+				<Anim Name="g1008_boy_taunt_77.anim"/>
+				<Anim Name="g1008_boy_taunt_78.anim"/>
+				<Anim Name="g1008_boy_taunt_79_show.anim"/>
+				<Anim Name="g1008_boy_taunt_79_idle.anim"/>
+				<Anim Name="g1008_boy_taunt_80.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

@@ -1,0 +1,55 @@
+syntax = "proto3";
+
+import "common.proto";
+import "cmd.proto";
+import "game.proto";
+
+message GameStartRequest
+{
+    int32 game_id = 1;        // 指定GameID，如未指令则由GameCore生成
+    int32 map_id = 2;
+    MatchType match_type = 3;
+}
+
+message GameStartResponse
+{
+    int32 game_id = 1;        // 如指定GameID，返回指令的GameID，否则返回生成的GameID
+    int32 error_code = 2;     // 错误码
+}
+
+message AddPlayerRequest
+{
+    int32 game_id = 1;        // 游戏game_id
+    int32 team_id = 2;        // 队伍ID
+    Position position = 3;    // 随机位置
+    int32 hp = 4;             // 指定血量
+}
+
+message AddPlayerResponse
+{
+    int32 code = 1;           // 错误码
+    int32 player_id = 2;
+}
+
+message ActionRequest
+{
+    int32 game_id = 1;
+    int64 player_id = 2;
+    repeated Cmd cmds = 3;
+}
+
+message ActionResponse
+{
+    int32 code = 1;
+}
+
+message GetStateRequest
+{
+    int32 game_id = 1;
+}
+
+message GetStateResponse
+{
+    int32 code = 1;
+    GameState game_state = 2;
+}

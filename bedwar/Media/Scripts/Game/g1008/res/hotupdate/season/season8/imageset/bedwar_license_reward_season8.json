@@ -1,0 +1,104 @@
+{
+    "frames": {
+        "g1008_boy_taunt_18": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_daoguang_17": {
+            "frame": {
+                "x": 130,
+                "y": 1,
+                "w": 150,
+                "h": 150
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 150,
+                "h": 150
+            },
+            "sourceSize": {
+                "w": 150,
+                "h": 150
+            }
+        },
+        "g1008_icon_arrow_17": {
+            "frame": {
+                "x": 281,
+                "y": 1,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_icon_footprint_18": {
+            "frame": {
+                "x": 410,
+                "y": 1,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_icon_pet_23": {
+            "frame": {
+                "x": 539,
+                "y": 1,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        }
+    },
+    "meta": {
+        "image": "bedwar_license_reward_season8.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 668,
+            "h": 152
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

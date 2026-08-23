@@ -1,0 +1,67 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ActorTemplates>
+	<ActorTemplate name="g1008_xmas_npc_elder.actor" Originalscale="1 1 1" Skeleton="g1008_xmas_npc_elder.skel" AttackScale="1" TextHeight="0" IsShowShadow="true" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1" ThreadPriority="1">
+		<SubActors>
+		</SubActors>
+		<BodyParts>
+			<BodyPart MasterName="body" SlaveName="01" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g1008_xmas_npc_elder.skin" ChangeColor = "1.96528e-38 4.31077e-38 1.8544e-38 2.8026e-45" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill Name="attack_01" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_xmas_npc_elder_attack.anim" BeginTime = "0" Times = "1" Length = "1.433" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="attack_02" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_xmas_npc_elder_attack_01.anim" BeginTime = "0" Times = "1" Length = "3.5" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="die" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_xmas_npc_elder_knight_die.anim" BeginTime = "0" Times = "1" Length = "1.166" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_xmas_npc_elder_idle.anim" BeginTime = "0" Times = "-1" Length = "3.433" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="turn_01" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_xmas_npc_ender_1.anim" BeginTime = "0" Times = "1" Length = "10.233" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="turn_02" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_xmas_npc_ender_2.anim" BeginTime = "0" Times = "1" Length = "10.233" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="turn_03" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_xmas_npc_ender_3.anim" BeginTime = "0" Times = "1" Length = "10.233" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="turn_04" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_xmas_npc_ender_4.anim" BeginTime = "0" Times = "1" Length = "10.233" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="turn_05" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_xmas_npc_ender_5.anim" BeginTime = "0" Times = "1" Length = "10.233" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="turn_06" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_xmas_npc_ender_6.anim" BeginTime = "0" Times = "1" Length = "10.233" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+		</Skills>
+		<Anims>
+				<Anim Name="g1008_xmas_npc_elder_attack.anim"/>
+				<Anim Name="g1008_xmas_npc_elder_attack_01.anim"/>
+				<Anim Name="g1008_xmas_npc_elder_idle.anim"/>
+				<Anim Name="g1008_xmas_npc_elder_knight_die.anim"/>
+				<Anim Name="g1008_xmas_npc_ender_1.anim"/>
+				<Anim Name="g1008_xmas_npc_ender_2.anim"/>
+				<Anim Name="g1008_xmas_npc_ender_3.anim"/>
+				<Anim Name="g1008_xmas_npc_ender_4.anim"/>
+				<Anim Name="g1008_xmas_npc_ender_5.anim"/>
+				<Anim Name="g1008_xmas_npc_ender_6.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

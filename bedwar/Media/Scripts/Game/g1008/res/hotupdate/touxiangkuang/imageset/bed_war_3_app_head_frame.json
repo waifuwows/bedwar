@@ -1,0 +1,50 @@
+{
+    "frames": {
+        "g1008_touxiangkuang_pingtai_01": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 158,
+                "h": 158
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 158,
+                "h": 158
+            },
+            "sourceSize": {
+                "w": 158,
+                "h": 158
+            }
+        },
+        "g1008_touxiangkuang_pingtai_02": {
+            "frame": {
+                "x": 160,
+                "y": 1,
+                "w": 158,
+                "h": 158
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 158,
+                "h": 158
+            },
+            "sourceSize": {
+                "w": 158,
+                "h": 158
+            }
+        }
+    },
+    "meta": {
+        "image": "bed_war_3_app_head_frame.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 319,
+            "h": 160
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

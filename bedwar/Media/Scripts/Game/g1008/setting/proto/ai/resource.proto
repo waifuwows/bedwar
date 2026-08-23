@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import "common.proto";
+
+enum ResourceType
+{
+    TEAM = 0;           // 队伍资源
+    DIAMOND = 1;        // 钻石资源
+    EMERALD = 2;        // 绿宝石资源
+}
+
+message ResourcePoint
+{
+    ResourceType type = 1;          // 资源点类型
+    Position position = 2;          // 资源点位置
+}

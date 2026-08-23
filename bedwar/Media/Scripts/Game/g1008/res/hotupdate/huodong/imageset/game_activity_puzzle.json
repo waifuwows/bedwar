@@ -1,0 +1,122 @@
+{
+    "frames": {
+        "btn_exchange": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 119,
+                "h": 45
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 119,
+                "h": 45
+            },
+            "sourceSize": {
+                "w": 119,
+                "h": 45
+            }
+        },
+        "btn_go": {
+            "frame": {
+                "x": 121,
+                "y": 1,
+                "w": 119,
+                "h": 45
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 119,
+                "h": 45
+            },
+            "sourceSize": {
+                "w": 119,
+                "h": 45
+            }
+        },
+        "icon_puzzle_golden": {
+            "frame": {
+                "x": 1,
+                "y": 47,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "icon_puzzle_sliver": {
+            "frame": {
+                "x": 130,
+                "y": 47,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "img_arrow": {
+            "frame": {
+                "x": 1,
+                "y": 176,
+                "w": 41,
+                "h": 42
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 41,
+                "h": 42
+            },
+            "sourceSize": {
+                "w": 41,
+                "h": 42
+            }
+        },
+        "img_puzzle_bd": {
+            "frame": {
+                "x": 43,
+                "y": 176,
+                "w": 36,
+                "h": 36
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 36,
+                "h": 36
+            },
+            "sourceSize": {
+                "w": 36,
+                "h": 36
+            }
+        }
+    },
+    "meta": {
+        "image": "game_activity_puzzle.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 259,
+            "h": 219
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

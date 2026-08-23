@@ -1,0 +1,11 @@
+{
+    "res": [
+        "resource.cfg"
+    ],
+    "res/imageset": [
+        "g1188_pot.json",
+        "g1188_pot.png.ktx",
+        "g1188_ui.png.ktx",
+        "g1188_ui.json"
+    ]
+}

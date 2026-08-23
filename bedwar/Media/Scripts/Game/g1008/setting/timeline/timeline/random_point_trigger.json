@@ -1,0 +1,38 @@
+{
+  "?tips": "随机爆炸（预警）",
+  "actionList": [ {
+    "actionType": "PlayAnim",
+    "animName": "",
+    "durationTick": 0,
+    "index": 1,
+    "startTick": 1,
+    "timelineName": "random_point_trigger"
+  }, {
+    "actionType": "Trigger",
+    "durationTick": 0,
+    "index": 2,
+    "searchData": {
+      "randomCount": 16,
+      "searchType": "randomPoint",
+      "xRange": {
+        "x": -15,
+        "y": 15
+      },
+      "zRange": {
+        "x": -15,
+        "y": 15
+      }
+    },
+    "sourceConfigData": {
+      "configName": "warning_track_explosion",
+      "sourceConfigType": "timeline"
+    },
+    "startTick": 1,
+    "timeline": "warning_track_explosion",
+    "timelineName": "random_point_trigger",
+    "triggerData": {
+      "triggerType": "once"
+    }
+  } ],
+  "endTick": 1
+}

@@ -1,0 +1,104 @@
+{
+    "frames": {
+        "bg": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 512,
+                "h": 288
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 512,
+                "h": 288
+            },
+            "sourceSize": {
+                "w": 512,
+                "h": 288
+            }
+        },
+        "btn_adjustment": {
+            "frame": {
+                "x": 1,
+                "y": 290,
+                "w": 76,
+                "h": 43
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 43
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 43
+            }
+        },
+        "icon_issue_rune_max": {
+            "frame": {
+                "x": 78,
+                "y": 290,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "icon_issue_rune_x": {
+            "frame": {
+                "x": 143,
+                "y": 290,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "img_list_bd": {
+            "frame": {
+                "x": 208,
+                "y": 290,
+                "w": 30,
+                "h": 30
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 30
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 30
+            }
+        }
+    },
+    "meta": {
+        "image": "bedwar_rune_mode.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 514,
+            "h": 355
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

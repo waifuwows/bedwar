@@ -1,0 +1,32 @@
+{
+    "frames": {
+        "daijinquan_0": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        }
+    },
+    "meta": {
+        "image": "free_gift.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 130,
+            "h": 130
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

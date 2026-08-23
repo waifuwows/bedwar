@@ -1,0 +1,50 @@
+{
+    "frames": {
+        "shop_time_bg": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 19,
+                "h": 13
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 19,
+                "h": 13
+            },
+            "sourceSize": {
+                "w": 19,
+                "h": 13
+            }
+        },
+        "time_bg": {
+            "frame": {
+                "x": 21,
+                "y": 1,
+                "w": 78,
+                "h": 25
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 25
+            }
+        }
+    },
+    "meta": {
+        "image": "bedwar_main.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 100,
+            "h": 27
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

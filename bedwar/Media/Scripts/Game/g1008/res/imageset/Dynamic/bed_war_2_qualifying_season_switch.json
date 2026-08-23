@@ -1,0 +1,50 @@
+{
+    "frames": {
+        "img_0_seasonendbg": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 512,
+                "h": 288
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 512,
+                "h": 288
+            },
+            "sourceSize": {
+                "w": 512,
+                "h": 288
+            }
+        },
+        "img_0_titlebg": {
+            "frame": {
+                "x": 514,
+                "y": 1,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        }
+    },
+    "meta": {
+        "image": "bed_war_2_qualifying_season_switch.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 643,
+            "h": 290
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

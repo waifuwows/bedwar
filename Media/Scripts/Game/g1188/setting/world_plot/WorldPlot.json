@@ -1,0 +1,36 @@
+{
+  "plots": [
+    {
+      "anchor": {
+        "x": -146,
+        "y": 58,
+        "z": -192
+      },
+      "index": 1,
+      "rotation": 0,
+      "size": {
+        "x": 32,
+        "y": 64,
+        "z": 32
+      },
+      "ownerId": 112,
+      "public": false
+    },
+    {
+      "anchor": {
+        "x": -153.10208129883,
+        "y": 57,
+        "z": -204.40252685547
+      },
+      "index": 2,
+      "rotation": 0,
+      "size": {
+        "x": 10,
+        "y": 10,
+        "z": 10
+      },
+      "ownerId": 144,
+      "public": false
+    }
+  ]
+}

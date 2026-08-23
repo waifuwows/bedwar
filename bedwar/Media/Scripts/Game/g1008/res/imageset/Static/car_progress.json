@@ -1,0 +1,50 @@
+{
+    "frames": {
+        "car_progress_bg": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 114,
+                "h": 11
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 114,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 114,
+                "h": 11
+            }
+        },
+        "car_progress_green": {
+            "frame": {
+                "x": 1,
+                "y": 13,
+                "w": 112,
+                "h": 9
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 9
+            },
+            "sourceSize": {
+                "w": 112,
+                "h": 9
+            }
+        }
+    },
+    "meta": {
+        "image": "car_progress.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 116,
+            "h": 23
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

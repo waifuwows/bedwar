@@ -1,0 +1,26 @@
+{
+  "?crossCd": "复活十字架cd",
+  "crossCd": 60,
+
+  "?tridentAttackAction": "三叉戟攻击动作",
+  "tridentAttackAction": "boy_attack01",
+  "?tridentExplodeCd": "三叉戟爆炸触发cd",
+  "tridentExplodeCd": 5,
+  "?tridentExplodeSize": "三叉戟爆炸伤害范围",
+  "tridentExplodeSize": 3,
+  "?tridentExplodeDamageFactor": "三叉戟爆炸伤害伤害因子",
+  "tridentExplodeDamageFactor": 0.2,
+  "?tridentEffect": "三叉戟爆炸特效",
+  "tridentEffect": "g1008_legendary_props_trident_1.effect",
+  "?tridentEffectScale": "三叉戟爆炸特效大小",
+  "tridentEffectScale": 0.8,
+
+  "?greatSwordAttackAction": "巨剑攻击动作",
+  "greatSwordAttackAction": "boy_attack01",
+
+  "?legendItems": "传说物品（提示用）",
+  "legendItems": [661, 662, 663, 664, 665, 666, 667, 668, 669, 670, 671, 672, 673, 674],
+
+  "?cantKeepItems": "复活不可保留物品",
+  "cantKeepItems": [662, 663, 665, 670]
+}

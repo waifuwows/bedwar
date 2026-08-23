@@ -1,0 +1,222 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ActorTemplates>
+	<ActorTemplate name="g1008_npc_Dw2Rival.actor" Originalscale="1.1 1.1 1.1" Skeleton="boy_01.skel" AttackScale="1" TextHeight="0" IsShowShadow="false" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1">
+		<BodyParts>
+			<BodyPart MasterName="custom_wing" SlaveName="155" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Effect>
+					<FileName value="app_levelup_wing_dragon_lv2.effect"/>
+					<SocketName value="s_back"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1.5"/>
+					<TimeScale value="1.2"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="app_levelup_wing_dragon_lv2_1.effect"/>
+					<SocketName value="s_back"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1.5"/>
+					<TimeScale value="1.2"/>
+					<Alpha value="1"/>
+				</Effect>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="app_levelup_wing_dragon_lv2.mesh"/>
+					<SocketName value="s_back"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1.5"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_crown" SlaveName="4" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Effect>
+					<FileName value="snowing.effect"/>
+					<SocketName value="s_back"/>
+					<Position_X value="-1.9"/>
+					<Position_Y value="0"/>
+					<Position_Z value="-0.2"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="-90"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="04_crown_widget.mesh"/>
+					<SocketName value="s_back"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_scarf" SlaveName="24" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "109_scarf_boy.skin" ChangeColor = "1.4013e-45 -0.487196 0.0893673 -0.567287" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="custom_hat" SlaveName="5" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1" Group="">
+				<Effect>
+					<FileName value="97_crown_widget.effect"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0.740108"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="97_crown_widget.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="-0.015396"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_glasses" SlaveName="3001" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1" Group="">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="3003_glasses_widget.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_hair" SlaveName="66" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="62_hair_boy.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_face" SlaveName="16" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1" Group="">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="16_face_boy.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="clothes_tops" SlaveName="66" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "66_trunk_boy.skin" ChangeColor = "1.4013e-45 -0.487196 0.0893673 -0.567287" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="clothes_pants" SlaveName="60" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "60_trousers_widget.skin" ChangeColor = "1.4013e-45 -0.487196 0.0893673 -0.567287" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="custom_shoes" SlaveName="120" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="174_shoes_l_widget.mesh"/>
+					<SocketName value="s_foot_l"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="174_shoes_r_widget.mesh"/>
+					<SocketName value="s_foot_r"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill Name="idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "christmas_wave_boy.anim" BeginTime = "0" Times = "-1" Length = "6.7" FadeTime = "0.2" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+		</Skills>
+		<Anims>
+				<Anim Name="boy_stand05.anim"/>
+				<Anim Name="christmas_wave_boy.anim"/>
+				<Anim Name="g2042_look.anim"/>
+				<Anim Name="xiaoyuan.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

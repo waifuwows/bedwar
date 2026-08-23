@@ -1,0 +1,1924 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ActorTemplates>
+	<ActorTemplate name="g1008_show_helmet.actor" Originalscale="1 1 1" Skeleton="icon_bone_rotate.skel" AttackScale="1" TextHeight="0" IsShowShadow="true" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1" ThreadPriority="1">
+		<SubActors>
+		</SubActors>
+		<BodyParts>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_10_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Effect>
+					<FileName value="g1008_helmet_10.effect"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0.150431"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<StaticMesh LocalAlpha = "0.2">
+					<FileName value="g1008_helmet_10.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_10_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_10_hair.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_11_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_11_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_12_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_12_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_14_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Effect>
+					<FileName value="g1008_helmet_14_rainbow.effect"/>
+					<SocketName value="bip01"/>
+					<Position_X value="0.38"/>
+					<Position_Y value="0.65"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_helmet_14_rainbow.effect"/>
+					<SocketName value="bip01"/>
+					<Position_X value="-0.38"/>
+					<Position_Y value="0.65"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_14_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_15_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Effect>
+					<FileName value="g1008_helmet_15_white.effect"/>
+					<SocketName value="bip01"/>
+					<Position_X value="0"/>
+					<Position_Y value="-1"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_15_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_17_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_17_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_18_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_18_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_19_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_19_rainbow2.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_1_blue" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_1_blue.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_1_green" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_1_green.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_1_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_1_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_1_red" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_1_red.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_1_yellow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_1_yellow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_20_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_20_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_21_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Effect>
+					<FileName value="g1008_helmet_21_rainbow.effect"/>
+					<SocketName value="zhege"/>
+					<Position_X value="-0.115178"/>
+					<Position_Y value="0.246614"/>
+					<Position_Z value="0.435889"/>
+					<yaw value="141.428"/>
+					<pitch value="-74.1918"/>
+					<roll value="-167.93"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_21_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_22_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_22_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0817466"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_23_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Effect>
+					<FileName value="g1008_helmet_23_rainbow.effect"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="90"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_23_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_24_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Effect>
+					<FileName value="g1008_helmet_24_rainbow.effect"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.206964"/>
+					<Position_Y value="0.0178661"/>
+					<Position_Z value="-0.0351768"/>
+					<yaw value="-42.0332"/>
+					<pitch value="-87.6047"/>
+					<roll value="-177.471"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_24_rainbow2.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_25_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_25_rainbow2.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_26_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Effect>
+					<FileName value="g1008_helmet_26_rainbow.effect"/>
+					<SocketName value="Bone004"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_26_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_27_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_27_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_28_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_28_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_29_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Effect>
+					<FileName value="g1008_helmet_29_rainbow.effect"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_29_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_2_blue" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_2_blue.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_2_green" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_2_green.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_2_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_2_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_2_red" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_2_red.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_2_yellow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_2_yellow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_30_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_30_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_31_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_31_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_32_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_32_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_33_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_33_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_34_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_34_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_35_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_35_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_37_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Effect>
+					<FileName value="g1008_helmet_37_rainbow.effect"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_37_rainbow_2.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_38_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Effect>
+					<FileName value="g1008_helmet_38_rainbow.effect"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_38_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_3_blue" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_3_blue.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_3_green" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_3_green.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_3_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_3_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_3_red" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_3_red.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_3_yellow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_3_yellow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_40_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Effect>
+					<FileName value="g1008_helmet_40_rainbow.effect"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_40_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_41_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Effect>
+					<FileName value="g1008_helmet_41_rainbow.effect"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="90"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_41_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "0.8">
+					<FileName value="g1008_helmet_41_rainbow_1.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_43_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_43_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_45_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Effect>
+					<FileName value="g1008_helmet_45_rainbow.effect"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_45_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_46_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Effect>
+					<FileName value="g1008_helmet_46_rainbow.effect"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_46_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_47_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_47_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_48_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_48_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_49_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Effect>
+					<FileName value="g1008_helmet_49_rainbow.effect"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_49_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_50_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Effect>
+					<FileName value="g1008_helmet_50_rainbow.effect"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_50_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_51_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Effect>
+					<FileName value="g1008_helmet_51_rainbow.effect"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_51_rainbow_show.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_52_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Effect>
+					<FileName value="g1008_helmet_52_rainbow.effect"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_52_rainbow_show.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_54_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Effect>
+					<FileName value="g1008_helmet_54_rainbow.effect"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_54_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_55_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_55_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_56_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_56_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_58_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_58_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_59_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Effect>
+					<FileName value="g1008_helmet_59_rainbow.effect"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_59_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_5_blue" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_5_blue.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_5_green" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_5_green.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_5_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_5_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_5_red" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_5_red.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_5_yellow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_5_yellow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_60_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_60_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.0673304"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="0.134096"/>
+					<yaw value="52"/>
+					<pitch value="-60"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_6_blue" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_6_blue.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_6_green" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_6_green.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_6_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_6_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_6_red" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_6_red.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_6_yellow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_6_yellow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_71_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Effect>
+					<FileName value="g1008_helmet_71_rainbow.effect"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_71_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_72_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_72_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_74_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_74_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_75_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_75_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_77_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_77_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_78_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_78_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_79_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_79_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_7_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_7_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_8_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_8_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_helmet_9_rainbow" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_helmet_9_rainbow.mesh"/>
+					<SocketName value="zhege"/>
+					<Position_X value="0.164024"/>
+					<Position_Y value="0.0013589"/>
+					<Position_Z value="-0.0103629"/>
+					<yaw value="23.3278"/>
+					<pitch value="-89.0744"/>
+					<roll value="-151.856"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill Name="idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "icon_bone_rotate_idle.anim" BeginTime = "0" Times = "-1" Length = "2.033" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="rotate" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "icon_bone_rotate.anim" BeginTime = "0" Times = "1" Length = "1.866" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+		</Skills>
+		<Anims>
+				<Anim Name="icon_bone_rotate.anim"/>
+				<Anim Name="icon_bone_rotate_idle.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

@@ -1,0 +1,5 @@
+custom_room_resource_load_error_retry=Resource loading failed. Please exit the game and re-enter.\\nIf the problem persists, clear resources and re-enter the game.
+chat_moderation_menu_report=Report User
+chat_moderation_menu_block=Block User
+chat_moderation_report_success=Reported %s successfully
+chat_moderation_block_success=Blocked %s successfully

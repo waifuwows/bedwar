@@ -1,0 +1,17 @@
+#过期的符文（转换用的符文）
+expiredRunes: [11401,11402,11403,12301,12302,12303,11701,11702,11703]
+
+#符文转换奖励 对应 1 2 3 等级
+runeConversionResult:
+	-
+		type: "Chest"
+		propsId: 1
+		num: 1
+	-
+		type: "Chest"
+		propsId: 1
+		num: 3
+	-
+		type: "Chest"
+		propsId: 2
+		num: 1

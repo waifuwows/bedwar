@@ -1,0 +1,53 @@
+{
+  "?tips": "直线单个预警火球",
+  "actionList": [ {
+    "actionType": "PlayAnim",
+    "animName": "taunt",
+    "durationTick": 0,
+    "index": 1,
+    "startTick": 1,
+    "timelineName": "line_warning_fireball_dark"
+  }, {
+    "actionType": "Trigger",
+    "durationTick": 0,
+    "index": 2,
+    "searchData": {
+      "searchType": "selfPosition"
+    },
+    "sourceConfigData": {
+      "configName": "warning_fireball",
+      "delayShoot": 0,
+      "extraRandomPosOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "playWarning": {
+        "effectScale": 1,
+        "innerEffectName": "",
+        "outEffectName": "g1008_pve_warning_line.effect",
+        "warningTime": 20
+      },
+      "soundData": {
+        "soundId": 0,
+        "soundType": "2d"
+      },
+      "sourceConfigType": "throwable",
+      "startPosOffset": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "throwableDirData": {
+        "angle": 0,
+        "dirType": "forward"
+      }
+    },
+    "startTick": 1,
+    "timelineName": "line_warning_fireball_dark",
+    "triggerData": {
+      "triggerType": "once"
+    }
+  } ],
+  "endTick": 1
+}

@@ -1,0 +1,284 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ActorTemplates>
+	<ActorTemplate name="g1008_pet_118.actor" Originalscale="1 1 1" Skeleton="g1008_pet_118.skel" AttackScale="1" TextHeight="0" IsShowShadow="true" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1" ThreadPriority="1" LodLevel="3">
+		<SubActors>
+		</SubActors>
+		<BodyParts>
+			<BodyPart MasterName="body" SlaveName="g1008_pet_118" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g1008_pet_118.skin" ChangeColor = "0 2.2032e-38 2.2032e-38 6.60372e-39" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+				<Effect>
+					<FileName value="g1008_pet_118_idle_01.effect"/>
+					<SocketName value="Bone112"/>
+					<Position_X value="0.0229441"/>
+					<Position_Y value="0.00956422"/>
+					<Position_Z value="0.0234212"/>
+					<yaw value="88.0011"/>
+					<pitch value="0.569483"/>
+					<roll value="-88.0186"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_pet_118_idle_02.effect"/>
+					<SocketName value="Bone068"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="43.5"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_pet_118_idle_03.effect"/>
+					<SocketName value="Bone069"/>
+					<Position_X value="0.23754"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="89.9997"/>
+					<pitch value="0.0130832"/>
+					<roll value="88.5"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_pet_118_idle_06.effect"/>
+					<SocketName value="Bone081"/>
+					<Position_X value="-0.280927"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="11.3032"/>
+					<pitch value="-87.4506"/>
+					<roll value="168.686"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_pet_118_idle_05.effect"/>
+					<SocketName value="Bone111"/>
+					<Position_X value="0.0544566"/>
+					<Position_Y value="0.0196576"/>
+					<Position_Z value="0"/>
+					<yaw value="-20.7366"/>
+					<pitch value="-3.39089"/>
+					<roll value="-98.8794"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_pet_118_idle_03.effect"/>
+					<SocketName value="Bone071"/>
+					<Position_X value="0.0442113"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="90.5"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_pet_118_idle_03.effect"/>
+					<SocketName value="Bone072"/>
+					<Position_X value="0.160631"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="89.5"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_pet_118_idle_03.effect"/>
+					<SocketName value="Bone073"/>
+					<Position_X value="0.143812"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_pet_118_idle_03.effect"/>
+					<SocketName value="Bone074"/>
+					<Position_X value="0.148827"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.9"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_pet_118_idle_03.effect"/>
+					<SocketName value="Bone075"/>
+					<Position_X value="0.151319"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="89"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_pet_118_idle_03.effect"/>
+					<SocketName value="Bone076"/>
+					<Position_X value="0.167351"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="89.5"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.7"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_pet_118_idle_03.effect"/>
+					<SocketName value="Bone077"/>
+					<Position_X value="0.133701"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="90.5"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.65"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_pet_118_idle_03.effect"/>
+					<SocketName value="Bone078"/>
+					<Position_X value="0.111099"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.6"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_pet_118_idle_03.effect"/>
+					<SocketName value="Bone079"/>
+					<Position_X value="0.0912468"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.55"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_pet_118_idle_03.effect"/>
+					<SocketName value="Bone080"/>
+					<Position_X value="0.0134399"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.55"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill Name="idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_pet_118_idle.anim" BeginTime = "0" Times = "-1" Length = "2.866" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_pet_118_idle_04.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="-0.232458"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="run" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_pet_118_run.anim" BeginTime = "0" Times = "-1" Length = "0.7" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_pet_118_idle_04.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="-0.375195"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="2"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="show" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_pet_118_show.anim" BeginTime = "0" Times = "1" Length = "3.7" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_pet_118_show.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+		</Skills>
+		<Anims>
+				<Anim Name="g1008_pet_118_idle.anim"/>
+				<Anim Name="g1008_pet_118_run.anim"/>
+				<Anim Name="g1008_pet_118_show.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

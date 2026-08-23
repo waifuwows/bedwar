@@ -1,0 +1,122 @@
+{
+    "frames": {
+        "btn_0_entrance": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 160,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 160,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 160,
+                "h": 64
+            }
+        },
+        "img_0_exp": {
+            "frame": {
+                "x": 162,
+                "y": 1,
+                "w": 40,
+                "h": 40
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 40,
+                "h": 40
+            },
+            "sourceSize": {
+                "w": 40,
+                "h": 40
+            }
+        },
+        "img_rank_bg": {
+            "frame": {
+                "x": 1,
+                "y": 66,
+                "w": 69,
+                "h": 82
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 69,
+                "h": 82
+            },
+            "sourceSize": {
+                "w": 69,
+                "h": 82
+            }
+        },
+        "img_rank_pass": {
+            "frame": {
+                "x": 71,
+                "y": 66,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "pbar_9_big_bottom": {
+            "frame": {
+                "x": 1,
+                "y": 195,
+                "w": 32,
+                "h": 24
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 24
+            }
+        },
+        "pbar_9_big_color": {
+            "frame": {
+                "x": 34,
+                "y": 195,
+                "w": 32,
+                "h": 24
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 24
+            }
+        }
+    },
+    "meta": {
+        "image": "battle_pass_3_entrance.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 203,
+            "h": 220
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "frames": {
+        "btn_ad": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 30,
+                "h": 52
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 52
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 52
+            }
+        },
+        "close": {
+            "frame": {
+                "x": 32,
+                "y": 1,
+                "w": 63,
+                "h": 66
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 63,
+                "h": 66
+            },
+            "sourceSize": {
+                "w": 63,
+                "h": 66
+            }
+        }
+    },
+    "meta": {
+        "image": "bed_war_cube_vedio_ad.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 96,
+            "h": 68
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

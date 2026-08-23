@@ -1,0 +1,68 @@
+{
+    "frames": {
+        "img_bg": {
+            "frame": {
+                "x": 172,
+                "y": 1,
+                "w": 256,
+                "h": 144
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 144
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 144
+            }
+        },
+        "img_round_bd": {
+            "frame": {
+                "x": 1,
+                "y": 172,
+                "w": 333,
+                "h": 334
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 333,
+                "h": 334
+            },
+            "sourceSize": {
+                "w": 333,
+                "h": 334
+            }
+        },
+        "img_round_bd2": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 170,
+                "h": 170
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 170,
+                "h": 170
+            },
+            "sourceSize": {
+                "w": 170,
+                "h": 170
+            }
+        }
+    },
+    "meta": {
+        "image": "new_rune_bg.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 429,
+            "h": 507
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

@@ -1,0 +1,55 @@
+{
+  "?tips": "武士扇形攻击",
+  "actionList": [ {
+    "actionType": "PlayAnim",
+    "animName": "",
+    "durationTick": 0,
+    "index": 1,
+    "startTick": 1,
+    "timelineName": "warning_sector"
+  }, {
+    "actionType": "PlayWarningEffect",
+    "durationTick": 10,
+    "effectScale": 2,
+    "index": 2,
+    "innerEffectName": "g1008_pve_attack_sector_02.effect",
+    "outEffectName": "g1008_pve_attack_sector_01.effect",
+    "startTick": 1,
+    "timelineName": "warning_sector"
+  }, {
+    "actionType": "CauseDamage",
+    "attackEffect": {
+      "effectName": "g1008_pve_attack_circle.effect",
+      "effectScale": 2.5,
+      "rotateType": "forward"
+    },
+    "damage": 1,
+    "damageData": {
+      "canKillPlayer": true,
+      "damage": 5,
+      "damageType": "generic",
+      "enableHurtFormula": true,
+      "hitBuffList": [],
+      "knockBackDis": 1
+    },
+    "durationTick": 0,
+    "hitEffect": {
+      "effectName": "",
+      "effectScale": 1
+    },
+    "index": 3,
+    "knockBackDis": 3,
+    "searchTargetsData": {
+      "fanAngle": 60,
+      "radius": 10,
+      "searchType": "fanShaped"
+    },
+    "soundData": {
+      "soundId": 0,
+      "soundType": "2d"
+    },
+    "startTick": 10,
+    "timelineName": "warning_sector"
+  } ],
+  "endTick": 11
+}

@@ -1,0 +1,37 @@
+syntax = "proto3";
+
+import "common.proto";
+import "block.proto";
+
+enum CmdType
+{
+    COMMAND_MOVE            = 0;    // 移动
+    COMMAND_JUMP            = 1;    // 跳跃
+    COMMAND_ACTION          = 2;    // 切换动作
+    COMMAND_ATTACK          = 3;    // 攻击
+    COMMAND_SHOP            = 4;    // 购买商品道具，升级队伍增益等等
+    COMMAND_SWITCH_PROP     = 5;    // 切换道具
+    COMMAND_ROTATION        = 6;    // 转头转向
+    COMMAND_USE_PROP        = 7;    // 使用道具
+}
+
+message AttackInfo
+{
+     int64 target_id       = 1;    // 目标局内ID(userId)
+     Position position     = 2;    // 攻击坐标
+     float distance        = 3;    // 攻击距离
+}
+
+message Cmd
+{
+    CmdType type           = 1;    // 技能类型
+    float forward          = 2;    // 移动方向(前后)
+    float strafe           = 3;    // 移动方向(左右)
+    int32 action           = 4;    // 动作类型
+    AttackInfo attack_info = 5     // 攻击目标信息
+    Direction direction    = 6;    // 转头方向
+    int32 goods_id         = 7;    // 商品ID
+    int32 prop_index       = 8;    // 道具栏位置
+    int32 prop_id          = 9;    // 道具ID
+    Block block            = 10;   // 道具ID
+}

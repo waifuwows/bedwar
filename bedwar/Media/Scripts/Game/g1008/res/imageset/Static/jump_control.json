@@ -1,0 +1,32 @@
+{
+    "frames": {
+        "qifei": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 115,
+                "h": 115
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 115,
+                "h": 115
+            },
+            "sourceSize": {
+                "w": 115,
+                "h": 115
+            }
+        }
+    },
+    "meta": {
+        "image": "jump_control.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 128,
+            "h": 128
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

@@ -1,0 +1,79 @@
+{
+  "?tips": "末影龙圆心外扩爆炸",
+  "actionList": [ {
+    "actionType": "Trigger",
+    "durationTick": 0,
+    "index": 1,
+    "searchData": {
+      "angle": 360,
+      "interval": 0,
+      "plane": "horizontal",
+      "radius": 0,
+      "searchType": "roundPoint"
+    },
+    "sourceConfigData": {
+      "configName": "warning_track_explosion_dark",
+      "sourceConfigType": "timeline"
+    },
+    "startTick": 1,
+    "tick": 0,
+    "timeline": "warning_track_explosion_dark",
+    "timelineName": "warning_circle_explosion_dark",
+    "triggerData": {
+      "triggerType": "once"
+    }
+  }, {
+    "actionType": "Trigger",
+    "durationTick": 0,
+    "index": 2,
+    "searchData": {
+      "angle": 60,
+      "interval": 0,
+      "plane": "horizontal",
+      "radius": 4,
+      "searchType": "roundPoint"
+    },
+    "sourceConfigData": {
+      "configName": "warning_track_explosion_dark",
+      "sourceConfigType": "timeline"
+    },
+    "startTick": 40,
+    "tick": 0,
+    "timeline": "warning_track_explosion_dark",
+    "timelineName": "warning_circle_explosion_dark",
+    "triggerData": {
+      "triggerType": "once"
+    }
+  }, {
+    "actionType": "Trigger",
+    "durationTick": 0,
+    "index": 3,
+    "searchData": {
+      "angle": 30,
+      "interval": 0,
+      "plane": "horizontal",
+      "radius": 8,
+      "searchType": "roundPoint"
+    },
+    "sourceConfigData": {
+      "configName": "warning_track_explosion_dark",
+      "sourceConfigType": "timeline"
+    },
+    "startTick": 80,
+    "tick": 0,
+    "timeline": "warning_track_explosion_dark",
+    "timelineName": "warning_circle_explosion_dark",
+    "triggerData": {
+      "triggerType": "once"
+    }
+  }, {
+    "actionType": "PlayAnim",
+    "animName": "taunt",
+    "durationTick": 0,
+    "index": 4,
+    "startTick": 5,
+    "tick": 0,
+    "timelineName": "warning_circle_explosion_dark"
+  } ],
+  "endTick": 80
+}

@@ -1,0 +1,136 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ActorTemplates>
+	<ActorTemplate name="g1008_npc_1v1.actor" Originalscale="2 2 2" Skeleton="boy_01.skel" AttackScale="1" TextHeight="0" IsShowShadow="true" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1" ThreadPriority="1">
+		<SubActors>
+		</SubActors>
+		<BodyParts>
+			<BodyPart MasterName="armor_head" SlaveName="g1008_head_17_rainbow_iron.mesh" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_head_17_rainbow_iron.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<Effect>
+					<FileName value="g1008_suit_17_rainbow_iron_idle_02.effect"/>
+					<SocketName value="s_head"/>
+					<Position_X value="-1.2409"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="180"/>
+					<pitch value="0"/>
+					<roll value="90"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+			</BodyPart>
+			<BodyPart MasterName="armor_foot" SlaveName="g1008_foot_17_rainbow_iron.mesh" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_foot_17_l_rainbow_iron.mesh"/>
+					<SocketName value="s_foot_l"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_foot_17_r_rainbow_iron.mesh"/>
+					<SocketName value="s_foot_r"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="armor_thigh" SlaveName="g1008_thigh_17_rainbow_iron" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g1008_thigh_17_rainbow_iron.skin" ChangeColor = "0 2.20341e-38 2.20341e-38 7.24657e-39" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="armor_chest" SlaveName="g1008_chest_17_rainbow_iron" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g1008_chest_17_rainbow_iron.skin" ChangeColor = "0 2.20341e-38 2.20341e-38 7.24657e-39" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+				<Effect>
+					<FileName value="g1008_suit_17_rainbow_iron_idle_01.effect"/>
+					<SocketName value="s_back"/>
+					<Position_X value="-1.08183"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="90"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_suit_17_rainbow_iron_idle_03.effect"/>
+					<SocketName value="s_back"/>
+					<Position_X value="-1.08183"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="180"/>
+					<pitch value="0"/>
+					<roll value="90"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_suit_17_rainbow_iron_idle_04.effect"/>
+					<SocketName value="s_back"/>
+					<Position_X value="-1.08183"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="180"/>
+					<pitch value="0"/>
+					<roll value="90"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+			</BodyPart>
+			</BodyParts>
+		<Skills>
+			<Skill Name="idle" EnableWound="true" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_suit_15_rainbow_emerald_idle.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+		</Skills>
+		<Anims>
+			<Anim Name="g1008_suit_15_rainbow_emerald_idle.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

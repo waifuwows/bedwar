@@ -1,0 +1,5 @@
+custom_room_resource_load_error_retry=Échec du chargement des ressources. Veuillez quitter le jeu puis y revenir.\\nSi le problème persiste, nettoyez les ressources puis revenez dans le jeu.
+chat_moderation_menu_report=Signaler l'utilisateur
+chat_moderation_menu_block=Bloquer l'utilisateur
+chat_moderation_report_success=%s a été signalé avec succès
+chat_moderation_block_success=%s a été bloqué avec succès

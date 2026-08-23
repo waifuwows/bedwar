@@ -1,0 +1,50 @@
+{
+    "frames": {
+        "img_0_talkbd": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 97,
+                "h": 175
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 97,
+                "h": 175
+            },
+            "sourceSize": {
+                "w": 97,
+                "h": 175
+            }
+        },
+        "mini_game_bg": {
+            "frame": {
+                "x": 99,
+                "y": 1,
+                "w": 750,
+                "h": 450
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 750,
+                "h": 450
+            },
+            "sourceSize": {
+                "w": 750,
+                "h": 450
+            }
+        }
+    },
+    "meta": {
+        "image": "mini_game_reward_1.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 850,
+            "h": 452
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

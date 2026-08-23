@@ -1,0 +1,34 @@
+{
+    "frames": {
+        "top": {
+            "frame": {
+                "y": 0, 
+                "x": 0, 
+                "w": 16, 
+                "h": 16
+            }, 
+            "sourceSize": {
+                "h": 16, 
+                "w": 16
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 16, 
+                "h": 16
+            }
+        }
+    }, 
+    "meta": {
+        "scale": "1", 
+        "format": "RGBA8888", 
+        "app": "http://www.texturepacker.com", 
+        "version": "1.0", 
+        "type": "frame", 
+        "image": "texture.png", 
+        "size": {
+            "h": 16, 
+            "w": 16
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+  "attackEffect": {
+    "effectName": "explosion.effect",
+    "effectScale": 1,
+    "soundData": {
+      "soundId": 0,
+      "soundType": "2d"
+    }
+  },
+  "checkStrategy": "aabbCheck",
+  "collisionStrategy": "penetrate",
+  "damageData": {
+    "canKillPlayer": true,
+    "damage": 12,
+    "damageType": "generic",
+    "enableHurtFormula": true,
+    "hitBuffList": [],
+    "knockBackDis": 1
+  },
+  "duration": 5000,
+  "explosionRange": 1,
+  "explosionSpecialEffect": {
+    "effectType": "none"
+  },
+  "extraBounds": {
+    "x": 1,
+    "y": 1,
+    "z": 1
+  },
+  "hitEffect": {
+    "effectName": "explosion.effect",
+    "effectScale": 1
+  },
+  "showEffect": {
+    "effectName": "effect_gun_mortar_bullet.effect",
+    "effectScale": 1
+  },
+  "speed": 11
+}

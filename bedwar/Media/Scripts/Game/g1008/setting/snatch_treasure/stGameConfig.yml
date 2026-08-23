@@ -1,0 +1,6 @@
+#游戏时长
+gameTime: 600
+#最少开局人数
+startPlayers: 6
+#安全时间
+safeTime: 40

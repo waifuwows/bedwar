@@ -1,0 +1,14 @@
+{
+  "width": 128,
+  "height": 128,
+  "anim": [
+    {
+      "image": "set:frame_world_cup_frame.json image:1",
+      "duration": 500
+    },
+    {
+      "image": "set:frame_world_cup_frame.json image:2",
+      "duration": 500
+    }
+  ]
+}

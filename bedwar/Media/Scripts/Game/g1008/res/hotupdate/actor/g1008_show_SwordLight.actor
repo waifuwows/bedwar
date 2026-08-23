@@ -1,0 +1,4574 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ActorTemplates>
+	<ActorTemplate name="g1008_show_SwordLight.actor" Originalscale="0.68 0.68 0.68" Skeleton="boy_01.skel" AttackScale="1" TextHeight="0" IsShowShadow="true" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1" ThreadPriority="1">
+		<SubActors>
+		</SubActors>
+		<BodyParts>
+			<BodyPart MasterName="body" SlaveName="01" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "05_shoes_l_armor_widget.skin" ChangeColor = "3.12241e-39 1.9254e-38 1.45038e-38 2.8026e-45" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+				<Skin MeshName = "05_shoes_r_armor_widget.skin" ChangeColor = "3.12241e-39 1.9254e-38 1.45038e-38 2.8026e-45" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+				<Skin MeshName = "05_trousers_armor_widget.skin" ChangeColor = "3.12241e-39 1.9254e-38 1.45038e-38 2.8026e-45" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+				<Skin MeshName = "05_trunk_armor_widget.skin" ChangeColor = "3.12241e-39 1.9254e-38 1.45038e-38 2.8026e-45" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="02_face_boy.mesh"/>
+					<SocketName value="b_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="05_hair_armor_widget.mesh"/>
+					<SocketName value="b_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_sword_104.mesh"/>
+					<SocketName value="s_hand_r"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill Name="g1008_show_daoguang_01" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_1.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_02" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_2.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-21.0559"/>
+					<scale value="1.7"/>
+					<TimeScale value="1.4"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_03" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_3.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="1.5"/>
+					<TimeScale value="1.75"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_04" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_4.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="-0.0259909"/>
+					<Position_Y value="1.24296"/>
+					<Position_Z value="0.625462"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="1.7"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_05" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_5.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.000613078"/>
+					<Position_Y value="1.24496"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-24.0559"/>
+					<scale value="2"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_06" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_6.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-24.5559"/>
+					<scale value="2.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_07" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_7.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="-0.106947"/>
+					<Position_Y value="1.24109"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="1.3"/>
+					<TimeScale value="1.2"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_08" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_8.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="1.5"/>
+					<TimeScale value="1.2"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_09" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_9.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="1.5"/>
+					<TimeScale value="1.4"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_10" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_10.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_11" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_11.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_12" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_12.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_13" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_13.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_14" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_14.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_15" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_15.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_16" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_16.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_17" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_17.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_18" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_18.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_18_1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_18_1.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_18_2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_18_2.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_19" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_19_1.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_20" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_20.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_21" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_21.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_22" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_22.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_22_1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_22_1.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_22_2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_22_2.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_22_3" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_22_3.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_22_4" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_22_4.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_22_5" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_22_5.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_22_6" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_22_6.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_22_7" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_22_7.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_22_8" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_22_8.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_24" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_24.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_24_1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_24_1.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_24_2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_3_2.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_25" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_25.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_25_1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_25_1.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_25_2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_25_2.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_26" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_26.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_26_1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_26_1.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_26_2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_26_2.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_27" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_27.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_27_1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_27_1.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_27_2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_27_2.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_27_3" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_27_3.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_27_4" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_27_4.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_27_5" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_27_5.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_28" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_28.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_29" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_29.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_30" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_30.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_31" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_31.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_31_1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_31_1.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_31_2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_31_2.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_31_3" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_31_3.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_32" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_32.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_33" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_33.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_34" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_34.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_35" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_35.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_36" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_36.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_37" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_37.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_38" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_38.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_39" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_39.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_40" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_40.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_41" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_41.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_42" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_42.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_43" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_43.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_44" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_44.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_45" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_45.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_45_1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_45_1.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_45_2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_45_2.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_45_3" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_45_3.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_46" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_46.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_47" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_47.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_48" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_48.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_49" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_49.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_50" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_50.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_51" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_51.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_52" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_52.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_52_1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_52_1.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_53" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_53.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_55" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_55.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_56" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_56.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_57" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_57.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_58" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_58.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_59" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_59.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_60" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_60.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_61" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_61.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_62" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_62.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_63" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_63.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_64" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_64.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_65" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_65.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_66" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_66.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_67_1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_67_1.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_67_2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_67_2.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_68" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_68.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_69" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_69.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_70" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_70.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_71" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_71.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_72" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_72.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_73" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_73.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_74" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_74.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_75" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_75.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_76" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_76.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_77" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_77.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_78" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_78.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_79" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_79.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_80" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_80.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.6"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_81" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_81.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_82" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_82.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_83" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_83.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_84" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_84.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_85" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_85.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_86" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_86.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_87" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_87.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_88" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_88.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_89" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_89.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_90" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_90.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_91" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_91.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_92" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_92.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_93" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_93.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_94" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_94.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_95" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_95.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_96" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_95.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_96_1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_95_01.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_96_2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_95_02.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.08"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_97" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_97.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_98" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_98.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_99" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_99.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_101" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_101.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_102" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_102.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_103" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_103.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_104" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_104.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_104" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_104.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_104_1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_104_1.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_106" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_106.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_107" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_107.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_108" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_108.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_109" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_109.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_110" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_110.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_111" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_111.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_112" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_112.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_113" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_113.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_114" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_114.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_115" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_115.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_116" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_116.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_117" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_117.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_118" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_118.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_119" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_119.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_120" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_120.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_121" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_121.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_122" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_122.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_123" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_123.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_124" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_124.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_124_1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_124_1.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_125" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_125.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_126" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_126.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_127" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_127.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_128" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_128.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_129" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_129.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_130" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_130.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_131" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_131.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_132" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_132.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_133" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_133.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_134" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_134.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_135" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_135.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_136" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_136.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_137" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_137.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_138" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_138.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_139" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_139.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_140" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_140.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_141" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_141.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_142" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_142.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_143" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_143.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_144" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_144.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_145" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_145.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_146" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_146.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_147" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_147.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_148" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_148.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_149" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_149.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_150" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_150.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_151" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_151.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_152" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_152.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_153" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_153.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_154" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_154.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_155" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_155.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_156" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_156.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_157" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_157.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_158" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_158.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_160" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_160.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_163" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_163.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_164" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_164.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_165" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_165.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_161" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_161.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_162" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_162.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_159" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_159.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.1"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_sword" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_show_sword_01.anim" BeginTime = "0" Times = "-1" Length = "7.133" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_stand05.anim" BeginTime = "0" Times = "-1" Length = "2.033" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+		</Skills>
+		<Anims>
+				<Anim Name="boy_attack01.anim"/>
+				<Anim Name="boy_attack03.anim"/>
+				<Anim Name="g1008_show_sword_01.anim"/>
+				<Anim Name="boy_stand05.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

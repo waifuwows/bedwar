@@ -1,0 +1,32 @@
+{
+    "frames": {
+        "bg": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 541,
+                "h": 518
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 541,
+                "h": 518
+            },
+            "sourceSize": {
+                "w": 541,
+                "h": 518
+            }
+        }
+    },
+    "meta": {
+        "image": "ActivityLayout_348.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 543,
+            "h": 520
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

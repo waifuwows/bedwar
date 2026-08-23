@@ -1,0 +1,32 @@
+{
+    "frames": {
+        "img_roundbd": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 512,
+                "h": 269
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 512,
+                "h": 269
+            },
+            "sourceSize": {
+                "w": 512,
+                "h": 269
+            }
+        }
+    },
+    "meta": {
+        "image": "new_check_in_bg.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 514,
+            "h": 271
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

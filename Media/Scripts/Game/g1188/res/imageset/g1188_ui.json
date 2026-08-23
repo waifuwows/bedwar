@@ -1,0 +1,32 @@
+{
+    "frames": {
+        "g1188_button": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 32,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            }
+        }
+    },
+    "meta": {
+        "image": "g1188_ui.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 34,
+            "h": 34
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

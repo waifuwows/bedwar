@@ -1,0 +1,50 @@
+{
+    "frames": {
+        "img_bg": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 443,
+                "h": 238
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 443,
+                "h": 238
+            },
+            "sourceSize": {
+                "w": 443,
+                "h": 238
+            }
+        },
+        "img_big_reward_bd": {
+            "frame": {
+                "x": 1,
+                "y": 240,
+                "w": 434,
+                "h": 211
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 434,
+                "h": 211
+            },
+            "sourceSize": {
+                "w": 434,
+                "h": 211
+            }
+        }
+    },
+    "meta": {
+        "image": "global_lotto_lucky9_1.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 445,
+            "h": 452
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

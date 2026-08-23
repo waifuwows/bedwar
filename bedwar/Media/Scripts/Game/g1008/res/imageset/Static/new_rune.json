@@ -1,0 +1,626 @@
+{
+    "frames": {
+        "blue_level+": {
+            "frame": {
+                "x": 520,
+                "y": 1,
+                "w": 41,
+                "h": 41
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 41,
+                "h": 41
+            },
+            "sourceSize": {
+                "w": 41,
+                "h": 41
+            }
+        },
+        "blue_level_lock": {
+            "frame": {
+                "x": 562,
+                "y": 1,
+                "w": 41,
+                "h": 41
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 41,
+                "h": 41
+            },
+            "sourceSize": {
+                "w": 41,
+                "h": 41
+            }
+        },
+        "btn_close": {
+            "frame": {
+                "x": 61,
+                "y": 1,
+                "w": 24,
+                "h": 24
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 24,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 24,
+                "h": 24
+            }
+        },
+        "btn_return": {
+            "frame": {
+                "x": 367,
+                "y": 54,
+                "w": 160,
+                "h": 61
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 160,
+                "h": 61
+            },
+            "sourceSize": {
+                "w": 160,
+                "h": 61
+            }
+        },
+        "btn_rune_chest": {
+            "frame": {
+                "x": 657,
+                "y": 54,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "btn_rune_npc": {
+            "frame": {
+                "x": 528,
+                "y": 54,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "chb_level1": {
+            "frame": {
+                "x": 763,
+                "y": 1,
+                "w": 52,
+                "h": 52
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 52,
+                "h": 52
+            },
+            "sourceSize": {
+                "w": 52,
+                "h": 52
+            }
+        },
+        "chb_level1_select": {
+            "frame": {
+                "x": 1,
+                "y": 54,
+                "w": 52,
+                "h": 52
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 52,
+                "h": 52
+            },
+            "sourceSize": {
+                "w": 52,
+                "h": 52
+            }
+        },
+        "chb_level2": {
+            "frame": {
+                "x": 710,
+                "y": 1,
+                "w": 52,
+                "h": 52
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 52,
+                "h": 52
+            },
+            "sourceSize": {
+                "w": 52,
+                "h": 52
+            }
+        },
+        "chb_level2_select": {
+            "frame": {
+                "x": 54,
+                "y": 54,
+                "w": 52,
+                "h": 52
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 52,
+                "h": 52
+            },
+            "sourceSize": {
+                "w": 52,
+                "h": 52
+            }
+        },
+        "chb_level3": {
+            "frame": {
+                "x": 657,
+                "y": 1,
+                "w": 52,
+                "h": 52
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 52,
+                "h": 52
+            },
+            "sourceSize": {
+                "w": 52,
+                "h": 52
+            }
+        },
+        "chb_level3_select": {
+            "frame": {
+                "x": 266,
+                "y": 54,
+                "w": 52,
+                "h": 52
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 52,
+                "h": 52
+            },
+            "sourceSize": {
+                "w": 52,
+                "h": 52
+            }
+        },
+        "chb_level4": {
+            "frame": {
+                "x": 213,
+                "y": 54,
+                "w": 52,
+                "h": 52
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 52,
+                "h": 52
+            },
+            "sourceSize": {
+                "w": 52,
+                "h": 52
+            }
+        },
+        "chb_level4_select": {
+            "frame": {
+                "x": 107,
+                "y": 54,
+                "w": 52,
+                "h": 52
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 52,
+                "h": 52
+            },
+            "sourceSize": {
+                "w": 52,
+                "h": 52
+            }
+        },
+        "chb_level5": {
+            "frame": {
+                "x": 160,
+                "y": 54,
+                "w": 52,
+                "h": 52
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 52,
+                "h": 52
+            },
+            "sourceSize": {
+                "w": 52,
+                "h": 52
+            }
+        },
+        "chb_level5_select": {
+            "frame": {
+                "x": 604,
+                "y": 1,
+                "w": 52,
+                "h": 52
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 52,
+                "h": 52
+            },
+            "sourceSize": {
+                "w": 52,
+                "h": 52
+            }
+        },
+        "icon_rune_blue": {
+            "frame": {
+                "x": 234,
+                "y": 1,
+                "w": 33,
+                "h": 33
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 33,
+                "h": 33
+            },
+            "sourceSize": {
+                "w": 33,
+                "h": 33
+            }
+        },
+        "icon_rune_purple": {
+            "frame": {
+                "x": 200,
+                "y": 1,
+                "w": 33,
+                "h": 33
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 33,
+                "h": 33
+            },
+            "sourceSize": {
+                "w": 33,
+                "h": 33
+            }
+        },
+        "icon_rune_red": {
+            "frame": {
+                "x": 86,
+                "y": 1,
+                "w": 33,
+                "h": 33
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 33,
+                "h": 33
+            },
+            "sourceSize": {
+                "w": 33,
+                "h": 33
+            }
+        },
+        "icon_rune_yellow": {
+            "frame": {
+                "x": 166,
+                "y": 1,
+                "w": 33,
+                "h": 33
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 33,
+                "h": 33
+            },
+            "sourceSize": {
+                "w": 33,
+                "h": 33
+            }
+        },
+        "img__list_item_bd": {
+            "frame": {
+                "x": 334,
+                "y": 54,
+                "w": 32,
+                "h": 118
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 118
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 118
+            }
+        },
+        "img_activate_dot": {
+            "frame": {
+                "x": 10,
+                "y": 1,
+                "w": 10,
+                "h": 10
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 10,
+                "h": 10
+            },
+            "sourceSize": {
+                "w": 10,
+                "h": 10
+            }
+        },
+        "img_gradient": {
+            "frame": {
+                "x": 1,
+                "y": 183,
+                "w": 562,
+                "h": 8
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 562,
+                "h": 8
+            },
+            "sourceSize": {
+                "w": 562,
+                "h": 8
+            }
+        },
+        "img_list_bd": {
+            "frame": {
+                "x": 319,
+                "y": 54,
+                "w": 14,
+                "h": 111
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 14,
+                "h": 111
+            },
+            "sourceSize": {
+                "w": 14,
+                "h": 111
+            }
+        },
+        "img_new": {
+            "frame": {
+                "x": 120,
+                "y": 1,
+                "w": 45,
+                "h": 21
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 45,
+                "h": 21
+            },
+            "sourceSize": {
+                "w": 45,
+                "h": 21
+            }
+        },
+        "img_new_line": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 8,
+                "h": 8
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 8,
+                "h": 8
+            },
+            "sourceSize": {
+                "w": 8,
+                "h": 8
+            }
+        },
+        "img_score_icon": {
+            "frame": {
+                "x": 36,
+                "y": 1,
+                "w": 24,
+                "h": 23
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 24,
+                "h": 23
+            },
+            "sourceSize": {
+                "w": 24,
+                "h": 23
+            }
+        },
+        "img_score_up": {
+            "frame": {
+                "x": 21,
+                "y": 1,
+                "w": 14,
+                "h": 16
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 14,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 14,
+                "h": 16
+            }
+        },
+        "purple_level+": {
+            "frame": {
+                "x": 478,
+                "y": 1,
+                "w": 41,
+                "h": 41
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 41,
+                "h": 41
+            },
+            "sourceSize": {
+                "w": 41,
+                "h": 41
+            }
+        },
+        "purple_level_lock": {
+            "frame": {
+                "x": 436,
+                "y": 1,
+                "w": 41,
+                "h": 41
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 41,
+                "h": 41
+            },
+            "sourceSize": {
+                "w": 41,
+                "h": 41
+            }
+        },
+        "red_level+": {
+            "frame": {
+                "x": 394,
+                "y": 1,
+                "w": 41,
+                "h": 41
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 41,
+                "h": 41
+            },
+            "sourceSize": {
+                "w": 41,
+                "h": 41
+            }
+        },
+        "red_level_lock": {
+            "frame": {
+                "x": 352,
+                "y": 1,
+                "w": 41,
+                "h": 41
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 41,
+                "h": 41
+            },
+            "sourceSize": {
+                "w": 41,
+                "h": 41
+            }
+        },
+        "yellow_level+": {
+            "frame": {
+                "x": 310,
+                "y": 1,
+                "w": 41,
+                "h": 41
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 41,
+                "h": 41
+            },
+            "sourceSize": {
+                "w": 41,
+                "h": 41
+            }
+        },
+        "yellow_level_lock": {
+            "frame": {
+                "x": 268,
+                "y": 1,
+                "w": 41,
+                "h": 41
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 41,
+                "h": 41
+            },
+            "sourceSize": {
+                "w": 41,
+                "h": 41
+            }
+        }
+    },
+    "meta": {
+        "image": "new_rune.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 816,
+            "h": 192
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

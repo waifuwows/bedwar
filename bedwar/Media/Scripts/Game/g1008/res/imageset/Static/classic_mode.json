@@ -1,0 +1,554 @@
+{
+    "frames": {
+        "btn_0_instructions": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 43,
+                "h": 45
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 43,
+                "h": 45
+            },
+            "sourceSize": {
+                "w": 43,
+                "h": 45
+            }
+        },
+        "btn_exchange_shop": {
+            "frame": {
+                "x": 45,
+                "y": 1,
+                "w": 94,
+                "h": 99
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 94,
+                "h": 99
+            },
+            "sourceSize": {
+                "w": 94,
+                "h": 99
+            }
+        },
+        "btn_exchange_shop_10107": {
+            "frame": {
+                "x": 140,
+                "y": 1,
+                "w": 94,
+                "h": 99
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 94,
+                "h": 99
+            },
+            "sourceSize": {
+                "w": 94,
+                "h": 99
+            }
+        },
+        "icon_issue_10v10": {
+            "frame": {
+                "x": 235,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "icon_issue_1v1": {
+            "frame": {
+                "x": 300,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "icon_issue_chrimas": {
+            "frame": {
+                "x": 365,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "icon_issue_classic": {
+            "frame": {
+                "x": 430,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "icon_issue_food": {
+            "frame": {
+                "x": 495,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "icon_issue_ghost": {
+            "frame": {
+                "x": 560,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "icon_issue_gift_boom": {
+            "frame": {
+                "x": 625,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "icon_issue_horse": {
+            "frame": {
+                "x": 1,
+                "y": 101,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "icon_issue_job": {
+            "frame": {
+                "x": 66,
+                "y": 101,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "icon_issue_jocker_gift": {
+            "frame": {
+                "x": 131,
+                "y": 101,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "icon_issue_legends_props": {
+            "frame": {
+                "x": 196,
+                "y": 101,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "icon_issue_pet": {
+            "frame": {
+                "x": 261,
+                "y": 101,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "icon_issue_rune": {
+            "frame": {
+                "x": 326,
+                "y": 101,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "icon_issue_rune_max": {
+            "frame": {
+                "x": 391,
+                "y": 101,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "icon_issue_rune_x": {
+            "frame": {
+                "x": 456,
+                "y": 101,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "icon_issue_sword": {
+            "frame": {
+                "x": 521,
+                "y": 101,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "icon_issue_talent": {
+            "frame": {
+                "x": 586,
+                "y": 101,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "icon_team_resources": {
+            "frame": {
+                "x": 651,
+                "y": 101,
+                "w": 32,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            }
+        },
+        "img_0_time_icon": {
+            "frame": {
+                "x": 684,
+                "y": 101,
+                "w": 21,
+                "h": 21
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 21,
+                "h": 21
+            },
+            "sourceSize": {
+                "w": 21,
+                "h": 21
+            }
+        },
+        "img_bg": {
+            "frame": {
+                "x": 1,
+                "y": 166,
+                "w": 320,
+                "h": 180
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 180
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 180
+            }
+        },
+        "img_bg_10107": {
+            "frame": {
+                "x": 322,
+                "y": 166,
+                "w": 379,
+                "h": 227
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 379,
+                "h": 227
+            },
+            "sourceSize": {
+                "w": 379,
+                "h": 227
+            }
+        },
+        "img_gradient1": {
+            "frame": {
+                "x": 1,
+                "y": 394,
+                "w": 227,
+                "h": 10
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 227,
+                "h": 10
+            },
+            "sourceSize": {
+                "w": 227,
+                "h": 10
+            }
+        },
+        "img_gradient2": {
+            "frame": {
+                "x": 229,
+                "y": 394,
+                "w": 227,
+                "h": 13
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 227,
+                "h": 13
+            },
+            "sourceSize": {
+                "w": 227,
+                "h": 13
+            }
+        },
+        "img_gradient3": {
+            "frame": {
+                "x": 457,
+                "y": 394,
+                "w": 174,
+                "h": 49
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 174,
+                "h": 49
+            },
+            "sourceSize": {
+                "w": 174,
+                "h": 49
+            }
+        },
+        "img_top_bd": {
+            "frame": {
+                "x": 632,
+                "y": 394,
+                "w": 47,
+                "h": 43
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 47,
+                "h": 43
+            },
+            "sourceSize": {
+                "w": 47,
+                "h": 43
+            }
+        },
+        "tab_click": {
+            "frame": {
+                "x": 1,
+                "y": 444,
+                "w": 78,
+                "h": 48
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 48
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 48
+            }
+        },
+        "tab_normal": {
+            "frame": {
+                "x": 80,
+                "y": 444,
+                "w": 78,
+                "h": 48
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 48
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 48
+            }
+        }
+    },
+    "meta": {
+        "image": "classic_mode.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 706,
+            "h": 493
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

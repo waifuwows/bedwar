@@ -1,0 +1,176 @@
+{
+    "frames": {
+        "img_load_bg": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 512,
+                "h": 288
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 512,
+                "h": 288
+            },
+            "sourceSize": {
+                "w": 512,
+                "h": 288
+            }
+        },
+        "img_teambd_blue": {
+            "frame": {
+                "x": 1,
+                "y": 290,
+                "w": 356,
+                "h": 60
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 356,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 356,
+                "h": 60
+            }
+        },
+        "img_teambd_blue_self": {
+            "frame": {
+                "x": 358,
+                "y": 290,
+                "w": 356,
+                "h": 60
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 356,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 356,
+                "h": 60
+            }
+        },
+        "img_teambd_green": {
+            "frame": {
+                "x": 1,
+                "y": 351,
+                "w": 356,
+                "h": 60
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 356,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 356,
+                "h": 60
+            }
+        },
+        "img_teambd_green_self": {
+            "frame": {
+                "x": 358,
+                "y": 351,
+                "w": 356,
+                "h": 60
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 356,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 356,
+                "h": 60
+            }
+        },
+        "img_teambd_red": {
+            "frame": {
+                "x": 1,
+                "y": 412,
+                "w": 356,
+                "h": 60
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 356,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 356,
+                "h": 60
+            }
+        },
+        "img_teambd_red_self": {
+            "frame": {
+                "x": 358,
+                "y": 412,
+                "w": 356,
+                "h": 60
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 356,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 356,
+                "h": 60
+            }
+        },
+        "img_teambd_yellow": {
+            "frame": {
+                "x": 1,
+                "y": 473,
+                "w": 356,
+                "h": 60
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 356,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 356,
+                "h": 60
+            }
+        },
+        "img_teambd_yellow_self": {
+            "frame": {
+                "x": 358,
+                "y": 473,
+                "w": 356,
+                "h": 60
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 356,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 356,
+                "h": 60
+            }
+        }
+    },
+    "meta": {
+        "image": "bed_war_2_qualifying_loading.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 715,
+            "h": 534
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

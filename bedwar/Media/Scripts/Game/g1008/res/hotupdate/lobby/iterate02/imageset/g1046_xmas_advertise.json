@@ -1,0 +1,68 @@
+{
+    "frames": {
+        "g1046_xmas_advertise_01": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 600,
+                "h": 300
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 600,
+                "h": 300
+            },
+            "sourceSize": {
+                "w": 600,
+                "h": 300
+            }
+        },
+        "g1046_xmas_advertise_02": {
+            "frame": {
+                "x": 1,
+                "y": 302,
+                "w": 600,
+                "h": 300
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 600,
+                "h": 300
+            },
+            "sourceSize": {
+                "w": 600,
+                "h": 300
+            }
+        },
+        "g1046_xmas_advertise_03": {
+            "frame": {
+                "x": 1,
+                "y": 603,
+                "w": 600,
+                "h": 300
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 600,
+                "h": 300
+            },
+            "sourceSize": {
+                "w": 600,
+                "h": 300
+            }
+        }
+    },
+    "meta": {
+        "image": "g1046_xmas_advertise.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 1024,
+            "h": 1024
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

@@ -1,0 +1,5 @@
+custom_room_resource_load_error_retry=리소스 로드에 실패했습니다. 게임을 종료한 후 다시 접속해 주세요.\\n문제가 계속되면 리소스를 정리한 후 다시 게임에 접속해 주세요.
+chat_moderation_menu_report=사용자 신고
+chat_moderation_menu_block=사용자 차단
+chat_moderation_report_success=%s님을 신고했습니다
+chat_moderation_block_success=%s님을 차단했습니다

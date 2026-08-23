@@ -1,0 +1,32 @@
+{
+    "frames": {
+        "img_0_bg": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 512,
+                "h": 384
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 512,
+                "h": 384
+            },
+            "sourceSize": {
+                "w": 512,
+                "h": 384
+            }
+        }
+    },
+    "meta": {
+        "image": "bed_war_3_store_bg.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 514,
+            "h": 386
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

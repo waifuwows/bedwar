@@ -1,0 +1,32 @@
+{
+    "frames": {
+        "img_grass_bd": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 653,
+                "h": 667
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 653,
+                "h": 667
+            },
+            "sourceSize": {
+                "w": 653,
+                "h": 667
+            }
+        }
+    },
+    "meta": {
+        "image": "tetris_bg.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 655,
+            "h": 669
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

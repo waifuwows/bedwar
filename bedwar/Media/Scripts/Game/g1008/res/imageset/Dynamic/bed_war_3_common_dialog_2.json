@@ -1,0 +1,50 @@
+{
+    "frames": {
+        "img_0_itemdetailbg": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 300,
+                "h": 199
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 300,
+                "h": 199
+            },
+            "sourceSize": {
+                "w": 300,
+                "h": 199
+            }
+        },
+        "img_0_itemdetailbg_gra": {
+            "frame": {
+                "x": 1,
+                "y": 201,
+                "w": 256,
+                "h": 16
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 16
+            }
+        }
+    },
+    "meta": {
+        "image": "bed_war_3_common_dialog_2.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 302,
+            "h": 218
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

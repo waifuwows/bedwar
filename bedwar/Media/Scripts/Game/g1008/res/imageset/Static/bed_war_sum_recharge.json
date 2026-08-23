@@ -1,0 +1,50 @@
+{
+    "frames": {
+        "reward2": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 198,
+                "h": 129
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 198,
+                "h": 129
+            },
+            "sourceSize": {
+                "w": 198,
+                "h": 129
+            }
+        },
+        "reward3": {
+            "frame": {
+                "x": 200,
+                "y": 1,
+                "w": 198,
+                "h": 129
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 198,
+                "h": 129
+            },
+            "sourceSize": {
+                "w": 198,
+                "h": 129
+            }
+        }
+    },
+    "meta": {
+        "image": "bed_war_sum_recharge.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 399,
+            "h": 131
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

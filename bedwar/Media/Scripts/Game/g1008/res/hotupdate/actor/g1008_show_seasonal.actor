@@ -1,0 +1,200 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ActorTemplates>
+	<ActorTemplate name="g1008_show_seasonal.actor" Originalscale="0.68 0.68 0.68" Skeleton="boy_01.skel" AttackScale="1" TextHeight="0" IsShowShadow="true" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1" ThreadPriority="1">
+		<SubActors>
+		</SubActors>
+		<BodyParts>
+			<BodyPart MasterName="Base" SlaveName="01" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "05_shoes_l_armor_widget.skin" ChangeColor = "3.12241e-39 1.9254e-38 1.45038e-38 2.8026e-45" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+				<Skin MeshName = "05_shoes_r_armor_widget.skin" ChangeColor = "3.12241e-39 1.9254e-38 1.45038e-38 2.8026e-45" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+				<Skin MeshName = "05_trousers_armor_widget.skin" ChangeColor = "3.12241e-39 1.9254e-38 1.45038e-38 2.8026e-45" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+				<Skin MeshName = "05_trunk_armor_widget.skin" ChangeColor = "3.12241e-39 1.9254e-38 1.45038e-38 2.8026e-45" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="02_face_boy.mesh"/>
+					<SocketName value="b_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="05_hair_armor_widget.mesh"/>
+					<SocketName value="b_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="pickaxe_22" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_pickaxe_22.mesh"/>
+					<SocketName value="s_hand_r"/>
+					<Position_X value="0.0185499"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="sword_104" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_sword_104.mesh"/>
+					<SocketName value="s_hand_r"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="sword_24" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_sword_24.mesh"/>
+					<SocketName value="s_hand_r"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill Name="g1008_show_daoguang_24" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_24.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_24_1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_24_1.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_daoguang_24_2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_daoguang_24_2.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.16"/>
+					<Times value="1"/>
+					<Position_X value="0.0319558"/>
+					<Position_Y value="1.15291"/>
+					<Position_Z value="0.539401"/>
+					<yaw value="64.6506"/>
+					<pitch value="-34.6076"/>
+					<roll value="-5.05592"/>
+					<scale value="2.5"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_sword" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_show_sword_01.anim" BeginTime = "0" Times = "-1" Length = "7.133" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_stand05.anim" BeginTime = "0" Times = "-1" Length = "2.033" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+		</Skills>
+		<Anims>
+				<Anim Name="boy_attack01.anim"/>
+				<Anim Name="boy_attack03.anim"/>
+				<Anim Name="g1008_show_sword_01.anim"/>
+				<Anim Name="boy_stand05.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

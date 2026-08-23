@@ -1,0 +1,13 @@
+{
+  "conditionList": [
+    {
+      "radius": 20,
+      "conditionType": "WithinRadius"
+    }
+  ],
+  "timeline": "track_explosion_dark",
+  "triggerRotate": {
+    "radius": 20,
+    "rotateType": "RecentTarget"
+  }
+}

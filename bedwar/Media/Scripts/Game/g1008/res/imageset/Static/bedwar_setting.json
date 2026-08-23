@@ -1,0 +1,194 @@
+{
+    "frames": {
+        "checkbox_bg": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 38,
+                "h": 38
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 38,
+                "h": 38
+            },
+            "sourceSize": {
+                "w": 38,
+                "h": 38
+            }
+        },
+        "checkbox_select": {
+            "frame": {
+                "x": 40,
+                "y": 1,
+                "w": 38,
+                "h": 38
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 38,
+                "h": 38
+            },
+            "sourceSize": {
+                "w": 38,
+                "h": 38
+            }
+        },
+        "menu_bg": {
+            "frame": {
+                "x": 79,
+                "y": 1,
+                "w": 80,
+                "h": 86
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 86
+            },
+            "sourceSize": {
+                "w": 80,
+                "h": 86
+            }
+        },
+        "operation_type1": {
+            "frame": {
+                "x": 160,
+                "y": 1,
+                "w": 109,
+                "h": 109
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 109,
+                "h": 109
+            },
+            "sourceSize": {
+                "w": 109,
+                "h": 109
+            }
+        },
+        "operation_type2": {
+            "frame": {
+                "x": 270,
+                "y": 1,
+                "w": 109,
+                "h": 109
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 109,
+                "h": 109
+            },
+            "sourceSize": {
+                "w": 109,
+                "h": 109
+            }
+        },
+        "operation_type4": {
+            "frame": {
+                "x": 380,
+                "y": 1,
+                "w": 116,
+                "h": 115
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 116,
+                "h": 115
+            },
+            "sourceSize": {
+                "w": 116,
+                "h": 115
+            }
+        },
+        "operation_type5": {
+            "frame": {
+                "x": 497,
+                "y": 1,
+                "w": 116,
+                "h": 116
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 116,
+                "h": 116
+            },
+            "sourceSize": {
+                "w": 116,
+                "h": 116
+            }
+        },
+        "progressbar": {
+            "frame": {
+                "x": 614,
+                "y": 1,
+                "w": 24,
+                "h": 38
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 24,
+                "h": 38
+            },
+            "sourceSize": {
+                "w": 24,
+                "h": 38
+            }
+        },
+        "progressbar_bg": {
+            "frame": {
+                "x": 639,
+                "y": 1,
+                "w": 24,
+                "h": 38
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 24,
+                "h": 38
+            },
+            "sourceSize": {
+                "w": 24,
+                "h": 38
+            }
+        },
+        "progressbar_btn": {
+            "frame": {
+                "x": 664,
+                "y": 1,
+                "w": 38,
+                "h": 38
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 38,
+                "h": 38
+            },
+            "sourceSize": {
+                "w": 38,
+                "h": 38
+            }
+        }
+    },
+    "meta": {
+        "image": "bedwar_setting.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 703,
+            "h": 118
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

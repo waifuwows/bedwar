@@ -1,0 +1,32 @@
+{
+    "frames": {
+        "img_0_bg": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 1024,
+                "h": 768
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 1024,
+                "h": 768
+            },
+            "sourceSize": {
+                "w": 1024,
+                "h": 768
+            }
+        }
+    },
+    "meta": {
+        "image": "random_store_bg.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 1026,
+            "h": 770
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "frames": {
+        "snow_4": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 8,
+                "h": 8
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 8,
+                "h": 8
+            },
+            "sourceSize": {
+                "w": 8,
+                "h": 8
+            }
+        },
+        "snow_5": {
+            "frame": {
+                "x": 10,
+                "y": 1,
+                "w": 8,
+                "h": 8
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 8,
+                "h": 8
+            },
+            "sourceSize": {
+                "w": 8,
+                "h": 8
+            }
+        }
+    },
+    "meta": {
+        "image": "bed_war_snow.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 32,
+            "h": 16
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

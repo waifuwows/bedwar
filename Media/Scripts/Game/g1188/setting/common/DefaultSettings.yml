@@ -1,0 +1,10 @@
+defaultFPS: 3
+defaultLuminance: 0.5
+defaultButtonSize: 0.5
+defaultSensitivity: 0.5
+defaultHorizon: 0.5
+defaultOperation: 1
+defaultBackGroundSwitch: 1
+defaultBackGroundVolume: 0.8
+defaultEffectSwitch: 1
+defaultEffectVolume: 0.8

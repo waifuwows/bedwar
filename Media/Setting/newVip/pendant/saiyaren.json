@@ -1,0 +1,39 @@
+{
+  "width": 128,
+  "height": 128,
+  "scale": 1.4,
+  "anim": [
+    {
+      "image": "set:saiyaren_frame.json image:1",
+      "duration": 80
+    },
+    {
+      "image": "set:saiyaren_frame.json image:2",
+      "duration": 80
+    },
+    {
+      "image": "set:saiyaren_frame.json image:3",
+      "duration": 80
+    },
+    {
+      "image": "set:saiyaren_frame.json image:4",
+      "duration": 80
+    },
+    {
+      "image": "set:saiyaren_frame.json image:5",
+      "duration": 80
+    },
+    {
+      "image": "set:saiyaren_frame.json image:6",
+      "duration": 80
+    },
+    {
+      "image": "set:saiyaren_frame.json image:7",
+      "duration": 80
+    },
+    {
+      "image": "set:saiyaren_frame.json image:8",
+      "duration": 80
+    }
+  ]
+}

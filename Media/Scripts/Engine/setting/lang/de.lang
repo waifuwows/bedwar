@@ -1,0 +1,5 @@
+custom_room_resource_load_error_retry=Ressourcen konnten nicht geladen werden. Bitte beenden Sie das Spiel und betreten Sie es erneut.\\nFalls das Problem weiterhin besteht, bereinigen Sie die Ressourcen und betreten Sie das Spiel erneut.
+chat_moderation_menu_report=Nutzer melden
+chat_moderation_menu_block=Nutzer blockieren
+chat_moderation_report_success=%s wurde erfolgreich gemeldet
+chat_moderation_block_success=%s wurde erfolgreich blockiert

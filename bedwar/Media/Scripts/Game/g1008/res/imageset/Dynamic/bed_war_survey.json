@@ -1,0 +1,86 @@
+{
+    "frames": {
+        "flash_tip": {
+            "frame": {
+                "x": 87,
+                "y": 1,
+                "w": 112,
+                "h": 112
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 112
+            },
+            "sourceSize": {
+                "w": 112,
+                "h": 112
+            }
+        },
+        "had_use": {
+            "frame": {
+                "x": 1,
+                "y": 114,
+                "w": 178,
+                "h": 207
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 178,
+                "h": 207
+            },
+            "sourceSize": {
+                "w": 178,
+                "h": 207
+            }
+        },
+        "not_select": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 42,
+                "h": 40
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 40
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 40
+            }
+        },
+        "select": {
+            "frame": {
+                "x": 44,
+                "y": 1,
+                "w": 42,
+                "h": 40
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 40
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 40
+            }
+        }
+    },
+    "meta": {
+        "image": "bed_war_survey.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 200,
+            "h": 322
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

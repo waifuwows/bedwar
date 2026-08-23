@@ -1,0 +1,50 @@
+{
+    "frames": {
+        "img_playshow_3": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 817,
+                "h": 370
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 817,
+                "h": 370
+            },
+            "sourceSize": {
+                "w": 817,
+                "h": 370
+            }
+        },
+        "img_playshow_4": {
+            "frame": {
+                "x": 1,
+                "y": 372,
+                "w": 817,
+                "h": 370
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 817,
+                "h": 370
+            },
+            "sourceSize": {
+                "w": 817,
+                "h": 370
+            }
+        }
+    },
+    "meta": {
+        "image": "bed_war_2024guide_2.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 819,
+            "h": 743
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

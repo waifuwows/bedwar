@@ -1,0 +1,374 @@
+{
+    "frames": {
+        "bg": {
+            "frame": {
+                "x": 1,
+                "y": 327,
+                "w": 512,
+                "h": 288
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 512,
+                "h": 288
+            },
+            "sourceSize": {
+                "w": 512,
+                "h": 288
+            }
+        },
+        "btn_detail": {
+            "frame": {
+                "x": 352,
+                "y": 1,
+                "w": 42,
+                "h": 51
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 51
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 51
+            }
+        },
+        "btn_dfs": {
+            "frame": {
+                "x": 125,
+                "y": 53,
+                "w": 90,
+                "h": 90
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 90,
+                "h": 90
+            },
+            "sourceSize": {
+                "w": 90,
+                "h": 90
+            }
+        },
+        "btn_like": {
+            "frame": {
+                "x": 63,
+                "y": 53,
+                "w": 61,
+                "h": 49
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 61,
+                "h": 49
+            },
+            "sourceSize": {
+                "w": 61,
+                "h": 49
+            }
+        },
+        "btn_liked": {
+            "frame": {
+                "x": 1,
+                "y": 53,
+                "w": 61,
+                "h": 49
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 61,
+                "h": 49
+            },
+            "sourceSize": {
+                "w": 61,
+                "h": 49
+            }
+        },
+        "btn_limited": {
+            "frame": {
+                "x": 309,
+                "y": 1,
+                "w": 42,
+                "h": 51
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 51
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 51
+            }
+        },
+        "btn_reward": {
+            "frame": {
+                "x": 438,
+                "y": 1,
+                "w": 42,
+                "h": 51
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 51
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 51
+            }
+        },
+        "btn_rule": {
+            "frame": {
+                "x": 395,
+                "y": 1,
+                "w": 42,
+                "h": 51
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 51
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 51
+            }
+        },
+        "icon_data_bed": {
+            "frame": {
+                "x": 236,
+                "y": 1,
+                "w": 33,
+                "h": 26
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 33,
+                "h": 26
+            },
+            "sourceSize": {
+                "w": 33,
+                "h": 26
+            }
+        },
+        "icon_data_freq": {
+            "frame": {
+                "x": 270,
+                "y": 1,
+                "w": 38,
+                "h": 24
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 38,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 38,
+                "h": 24
+            }
+        },
+        "icon_data_good": {
+            "frame": {
+                "x": 54,
+                "y": 1,
+                "w": 27,
+                "h": 30
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 27,
+                "h": 30
+            },
+            "sourceSize": {
+                "w": 27,
+                "h": 30
+            }
+        },
+        "icon_data_kill": {
+            "frame": {
+                "x": 203,
+                "y": 1,
+                "w": 32,
+                "h": 31
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "icon_data_out": {
+            "frame": {
+                "x": 82,
+                "y": 1,
+                "w": 28,
+                "h": 26
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 28,
+                "h": 26
+            },
+            "sourceSize": {
+                "w": 28,
+                "h": 26
+            }
+        },
+        "icon_data_rank": {
+            "frame": {
+                "x": 140,
+                "y": 1,
+                "w": 30,
+                "h": 30
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 30
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 30
+            }
+        },
+        "icon_data_rank2": {
+            "frame": {
+                "x": 30,
+                "y": 1,
+                "w": 23,
+                "h": 33
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 23,
+                "h": 33
+            },
+            "sourceSize": {
+                "w": 23,
+                "h": 33
+            }
+        },
+        "icon_data_win": {
+            "frame": {
+                "x": 171,
+                "y": 1,
+                "w": 31,
+                "h": 26
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 31,
+                "h": 26
+            },
+            "sourceSize": {
+                "w": 31,
+                "h": 26
+            }
+        },
+        "icon_dfs_big": {
+            "frame": {
+                "x": 216,
+                "y": 53,
+                "w": 273,
+                "h": 273
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 273,
+                "h": 273
+            },
+            "sourceSize": {
+                "w": 273,
+                "h": 273
+            }
+        },
+        "icon_gaming": {
+            "frame": {
+                "x": 12,
+                "y": 1,
+                "w": 17,
+                "h": 20
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 17,
+                "h": 20
+            },
+            "sourceSize": {
+                "w": 17,
+                "h": 20
+            }
+        },
+        "icon_limited": {
+            "frame": {
+                "x": 111,
+                "y": 1,
+                "w": 28,
+                "h": 28
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 28,
+                "h": 28
+            },
+            "sourceSize": {
+                "w": 28,
+                "h": 28
+            }
+        },
+        "img_title_gradient": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 10,
+                "h": 16
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 10,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 10,
+                "h": 16
+            }
+        }
+    },
+    "meta": {
+        "image": "bed_war_pinnacle.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 514,
+            "h": 616
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

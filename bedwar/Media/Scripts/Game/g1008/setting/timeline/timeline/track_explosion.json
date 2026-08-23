@@ -1,0 +1,32 @@
+{
+  "?tips": "追踪爆炸（预警）",
+  "actionList": [ {
+    "actionType": "PlayAnim",
+    "animName": "",
+    "durationTick": 0,
+    "index": 1,
+    "startTick": 1,
+    "timelineName": "track_explosion"
+  }, {
+    "actionType": "Trigger",
+    "durationTick": 0,
+    "index": 2,
+    "searchData": {
+      "radius": 15,
+      "searchType": "randomLockPlayer"
+    },
+    "sourceConfigData": {
+      "configName": "warning_track_explosion",
+      "sourceConfigType": "timeline"
+    },
+    "startTick": 1,
+    "timeline": "warning_track_explosion",
+    "timelineName": "track_explosion",
+    "triggerData": {
+      "intervalTime": 20,
+      "triggerCount": 5,
+      "triggerType": "interval"
+    }
+  } ],
+  "endTick": 101
+}

@@ -1,0 +1,32 @@
+{
+    "frames": {
+        "g1008_icon_pet_22": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        }
+    },
+    "meta": {
+        "image": "bedwar_license_reward_season6.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 256,
+            "h": 256
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

@@ -1,0 +1,5 @@
+custom_room_resource_load_error_retry=リソースの読み込みに失敗しました。ゲームを終了して再度入ってください。\\n問題が解決しない場合は、リソースをクリアしてから再度ゲームに入ってください。
+chat_moderation_menu_report=ユーザーを通報
+chat_moderation_menu_block=ユーザーをブロック
+chat_moderation_report_success=%s の通報に成功しました
+chat_moderation_block_success=%s のブロックに成功しました

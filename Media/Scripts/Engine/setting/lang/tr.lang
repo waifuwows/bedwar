@@ -1,0 +1,5 @@
+custom_room_resource_load_error_retry=Kaynak yükleme başarısız. Lütfen oyundan çıkıp yeniden girin.\\nSorun devam ederse kaynakları temizleyip oyuna tekrar girin.
+chat_moderation_menu_report=Kullanıcıyı bildir
+chat_moderation_menu_block=Kullanıcıyı engelle
+chat_moderation_report_success=%s başarıyla bildirildi
+chat_moderation_block_success=%s başarıyla engellendi

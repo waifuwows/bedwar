@@ -1,0 +1,140 @@
+{
+    "frames": {
+        "g1008_daoguang_19": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_helmet_14_rainbow_b": {
+            "frame": {
+                "x": 130,
+                "y": 1,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_helmet_14_rainbow_b_chip": {
+            "frame": {
+                "x": 259,
+                "y": 1,
+                "w": 99,
+                "h": 93
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 99,
+                "h": 93
+            },
+            "sourceSize": {
+                "w": 99,
+                "h": 93
+            }
+        },
+        "g1008_icon_arrow_20": {
+            "frame": {
+                "x": 359,
+                "y": 1,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_icon_footprint_19": {
+            "frame": {
+                "x": 488,
+                "y": 1,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_icon_footprint_21": {
+            "frame": {
+                "x": 617,
+                "y": 1,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_icon_pet_24": {
+            "frame": {
+                "x": 746,
+                "y": 1,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        }
+    },
+    "meta": {
+        "image": "bedwar_license_reward_season9.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 875,
+            "h": 130
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "timeline": "warning_sector",
+  "conditionList": [
+    {
+      "conditionType": "WithinRadius",
+      "radius": 15
+    }
+  ],
+  "triggerRotate": {
+    "rotateType": "RecentTarget",
+    "radius": 15
+  }
+}

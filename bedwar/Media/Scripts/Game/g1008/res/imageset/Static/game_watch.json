@@ -1,0 +1,68 @@
+{
+    "frames": {
+        "btn_left": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 54,
+                "h": 54
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 54,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 54
+            }
+        },
+        "btn_right": {
+            "frame": {
+                "x": 56,
+                "y": 1,
+                "w": 54,
+                "h": 54
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 54,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 54
+            }
+        },
+        "name_bd": {
+            "frame": {
+                "x": 1,
+                "y": 56,
+                "w": 54,
+                "h": 54
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 54,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 54
+            }
+        }
+    },
+    "meta": {
+        "image": "game_watch.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 111,
+            "h": 111
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

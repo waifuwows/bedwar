@@ -1,0 +1,662 @@
+{
+    "frames": {
+        "Arrow": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "AutoAddHp": {
+            "frame": {
+                "x": 66,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "BuffAttack": {
+            "frame": {
+                "x": 131,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "BuffHp": {
+            "frame": {
+                "x": 196,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "Cloth": {
+            "frame": {
+                "x": 261,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "Crit": {
+            "frame": {
+                "x": 326,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "DigSpeed": {
+            "frame": {
+                "x": 391,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "EmeraldShield": {
+            "frame": {
+                "x": 456,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "InitItemGold": {
+            "frame": {
+                "x": 521,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "InitItemIron": {
+            "frame": {
+                "x": 586,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "InitItemScissor": {
+            "frame": {
+                "x": 651,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "InitItemWoodenAxe": {
+            "frame": {
+                "x": 716,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "InitItemWoodenPickaxe": {
+            "frame": {
+                "x": 1,
+                "y": 66,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "InitItemWool": {
+            "frame": {
+                "x": 66,
+                "y": 66,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "InitShield": {
+            "frame": {
+                "x": 131,
+                "y": 66,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "InkBomb": {
+            "frame": {
+                "x": 196,
+                "y": 66,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "KnockBack": {
+            "frame": {
+                "x": 261,
+                "y": 66,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "MaxHp": {
+            "frame": {
+                "x": 326,
+                "y": 66,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "MaxHpWithBegin": {
+            "frame": {
+                "x": 391,
+                "y": 66,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "MaxHpWithTime": {
+            "frame": {
+                "x": 456,
+                "y": 66,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "OnDieCountDown": {
+            "frame": {
+                "x": 521,
+                "y": 66,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "OnKillGold": {
+            "frame": {
+                "x": 586,
+                "y": 66,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "OnKillHp": {
+            "frame": {
+                "x": 651,
+                "y": 66,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "OnKillIron": {
+            "frame": {
+                "x": 716,
+                "y": 66,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "OnKillWool": {
+            "frame": {
+                "x": 1,
+                "y": 131,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "PiercingArmor": {
+            "frame": {
+                "x": 66,
+                "y": 131,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "ReduceHurt": {
+            "frame": {
+                "x": 131,
+                "y": 131,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "Reflection": {
+            "frame": {
+                "x": 196,
+                "y": 131,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "RespawnItemGold": {
+            "frame": {
+                "x": 261,
+                "y": 131,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "RespawnItemIron": {
+            "frame": {
+                "x": 326,
+                "y": 131,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "RespawnItemWool": {
+            "frame": {
+                "x": 391,
+                "y": 131,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "SuckBlood": {
+            "frame": {
+                "x": 456,
+                "y": 131,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "Sword": {
+            "frame": {
+                "x": 521,
+                "y": 131,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "SwordFire": {
+            "frame": {
+                "x": 586,
+                "y": 131,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "Thorn": {
+            "frame": {
+                "x": 651,
+                "y": 131,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "Unyielding": {
+            "frame": {
+                "x": 716,
+                "y": 131,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        }
+    },
+    "meta": {
+        "image": "rune_name_icon.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 781,
+            "h": 196
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

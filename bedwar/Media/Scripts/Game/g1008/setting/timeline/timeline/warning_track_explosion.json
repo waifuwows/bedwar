@@ -1,0 +1,48 @@
+{
+  "?tips": "目标位置爆炸（预警）",
+  "actionList": [ {
+    "actionType": "CauseDamage",
+    "attackEffect": {
+      "effectName": "g1008_pve_attack_thunder.effect",
+      "effectScale": 2.5,
+      "rotateType": "none"
+    },
+    "damage": 1,
+    "damageData": {
+      "canKillPlayer": true,
+      "damage": 3,
+      "damageType": "generic",
+      "enableHurtFormula": true,
+      "hitBuffList": [],
+      "knockBackDis": 0
+    },
+    "durationTick": 0,
+    "hitEffect": {
+      "effectName": "",
+      "effectScale": 1
+    },
+    "index": 1,
+    "knockBackDis": 2,
+    "searchTargetsData": {
+      "radius": 4,
+      "searchType": "circular"
+    },
+    "soundData": {
+      "soundId": 0,
+      "soundType": "2d"
+    },
+    "startTick": 40,
+    "timelineName": "warning_track_explosion"
+  }, {
+    "actionType": "PlayWarningEffect",
+    "durationTick": 40,
+    "effectScale": 2,
+    "index": 2,
+    "innerEffectName": "g1008_pve_attack_circle_02.effect",
+    "outEffectName": "g1008_pve_attack_circle_01.effect",
+    "positionType": "position",
+    "startTick": 1,
+    "timelineName": "warning_track_explosion"
+  } ],
+  "endTick": 41
+}

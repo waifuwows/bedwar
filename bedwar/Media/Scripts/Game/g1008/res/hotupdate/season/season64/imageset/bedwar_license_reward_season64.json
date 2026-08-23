@@ -1,0 +1,662 @@
+{
+    "frames": {
+        "g1008_Xmas_parachute_b": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_battle_statue_21": {
+            "frame": {
+                "x": 130,
+                "y": 1,
+                "w": 256,
+                "h": 256
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "g1008_bow_42_b": {
+            "frame": {
+                "x": 387,
+                "y": 1,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_chest_26_rainbow_emerald_b": {
+            "frame": {
+                "x": 516,
+                "y": 1,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_chest_30_rainbow_gold_b": {
+            "frame": {
+                "x": 645,
+                "y": 1,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_foot_26_rainbow_emerald_b": {
+            "frame": {
+                "x": 774,
+                "y": 1,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_foot_30_rainbow_gold_b": {
+            "frame": {
+                "x": 1,
+                "y": 258,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_head_26_rainbow_emerald_b": {
+            "frame": {
+                "x": 130,
+                "y": 258,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_head_30_rainbow_gold_b": {
+            "frame": {
+                "x": 259,
+                "y": 258,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_helmet_109_rainbow_b": {
+            "frame": {
+                "x": 388,
+                "y": 258,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_icon_daoguang_150": {
+            "frame": {
+                "x": 517,
+                "y": 258,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_icon_daoguang_151": {
+            "frame": {
+                "x": 646,
+                "y": 258,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_icon_daoguang_152": {
+            "frame": {
+                "x": 1,
+                "y": 387,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_icon_footprint_102": {
+            "frame": {
+                "x": 130,
+                "y": 387,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_icon_pet_110": {
+            "frame": {
+                "x": 259,
+                "y": 387,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_killeffects_19": {
+            "frame": {
+                "x": 388,
+                "y": 387,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_legendary_props_ArmorPiercing_b": {
+            "frame": {
+                "x": 517,
+                "y": 387,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_legendary_props_Earthquake_b": {
+            "frame": {
+                "x": 646,
+                "y": 387,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_legendary_props_FlameCloak_b": {
+            "frame": {
+                "x": 1,
+                "y": 516,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_legendary_props_Lightning_b": {
+            "frame": {
+                "x": 130,
+                "y": 516,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_legendary_props_Poison_b": {
+            "frame": {
+                "x": 259,
+                "y": 516,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_legendary_props_Potion_b": {
+            "frame": {
+                "x": 388,
+                "y": 516,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_legendary_props_Purify_b": {
+            "frame": {
+                "x": 517,
+                "y": 516,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_legendary_props_Search_b": {
+            "frame": {
+                "x": 646,
+                "y": 516,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_legendary_props_Shield_b": {
+            "frame": {
+                "x": 1,
+                "y": 645,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_legendary_props_Thorn_b": {
+            "frame": {
+                "x": 130,
+                "y": 645,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_legendary_props_Transmit_b": {
+            "frame": {
+                "x": 259,
+                "y": 645,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_legendary_props_explosion_b": {
+            "frame": {
+                "x": 388,
+                "y": 645,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_legendary_props_paragliders_b": {
+            "frame": {
+                "x": 517,
+                "y": 645,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_legendary_props_web_b": {
+            "frame": {
+                "x": 646,
+                "y": 645,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_mount_23": {
+            "frame": {
+                "x": 1,
+                "y": 774,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_props_cuttlefish_b": {
+            "frame": {
+                "x": 130,
+                "y": 774,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_suit_26_rainbow_emerald_b": {
+            "frame": {
+                "x": 259,
+                "y": 774,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_suit_30_rainbow_gold_b": {
+            "frame": {
+                "x": 388,
+                "y": 774,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_thigh_26_rainbow_emerald_b": {
+            "frame": {
+                "x": 517,
+                "y": 774,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g1008_thigh_30_rainbow_gold_b": {
+            "frame": {
+                "x": 646,
+                "y": 774,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        }
+    },
+    "meta": {
+        "image": "bedwar_license_reward_season64.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 903,
+            "h": 903
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

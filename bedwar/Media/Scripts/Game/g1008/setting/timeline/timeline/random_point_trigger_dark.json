@@ -1,0 +1,38 @@
+{
+  "?tips": "末影龙 随机爆炸",
+  "actionList": [ {
+    "actionType": "PlayAnim",
+    "animName": "show",
+    "durationTick": 0,
+    "index": 1,
+    "startTick": 1,
+    "tick": 30,
+    "timelineName": "random_point_trigger_dark"
+  }, {
+    "actionType": "Trigger",
+    "durationTick": 0,
+    "index": 2,
+    "searchData": {
+      "randomCount": 16,
+      "searchType": "randomPoint",
+      "xRange": {
+        "x": -15,
+        "y": 15
+      },
+      "zRange": {
+        "x": -15,
+        "y": 15
+      }
+    },
+    "sourceConfigData": {
+      "configName": "warning_track_explosion_dark",
+      "sourceConfigType": "timeline"
+    },
+    "startTick": 1,
+    "timelineName": "random_point_trigger_dark",
+    "triggerData": {
+      "triggerType": "once"
+    }
+  } ],
+  "endTick": 1
+}

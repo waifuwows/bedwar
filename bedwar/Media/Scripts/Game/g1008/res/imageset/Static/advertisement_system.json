@@ -1,0 +1,140 @@
+{
+    "frames": {
+        "adver_btn": {
+            "frame": {
+                "x": 189,
+                "y": 130,
+                "w": 187,
+                "h": 61
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 187,
+                "h": 61
+            },
+            "sourceSize": {
+                "w": 187,
+                "h": 61
+            }
+        },
+        "challenge_exp": {
+            "frame": {
+                "x": 260,
+                "y": 1,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "content_bg": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "not_adver_btn": {
+            "frame": {
+                "x": 1,
+                "y": 130,
+                "w": 187,
+                "h": 61
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 187,
+                "h": 61
+            },
+            "sourceSize": {
+                "w": 187,
+                "h": 61
+            }
+        },
+        "ticket_btn": {
+            "frame": {
+                "x": 1,
+                "y": 192,
+                "w": 187,
+                "h": 61
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 187,
+                "h": 61
+            },
+            "sourceSize": {
+                "w": 187,
+                "h": 61
+            }
+        },
+        "tip_bg": {
+            "frame": {
+                "x": 66,
+                "y": 1,
+                "w": 64,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 128
+            }
+        },
+        "up_level_icon": {
+            "frame": {
+                "x": 131,
+                "y": 1,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        }
+    },
+    "meta": {
+        "image": "advertisement_system.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 389,
+            "h": 254
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

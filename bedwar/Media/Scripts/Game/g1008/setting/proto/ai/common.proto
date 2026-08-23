@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message Position
+{
+    float x = 1;
+    float y = 2;
+    float z = 3;
+}
+
+message Direction
+{
+    float yaw = 1;      // 朝向
+    float pitch = 2;    // 仰角
+}

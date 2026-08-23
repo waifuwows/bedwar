@@ -1,0 +1,32 @@
+{
+    "frames": {
+        "img_0_lock01": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 71,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 71,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 71,
+                "h": 64
+            }
+        }
+    },
+    "meta": {
+        "image": "bed_war_3_icon.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 73,
+            "h": 66
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

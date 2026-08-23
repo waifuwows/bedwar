@@ -1,0 +1,5 @@
+custom_room_resource_load_error_retry=Tải tài nguyên thất bại. Vui lòng thoát trò chơi rồi vào lại.\\nNếu sự cố vẫn còn, hãy dọn dẹp tài nguyên rồi vào lại trò chơi.
+chat_moderation_menu_report=Báo cáo người dùng
+chat_moderation_menu_block=Chặn người dùng
+chat_moderation_report_success=Đã báo cáo %s thành công
+chat_moderation_block_success=Đã chặn %s thành công

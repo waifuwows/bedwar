@@ -1,0 +1,32 @@
+{
+    "frames": {
+        "img_0_bg": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 985,
+                "h": 738
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 985,
+                "h": 738
+            },
+            "sourceSize": {
+                "w": 985,
+                "h": 738
+            }
+        }
+    },
+    "meta": {
+        "image": "shop_man_bg.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 987,
+            "h": 740
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

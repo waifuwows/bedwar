@@ -1,0 +1,325 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ActorTemplates>
+	<ActorTemplate name="g1008_mount_32.actor" Originalscale="1.5 1.5 1.5" Skeleton="g1008_mount_32.skel" AttackScale="1" TextHeight="0" IsShowShadow="true" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1" ThreadPriority="1" LodLevel="3">
+		<SubActors>
+		</SubActors>
+		<BodyParts>
+			<BodyPart MasterName="body" SlaveName="g1008_mount_32" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g1008_mount_32.skin" ChangeColor = "0 2.20324e-38 2.20324e-38 6.60372e-39" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+				<Effect>
+					<FileName value="g1008_mount_32_idle_01.effect"/>
+					<SocketName value="Bip001_Head"/>
+					<Position_X value="-0.00343239"/>
+					<Position_Y value="0"/>
+					<Position_Z value="-0.00137338"/>
+					<yaw value="155.5"/>
+					<pitch value="-3.41509e-06"/>
+					<roll value="90"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_mount_32_idle_02.effect"/>
+					<SocketName value="Bip001_Spine"/>
+					<Position_X value="0.0792626"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="-74"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_mount_32_idle_03.effect"/>
+					<SocketName value="Bone048"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="89"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_mount_32_idle_03.effect"/>
+					<SocketName value="Bone052"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="89.5"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_mount_32_idle_04.effect"/>
+					<SocketName value="Bone013"/>
+					<Position_X value="0.0677897"/>
+					<Position_Y value="-0.0502724"/>
+					<Position_Z value="-0.11457"/>
+					<yaw value="-153"/>
+					<pitch value="18.5"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_mount_32_idle_04.effect"/>
+					<SocketName value="Bone024"/>
+					<Position_X value="0.0574932"/>
+					<Position_Y value="-0.0458357"/>
+					<Position_Z value="0.0932949"/>
+					<yaw value="-13.1571"/>
+					<pitch value="28.8513"/>
+					<roll value="172.064"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_mount_32_idle_05.effect"/>
+					<SocketName value="Bone017"/>
+					<Position_X value="0.0253262"/>
+					<Position_Y value="0.0155886"/>
+					<Position_Z value="-0.0612018"/>
+					<yaw value="125"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_mount_32_idle_05.effect"/>
+					<SocketName value="Bone028"/>
+					<Position_X value="0.0846699"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0.0700915"/>
+					<yaw value="34.9868"/>
+					<pitch value="1.81988"/>
+					<roll value="179.17"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_mount_32_idle_06.effect"/>
+					<SocketName value="Bone026"/>
+					<Position_X value="0.0301852"/>
+					<Position_Y value="-0.0530487"/>
+					<Position_Z value="0.064318"/>
+					<yaw value="3.08079e-08"/>
+					<pitch value="30"/>
+					<roll value="179"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_mount_32_idle_06.effect"/>
+					<SocketName value="Bone015"/>
+					<Position_X value="0.0332423"/>
+					<Position_Y value="-0.0351591"/>
+					<Position_Z value="-0.0841196"/>
+					<yaw value="179"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_mount_32_idle_07.effect"/>
+					<SocketName value="Bone002"/>
+					<Position_X value="0.097124"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="-90"/>
+					<pitch value="1.70755e-06"/>
+					<roll value="-90"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_mount_32_idle_08.effect"/>
+					<SocketName value="Bone004"/>
+					<Position_X value="0.0627415"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="-90"/>
+					<pitch value="0"/>
+					<roll value="-90"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_mount_32_idle_09.effect"/>
+					<SocketName value="Bone006"/>
+					<Position_X value="-0.0437388"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="-90"/>
+					<pitch value="1.70755e-06"/>
+					<roll value="-90"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_mount_32_idle_10.effect"/>
+					<SocketName value="Bip001_Spine1"/>
+					<Position_X value="0.0661319"/>
+					<Position_Y value="6.41942e-05"/>
+					<Position_Z value="-0.131996"/>
+					<yaw value="-16"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_mount_32_idle_11.effect"/>
+					<SocketName value="Bone032"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0.0286534"/>
+					<yaw value="77"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_mount_32_idle_12.effect"/>
+					<SocketName value="Bone037"/>
+					<Position_X value="0.0256606"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="75.5"/>
+					<pitch value="2"/>
+					<roll value="-1.06787e-07"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_mount_32_idle_12.effect"/>
+					<SocketName value="Bone042"/>
+					<Position_X value="0"/>
+					<Position_Y value="0.0238752"/>
+					<Position_Z value="0.0132507"/>
+					<yaw value="11.2919"/>
+					<pitch value="-69.1299"/>
+					<roll value="-36.0683"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill Name="mount_dual_idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_mount_32_idle.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="mount_taunt" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_mount_32_idle.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="mount_single_idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_mount_32_idle.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="ride_single_idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_mount_32_idle.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="mount_walk" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_mount_32_run.anim" BeginTime = "0" Times = "-1" Length = "0.566" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="mount_run" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_mount_32_run.anim" BeginTime = "0" Times = "-1" Length = "0.566" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="mount_jump_1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_mount_32_run.anim" BeginTime = "0" Times = "-1" Length = "0.566" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="mount_jump_2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_mount_32_run.anim" BeginTime = "0" Times = "-1" Length = "0.566" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="mount_jump_3" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_mount_32_run.anim" BeginTime = "0" Times = "-1" Length = "0.566" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="mount_show" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_mount_32_show.anim" BeginTime = "0" Times = "1" Length = "4.466" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_mount_32_show.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="mount_arrow_1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_mount_02_arrow_a.anim" BeginTime = "0" Times = "-1" Length = "0.4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="mount_arrow_2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_mount_02_arrow_b.anim" BeginTime = "0" Times = "-1" Length = "1.033" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="mount_arrow_3" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_mount_02_arrow_c.anim" BeginTime = "0" Times = "-1" Length = "0.4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="mount_attack" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_mount_01_attack.anim" BeginTime = "0" Times = "-1" Length = "0.533" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="mount_dead" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_mount_02_dead.anim" BeginTime = "0" Times = "-1" Length = "1.166" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+		</Skills>
+		<Anims>
+				<Anim Name="g1008_mount_32_idle.anim"/>
+				<Anim Name="g1008_mount_32_run.anim"/>
+				<Anim Name="g1008_mount_32_show.anim"/>
+				<Anim Name="g1008_mount_02_arrow_a.anim"/>
+				<Anim Name="g1008_mount_02_arrow_b.anim"/>
+				<Anim Name="g1008_mount_02_arrow_c.anim"/>
+				<Anim Name="g1008_mount_01_attack.anim"/>
+				<Anim Name="g1008_mount_02_dead.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

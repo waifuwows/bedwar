@@ -1,0 +1,22 @@
+{
+  "?tips": "多方向直线火球",
+  "actionList": [ {
+    "actionType": "Trigger",
+    "durationTick": 0,
+    "index": 1,
+    "searchData": {
+      "angleList": [ "-90", "-60", "-30", "0", "30", "60", "90" ],
+      "searchType": "forwardAngle"
+    },
+    "sourceConfigData": {
+      "configName": "line_warning_fireball_dark",
+      "sourceConfigType": "timeline"
+    },
+    "startTick": 1,
+    "timelineName": "multi_line_warning_fireball_dark",
+    "triggerData": {
+      "triggerType": "once"
+    }
+  } ],
+  "endTick": 1
+}

@@ -1,0 +1,104 @@
+{
+    "frames": {
+        "btn_0_buy": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 210,
+                "h": 82
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 210,
+                "h": 82
+            },
+            "sourceSize": {
+                "w": 210,
+                "h": 82
+            }
+        },
+        "img_0_bg": {
+            "frame": {
+                "x": 1,
+                "y": 84,
+                "w": 640,
+                "h": 480
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 480
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 480
+            }
+        },
+        "img_0_describe_bd": {
+            "frame": {
+                "x": 1,
+                "y": 565,
+                "w": 42,
+                "h": 86
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 86
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 86
+            }
+        },
+        "img_0_eff_bd": {
+            "frame": {
+                "x": 44,
+                "y": 565,
+                "w": 343,
+                "h": 400
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 343,
+                "h": 400
+            },
+            "sourceSize": {
+                "w": 343,
+                "h": 400
+            }
+        },
+        "text_zh_CN": {
+            "frame": {
+                "x": 388,
+                "y": 565,
+                "w": 202,
+                "h": 38
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 202,
+                "h": 38
+            },
+            "sourceSize": {
+                "w": 202,
+                "h": 38
+            }
+        }
+    },
+    "meta": {
+        "image": "game_activity_limit_discount2.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 642,
+            "h": 966
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

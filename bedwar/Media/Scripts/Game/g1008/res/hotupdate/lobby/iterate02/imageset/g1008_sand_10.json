@@ -1,0 +1,32 @@
+{
+    "frames": {
+        "g1046_xmas_picture_25": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 300,
+                "h": 400
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 300,
+                "h": 400
+            },
+            "sourceSize": {
+                "w": 300,
+                "h": 400
+            }
+        }
+    },
+    "meta": {
+        "image": "g1008_sand_10.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 512,
+            "h": 512
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

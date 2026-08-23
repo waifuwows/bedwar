@@ -1,0 +1,86 @@
+{
+    "frames": {
+        "img_0_teammateid_1": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 22,
+                "h": 22
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            }
+        },
+        "img_0_teammateid_2": {
+            "frame": {
+                "x": 24,
+                "y": 1,
+                "w": 22,
+                "h": 22
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            }
+        },
+        "img_0_teammateid_3": {
+            "frame": {
+                "x": 1,
+                "y": 24,
+                "w": 22,
+                "h": 22
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            }
+        },
+        "img_0_teammateid_4": {
+            "frame": {
+                "x": 24,
+                "y": 24,
+                "w": 22,
+                "h": 22
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            }
+        }
+    },
+    "meta": {
+        "image": "survival_team.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 64,
+            "h": 64
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

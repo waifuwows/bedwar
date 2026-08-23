@@ -1,0 +1,5 @@
+custom_room_resource_load_error_retry=Gagal memuat sumber daya. Silakan keluar dari game lalu masuk kembali.\\nJika masalah tetap ada, bersihkan sumber daya lalu masuk kembali ke game.
+chat_moderation_menu_report=Laporkan Pengguna
+chat_moderation_menu_block=Blokir Pengguna
+chat_moderation_report_success=%s berhasil dilaporkan
+chat_moderation_block_success=%s berhasil diblokir

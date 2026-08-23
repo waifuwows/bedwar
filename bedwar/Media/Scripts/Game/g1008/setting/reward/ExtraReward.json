@@ -1,0 +1,19 @@
+{
+  "?triggerSource": "可触发的来源",
+  "triggerSource": {
+    "SevenDayCheckIn": false,
+    "License": true,
+    "PlayerUpgradeFree": true,
+    "Pass": true,
+	"BackCheckIn": true,
+    "AppGameGiftFree": true
+  },
+  "?maxTriggerTimes": "每日最多可触发次数",
+  "maxTriggerTimes": 5,
+  "?mustTriggerTimes": "必定触发次数",
+  "mustTriggerTimes": [ 5, 10 ],
+  "?triggerRate": "触发概率10000",
+  "triggerRate": 10000,
+  "?triggerCd": "触发Cd(秒)",
+  "triggerCd": 10
+}

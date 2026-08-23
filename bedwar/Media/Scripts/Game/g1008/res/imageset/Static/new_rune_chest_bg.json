@@ -1,0 +1,32 @@
+{
+    "frames": {
+        "img_bd": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 889,
+                "h": 574
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 889,
+                "h": 574
+            },
+            "sourceSize": {
+                "w": 889,
+                "h": 574
+            }
+        }
+    },
+    "meta": {
+        "image": "new_rune_chest_bg.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 891,
+            "h": 576
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

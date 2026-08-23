@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ActorTemplates>
+	<ActorTemplate name="g1008_sword_251.actor" Originalscale="1 1 1" Skeleton="g1008_sword_251.skel" AttackScale="1" TextHeight="0" IsShowShadow="true" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1" ThreadPriority="1">
+		<SubActors>
+		</SubActors>
+		<BodyParts>
+			<BodyPart MasterName="armor_sword" SlaveName="g1008_sword_251" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g1008_sword_251.skin" ChangeColor = "-0.719492 0.0932269 -0.458567 0.71949" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+		</Skills>
+		<Anims>
+				<Anim Name="g1008_sword_251_idle.anim"/>
+				<Anim Name="g1008_sword_251_show.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

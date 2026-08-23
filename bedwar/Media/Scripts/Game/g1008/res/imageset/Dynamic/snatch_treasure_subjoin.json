@@ -1,0 +1,50 @@
+{
+    "frames": {
+        "img_selected": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 550,
+                "h": 547
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 550,
+                "h": 547
+            },
+            "sourceSize": {
+                "w": 550,
+                "h": 547
+            }
+        },
+        "img_vs": {
+            "frame": {
+                "x": 1,
+                "y": 549,
+                "w": 349,
+                "h": 80
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 349,
+                "h": 80
+            },
+            "sourceSize": {
+                "w": 349,
+                "h": 80
+            }
+        }
+    },
+    "meta": {
+        "image": "snatch_treasure_subjoin.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 552,
+            "h": 630
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

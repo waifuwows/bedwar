@@ -1,0 +1,32 @@
+{
+    "frames": {
+        "img_playshow_5": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 817,
+                "h": 370
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 817,
+                "h": 370
+            },
+            "sourceSize": {
+                "w": 817,
+                "h": 370
+            }
+        }
+    },
+    "meta": {
+        "image": "bed_war_2026guide_1.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 819,
+            "h": 372
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

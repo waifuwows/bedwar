@@ -1,0 +1,68 @@
+{
+    "frames": {
+        "icon_clothing_coupons": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 128,
+                "h": 121
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 121
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 121
+            }
+        },
+        "icon_token_g1008_1": {
+            "frame": {
+                "x": 130,
+                "y": 1,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "icon_token_g1048_1": {
+            "frame": {
+                "x": 259,
+                "y": 1,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        }
+    },
+    "meta": {
+        "image": "app_token_icon.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 388,
+            "h": 130
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

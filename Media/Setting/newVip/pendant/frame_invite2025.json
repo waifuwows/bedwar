@@ -1,0 +1,19 @@
+{
+  "width": 128,
+  "height": 128,
+  "scale": 1.3,
+  "offset": {
+	  "x": 0,
+	  "y": -0.05
+  },
+  "anim": [
+    {
+      "image": "set:frame_invite2025_frame.json image:1",
+      "duration": 26
+    },
+    {
+      "image": "set:frame_invite2025_frame.json image:2",
+      "duration": 26
+    }
+  ]
+}

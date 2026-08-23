@@ -1,0 +1,68 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ActorTemplates>
+	<ActorTemplate name="g1008_npc_halloween_ghost.actor" Originalscale="0.9 0.9 0.9" Skeleton="boy_01.skel" AttackScale="1" TextHeight="0" IsShowShadow="false" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="0.6" ThreadPriority="1">
+		<SubActors>
+		</SubActors>
+		<BodyParts>
+			<BodyPart MasterName="clothes_pants" SlaveName="5" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+			</BodyPart>
+			<BodyPart MasterName="clothes_tops" SlaveName="5" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "269_trunk_widget.skin" ChangeColor = "2.10195e-44 4.37766e-42 1.4013e-45 0" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="custom_face" SlaveName="2" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+			</BodyPart>
+			<BodyPart MasterName="custom_glasses" SlaveName="1" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+			</BodyPart>
+			<BodyPart MasterName="custom_hair" SlaveName="20" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+			</BodyPart>
+			<BodyPart MasterName="custom_shoes" SlaveName="6" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill Name="idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_ghost_run.anim" BeginTime = "0" Times = "-1" Length = "6.7" FadeTime = "0.2" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="attack" EnableWound="false" UserDefineTime="-2" TextMode="0">
+            	<Animation Name = "g1008_ghost_run.anim" BeginTime = "0" Times = "-1" Length = "6.7" FadeTime = "0.2" Channel = "" TimeScale = "1">
+            	</Animation>
+            </Skill>
+			<Skill Name="die" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_radar_dead.anim" BeginTime = "0" Times = "1" Length = "0.566" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_pumpink_firework.effect"/>
+					<SocketName value="Bone031"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="70"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="3"/>
+					<TimeScale value="3"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="run" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_ghost_run.anim" BeginTime = "0" Times = "-1" Length = "3.433" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+		</Skills>
+		<Anims>
+				<Anim Name="g1008_ghost_run.anim"/>
+				<Anim Name="christmas_wave_boy.anim"/>
+				<Anim Name="g2042_look.anim"/>
+				<Anim Name="xiaoyuan.anim"/>
+				<Anim Name="g1008_radar_dead.anim"/>
+				
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

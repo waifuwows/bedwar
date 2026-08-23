@@ -1,0 +1,32 @@
+{
+    "frames": {
+        "game_activity_luck_100": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 692,
+                "h": 452
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 692,
+                "h": 452
+            },
+            "sourceSize": {
+                "w": 692,
+                "h": 452
+            }
+        }
+    },
+    "meta": {
+        "image": "game_activity_luck_100.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 694,
+            "h": 454
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

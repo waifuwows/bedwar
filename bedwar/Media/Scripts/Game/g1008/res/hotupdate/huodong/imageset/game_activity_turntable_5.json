@@ -1,0 +1,32 @@
+{
+    "frames": {
+        "bg2": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 682,
+                "h": 512
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 682,
+                "h": 512
+            },
+            "sourceSize": {
+                "w": 682,
+                "h": 512
+            }
+        }
+    },
+    "meta": {
+        "image": "game_activity_turntable_5.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 684,
+            "h": 514
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

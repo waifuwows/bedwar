@@ -1,0 +1,8 @@
+#符文&精华转换值
+runeConversionEssence: [5,20,300]
+
+#符文转换最大值
+runeConversionEssenceMax: [100,5000,20000]
+
+#最大转换总值
+MaxConversionValue: 20000

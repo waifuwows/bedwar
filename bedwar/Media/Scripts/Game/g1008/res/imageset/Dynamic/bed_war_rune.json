@@ -1,0 +1,86 @@
+{
+    "frames": {
+        "btn_0_add": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 31,
+                "h": 33
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 31,
+                "h": 33
+            },
+            "sourceSize": {
+                "w": 31,
+                "h": 33
+            }
+        },
+        "img_0_sale_bg": {
+            "frame": {
+                "x": 33,
+                "y": 1,
+                "w": 734,
+                "h": 330
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 734,
+                "h": 330
+            },
+            "sourceSize": {
+                "w": 734,
+                "h": 330
+            }
+        },
+        "img_9_bagitembd": {
+            "frame": {
+                "x": 768,
+                "y": 1,
+                "w": 14,
+                "h": 104
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 14,
+                "h": 104
+            },
+            "sourceSize": {
+                "w": 14,
+                "h": 104
+            }
+        },
+        "img_9_board01": {
+            "frame": {
+                "x": 783,
+                "y": 1,
+                "w": 45,
+                "h": 264
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 45,
+                "h": 264
+            },
+            "sourceSize": {
+                "w": 45,
+                "h": 264
+            }
+        }
+    },
+    "meta": {
+        "image": "bed_war_rune.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 829,
+            "h": 332
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

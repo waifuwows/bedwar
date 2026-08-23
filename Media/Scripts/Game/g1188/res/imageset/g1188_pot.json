@@ -1,0 +1,32 @@
+{
+    "frames": {
+        "g1188_pot_placeholder": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 32,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            }
+        }
+    },
+    "meta": {
+        "image": "g1188_pot.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 64,
+            "h": 64
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

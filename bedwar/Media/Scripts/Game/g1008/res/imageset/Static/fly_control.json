@@ -1,0 +1,104 @@
+{
+    "frames": {
+        "jiangdi": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 84,
+                "h": 84
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 84,
+                "h": 84
+            },
+            "sourceSize": {
+                "w": 84,
+                "h": 84
+            }
+        },
+        "jiangdi_pre": {
+            "frame": {
+                "x": 86,
+                "y": 1,
+                "w": 84,
+                "h": 84
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 84,
+                "h": 84
+            },
+            "sourceSize": {
+                "w": 84,
+                "h": 84
+            }
+        },
+        "luodi": {
+            "frame": {
+                "x": 171,
+                "y": 1,
+                "w": 117,
+                "h": 117
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 117,
+                "h": 117
+            },
+            "sourceSize": {
+                "w": 117,
+                "h": 117
+            }
+        },
+        "shenggao": {
+            "frame": {
+                "x": 289,
+                "y": 1,
+                "w": 84,
+                "h": 84
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 84,
+                "h": 84
+            },
+            "sourceSize": {
+                "w": 84,
+                "h": 84
+            }
+        },
+        "shenggao_pre": {
+            "frame": {
+                "x": 374,
+                "y": 1,
+                "w": 84,
+                "h": 84
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 84,
+                "h": 84
+            },
+            "sourceSize": {
+                "w": 84,
+                "h": 84
+            }
+        }
+    },
+    "meta": {
+        "image": "fly_control.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 459,
+            "h": 119
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

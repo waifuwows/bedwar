@@ -1,0 +1,32 @@
+{
+    "frames": {
+        "g1188_block_placeholder": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            }
+        }
+    },
+    "meta": {
+        "image": "texture.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 32,
+            "h": 32
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

@@ -1,0 +1,1742 @@
+{
+    "frames": {
+        "g1008_chest_01_blue_wood_b": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_01_cyan_wood_b": {
+            "frame": {
+                "x": 102,
+                "y": 1,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_01_gray_wood_b": {
+            "frame": {
+                "x": 203,
+                "y": 1,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_01_green_wood_b": {
+            "frame": {
+                "x": 304,
+                "y": 1,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_01_pink_wood_b": {
+            "frame": {
+                "x": 405,
+                "y": 1,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_01_rainbow_emerald_b": {
+            "frame": {
+                "x": 506,
+                "y": 1,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_01_rainbow_gold_b": {
+            "frame": {
+                "x": 607,
+                "y": 1,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_01_rainbow_iron_b": {
+            "frame": {
+                "x": 708,
+                "y": 1,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_01_rainbow_wood_b": {
+            "frame": {
+                "x": 809,
+                "y": 1,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_01_red_wood_b": {
+            "frame": {
+                "x": 910,
+                "y": 1,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_01_white_wood_b": {
+            "frame": {
+                "x": 1,
+                "y": 102,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_01_yellow_wood_b": {
+            "frame": {
+                "x": 102,
+                "y": 102,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_02_blue_wood_b": {
+            "frame": {
+                "x": 203,
+                "y": 102,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_02_cyan_wood_b": {
+            "frame": {
+                "x": 304,
+                "y": 102,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_02_gray_wood_b": {
+            "frame": {
+                "x": 405,
+                "y": 102,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_02_green_wood_b": {
+            "frame": {
+                "x": 506,
+                "y": 102,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_02_pink_wood_b": {
+            "frame": {
+                "x": 607,
+                "y": 102,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_02_rainbow_emerald_b": {
+            "frame": {
+                "x": 708,
+                "y": 102,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_02_rainbow_gold_b": {
+            "frame": {
+                "x": 809,
+                "y": 102,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_02_rainbow_iron_b": {
+            "frame": {
+                "x": 910,
+                "y": 102,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_02_rainbow_wood_b": {
+            "frame": {
+                "x": 1,
+                "y": 203,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_02_red_wood_b": {
+            "frame": {
+                "x": 102,
+                "y": 203,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_02_white_wood_b": {
+            "frame": {
+                "x": 203,
+                "y": 203,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_02_yellow_wood_b": {
+            "frame": {
+                "x": 304,
+                "y": 203,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_03_rainbow_emerald_b": {
+            "frame": {
+                "x": 405,
+                "y": 203,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_03_rainbow_iron_b": {
+            "frame": {
+                "x": 506,
+                "y": 203,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_03_rainbow_wood_b": {
+            "frame": {
+                "x": 607,
+                "y": 203,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_04_rainbow_emerald_b": {
+            "frame": {
+                "x": 708,
+                "y": 203,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_04_rainbow_gold_b": {
+            "frame": {
+                "x": 809,
+                "y": 203,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_04_rainbow_iron_b": {
+            "frame": {
+                "x": 910,
+                "y": 203,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_04_rainbow_wood_b": {
+            "frame": {
+                "x": 1,
+                "y": 304,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_05_rainbow_emerald_b": {
+            "frame": {
+                "x": 102,
+                "y": 304,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_05_rainbow_gold_b": {
+            "frame": {
+                "x": 203,
+                "y": 304,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_05_rainbow_iron_b": {
+            "frame": {
+                "x": 304,
+                "y": 304,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_05_rainbow_wood_b": {
+            "frame": {
+                "x": 405,
+                "y": 304,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_06_rainbow_emerald_b": {
+            "frame": {
+                "x": 506,
+                "y": 304,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_06_rainbow_gold_b": {
+            "frame": {
+                "x": 607,
+                "y": 304,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_06_rainbow_iron_b": {
+            "frame": {
+                "x": 708,
+                "y": 304,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_06_rainbow_wood_b": {
+            "frame": {
+                "x": 809,
+                "y": 304,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_07_rainbow_emerald_b": {
+            "frame": {
+                "x": 910,
+                "y": 304,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_07_rainbow_gold_b": {
+            "frame": {
+                "x": 1,
+                "y": 405,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_07_rainbow_iron_b": {
+            "frame": {
+                "x": 102,
+                "y": 405,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_07_rainbow_wood_b": {
+            "frame": {
+                "x": 203,
+                "y": 405,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_08_rainbow_emerald_b": {
+            "frame": {
+                "x": 304,
+                "y": 405,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_08_rainbow_gold_b": {
+            "frame": {
+                "x": 405,
+                "y": 405,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_08_rainbow_iron_b": {
+            "frame": {
+                "x": 506,
+                "y": 405,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_08_rainbow_wood_b": {
+            "frame": {
+                "x": 607,
+                "y": 405,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_09_rainbow_emerald_b": {
+            "frame": {
+                "x": 708,
+                "y": 405,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_09_rainbow_gold_b": {
+            "frame": {
+                "x": 809,
+                "y": 405,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_09_rainbow_iron_b": {
+            "frame": {
+                "x": 910,
+                "y": 405,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_09_rainbow_wood_b": {
+            "frame": {
+                "x": 1,
+                "y": 506,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_10_rainbow_emerald_b": {
+            "frame": {
+                "x": 102,
+                "y": 506,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_10_rainbow_gold_b": {
+            "frame": {
+                "x": 203,
+                "y": 506,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_10_rainbow_iron_b": {
+            "frame": {
+                "x": 304,
+                "y": 506,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_10_rainbow_wood_b": {
+            "frame": {
+                "x": 405,
+                "y": 506,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_11_rainbow_emerald_b": {
+            "frame": {
+                "x": 506,
+                "y": 506,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_11_rainbow_gold_b": {
+            "frame": {
+                "x": 607,
+                "y": 506,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_11_rainbow_iron_b": {
+            "frame": {
+                "x": 708,
+                "y": 506,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_11_rainbow_wood_b": {
+            "frame": {
+                "x": 809,
+                "y": 506,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_12_rainbow_emerald_b": {
+            "frame": {
+                "x": 910,
+                "y": 506,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_12_rainbow_gold_b": {
+            "frame": {
+                "x": 1,
+                "y": 607,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_12_rainbow_iron_b": {
+            "frame": {
+                "x": 102,
+                "y": 607,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_12_rainbow_wood_b": {
+            "frame": {
+                "x": 203,
+                "y": 607,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_13_rainbow_emerald_b": {
+            "frame": {
+                "x": 304,
+                "y": 607,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_13_rainbow_gold_b": {
+            "frame": {
+                "x": 405,
+                "y": 607,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_13_rainbow_iron_b": {
+            "frame": {
+                "x": 506,
+                "y": 607,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_13_rainbow_wood_b": {
+            "frame": {
+                "x": 607,
+                "y": 607,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_14_rainbow_emerald_b": {
+            "frame": {
+                "x": 708,
+                "y": 607,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_14_rainbow_gold_b": {
+            "frame": {
+                "x": 809,
+                "y": 607,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_14_rainbow_iron_b": {
+            "frame": {
+                "x": 910,
+                "y": 607,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_14_rainbow_wood_b": {
+            "frame": {
+                "x": 1,
+                "y": 708,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_15_rainbow_emerald_b": {
+            "frame": {
+                "x": 102,
+                "y": 708,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_15_rainbow_gold_b": {
+            "frame": {
+                "x": 203,
+                "y": 708,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_15_rainbow_iron_b": {
+            "frame": {
+                "x": 304,
+                "y": 708,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_15_rainbow_wood_b": {
+            "frame": {
+                "x": 405,
+                "y": 708,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_16_rainbow_emerald_b": {
+            "frame": {
+                "x": 506,
+                "y": 708,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_16_rainbow_gold_b": {
+            "frame": {
+                "x": 607,
+                "y": 708,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_16_rainbow_iron_b": {
+            "frame": {
+                "x": 708,
+                "y": 708,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_16_rainbow_wood_b": {
+            "frame": {
+                "x": 809,
+                "y": 708,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_17_rainbow_emerald_b": {
+            "frame": {
+                "x": 910,
+                "y": 708,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_17_rainbow_gold_b": {
+            "frame": {
+                "x": 1,
+                "y": 809,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_17_rainbow_iron_b": {
+            "frame": {
+                "x": 102,
+                "y": 809,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_17_rainbow_wood_b": {
+            "frame": {
+                "x": 203,
+                "y": 809,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_18_rainbow_emerald_b": {
+            "frame": {
+                "x": 304,
+                "y": 809,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_18_rainbow_gold_b": {
+            "frame": {
+                "x": 405,
+                "y": 809,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_18_rainbow_iron_b": {
+            "frame": {
+                "x": 506,
+                "y": 809,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_18_rainbow_wood_b": {
+            "frame": {
+                "x": 607,
+                "y": 809,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_19_rainbow_gold_b": {
+            "frame": {
+                "x": 708,
+                "y": 809,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_19_rainbow_iron_b": {
+            "frame": {
+                "x": 809,
+                "y": 809,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_19_rainbow_wood_b": {
+            "frame": {
+                "x": 910,
+                "y": 809,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_20_rainbow_gold_b": {
+            "frame": {
+                "x": 1,
+                "y": 910,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_20_rainbow_iron_b": {
+            "frame": {
+                "x": 102,
+                "y": 910,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_20_rainbow_wood_b": {
+            "frame": {
+                "x": 203,
+                "y": 910,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_21_rainbow_gold_b": {
+            "frame": {
+                "x": 304,
+                "y": 910,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_21_rainbow_wood_b": {
+            "frame": {
+                "x": 405,
+                "y": 910,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_chest_22_rainbow_wood_b": {
+            "frame": {
+                "x": 506,
+                "y": 910,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        }
+    },
+    "meta": {
+        "image": "g1008_chest.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 1011,
+            "h": 1011
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

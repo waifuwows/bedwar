@@ -1,0 +1,74 @@
+syntax = "proto3";
+
+import "common.proto";
+import "cmd.proto";
+
+message PlayerState
+{
+    int32 team_id = 1;              // 所在队伍ID
+    Position position = 2;          // 位置
+    Direction direction = 3;        // 朝向
+    float hp = 4;                   // 血量
+    float hp_max = 5;               // 最高血量
+    float sword_damage = 6;         // 剑伤害
+    float bow_damage = 7;           // 弓伤害
+    float defense = 8;              // 防御
+    float knockback_distance = 9;   // 击退距离
+    float sorb = 10;                // 吸血
+    float crt_rate = 11;            // 暴击几率
+    float crt_damage = 12;          // 暴击伤害
+    float sward_burn_rate = 13;     // 剑攻击燃烧敌人概率
+    float hp_recover = 14;          // 生命恢复
+    float damage_reduction = 15;    // 伤害减免
+    float kill_recover_rate = 16;   // 击杀恢复概率
+    int32 respawn = 17;             // 复活时间
+    float move_speed = 18;          // 移动速度
+    bool is_visible = 19;           // 是否可见
+}
+
+message Prop
+{
+    int32 prop_index = 1;           // 道具在道具栏中的位置
+    int32 prop_id = 2;              // 道具ID，通过配置文件确定
+    int32 prop_count = 3;           // 拥有个数
+}
+
+message RuneData
+{
+    int32 id = 1;      // 符文ID
+    int32 level = 2;   // 符文等级
+}
+
+message Player
+{
+    int64 id = 1;                      // 局内ID(userId)
+    bool is_ai = 2;                    // 是否托管AI
+    PlayerState player_state = 3;      // 状态信息
+    map<int32, Prop> props = 4;        // 道具信息
+    Prop current_prop = 5;             // 当前使用的道具
+    repeated Cmd commands = 6;         // 释放技能列表
+    int64 account = 7;                 // 用户账号
+    int32 level = 8;                   // 用户等级
+    int32 elo = 9;                     // 用户隐藏评分
+    int32 difficulty = 10;             // AI强度
+    repeated RuneData runes = 11;      // 穿戴的符文信息
+}
+
+message PlayerStat
+{
+    int64 id = 1;                   // 局内ID(userId)
+    int32 kill = 2;                 // 击杀
+    int32 dead = 3;                 // 死亡
+    int32 assist = 4;               // 助攻
+    float attack = 5;               // 伤害分
+    float hurt = 6;                 // 受伤分
+    float build = 7;                // 建造分
+    float participation_rate = 8;   // 参团率
+    float score = 9;                // MVP分
+}
+
+message ResultPlayer
+{
+    int64 id = 1;                   // 玩家ID
+    repeated Cmd commands = 2;      // AI响应指令
+}

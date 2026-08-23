@@ -1,0 +1,104 @@
+{
+  "editor": [
+    {
+      "editLabel": "技能释放条件",
+      "setValueType": "list",
+      "valueType": "table",
+      "isArray": true,
+      "fieldName": "conditionList",
+      "values": [
+        {
+          "editLabel": "没有条件",
+          "fieldName": "conditionType",
+          "valueType": "string",
+          "value": "None"
+        },
+        {
+          "editLabel": "半径内有敌人",
+          "fieldName": "conditionType",
+          "valueType": "string",
+          "value": "WithinRadius",
+          "params": [
+            {
+              "editLabel": "半径",
+              "setValueType": "input",
+              "fieldName": "radius",
+              "valueType": "number",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "editLabel": "目标搜索方式",
+      "fieldName": "searchData",
+      "setValueType": "list",
+      "valueType": "table",
+      "values": [
+        {
+          "editLabel": "无",
+          "fieldName": "searchType",
+          "valueType": "string",
+          "value": "none",
+          "params": []
+        },
+        {
+          "editLabel": "最近目标",
+          "fieldName": "searchType",
+          "valueType": "string",
+          "value": "recently",
+          "params": [
+            {
+              "editLabel": "半径",
+              "setValueType": "input",
+              "fieldName": "radius",
+              "valueType": "number",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "editLabel": "释放朝向",
+      "setValueType": "list",
+      "valueType": "table",
+      "fieldName": "triggerRotate",
+      "values": [
+        {
+          "editLabel": "不旋转",
+          "fieldName": "rotateType",
+          "valueType": "string",
+          "value": "NotRotate"
+        },
+        {
+          "editLabel": "朝向目标",
+          "fieldName": "rotateType",
+          "valueType": "string",
+          "value": "LookTarget"
+        }
+      ]
+    },
+    {
+      "editLabel": "技能引用的timeline",
+      "setValueType": "input",
+      "valueType": "string",
+      "fieldName": "timeline",
+      "editJumpType": "Timeline",
+      "loadListType": "Timeline",
+      "value": ""
+    }
+  ],
+  "conditionList": [
+    {
+      "conditionType": "WithinRadius",
+      "radius": 10
+    }
+  ],
+  "triggerRotate":  {
+    "rotateType": "RecentTarget",
+    "radius": 3
+  },
+  "timeline": "test_timeline_near01"
+}

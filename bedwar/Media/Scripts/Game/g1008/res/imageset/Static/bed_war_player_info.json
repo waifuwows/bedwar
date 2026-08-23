@@ -1,0 +1,518 @@
+{
+    "frames": {
+        "Weapon_Mastery": {
+            "frame": {
+                "x": 1,
+                "y": 438,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "apple_value": {
+            "frame": {
+                "x": 32,
+                "y": 1,
+                "w": 30,
+                "h": 22
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 22
+            }
+        },
+        "defense_value": {
+            "frame": {
+                "x": 63,
+                "y": 1,
+                "w": 30,
+                "h": 22
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 22
+            }
+        },
+        "effect-invisibility": {
+            "frame": {
+                "x": 1,
+                "y": 238,
+                "w": 44,
+                "h": 44
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 44,
+                "h": 44
+            },
+            "sourceSize": {
+                "w": 44,
+                "h": 44
+            }
+        },
+        "effect_ban_cure": {
+            "frame": {
+                "x": 46,
+                "y": 238,
+                "w": 44,
+                "h": 44
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 44,
+                "h": 44
+            },
+            "sourceSize": {
+                "w": 44,
+                "h": 44
+            }
+        },
+        "effect_ban_gold_apple": {
+            "frame": {
+                "x": 46,
+                "y": 193,
+                "w": 44,
+                "h": 44
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 44,
+                "h": 44
+            },
+            "sourceSize": {
+                "w": 44,
+                "h": 44
+            }
+        },
+        "effect_ban_parachute": {
+            "frame": {
+                "x": 1,
+                "y": 193,
+                "w": 44,
+                "h": 44
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 44,
+                "h": 44
+            },
+            "sourceSize": {
+                "w": 44,
+                "h": 44
+            }
+        },
+        "effect_ban_red_apple": {
+            "frame": {
+                "x": 1,
+                "y": 283,
+                "w": 44,
+                "h": 44
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 44,
+                "h": 44
+            },
+            "sourceSize": {
+                "w": 44,
+                "h": 44
+            }
+        },
+        "effect_ban_treatment": {
+            "frame": {
+                "x": 1,
+                "y": 115,
+                "w": 32,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            }
+        },
+        "effect_camouflage_spray": {
+            "frame": {
+                "x": 46,
+                "y": 328,
+                "w": 44,
+                "h": 44
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 44,
+                "h": 44
+            },
+            "sourceSize": {
+                "w": 44,
+                "h": 44
+            }
+        },
+        "effect_colorbomb": {
+            "frame": {
+                "x": 1,
+                "y": 373,
+                "w": 44,
+                "h": 44
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 44,
+                "h": 44
+            },
+            "sourceSize": {
+                "w": 44,
+                "h": 44
+            }
+        },
+        "effect_food": {
+            "frame": {
+                "x": 46,
+                "y": 373,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "effect_jump": {
+            "frame": {
+                "x": 1,
+                "y": 328,
+                "w": 44,
+                "h": 44
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 44,
+                "h": 44
+            },
+            "sourceSize": {
+                "w": 44,
+                "h": 44
+            }
+        },
+        "effect_move_speed": {
+            "frame": {
+                "x": 46,
+                "y": 283,
+                "w": 44,
+                "h": 44
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 44,
+                "h": 44
+            },
+            "sourceSize": {
+                "w": 44,
+                "h": 44
+            }
+        },
+        "effect_move_speed_down": {
+            "frame": {
+                "x": 57,
+                "y": 148,
+                "w": 44,
+                "h": 44
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 44,
+                "h": 44
+            },
+            "sourceSize": {
+                "w": 44,
+                "h": 44
+            }
+        },
+        "health_value": {
+            "frame": {
+                "x": 1,
+                "y": 51,
+                "w": 34,
+                "h": 26
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 34,
+                "h": 26
+            },
+            "sourceSize": {
+                "w": 34,
+                "h": 26
+            }
+        },
+        "ic_apple": {
+            "frame": {
+                "x": 34,
+                "y": 82,
+                "w": 28,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 28,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 28,
+                "h": 32
+            }
+        },
+        "ic_defense": {
+            "frame": {
+                "x": 1,
+                "y": 82,
+                "w": 32,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            }
+        },
+        "ic_health": {
+            "frame": {
+                "x": 63,
+                "y": 82,
+                "w": 32,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            }
+        },
+        "img_0_icon_camouflage_double": {
+            "frame": {
+                "x": 24,
+                "y": 148,
+                "w": 32,
+                "h": 37
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 37
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 37
+            }
+        },
+        "img_0_icon_ender_dragon": {
+            "frame": {
+                "x": 1,
+                "y": 148,
+                "w": 22,
+                "h": 34
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 34
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 34
+            }
+        },
+        "img_0_icon_paragliders": {
+            "frame": {
+                "x": 72,
+                "y": 51,
+                "w": 40,
+                "h": 30
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 40,
+                "h": 30
+            },
+            "sourceSize": {
+                "w": 40,
+                "h": 30
+            }
+        },
+        "img_0_icon_wither": {
+            "frame": {
+                "x": 34,
+                "y": 115,
+                "w": 32,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            }
+        },
+        "img_0_spray": {
+            "frame": {
+                "x": 36,
+                "y": 51,
+                "w": 35,
+                "h": 30
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 35,
+                "h": 30
+            },
+            "sourceSize": {
+                "w": 35,
+                "h": 30
+            }
+        },
+        "info_bg": {
+            "frame": {
+                "x": 1,
+                "y": 24,
+                "w": 84,
+                "h": 26
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 84,
+                "h": 26
+            },
+            "sourceSize": {
+                "w": 84,
+                "h": 26
+            }
+        },
+        "pbar_9_progress_cobalt": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 30,
+                "h": 22
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 22
+            }
+        },
+        "value_bg": {
+            "frame": {
+                "x": 86,
+                "y": 24,
+                "w": 26,
+                "h": 26
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 26,
+                "h": 26
+            },
+            "sourceSize": {
+                "w": 26,
+                "h": 26
+            }
+        },
+        "wolfbuff_32": {
+            "frame": {
+                "x": 67,
+                "y": 115,
+                "w": 32,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            }
+        }
+    },
+    "meta": {
+        "image": "bed_war_player_info.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 113,
+            "h": 503
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

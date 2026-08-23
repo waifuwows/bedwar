@@ -1,0 +1,10 @@
+{
+  "width": 18,
+  "height": 18,
+  "anim": [
+    {
+      "image": "set:chat_moderation_warning.json image:warning",
+      "duration": 2147483647
+    }
+  ]
+}

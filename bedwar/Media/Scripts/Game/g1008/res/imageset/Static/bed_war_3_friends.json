@@ -1,0 +1,68 @@
+{
+    "frames": {
+        "img_0_friends02": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 902,
+                "h": 153
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 902,
+                "h": 153
+            },
+            "sourceSize": {
+                "w": 902,
+                "h": 153
+            }
+        },
+        "img_0_friends04": {
+            "frame": {
+                "x": 1,
+                "y": 155,
+                "w": 931,
+                "h": 189
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 931,
+                "h": 189
+            },
+            "sourceSize": {
+                "w": 931,
+                "h": 189
+            }
+        },
+        "img_0_friends06": {
+            "frame": {
+                "x": 1,
+                "y": 345,
+                "w": 221,
+                "h": 37
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 221,
+                "h": 37
+            },
+            "sourceSize": {
+                "w": 221,
+                "h": 37
+            }
+        }
+    },
+    "meta": {
+        "image": "bed_war_3_friends.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 933,
+            "h": 383
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

@@ -1,0 +1,32 @@
+{
+  "frames": {
+    "warning": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      }
+    }
+  },
+  "meta": {
+    "image": "chat_moderation_warning.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 64,
+      "h": 64
+    },
+    "scale": "1",
+    "type": "frame"
+  }
+}

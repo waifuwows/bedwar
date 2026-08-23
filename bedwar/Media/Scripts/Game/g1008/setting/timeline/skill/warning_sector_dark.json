@@ -1,0 +1,14 @@
+{
+  "conditionList": [ {
+    "conditionType": "WithinRadius",
+    "radius": 15
+  } ],
+  "searchData": {
+    "radius": 15,
+    "searchType": "recently"
+  },
+  "timeline": "warning_sector_dark",
+  "triggerRotate": {
+    "rotateType": "LookTarget"
+  }
+}

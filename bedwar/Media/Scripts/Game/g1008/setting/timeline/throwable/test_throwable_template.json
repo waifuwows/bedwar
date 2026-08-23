@@ -1,0 +1,346 @@
+{
+  "editor": [
+    {
+      "editLabel": "检测策略",
+      "setValueType": "list",
+      "valueType": "string",
+      "fieldName": "checkStrategy",
+      "values": [
+        {
+          "editLabel": "AABB检测",
+          "valueType": "string",
+          "fieldName": "checkStrategy",
+          "value": "aabbCheck"
+        },
+        {
+          "editLabel": "OBB检测",
+          "valueType": "string",
+          "fieldName": "checkStrategy",
+          "value": "obbCheck"
+        },
+        {
+          "editLabel": "空袭",
+          "valueType": "string",
+          "fieldName": "checkStrategy",
+          "value": "airAttackCheck"
+        }
+      ]
+    },
+    {
+      "editLabel": "速度",
+      "setValueType": "input",
+      "valueType": "number",
+      "fieldName": "speed",
+      "value": 0
+    },
+    {
+      "editLabel": "抛射物特效",
+      "fieldName": "showEffect",
+      "setValueType": "map",
+      "valueType": "table",
+      "params": [
+        {
+          "editLabel": "抛射物特效",
+          "fieldName": "effectName",
+          "setValueType": "input",
+          "valueType": "string",
+          "value": ""
+        },
+        {
+          "editLabel": "缩放",
+          "fieldName": "effectScale",
+          "setValueType": "input",
+          "valueType": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "editLabel": "存活时间",
+      "setValueType": "input",
+      "valueType": "number",
+      "fieldName": "duration",
+      "value": 0
+    },
+    {
+      "editLabel": "伤害配置",
+      "setValueType": "map",
+      "valueType": "table",
+      "fieldName": "damageData",
+      "params": [
+        {
+          "editLabel": "伤害",
+          "setValueType": "input",
+          "valueType": "number",
+          "fieldName": "damage",
+          "value": 0
+        },
+        {
+          "editLabel": "伤害类型",
+          "setValueType": "list",
+          "valueType": "string",
+          "fieldName": "damageType",
+          "values": [
+            {
+              "editLabel": "通用",
+              "setValueType": "input",
+              "valueType": "string",
+              "fieldName": "damageType",
+              "value": "generic"
+            },
+            {
+              "editLabel": "爆炸",
+              "setValueType": "input",
+              "valueType": "string",
+              "fieldName": "damageType",
+              "value": "explosion"
+            },
+            {
+              "editLabel": "玩家",
+              "setValueType": "input",
+              "valueType": "string",
+              "fieldName": "damageType",
+              "value": "player"
+            }
+          ]
+        },
+        {
+          "editLabel": "启用受伤公式",
+          "setValueType": "list",
+          "valueType": "bool",
+          "fieldName": "enableHurtFormula",
+          "values": [
+            {
+              "editLabel": "启用",
+              "setValueType": "input",
+              "valueType": "bool",
+              "fieldName": "enableHurtFormula",
+              "value": true
+            },
+            {
+              "editLabel": "不启用",
+              "setValueType": "input",
+              "valueType": "bool",
+              "fieldName": "enableHurtFormula",
+              "value": false
+            }
+          ]
+        },
+        {
+          "editLabel": "能否击杀玩家",
+          "setValueType": "list",
+          "valueType": "bool",
+          "fieldName": "canKillPlayer",
+          "values": [
+            {
+              "editLabel": "能",
+              "setValueType": "input",
+              "valueType": "bool",
+              "fieldName": "canKillPlayer",
+              "value": true
+            },
+            {
+              "editLabel": "不能",
+              "setValueType": "input",
+              "valueType": "bool",
+              "fieldName": "canKillPlayer",
+              "value": false
+            }
+          ]
+        },
+        {
+          "editLabel": "击退距离",
+          "setValueType": "input",
+          "valueType": "number",
+          "fieldName": "knockBackDis",
+          "value": 0
+        },
+        {
+          "editLabel": "受伤添加buff(,分割)",
+          "setValueType": "input",
+          "valueType": "array",
+          "fieldName": "hitBuffList",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "editLabel": "攻击特效",
+      "fieldName": "attackEffect",
+      "setValueType": "map",
+      "valueType": "table",
+      "params": [
+        {
+          "editLabel": "攻击特效",
+          "fieldName": "effectName",
+          "setValueType": "input",
+          "valueType": "string",
+          "value": ""
+        },
+        {
+          "editLabel": "缩放",
+          "fieldName": "effectScale",
+          "setValueType": "input",
+          "valueType": "number",
+          "value": 1
+        },
+        {
+          "editLabel": "音效类型",
+          "fieldName": "soundData",
+          "setValueType": "list",
+          "valueType": "table",
+          "values": [
+            {
+              "editLabel": "2D音效",
+              "fieldName": "soundType",
+              "valueType": "string",
+              "value": "2d",
+              "params": [
+                {
+                  "editLabel": "音效ID",
+                  "fieldName": "soundId",
+                  "setValueType": "input",
+                  "valueType": "number",
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "editLabel": "3D音效",
+              "fieldName": "soundType",
+              "valueType": "string",
+              "value": "3d",
+              "params": [
+                {
+                  "editLabel": "音效ID",
+                  "fieldName": "soundId",
+                  "setValueType": "input",
+                  "valueType": "number",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "editLabel": "受击特效",
+      "fieldName": "hitEffect",
+      "setValueType": "map",
+      "valueType": "table",
+      "params": [
+        {
+          "editLabel": "受击特效",
+          "fieldName": "effectName",
+          "setValueType": "input",
+          "valueType": "string",
+          "value": ""
+        },
+        {
+          "editLabel": "缩放",
+          "fieldName": "effectScale",
+          "setValueType": "input",
+          "valueType": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "editLabel": "碰撞策略",
+      "setValueType": "list",
+      "valueType": "string",
+      "fieldName": "collisionStrategy",
+      "values": [
+        {
+          "editLabel": "穿透",
+          "valueType": "string",
+          "fieldName": "collisionStrategy",
+          "value": "penetrate"
+        },
+        {
+          "editLabel": "消失",
+          "valueType": "string",
+          "fieldName": "collisionStrategy",
+          "value": "disappear"
+        },
+        {
+          "editLabel": "到达指定位置爆炸",
+          "valueType": "string",
+          "fieldName": "collisionStrategy",
+          "value": "posExplosion"
+        }
+      ]
+    },
+    {
+      "editLabel": "碰撞盒大小",
+      "setValueType": "input",
+      "valueType": "vector3",
+      "fieldName": "extraBounds",
+      "value": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    {
+      "editLabel": "爆炸范围",
+      "setValueType": "input",
+      "valueType": "number",
+      "fieldName": "explosionRange",
+      "value": 1
+    },
+    {
+      "editLabel": "爆炸效果",
+      "setValueType": "list",
+      "valueType": "table",
+      "fieldName": "explosionSpecialEffect",
+      "values": [
+        {
+          "editLabel": "没有",
+          "setValueType": "input",
+          "valueType": "string",
+          "fieldName": "effectType",
+          "value": "none"
+        },
+        {
+          "editLabel": "火焰弹效果",
+          "setValueType": "input",
+          "valueType": "string",
+          "fieldName": "effectType",
+          "value": "fireBombExplosion"
+        },
+        {
+          "editLabel": "着火",
+          "setValueType": "input",
+          "valueType": "string",
+          "fieldName": "effectType",
+          "value": "createFire",
+          "params": [
+            {
+              "editLabel": "着火概率",
+              "setValueType": "input",
+              "valueType": "number",
+              "fieldName": "fireProbability",
+              "value": 1
+            },
+            {
+              "editLabel": "持续时间（毫秒）",
+              "setValueType": "input",
+              "valueType": "number",
+              "fieldName": "duration",
+              "value": 1000
+            }
+          ]
+        },
+        {
+          "editLabel": "破坏方块",
+          "setValueType": "input",
+          "valueType": "string",
+          "fieldName": "effectType",
+          "value": "breakBlock"
+        }
+      ]
+    }
+  ]
+}

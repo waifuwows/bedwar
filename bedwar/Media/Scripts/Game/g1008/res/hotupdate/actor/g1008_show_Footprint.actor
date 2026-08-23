@@ -1,0 +1,2651 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ActorTemplates>
+	<ActorTemplate name="g1008_show_Footprint.actor" Originalscale="0.68 0.68 0.68" Skeleton="boy_01.skel" AttackScale="1" TextHeight="0" IsShowShadow="true" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1" ThreadPriority="1">
+		<SubActors>
+		</SubActors>
+		<BodyParts>
+			<BodyPart MasterName="body" SlaveName="01" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "05_shoes_l_armor_widget.skin" ChangeColor = "3.12241e-39 1.9254e-38 1.45038e-38 2.8026e-45" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+				<Skin MeshName = "05_shoes_r_armor_widget.skin" ChangeColor = "3.12241e-39 1.9254e-38 1.45038e-38 2.8026e-45" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+				<Skin MeshName = "05_trousers_armor_widget.skin" ChangeColor = "3.12241e-39 1.9254e-38 1.45038e-38 2.8026e-45" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+				<Skin MeshName = "05_trunk_armor_widget.skin" ChangeColor = "3.12241e-39 1.9254e-38 1.45038e-38 2.8026e-45" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="02_face_boy.mesh"/>
+					<SocketName value="b_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="05_hair_armor_widget.mesh"/>
+					<SocketName value="b_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g1008_sword_104.mesh"/>
+					<SocketName value="s_hand_r"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill Name="g1008_show_footprint_01" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_1.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.35"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="2.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_02" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_2.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.35"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_03" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_3.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.35"/>
+					<Position_Z value="0"/>
+					<yaw value="-92.9197"/>
+					<pitch value="-80.4779"/>
+					<roll value="93.8906"/>
+					<scale value="1.75"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_04" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_4.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.35"/>
+					<Position_Z value="0"/>
+					<yaw value="107.798"/>
+					<pitch value="80.0861"/>
+					<roll value="106.536"/>
+					<scale value="1.75"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_05" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_5.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.35"/>
+					<Position_Z value="0"/>
+					<yaw value="89.5051"/>
+					<pitch value="-9.55301"/>
+					<roll value="-1.90049"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_06" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_6.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.35"/>
+					<Position_Z value="0"/>
+					<yaw value="177.548"/>
+					<pitch value="-0.427592"/>
+					<roll value="-8.99163"/>
+					<scale value="1.3"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_07" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_7.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.35"/>
+					<Position_Z value="0"/>
+					<yaw value="88.9973"/>
+					<pitch value="-9.49943"/>
+					<roll value="0.182624"/>
+					<scale value="1.3"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_08" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_8.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.35"/>
+					<Position_Z value="0"/>
+					<yaw value="87.9834"/>
+					<pitch value="-9.49478"/>
+					<roll value="0.349917"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_09" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_9.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.35"/>
+					<Position_Z value="0"/>
+					<yaw value="87.9834"/>
+					<pitch value="-9.49478"/>
+					<roll value="0.349917"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_10" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_10.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.35"/>
+					<Position_Z value="0"/>
+					<yaw value="87.9834"/>
+					<pitch value="-9.49478"/>
+					<roll value="88.8499"/>
+					<scale value="1.3"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_11" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_11.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="-0.0819136"/>
+					<Position_Y value="-0.395573"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="0.75"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_12" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_12.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.321405"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_13" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_13.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.515728"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="7.5"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_14" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_14.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="-0.0424068"/>
+					<Position_Y value="-0.373623"/>
+					<Position_Z value="0"/>
+					<yaw value="-91.5"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_15" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_15.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="-0.0424068"/>
+					<Position_Y value="-0.373623"/>
+					<Position_Z value="0"/>
+					<yaw value="-91.5"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_16" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_16.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="-0.6"/>
+					<Position_Y value="-0.373623"/>
+					<Position_Z value="0"/>
+					<yaw value="-91.5"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_17" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_29.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.3"/>
+					<Position_Z value="0"/>
+					<yaw value="-91.5"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_18" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_21.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.3"/>
+					<Position_Z value="0"/>
+					<yaw value="-91.5"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_19" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_19.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.14"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.9"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_20" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_20.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.45"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_21" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_21.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.3"/>
+					<Position_Z value="0"/>
+					<yaw value="-91.5"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_22" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_22.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.7"/>
+					<Position_Z value="0"/>
+					<yaw value="-90"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_23" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_23_l.effect"/>
+					<SocketName value="s_foot_l"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="180"/>
+					<pitch value="0"/>
+					<roll value="-90"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_footprint_23_r.effect"/>
+					<SocketName value="s_foot_r"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="180"/>
+					<pitch value="0"/>
+					<roll value="-90"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_24" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_24.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.45"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="1.25"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_25" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_25.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.515728"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="7.5"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_26" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_26.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.515728"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="7.5"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_27" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_l_27.effect"/>
+					<SocketName value="b_spine"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="-0.45"/>
+					<Position_Y value="0.1"/>
+					<Position_Z value="0.15"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_footprint_r_27.effect"/>
+					<SocketName value="b_spine"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="-0.45"/>
+					<Position_Y value="-0.1"/>
+					<Position_Z value="0.15"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_28" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_28.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.35"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_29" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_29.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.3"/>
+					<Position_Z value="0"/>
+					<yaw value="-91.5"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_30" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_30.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.35"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_31" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_31.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.515728"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="7.5"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_32" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_32.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.515728"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="7.5"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_33" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_33_l.effect"/>
+					<SocketName value="b_spine"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="-0.45"/>
+					<Position_Y value="0.1"/>
+					<Position_Z value="0.15"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_footprint_33_r.effect"/>
+					<SocketName value="b_spine"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="-0.45"/>
+					<Position_Y value="-0.1"/>
+					<Position_Z value="0.15"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_34" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_34.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.515728"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_35" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_35.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.515728"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_36" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_show_footprint.anim" BeginTime = "0" Times = "1" Length = "2.7" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_36.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.515728"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_37" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_37.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.46"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_38" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_38.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.515728"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_39" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_39.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.515728"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_40" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_40.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.43"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_41" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_41.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_42" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_42.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.8"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_43" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_43_l.effect"/>
+					<SocketName value="s_foot_l"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="180"/>
+					<pitch value="0"/>
+					<roll value="-90"/>
+					<scale value="0.9"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_footprint_43_r.effect"/>
+					<SocketName value="s_foot_r"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="180"/>
+					<pitch value="0"/>
+					<roll value="-90"/>
+					<scale value="0.9"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_44" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_44.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.515728"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_45" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_45.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.5"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_46" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_46.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.5"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_47" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_47.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.35"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_48" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_48.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.35"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_49" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_49.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.35"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_50" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_50.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.5"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_51" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_51.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.5"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_52" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_52.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.5"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_53" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_53.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.5"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_54" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_54.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.5"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_55" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_55.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.5"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_56" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_56.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.35"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_57" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_57.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.5"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_58" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_58.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.5"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_59" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_59.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.5"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_60" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_60.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.5"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_61" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_61.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.5"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_62" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_62.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.5"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_63" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_63.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.5"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_64" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_64.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.5"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_65" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_65.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.585"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_66" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_66_l.effect"/>
+					<SocketName value="s_foot_l"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="180"/>
+					<pitch value="0"/>
+					<roll value="-90"/>
+					<scale value="0.9"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_footprint_66_r.effect"/>
+					<SocketName value="s_foot_r"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="180"/>
+					<pitch value="0"/>
+					<roll value="-90"/>
+					<scale value="0.9"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_67" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_67_show.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.35"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_68" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_68.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.35"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_69" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_69.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.55"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="1.1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_70" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_70.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.55"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="-10"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_71" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_71.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.35"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="-10"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_72" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_show_footprint.anim" BeginTime = "0" Times = "1" Length = "2.7" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_72.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-1"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_73" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_73_1.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.65"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="30"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_footprint_73.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.65"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="30"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_74" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_show_footprint.anim" BeginTime = "0" Times = "1" Length = "2.7" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_74.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.35"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_75" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_show_footprint.anim" BeginTime = "0" Times = "-1" Length = "2.7" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_75.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.35"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_76" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_76.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.35"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_77" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_77.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.35"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_78" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_stand05.anim" BeginTime = "0" Times = "1" Length = "2.033" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_78.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.5"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="-9.5"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_79" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_79.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.35"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="1.2"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_80" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_80.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.35"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_81" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_stand05.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_81.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.67"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_82" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_stand05.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_82.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.8"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="1.2"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_83" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_show_footprint.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_icon_footprint_83.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="-0.3"/>
+					<Position_Y value="-0.25"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_84" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_show_footprint.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_icon_footprint_84.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.35"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_85" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_icon_footprint_85.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.35"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_86" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_show_footprint.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_86.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.3"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_87" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_87.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.7"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="1.2"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_88" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_88.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.35"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_89" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_89.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.35"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_90" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_90.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.35"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_91" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_91.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.5"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_92" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_92.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.5"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_93" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_93.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.5"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_94" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_94.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.5"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_95" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_95_l.effect"/>
+					<SocketName value="b_spine"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="-0.4"/>
+					<Position_Y value="0.25"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_footprint_95_r.effect"/>
+					<SocketName value="b_spine"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="-0.4"/>
+					<Position_Y value="0.05"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="180"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_96" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_96.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.5"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_97" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_97.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.5"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_98" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_stand05.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_98.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.55"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="1.1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_99" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_99.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.5"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_100" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_100.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.5"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_101" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_101.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.5"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_102" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_102.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.5"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_103" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_103.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.5"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_104" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_104.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.5"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_show_footprint_105" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_jump_special.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_footprint_105.effect"/>
+					<SocketName value="bip01"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.5"/>
+					<Position_Z value="0"/>
+					<yaw value="1"/>
+					<pitch value="-0.15"/>
+					<roll value="9.5"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g1008_effect_petskill_01" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Effect>
+					<FileName value="g1008_mount_10_idle_05.effect"/>
+					<SocketName value="s_hand_r"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+		</Skills>
+		<Anims>
+				<Anim Name="boy_attack01.anim"/>
+				<Anim Name="boy_attack03.anim"/>
+				<Anim Name="g1008_show_footprint.anim"/>
+				<Anim Name="boy_stand05.anim"/>
+				<Anim Name="g1008_jump_special.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

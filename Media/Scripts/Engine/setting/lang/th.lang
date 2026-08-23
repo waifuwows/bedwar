@@ -1,0 +1,5 @@
+custom_room_resource_load_error_retry=โหลดทรัพยากรล้มเหลว โปรดออกจากเกมแล้วเข้าใหม่\\nหากปัญหายังคงอยู่ โปรดล้างทรัพยากรแล้วเข้าเกมใหม่
+chat_moderation_menu_report=รายงานผู้ใช้
+chat_moderation_menu_block=บล็อกผู้ใช้
+chat_moderation_report_success=รายงาน %s สำเร็จ
+chat_moderation_block_success=บล็อก %s สำเร็จ

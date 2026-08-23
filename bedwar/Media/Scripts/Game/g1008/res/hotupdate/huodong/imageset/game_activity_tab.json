@@ -1,0 +1,752 @@
+{
+    "frames": {
+        "btn_0_Energy": {
+            "frame": {
+                "x": 421,
+                "y": 553,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        },
+        "btn_0_Energy_1": {
+            "frame": {
+                "x": 1,
+                "y": 645,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        },
+        "btn_0_activity_arkanoid": {
+            "frame": {
+                "x": 631,
+                "y": 553,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        },
+        "btn_0_activity_boxes": {
+            "frame": {
+                "x": 211,
+                "y": 553,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        },
+        "btn_0_activity_consume": {
+            "frame": {
+                "x": 1,
+                "y": 553,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        },
+        "btn_0_activity_consume1": {
+            "frame": {
+                "x": 211,
+                "y": 461,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        },
+        "btn_0_activity_consume2": {
+            "frame": {
+                "x": 631,
+                "y": 461,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        },
+        "btn_0_activity_draw_1902": {
+            "frame": {
+                "x": 421,
+                "y": 461,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        },
+        "btn_0_activity_draw_1903": {
+            "frame": {
+                "x": 1,
+                "y": 461,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        },
+        "btn_0_activity_draw_fishing": {
+            "frame": {
+                "x": 211,
+                "y": 645,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        },
+        "btn_0_activity_draw_knight": {
+            "frame": {
+                "x": 631,
+                "y": 737,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        },
+        "btn_0_activity_free_gift": {
+            "frame": {
+                "x": 211,
+                "y": 829,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        },
+        "btn_0_activity_gift_optional": {
+            "frame": {
+                "x": 421,
+                "y": 737,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        },
+        "btn_0_activity_gost_1": {
+            "frame": {
+                "x": 211,
+                "y": 737,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        },
+        "btn_0_activity_growth": {
+            "frame": {
+                "x": 421,
+                "y": 829,
+                "w": 210,
+                "h": 92
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 210,
+                "h": 92
+            },
+            "sourceSize": {
+                "w": 210,
+                "h": 92
+            }
+        },
+        "btn_0_activity_growth2": {
+            "frame": {
+                "x": 421,
+                "y": 645,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        },
+        "btn_0_activity_growth_1": {
+            "frame": {
+                "x": 1,
+                "y": 737,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        },
+        "btn_0_activity_ice_cream1": {
+            "frame": {
+                "x": 631,
+                "y": 645,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        },
+        "btn_0_activity_magic_shop_02": {
+            "frame": {
+                "x": 1,
+                "y": 829,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        },
+        "btn_0_activity_mystery": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        },
+        "btn_0_activity_mystery_boxes": {
+            "frame": {
+                "x": 212,
+                "y": 922,
+                "w": 210,
+                "h": 92
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 210,
+                "h": 92
+            },
+            "sourceSize": {
+                "w": 210,
+                "h": 92
+            }
+        },
+        "btn_0_activity_partygame2": {
+            "frame": {
+                "x": 421,
+                "y": 93,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        },
+        "btn_0_activity_relaxcity": {
+            "frame": {
+                "x": 1,
+                "y": 185,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        },
+        "btn_0_activity_sheep": {
+            "frame": {
+                "x": 631,
+                "y": 93,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        },
+        "btn_0_activity_skiin_lottery": {
+            "frame": {
+                "x": 211,
+                "y": 93,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        },
+        "btn_0_activity_square2": {
+            "frame": {
+                "x": 1,
+                "y": 93,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        },
+        "btn_0_activity_square_1152": {
+            "frame": {
+                "x": 211,
+                "y": 1,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        },
+        "btn_0_activity_tech": {
+            "frame": {
+                "x": 1,
+                "y": 922,
+                "w": 210,
+                "h": 92
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 210,
+                "h": 92
+            },
+            "sourceSize": {
+                "w": 210,
+                "h": 92
+            }
+        },
+        "btn_0_activity_turntable": {
+            "frame": {
+                "x": 631,
+                "y": 1,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        },
+        "btn_activity_balloon": {
+            "frame": {
+                "x": 421,
+                "y": 1,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        },
+        "btn_activity_h54": {
+            "frame": {
+                "x": 211,
+                "y": 185,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        },
+        "btn_activity_h55": {
+            "frame": {
+                "x": 421,
+                "y": 185,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        },
+        "btn_activity_h56": {
+            "frame": {
+                "x": 1,
+                "y": 369,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        },
+        "btn_activity_h58": {
+            "frame": {
+                "x": 421,
+                "y": 369,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        },
+        "btn_activity_h59": {
+            "frame": {
+                "x": 211,
+                "y": 369,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        },
+        "btn_activity_h60": {
+            "frame": {
+                "x": 631,
+                "y": 277,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        },
+        "btn_activity_h61": {
+            "frame": {
+                "x": 421,
+                "y": 277,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        },
+        "btn_activity_keylottery": {
+            "frame": {
+                "x": 631,
+                "y": 185,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        },
+        "btn_activity_weapon_tap": {
+            "frame": {
+                "x": 211,
+                "y": 277,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        },
+        "btn_activity_weapon_tap_31": {
+            "frame": {
+                "x": 1,
+                "y": 277,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        },
+        "tab": {
+            "frame": {
+                "x": 631,
+                "y": 369,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        }
+    },
+    "meta": {
+        "image": "game_activity_tab.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 841,
+            "h": 1015
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "conditionList": [ {
+    "conditionType": "WithinRadius",
+    "radius": 6
+  } ],
+  "searchData": {
+    "searchType": "none"
+  },
+  "timeline": "near_explosion_dark",
+  "triggerRotate": {
+    "rotateType": "NotRotate"
+  }
+}

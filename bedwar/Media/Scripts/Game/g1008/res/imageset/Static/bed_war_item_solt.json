@@ -1,0 +1,140 @@
+{
+    "frames": {
+        "bar_bg": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 32,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            }
+        },
+        "inv_normal": {
+            "frame": {
+                "x": 34,
+                "y": 1,
+                "w": 57,
+                "h": 54
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 57,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 57,
+                "h": 54
+            }
+        },
+        "inv_press": {
+            "frame": {
+                "x": 92,
+                "y": 1,
+                "w": 57,
+                "h": 54
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 57,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 57,
+                "h": 54
+            }
+        },
+        "item_nor": {
+            "frame": {
+                "x": 1,
+                "y": 56,
+                "w": 16,
+                "h": 16
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "item_press": {
+            "frame": {
+                "x": 18,
+                "y": 56,
+                "w": 16,
+                "h": 16
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "item_select": {
+            "frame": {
+                "x": 35,
+                "y": 56,
+                "w": 37,
+                "h": 37
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 37,
+                "h": 37
+            },
+            "sourceSize": {
+                "w": 37,
+                "h": 37
+            }
+        },
+        "packet_normal": {
+            "frame": {
+                "x": 73,
+                "y": 56,
+                "w": 57,
+                "h": 54
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 57,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 57,
+                "h": 54
+            }
+        }
+    },
+    "meta": {
+        "image": "bed_war_item_solt.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 150,
+            "h": 111
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

@@ -1,0 +1,54 @@
+{
+  "?tips": "稻草人攻击",
+  "actionList": [ {
+    "actionType": "Trigger",
+    "durationTick": 0,
+    "index": 1,
+    "searchData": {
+      "angleList": [ "-60", "-30", "0", "30", "60" ],
+      "searchType": "forwardAngle"
+    },
+    "sourceConfigData": {
+      "configName": "tower_attack",
+      "delayShoot": 0,
+      "extraRandomPosOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "playWarning": {
+        "effectScale": 1,
+        "innerEffectName": "g1008_pve_attack_circle_02.effect",
+        "outEffectName": "g1008_pve_attack_circle_01.effect",
+        "warningTime": 0
+      },
+      "soundData": {
+        "soundId": 0,
+        "soundType": "2d"
+      },
+      "sourceConfigType": "throwable",
+      "startPosOffset": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "throwableDirData": {
+        "angle": 0,
+        "dirType": "forward"
+      }
+    },
+    "startTick": 1,
+    "timelineName": "tower_attack_fan",
+    "triggerData": {
+      "triggerType": "once"
+    }
+  }, {
+    "actionType": "PlayAnim",
+    "animName": "attack",
+    "durationTick": 0,
+    "index": 2,
+    "startTick": 1,
+    "timelineName": "tower_attack_fan"
+  } ],
+  "endTick": 1
+}

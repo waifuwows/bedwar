@@ -1,0 +1,19 @@
+#特殊模式初始符文 1红 2蓝 3黄 4紫
+initFakeRunes:
+	-
+		core: 19001
+		common: [10404,10404,10404,10304,10304,10504,10504]
+	-
+		core: 19004
+		common: [13204,13204,13204,10904,10904,10704,10704]
+	-
+		core: 19007
+		common: [12804,12804,12804,11204,11204,11204,11204]
+	-
+		core: 19010
+		common: [11804,11804,11804,11804,11804,11904,11904]
+
+forbiddenRunes:
+	RespawnItemIron: true
+	OnKillIron:  true
+	InitItemIron: true

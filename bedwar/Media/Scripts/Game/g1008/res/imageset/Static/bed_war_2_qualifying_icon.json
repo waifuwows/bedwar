@@ -1,0 +1,230 @@
+{
+    "frames": {
+        "img_0_ic_honor_lv1": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "img_0_ic_honor_lv10": {
+            "frame": {
+                "x": 66,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "img_0_ic_honor_lv11": {
+            "frame": {
+                "x": 131,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "img_0_ic_honor_lv12": {
+            "frame": {
+                "x": 1,
+                "y": 66,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "img_0_ic_honor_lv2": {
+            "frame": {
+                "x": 66,
+                "y": 66,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "img_0_ic_honor_lv3": {
+            "frame": {
+                "x": 131,
+                "y": 66,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "img_0_ic_honor_lv4": {
+            "frame": {
+                "x": 1,
+                "y": 131,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "img_0_ic_honor_lv5": {
+            "frame": {
+                "x": 66,
+                "y": 131,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "img_0_ic_honor_lv6": {
+            "frame": {
+                "x": 131,
+                "y": 131,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "img_0_ic_honor_lv7": {
+            "frame": {
+                "x": 1,
+                "y": 196,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "img_0_ic_honor_lv8": {
+            "frame": {
+                "x": 66,
+                "y": 196,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "img_0_ic_honor_lv9": {
+            "frame": {
+                "x": 131,
+                "y": 196,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        }
+    },
+    "meta": {
+        "image": "bed_war_2_qualifying_icon.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 256,
+            "h": 512
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

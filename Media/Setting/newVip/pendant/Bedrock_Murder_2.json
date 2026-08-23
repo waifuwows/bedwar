@@ -1,0 +1,171 @@
+{
+    "width": 128,
+    "height": 128,
+    "scale": 1.8,
+    "offset": {
+        "x": 0,
+        "y": -0.05
+    },
+    "anim": [
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:1",
+            "duration": 40
+        },
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:2",
+            "duration": 40
+        },
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:3",
+            "duration": 40
+        },
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:4",
+            "duration": 40
+        },
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:5",
+            "duration": 40
+        },
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:6",
+            "duration": 40
+        },
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:7",
+            "duration": 40
+        },
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:8",
+            "duration": 40
+        },
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:9",
+            "duration": 40
+        },
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:10",
+            "duration": 40
+        },
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:11",
+            "duration": 40
+        },
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:12",
+            "duration": 40
+        },
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:13",
+            "duration": 40
+        },
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:14",
+            "duration": 40
+        },
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:15",
+            "duration": 40
+        },
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:16",
+            "duration": 40
+        },
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:17",
+            "duration": 40
+        },
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:18",
+            "duration": 40
+        },
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:19",
+            "duration": 40
+        },
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:20",
+            "duration": 40
+        },
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:21",
+            "duration": 40
+        },
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:22",
+            "duration": 40
+        },
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:23",
+            "duration": 40
+        },
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:24",
+            "duration": 40
+        },
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:25",
+            "duration": 40
+        },
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:26",
+            "duration": 40
+        },
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:27",
+            "duration": 40
+        },
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:28",
+            "duration": 40
+        },
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:29",
+            "duration": 40
+        },
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:30",
+            "duration": 40
+        },
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:31",
+            "duration": 40
+        },
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:32",
+            "duration": 40
+        },
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:33",
+            "duration": 40
+        },
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:34",
+            "duration": 40
+        },
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:35",
+            "duration": 40
+        },
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:36",
+            "duration": 40
+        },
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:37",
+            "duration": 40
+        },
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:38",
+            "duration": 40
+        },
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:39",
+            "duration": 40
+        },
+        {
+            "image": "set:Bedrock_Murder_2_frame.json image:40",
+            "duration": 40
+        }
+    ]
+}

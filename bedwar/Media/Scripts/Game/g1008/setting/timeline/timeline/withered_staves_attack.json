@@ -1,0 +1,45 @@
+{
+  "?tips": "凋零法杖攻击",
+  "actionList": [ {
+    "actionType": "Trigger",
+    "durationTick": 0,
+    "index": 1,
+    "searchData": {
+      "searchType": "selfPosition"
+    },
+    "sourceConfigData": {
+      "configName": "withered_staves_attack",
+      "delayShoot": 0,
+      "extraRandomPosOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "playWarning": {
+        "effectScale": 1,
+        "innerEffectName": "g1008_pve_attack_circle_02.effect",
+        "outEffectName": "g1008_pve_attack_circle_01.effect",
+        "warningTime": 0
+      },
+      "soundData": {
+        "soundId": 0,
+        "soundType": "2d"
+      },
+      "sourceConfigType": "throwable",
+      "startPosOffset": {
+        "x": 0,
+        "y": 1.62,
+        "z": 0
+      },
+      "throwableDirData": {
+        "dirType": "playerViewDir"
+      }
+    },
+    "startTick": 1,
+    "timelineName": "withered_staves_attack",
+    "triggerData": {
+      "triggerType": "once"
+    }
+  } ],
+  "endTick": 1
+}

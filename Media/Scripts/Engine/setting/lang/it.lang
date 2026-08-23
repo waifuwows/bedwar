@@ -1,0 +1,5 @@
+custom_room_resource_load_error_retry=Caricamento delle risorse non riuscito. Esci dal gioco e rientra.\\nSe il problema persiste, pulisci le risorse e rientra nel gioco.
+chat_moderation_menu_report=Segnala utente
+chat_moderation_menu_block=Blocca utente
+chat_moderation_report_success=%s è stato segnalato con successo
+chat_moderation_block_success=%s è stato bloccato con successo

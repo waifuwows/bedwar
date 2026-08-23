@@ -1,0 +1,910 @@
+{
+  "editor": [
+    {
+      "editLabel": "事件类型",
+      "fieldName": "actionList",
+      "setValueType": "list",
+      "valueType": "table",
+      "values": [
+        {
+          "editLabel": "播放动作",
+          "fieldName": "actionType",
+          "valueType": "table",
+          "value": "PlayAnim",
+          "params": [
+            {
+              "editLabel": "动作名",
+              "setValueType": "input",
+              "fieldName": "animName",
+              "valueType": "string",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "editLabel": "旋转",
+          "setValueType": "list",
+          "fieldName": "actionType",
+          "valueType": "string",
+          "value": "Rotate",
+          "params": [
+            {
+              "editLabel": "旋转方式",
+              "setValueType": "list",
+              "fieldName": "rotateType",
+              "valueType": "string",
+              "values": [
+                {
+                  "editLabel": "不旋转",
+                  "fieldName": "rotateType",
+                  "valueType": "string",
+                  "value": "NotRotate"
+                },
+                {
+                  "editLabel": "朝向目标",
+                  "fieldName": "rotateType",
+                  "valueType": "string",
+                  "value": "LookTarget"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "editLabel": "播放特效",
+          "fieldName": "actionType",
+          "valueType": "table",
+          "value": "PlayEffect",
+          "params": [
+            {
+              "editLabel": "特效名",
+              "setValueType": "input",
+              "fieldName": "effectName",
+              "valueType": "string",
+              "value": ""
+            },
+            {
+              "editLabel": "位置",
+              "setValueType": "list",
+              "fieldName": "positionType",
+              "valueType": "string",
+              "values": [
+                {
+                  "editLabel": "目标位置",
+                  "valueType": "string",
+                  "value": "target"
+                },
+                {
+                  "editLabel": "坐标位置",
+                  "valueType": "string",
+                  "value": "position"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "editLabel": "播放预警特效",
+          "fieldName": "actionType",
+          "valueType": "table",
+          "value": "PlayWarningEffect",
+          "params": [
+            {
+              "editLabel": "外特效名",
+              "setValueType": "list",
+              "fieldName": "outEffectName",
+              "valueType": "string",
+              "values": [
+                {
+                  "editLabel": "矩形",
+                  "setValueType": "input",
+                  "fieldName": "outEffectName",
+                  "valueType": "string",
+                  "value": "g1008_pve_warning_rectangle.effect"
+                },
+                {
+                  "editLabel": "扇形",
+                  "setValueType": "input",
+                  "fieldName": "outEffectName",
+                  "valueType": "string",
+                  "value": "g1008_pve_attack_sector_01.effect"
+                },
+                {
+                  "editLabel": "圆形",
+                  "setValueType": "input",
+                  "fieldName": "outEffectName",
+                  "valueType": "string",
+                  "value": "g1008_pve_attack_circle_01.effect"
+                },
+                {
+                  "editLabel": "直线",
+                  "setValueType": "input",
+                  "fieldName": "innerEffectName",
+                  "valueType": "string",
+                  "value": "g1008_pve_warning_line.effect"
+                }
+              ]
+            },
+            {
+              "editLabel": "内特效名",
+              "setValueType": "list",
+              "fieldName": "innerEffectName",
+              "valueType": "string",
+              "values": [
+                {
+                  "editLabel": "矩形",
+                  "setValueType": "input",
+                  "fieldName": "innerEffectName",
+                  "valueType": "string",
+                  "value": "g1008_pve_warning_rectangle_01.effect"
+                },
+                {
+                  "editLabel": "扇形",
+                  "setValueType": "input",
+                  "fieldName": "outEffectName",
+                  "valueType": "string",
+                  "value": "g1008_pve_attack_sector_02.effect"
+                },
+                {
+                  "editLabel": "圆形",
+                  "setValueType": "input",
+                  "fieldName": "outEffectName",
+                  "valueType": "string",
+                  "value": "g1008_pve_attack_circle_02.effect"
+                },
+                {
+                  "editLabel": "直线",
+                  "setValueType": "input",
+                  "fieldName": "innerEffectName",
+                  "valueType": "string",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "editLabel": "缩放",
+              "setValueType": "input",
+              "fieldName": "effectScale",
+              "valueType": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "editLabel": "造成伤害",
+          "fieldName": "actionType",
+          "valueType": "table",
+          "value": "CauseDamage",
+          "params": [
+            {
+              "editLabel": "伤害配置",
+              "setValueType": "map",
+              "valueType": "table",
+              "fieldName": "damageData",
+              "params": [
+                {
+                  "editLabel": "伤害",
+                  "setValueType": "input",
+                  "valueType": "number",
+                  "fieldName": "damage",
+                  "value": 0
+                },
+                {
+                  "editLabel": "伤害类型",
+                  "setValueType": "list",
+                  "valueType": "string",
+                  "fieldName": "damageType",
+                  "values": [
+                    {
+                      "editLabel": "通用",
+                      "setValueType": "input",
+                      "valueType": "string",
+                      "fieldName": "damageType",
+                      "value": "generic"
+                    },
+                    {
+                      "editLabel": "爆炸",
+                      "setValueType": "input",
+                      "valueType": "string",
+                      "fieldName": "damageType",
+                      "value": "explosion"
+                    },
+                    {
+                      "editLabel": "玩家",
+                      "setValueType": "input",
+                      "valueType": "string",
+                      "fieldName": "damageType",
+                      "value": "player"
+                    }
+                  ]
+                },
+                {
+                  "editLabel": "启用受伤公式",
+                  "setValueType": "list",
+                  "valueType": "bool",
+                  "fieldName": "enableHurtFormula",
+                  "values": [
+                    {
+                      "editLabel": "启用",
+                      "setValueType": "input",
+                      "valueType": "bool",
+                      "fieldName": "enableHurtFormula",
+                      "value": true
+                    },
+                    {
+                      "editLabel": "不启用",
+                      "setValueType": "input",
+                      "valueType": "bool",
+                      "fieldName": "enableHurtFormula",
+                      "value": false
+                    }
+                  ]
+                },
+                {
+                  "editLabel": "能否击杀玩家",
+                  "setValueType": "list",
+                  "valueType": "bool",
+                  "fieldName": "canKillPlayer",
+                  "values": [
+                    {
+                      "editLabel": "能",
+                      "setValueType": "input",
+                      "valueType": "bool",
+                      "fieldName": "canKillPlayer",
+                      "value": true
+                    },
+                    {
+                      "editLabel": "不能",
+                      "setValueType": "input",
+                      "valueType": "bool",
+                      "fieldName": "canKillPlayer",
+                      "value": false
+                    }
+                  ]
+                },
+                {
+                  "editLabel": "击退距离",
+                  "setValueType": "input",
+                  "valueType": "number",
+                  "fieldName": "knockBackDis",
+                  "value": 0
+                },
+                {
+                  "editLabel": "受伤添加buff(,分割)",
+                  "setValueType": "input",
+                  "valueType": "array",
+                  "fieldName": "hitBuffList",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "editLabel": "攻击特效",
+              "fieldName": "attackEffect",
+              "setValueType": "map",
+              "valueType": "table",
+              "params": [
+                {
+                  "editLabel": "攻击特效",
+                  "fieldName": "effectName",
+                  "setValueType": "input",
+                  "valueType": "string",
+                  "value": ""
+                },
+                {
+                  "editLabel": "缩放",
+                  "fieldName": "effectScale",
+                  "setValueType": "input",
+                  "valueType": "number",
+                  "value": 1
+                },
+                {
+                  "editLabel": "旋转",
+                  "fieldName": "rotateType",
+                  "setValueType": "list",
+                  "valueType": "string",
+                  "values": [
+                    {
+                      "editLabel": "不旋转",
+                      "fieldName": "rotateType",
+                      "setValueType": "input",
+                      "valueType": "string",
+                      "value": "none"
+                    },
+                    {
+                      "editLabel": "前方",
+                      "fieldName": "rotateType",
+                      "setValueType": "input",
+                      "valueType": "string",
+                      "value": "forward"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "editLabel": "受击特效",
+              "setValueType": "map",
+              "fieldName": "hitEffect",
+              "valueType": "table",
+              "params": [
+                {
+                  "editLabel": "受击特效",
+                  "fieldName": "effectName",
+                  "setValueType": "input",
+                  "valueType": "string",
+                  "value": ""
+                },
+                {
+                  "editLabel": "缩放",
+                  "fieldName": "effectScale",
+                  "setValueType": "input",
+                  "valueType": "number",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "editLabel": "目标搜索方式",
+              "fieldName": "searchTargetsData",
+              "setValueType": "list",
+              "valueType": "table",
+              "values": [
+                {
+                  "editLabel": "半径内目标",
+                  "setValueType": "input",
+                  "fieldName": "searchType",
+                  "valueType": "string",
+                  "value": "circular",
+                  "params": [
+                    {
+                      "editLabel": "半径",
+                      "fieldName": "radius",
+                      "setValueType": "input",
+                      "valueType": "number",
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "editLabel": "扇形内目标",
+                  "fieldName": "searchType",
+                  "valueType": "string",
+                  "value": "fanShaped",
+                  "params": [
+                    {
+                      "editLabel": "半径",
+                      "setValueType": "input",
+                      "fieldName": "radius",
+                      "valueType": "number",
+                      "value": 1
+                    },
+                    {
+                      "editLabel": "扇形角度",
+                      "setValueType": "input",
+                      "fieldName": "fanAngle",
+                      "valueType": "number",
+                      "value": 60
+                    }
+                  ]
+                },
+                {
+                  "editLabel": "玩家id",
+                  "fieldName": "searchType",
+                  "valueType": "string",
+                  "value": "targetUserId"
+                }
+              ]
+            },
+            {
+              "editLabel": "音效类型",
+              "fieldName": "soundData",
+              "setValueType": "list",
+              "valueType": "table",
+              "values": [
+                {
+                  "editLabel": "2D音效",
+                  "fieldName": "soundType",
+                  "valueType": "string",
+                  "value": "2d",
+                  "params": [
+                    {
+                      "editLabel": "音效ID",
+                      "fieldName": "soundId",
+                      "setValueType": "input",
+                      "valueType": "number",
+                      "value": 0
+                    }
+                  ]
+                },
+                {
+                  "editLabel": "3D音效",
+                  "fieldName": "soundType",
+                  "valueType": "string",
+                  "value": "3d",
+                  "params": [
+                    {
+                      "editLabel": "音效ID",
+                      "fieldName": "soundId",
+                      "setValueType": "input",
+                      "valueType": "number",
+                      "value": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "editLabel": "触发器",
+          "fieldName": "actionType",
+          "valueType": "table",
+          "value": "Trigger",
+          "params": [
+            {
+              "editLabel": "触发源类型",
+              "fieldName": "sourceConfigData",
+              "setValueType": "list",
+              "valueType": "table",
+              "notShowParams": true,
+              "values": [
+                {
+                  "editLabel": "timeline",
+                  "fieldName": "sourceConfigType",
+                  "setValueType": "input",
+                  "valueType": "string",
+                  "value": "timeline",
+                  "params": [
+                    {
+                      "editLabel": "配置名",
+                      "fieldName": "configName",
+                      "setValueType": "input",
+                      "valueType": "string",
+                      "loadListType": "Timeline",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "editLabel": "抛射物",
+                  "fieldName": "sourceConfigType",
+                  "setValueType": "input",
+                  "valueType": "string",
+                  "value": "throwable",
+                  "params": [
+                    {
+                      "editLabel": "配置名",
+                      "fieldName": "configName",
+                      "setValueType": "input",
+                      "valueType": "string",
+                      "loadListType": "Throwable",
+                      "value": ""
+                    },
+                    {
+                      "editLabel": "开始位置偏移",
+                      "fieldName": "startPosOffset",
+                      "setValueType": "input",
+                      "valueType": "vector3",
+                      "value": {
+                        "x": 0,
+                        "y": 1,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "editLabel": "额外随机位置偏移",
+                      "fieldName": "extraRandomPosOffset",
+                      "setValueType": "input",
+                      "valueType": "vector3",
+                      "value": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "editLabel": "延迟发射(毫秒)",
+                      "setValueType": "input",
+                      "valueType": "number",
+                      "fieldName": "delayShoot",
+                      "value": 0
+                    },
+                    {
+                      "editLabel": "发射方向",
+                      "fieldName": "throwableDirData",
+                      "setValueType": "list",
+                      "valueType": "table",
+                      "values": [
+                        {
+                          "editLabel": "最近目标",
+                          "fieldName": "dirType",
+                          "valueType": "string",
+                          "value": "recently",
+                          "params": [
+                            {
+                              "editLabel": "半径",
+                              "setValueType": "input",
+                              "fieldName": "radius",
+                              "valueType": "number",
+                              "value": 0
+                            }
+                          ]
+                        },
+                        {
+                          "editLabel": "前方",
+                          "fieldName": "dirType",
+                          "valueType": "string",
+                          "value": "forward",
+                          "params": [
+                            {
+                              "editLabel": "角度",
+                              "setValueType": "input",
+                              "fieldName": "angle",
+                              "valueType": "number",
+                              "value": 0
+                            }
+                          ]
+                        },
+                        {
+                          "editLabel": "动态坐标",
+                          "fieldName": "dirType",
+                          "valueType": "string",
+                          "value": "dynamicPos"
+                        },
+                        {
+                          "editLabel": "玩家观察方向",
+                          "fieldName": "dirType",
+                          "valueType": "string",
+                          "value": "playerViewDir"
+                        },
+                        {
+                          "editLabel": "参数目标",
+                          "fieldName": "dirType",
+                          "valueType": "string",
+                          "value": "paramTarget"
+                        }
+                      ]
+                    },
+                    {
+                      "editLabel": "音效类型",
+                      "fieldName": "soundData",
+                      "setValueType": "list",
+                      "valueType": "table",
+                      "values": [
+                        {
+                          "editLabel": "2D音效",
+                          "fieldName": "soundType",
+                          "valueType": "string",
+                          "value": "2d",
+                          "params": [
+                            {
+                              "editLabel": "音效ID",
+                              "fieldName": "soundId",
+                              "setValueType": "input",
+                              "valueType": "number",
+                              "value": 0
+                            }
+                          ]
+                        },
+                        {
+                          "editLabel": "3D音效",
+                          "fieldName": "soundType",
+                          "valueType": "string",
+                          "value": "3d",
+                          "params": [
+                            {
+                              "editLabel": "音效ID",
+                              "fieldName": "soundId",
+                              "setValueType": "input",
+                              "valueType": "number",
+                              "value": 0
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "editLabel": "预警",
+                      "fieldName": "playWarning",
+                      "valueType": "table",
+                      "setValueType": "map",
+                      "params": [
+                        {
+                          "editLabel": "预警外特效名",
+                          "setValueType": "list",
+                          "fieldName": "outEffectName",
+                          "valueType": "string",
+                          "values": [
+                            {
+                              "editLabel": "矩形",
+                              "setValueType": "input",
+                              "fieldName": "outEffectName",
+                              "valueType": "string",
+                              "value": "g1008_pve_warning_rectangle.effect"
+                            },
+                            {
+                              "editLabel": "扇形",
+                              "setValueType": "input",
+                              "fieldName": "outEffectName",
+                              "valueType": "string",
+                              "value": "g1008_pve_attack_sector_01.effect"
+                            },
+                            {
+                              "editLabel": "圆形",
+                              "setValueType": "input",
+                              "fieldName": "outEffectName",
+                              "valueType": "string",
+                              "value": "g1008_pve_attack_circle_01.effect"
+                            },
+                            {
+                              "editLabel": "直线",
+                              "setValueType": "input",
+                              "fieldName": "innerEffectName",
+                              "valueType": "string",
+                              "value": "g1008_pve_warning_line.effect"
+                            }
+                          ]
+                        },
+                        {
+                          "editLabel": "预警内特效名",
+                          "setValueType": "list",
+                          "fieldName": "innerEffectName",
+                          "valueType": "string",
+                          "values": [
+                            {
+                              "editLabel": "矩形",
+                              "setValueType": "input",
+                              "fieldName": "innerEffectName",
+                              "valueType": "string",
+                              "value": "g1008_pve_warning_rectangle_01.effect"
+                            },
+                            {
+                              "editLabel": "扇形",
+                              "setValueType": "input",
+                              "fieldName": "outEffectName",
+                              "valueType": "string",
+                              "value": "g1008_pve_attack_sector_02.effect"
+                            },
+                            {
+                              "editLabel": "圆形",
+                              "setValueType": "input",
+                              "fieldName": "outEffectName",
+                              "valueType": "string",
+                              "value": "g1008_pve_attack_circle_02.effect"
+                            },
+                            {
+                              "editLabel": "直线",
+                              "setValueType": "input",
+                              "fieldName": "innerEffectName",
+                              "valueType": "string",
+                              "value": ""
+                            }
+                          ]
+                        },
+                        {
+                          "editLabel": "特效缩放",
+                          "setValueType": "input",
+                          "fieldName": "effectScale",
+                          "valueType": "number",
+                          "value": 1
+                        },
+                        {
+                          "editLabel": "预警时间(20帧/秒)",
+                          "setValueType": "input",
+                          "fieldName": "warningTime",
+                          "valueType": "number",
+                          "value": 0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "editLabel": "触发类型",
+              "fieldName": "triggerData",
+              "setValueType": "list",
+              "valueType": "table",
+              "values": [
+                {
+                  "editLabel": "触发一次",
+                  "fieldName": "triggerType",
+                  "setValueType": "input",
+                  "value": "once"
+                },
+                {
+                  "editLabel": "间隔触发",
+                  "fieldName": "triggerType",
+                  "setValueType": "input",
+                  "value": "interval",
+                  "params": [
+                    {
+                      "editLabel": "间隔时间",
+                      "fieldName": "intervalTime",
+                      "setValueType": "input",
+                      "valueType": "number",
+                      "value": 0
+                    },
+                    {
+                      "editLabel": "触发次数",
+                      "fieldName": "triggerCount",
+                      "setValueType": "input",
+                      "valueType": "number",
+                      "value": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "editLabel": "目标搜索方式",
+              "fieldName": "searchData",
+              "setValueType": "list",
+              "valueType": "table",
+              "values": [
+                {
+                  "editLabel": "随机位置",
+                  "fieldName": "searchType",
+                  "setValueType": "input",
+                  "value": "randomPoint",
+                  "params": [
+                    {
+                      "editLabel": "x区间",
+                      "fieldName": "xRange",
+                      "setValueType": "input",
+                      "valueType": "vector2",
+                      "value": {
+                        "x": 1,
+                        "y": 1
+                      }
+                    },
+                    {
+                      "editLabel": "z区间",
+                      "fieldName": "zRange",
+                      "setValueType": "input",
+                      "valueType": "vector2",
+                      "value": {
+                        "x": 1,
+                        "y": 1
+                      }
+                    },
+                    {
+                      "editLabel": "随机次数",
+                      "fieldName": "randomCount",
+                      "setValueType": "input",
+                      "valueType": "number",
+                      "value": 0
+                    }
+                  ]
+                },
+                {
+                  "editLabel": "随机锁定玩家",
+                  "fieldName": "searchType",
+                  "setValueType": "input",
+                  "value": "randomLockPlayer",
+                  "params": [
+                    {
+                      "editLabel": "半径",
+                      "setValueType": "input",
+                      "fieldName": "radius",
+                      "valueType": "number",
+                      "value": 0
+                    }
+                  ]
+                },
+                {
+                  "editLabel": "空袭随机锁定目标",
+                  "fieldName": "searchType",
+                  "setValueType": "input",
+                  "value": "airAttackLockPlayer"
+                },
+                {
+                  "editLabel": "空袭坐标最高玩家",
+                  "fieldName": "searchType",
+                  "setValueType": "input",
+                  "value": "maxYPosPlayer"
+                },
+                {
+                  "editLabel": "空袭随机坐标",
+                  "fieldName": "searchType",
+                  "setValueType": "input",
+                  "value": "airAttackRandomPosition"
+                },
+                {
+                  "editLabel": "自身位置",
+                  "fieldName": "searchType",
+                  "setValueType": "input",
+                  "value": "selfPosition"
+                },
+                {
+                  "editLabel": "前方多角度",
+                  "fieldName": "searchType",
+                  "setValueType": "input",
+                  "value": "forwardAngle",
+                  "params": [
+                    {
+                      "editLabel": "角度数组",
+                      "setValueType": "input",
+                      "fieldName": "angleList",
+                      "valueType": "array",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "editLabel": "包围点",
+                  "fieldName": "searchType",
+                  "setValueType": "input",
+                  "value": "roundPoint",
+                  "params": [
+                    {
+                      "editLabel": "角度",
+                      "setValueType": "input",
+                      "fieldName": "angle",
+                      "valueType": "number",
+                      "value": ""
+                    },
+                    {
+                      "editLabel": "半径",
+                      "setValueType": "input",
+                      "fieldName": "radius",
+                      "valueType": "number",
+                      "value": 1
+                    },
+                    {
+                      "editLabel": "间隔",
+                      "setValueType": "input",
+                      "fieldName": "interval",
+                      "valueType": "number",
+                      "value": 0
+                    },
+                    {
+                      "editLabel": "点平面",
+                      "setValueType": "list",
+                      "fieldName": "plane",
+                      "valueType": "string",
+                      "values": [
+                        {
+                          "editLabel": "水平",
+                          "setValueType": "input",
+                          "fieldName": "plane",
+                          "valueType": "string",
+                          "value": "horizontal"
+                        },
+                        {
+                          "editLabel": "垂直",
+                          "setValueType": "input",
+                          "fieldName": "plane",
+                          "valueType": "string",
+                          "value": "vertical"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "commonValueParams": [
+        {
+          "editLabel": "开始帧",
+          "setValueType": "input",
+          "fieldName": "startTick",
+          "valueType": "number",
+          "value": 1
+        },
+        {
+          "editLabel": "持续帧",
+          "setValueType": "input",
+          "fieldName": "durationTick",
+          "valueType": "number",
+          "value": 0
+        }
+      ]
+    }
+  ]
+}

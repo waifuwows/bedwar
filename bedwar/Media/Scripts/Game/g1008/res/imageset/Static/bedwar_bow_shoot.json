@@ -1,0 +1,194 @@
+{
+    "frames": {
+        "btn_0_arrow": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 115,
+                "h": 115
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 115,
+                "h": 115
+            },
+            "sourceSize": {
+                "w": 115,
+                "h": 115
+            }
+        },
+        "btn_0_arrow_click": {
+            "frame": {
+                "x": 117,
+                "y": 1,
+                "w": 115,
+                "h": 115
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 115,
+                "h": 115
+            },
+            "sourceSize": {
+                "w": 115,
+                "h": 115
+            }
+        },
+        "img_0_bow_power": {
+            "frame": {
+                "x": 1,
+                "y": 117,
+                "w": 74,
+                "h": 74
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 74,
+                "h": 74
+            },
+            "sourceSize": {
+                "w": 74,
+                "h": 74
+            }
+        },
+        "img_0_bow_quasar": {
+            "frame": {
+                "x": 76,
+                "y": 117,
+                "w": 73,
+                "h": 3
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 73,
+                "h": 3
+            },
+            "sourceSize": {
+                "w": 73,
+                "h": 3
+            }
+        },
+        "img_0_shooting_1": {
+            "frame": {
+                "x": 150,
+                "y": 117,
+                "w": 36,
+                "h": 36
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 36,
+                "h": 36
+            },
+            "sourceSize": {
+                "w": 36,
+                "h": 36
+            }
+        },
+        "img_0_shooting_2": {
+            "frame": {
+                "x": 187,
+                "y": 117,
+                "w": 36,
+                "h": 36
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 36,
+                "h": 36
+            },
+            "sourceSize": {
+                "w": 36,
+                "h": 36
+            }
+        },
+        "img_0_shooting_3": {
+            "frame": {
+                "x": 1,
+                "y": 192,
+                "w": 36,
+                "h": 36
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 36,
+                "h": 36
+            },
+            "sourceSize": {
+                "w": 36,
+                "h": 36
+            }
+        },
+        "img_0_shooting_4": {
+            "frame": {
+                "x": 38,
+                "y": 192,
+                "w": 36,
+                "h": 36
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 36,
+                "h": 36
+            },
+            "sourceSize": {
+                "w": 36,
+                "h": 36
+            }
+        },
+        "img_0_sight_bottom": {
+            "frame": {
+                "x": 75,
+                "y": 192,
+                "w": 10,
+                "h": 28
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 10,
+                "h": 28
+            },
+            "sourceSize": {
+                "w": 10,
+                "h": 28
+            }
+        },
+        "img_0_sight_center": {
+            "frame": {
+                "x": 86,
+                "y": 192,
+                "w": 10,
+                "h": 10
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 10,
+                "h": 10
+            },
+            "sourceSize": {
+                "w": 10,
+                "h": 10
+            }
+        }
+    },
+    "meta": {
+        "image": "bedwar_bow_shoot.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 233,
+            "h": 229
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

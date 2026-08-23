@@ -1,0 +1,152 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ActorTemplates>
+	<ActorTemplate name="g1008_pet_24.actor" Originalscale="1 1 1" Skeleton="g2042_pet_35_3.skel" AttackScale="1" TextHeight="0" IsShowShadow="true" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1" LodLevel="3">
+		<BodyParts>
+			<BodyPart MasterName="body" SlaveName="default" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Effect>
+					<FileName value="g1008_loading_fire.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<Position_X value="0"/>
+					<Position_Y value="0.5"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1.3"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_pet_24" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1" Group="">
+				<Skin MeshName = "g2042_pet_35_3.skin" ChangeColor = "1.64969e-32 1.64966e-32 1.64963e-32 1.6496e-32" UVSpeed = "0 0" LocalAlpha = "1" UseBloom = "false">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="2" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1" Group="">
+				<Skin MeshName = "g2042_pet_35_3.skin" ChangeColor = "0 2.20331e-38 2.20331e-38 6.51065e-39" UVSpeed = "0 0" LocalAlpha = "1" UseBloom = "false">
+				</Skin>
+				<Effect>
+					<FileName value="g2042_pet_Skill_05_02.effect"/>
+					<SocketName value="Bone012"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0.023921"/>
+					<yaw value="91"/>
+					<pitch value="90"/>
+					<roll value="0"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g2042_pet_Skill_05_02.effect"/>
+					<SocketName value="Bone007"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.0243936"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="-90.5"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g2042_pet_Skill_05_02.effect"/>
+					<SocketName value="Bone012(mirrored)"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.0204629"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="-91"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g2042_pet_Skill_05_02.effect"/>
+					<SocketName value="Bone002"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="-91.5"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g2042_pet_Skill_05_02.effect"/>
+					<SocketName value="Bone002(mirrored)"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="-92.5"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill Name="fly" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2042_pet_35_3_fly.anim" BeginTime = "0" Times = "-1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2042_pet_35_3_idle.anim" BeginTime = "0" Times = "-1" Length = "5.1" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="pickup" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2042_pet_35_3_pickup.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="pose" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2042_pet_35_3_pose.anim" BeginTime = "0" Times = "1" Length = "4.866" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="run" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2042_pet_35_3_walk.anim" BeginTime = "0" Times = "-1" Length = "0.533" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="stroke" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2042_pet_35_3_stroke.anim" BeginTime = "0" Times = "1" Length = "2.7" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2042_pet_35_3_pose.anim" BeginTime = "0" Times = "1" Length = "4.866" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g2042_pet_Skill_05_01.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="1"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0.229302"/>
+					<Position_Z value="0.318876"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="2.5"/>
+					<TimeScale value="0.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+		</Skills>
+		<Anims>
+				<Anim Name="g2042_pet_35_3_fly.anim"/>
+				<Anim Name="g2042_pet_35_3_idle.anim"/>
+				<Anim Name="g2042_pet_35_3_pickup.anim"/>
+				<Anim Name="g2042_pet_35_3_stroke.anim"/>
+				<Anim Name="g2042_pet_35_3_walk.anim"/>
+				<Anim Name="g2042_pet_35_3_pose.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

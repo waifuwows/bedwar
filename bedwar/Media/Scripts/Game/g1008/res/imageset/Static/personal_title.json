@@ -1,0 +1,104 @@
+{
+    "frames": {
+        "g1008_boy_taunt_title": {
+            "frame": {
+                "x": 58,
+                "y": 1,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "img_9_get_tips": {
+            "frame": {
+                "x": 1,
+                "y": 130,
+                "w": 510,
+                "h": 16
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 510,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 510,
+                "h": 16
+            }
+        },
+        "img_9_title_bd": {
+            "frame": {
+                "x": 35,
+                "y": 1,
+                "w": 22,
+                "h": 116
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 116
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 116
+            }
+        },
+        "pbar_9_bd": {
+            "frame": {
+                "x": 18,
+                "y": 1,
+                "w": 16,
+                "h": 16
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "pbar_9_schedule": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 16,
+                "h": 16
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        }
+    },
+    "meta": {
+        "image": "personal_title.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 512,
+            "h": 147
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

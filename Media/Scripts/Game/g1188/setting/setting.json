@@ -1,0 +1,12 @@
+{
+  "gameType": "g1188",
+  "name": "g1188 minimal playable project",
+  "plugins": [
+    "item_container",
+    "inventory",
+    "world_plot",
+    "home_plot",
+    "block",
+    "build_blueprint"
+  ]
+}

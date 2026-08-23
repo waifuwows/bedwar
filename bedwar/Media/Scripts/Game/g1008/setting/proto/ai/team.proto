@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+import "common.proto";
+import "player.proto";
+import "resource.proto";
+
+enum GainType
+{
+    GAIN_IRON_FORGE = 1001;     // 铁锻炉（生产效率）
+    GAIN_TOOL_ITEM  = 1002;     // 附魔急迫
+    GAIN_ARMOR_ITEM = 1003;     // 附魔保护
+    GAIN_SWORD_ITEM = 1004;     // 附魔锋利
+    GAIN_ADD_HP     = 1005;     // 温泉（回血效率）
+}
+
+message GainState
+{
+    GainType gain_type = 1;   // 增益类型
+    int32 gain_level = 2;     // 增益等级
+}
+
+message Team
+{
+    int32 id = 1;                                   // 队伍ID
+    repeated Position bed_pos = 2;                  // 床位置
+    bool is_bed_destroyed = 3;                      // 床是否被破坏
+    Position base_pos = 4;                          // 基地位置
+    ResourcePoint resource_point = 5;               // 资源点位置
+    map<int32, GainState> gain_state = 6;           // 团队增益状态
+    map<int64, Player> players = 7;                 // 队伍成员信息
+    repeated int64 del_players = 8;                 // 离开队伍成员
+}

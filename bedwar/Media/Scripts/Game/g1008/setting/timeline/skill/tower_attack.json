@@ -1,0 +1,11 @@
+{
+  "triggerRotate": {
+    "rotateType": "NotRotate"
+  },
+  "conditionList": [
+    {
+      "conditionType": "None"
+    }
+  ],
+  "timeline": "tower_attack"
+}

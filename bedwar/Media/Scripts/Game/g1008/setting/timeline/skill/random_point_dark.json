@@ -1,0 +1,13 @@
+{
+  "timeline": "random_point_trigger_dark",
+  "conditionList": [
+    {
+      "conditionType": "WithinRadius",
+      "radius": 18
+    }
+  ],
+  "triggerRotate": {
+    "rotateType": "RecentTarget",
+    "radius": 18
+  }
+}

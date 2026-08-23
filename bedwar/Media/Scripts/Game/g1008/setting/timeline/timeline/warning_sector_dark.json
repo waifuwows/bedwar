@@ -1,0 +1,58 @@
+{
+  "?tips": "末影龙扇形攻击",
+  "actionList": [ {
+    "actionType": "PlayAnim",
+    "animName": "taunt",
+    "durationTick": 0,
+    "index": 1,
+    "startTick": 5,
+    "tick": 0,
+    "timelineName": "warning_sector_dark"
+  }, {
+    "actionType": "PlayWarningEffect",
+    "durationTick": 50,
+    "effectScale": 3,
+    "index": 2,
+    "innerEffectName": "g1008_pve_attack_sector_02.effect",
+    "outEffectName": "g1008_pve_attack_sector_01.effect",
+    "startTick": 1,
+    "tick": 50,
+    "timelineName": "warning_sector_dark"
+  }, {
+    "actionType": "CauseDamage",
+    "attackEffect": {
+      "effectName": "g1008_pve_attack_circle.effect",
+      "effectScale": 2.5,
+      "rotateType": "forward"
+    },
+    "damage": 1,
+    "damageData": {
+      "canKillPlayer": true,
+      "damage": 10,
+      "damageType": "generic",
+      "enableHurtFormula": true,
+      "hitBuffList": [],
+      "knockBackDis": 12
+    },
+    "durationTick": 0,
+    "hitEffect": {
+      "effectName": "",
+      "effectScale": 1
+    },
+    "index": 3,
+    "knockBackDis": 3,
+    "searchTargetsData": {
+      "fanAngle": 60,
+      "radius": 10,
+      "searchType": "fanShaped"
+    },
+    "soundData": {
+      "soundId": 0,
+      "soundType": "2d"
+    },
+    "startTick": 50,
+    "tick": 0,
+    "timelineName": "warning_sector_dark"
+  } ],
+  "endTick": 51
+}

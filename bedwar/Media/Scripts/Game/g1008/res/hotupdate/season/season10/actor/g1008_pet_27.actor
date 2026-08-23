@@ -1,0 +1,180 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ActorTemplates>
+	<ActorTemplate name="g2042_pet_21_3.actor" Originalscale="1 1 1" Skeleton="g2042_pet_21_3.skel" AttackScale="1" TextHeight="0" IsShowShadow="true" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1" ThreadPriority="0" LodLevel="3">
+		<SubActors>
+		</SubActors>
+		<BodyParts>
+			<BodyPart MasterName="body" SlaveName="default" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Effect>
+					<FileName value="g1008_loading_fire.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<Position_X value="0"/>
+					<Position_Y value="0.5"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_pet_27" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2042_pet_21_3.skin" ChangeColor = "1.48437e+25 6.80008e-33 2.75587e+23 2.01125e-19" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="2" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2042_pet_21_3.skin" ChangeColor = "0 1.4686e-38 1.4686e-38 2.28927e-38" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+				<Effect>
+					<FileName value="g2042_pet_Skill_07_03.effect"/>
+					<SocketName value="Bip001"/>
+					<Position_X value="0.161489"/>
+					<Position_Y value="-0.234785"/>
+					<Position_Z value="-0.0111625"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="23.5"/>
+					<scale value="0.7"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g2042_pet_Skill_07_02.effect"/>
+					<SocketName value="Bip001_Head"/>
+					<Position_X value="0.221983"/>
+					<Position_Y value="0"/>
+					<Position_Z value="-0.229305"/>
+					<yaw value="125.322"/>
+					<pitch value="1.29661"/>
+					<roll value="91.1639"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill Name="evolve2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2042_pet_21_3_idle.anim" BeginTime = "0" Times = "-1" Length = "1.7" FadeTime = "0.25" Channel = "" TimeScale = "0.5">
+				</Animation>
+				<Effect>
+					<FileName value="g2042_pet_evolve_3.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0.4"/>
+					<Position_Z value="0"/>
+					<yaw value="50"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="0.3"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<ColorChange BeginTime = "0" R = "255" G = "255" B = "255" A = "1" Cascade = "true"  SmoothTime = "0.1"  DurationTime = "2"  ResumeTime = "1">
+				</ColorChange>
+				<ColorChange BeginTime = "0" R = "255" G = "255" B = "255" A = "1" Cascade = "true"  SmoothTime = "0.1"  DurationTime = "0.5"  ResumeTime = "0.5">
+				</ColorChange>
+			</Skill>
+			<Skill Name="g2042_seesaw" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2042_pet_21_3_idle.anim" BeginTime = "0" Times = "-1" Length = "1.7" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2042_pet_21_3_idle.anim" BeginTime = "0" Times = "-1" Length = "1.7" FadeTime = "0.25" Channel = "" TimeScale = "0.5">
+				</Animation>
+			</Skill>
+			<Skill Name="pickup" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2042_pet_21_3_pickup.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="pose" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2042_pet_21_3_pose.anim" BeginTime = "0" Times = "1" Length = "2.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="pose_1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2042_pet_21_3_pose.anim" BeginTime = "0" Times = "1" Length = "2.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g2042_pet_evolve_1.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0.3"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<HitFly  beginTime = "0" durationTime = "0.5" high = "1" >
+				</HitFly>
+			</Skill>
+			<Skill Name="run" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2042_pet_21_3_fly.anim" BeginTime = "0" Times = "-1" Length = "2.033" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="taunt" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2042_pet_21_3_pose.anim" BeginTime = "0" Times = "1" Length = "2.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g2042_pet_Skill_07_02.effect"/>
+					<SocketName value="Bip001_Head"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="0.221983"/>
+					<Position_Y value="0"/>
+					<Position_Z value="-0.229305"/>
+					<yaw value="125.322"/>
+					<pitch value="1.29661"/>
+					<roll value="91.1639"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g2042_pet_Skill_07_01.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.7"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+		</Skills>
+		<Anims>
+				<Anim Name="g2042_pet_21_3_fly.anim"/>
+				<Anim Name="g2042_pet_21_3_idle.anim"/>
+				<Anim Name="g2042_pet_21_3_pickup.anim"/>
+				<Anim Name="g2042_pet_21_3_pose.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

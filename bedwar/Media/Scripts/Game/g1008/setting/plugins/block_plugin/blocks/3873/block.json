@@ -1,0 +1,21 @@
+{
+    "texture": {
+        "top": "top",
+        "bottom": "top",
+        "left": "top",
+        "right": "top",
+        "front": "top",
+        "back": "top"
+    },
+    "state": "SOLID",
+    "collisionBox": {
+        "min": { "x": 0, "y": 0, "z": 0},
+        "max": { "x": 1, "y": 1, "z": 1}
+    },
+    "hardness": 10000,
+    "flammable": false,
+    "pureColor": true,
+    "blockColor": "00FFFF",
+    "triggers": [
+    ]
+}

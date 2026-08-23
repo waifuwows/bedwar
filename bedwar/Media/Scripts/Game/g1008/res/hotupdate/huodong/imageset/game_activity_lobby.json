@@ -1,0 +1,842 @@
+{
+    "frames": {
+        "btn_0_act_consume1": {
+            "frame": {
+                "x": 540,
+                "y": 165,
+                "w": 76,
+                "h": 81
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 81
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 81
+            }
+        },
+        "btn_0_act_consume2": {
+            "frame": {
+                "x": 694,
+                "y": 165,
+                "w": 76,
+                "h": 81
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 81
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 81
+            }
+        },
+        "btn_0_act_gift_optional": {
+            "frame": {
+                "x": 617,
+                "y": 165,
+                "w": 76,
+                "h": 81
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 81
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 81
+            }
+        },
+        "btn_0_act_lucky_draw": {
+            "frame": {
+                "x": 463,
+                "y": 165,
+                "w": 76,
+                "h": 81
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 81
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 81
+            }
+        },
+        "btn_0_act_magic_shop": {
+            "frame": {
+                "x": 386,
+                "y": 165,
+                "w": 76,
+                "h": 81
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 81
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 81
+            }
+        },
+        "btn_0_act_mystery_boxes2": {
+            "frame": {
+                "x": 155,
+                "y": 165,
+                "w": 76,
+                "h": 81
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 81
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 81
+            }
+        },
+        "btn_0_act_slot_games": {
+            "frame": {
+                "x": 694,
+                "y": 247,
+                "w": 76,
+                "h": 82
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 82
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 82
+            }
+        },
+        "btn_0_act_square": {
+            "frame": {
+                "x": 309,
+                "y": 165,
+                "w": 76,
+                "h": 81
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 81
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 81
+            }
+        },
+        "btn_0_act_square2": {
+            "frame": {
+                "x": 771,
+                "y": 165,
+                "w": 76,
+                "h": 81
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 81
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 81
+            }
+        },
+        "btn_0_act_square_1152": {
+            "frame": {
+                "x": 78,
+                "y": 165,
+                "w": 76,
+                "h": 81
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 81
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 81
+            }
+        },
+        "btn_0_act_tech": {
+            "frame": {
+                "x": 771,
+                "y": 247,
+                "w": 76,
+                "h": 82
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 82
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 82
+            }
+        },
+        "btn_0_activity_Energy": {
+            "frame": {
+                "x": 309,
+                "y": 247,
+                "w": 76,
+                "h": 81
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 81
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 81
+            }
+        },
+        "btn_0_activity_Energy_1": {
+            "frame": {
+                "x": 386,
+                "y": 247,
+                "w": 76,
+                "h": 81
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 81
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 81
+            }
+        },
+        "btn_0_activity_draw_fishing2": {
+            "frame": {
+                "x": 463,
+                "y": 247,
+                "w": 76,
+                "h": 81
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 81
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 81
+            }
+        },
+        "btn_0_activity_draw_gost_1": {
+            "frame": {
+                "x": 540,
+                "y": 247,
+                "w": 76,
+                "h": 81
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 81
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 81
+            }
+        },
+        "btn_0_activity_draw_knight2": {
+            "frame": {
+                "x": 848,
+                "y": 165,
+                "w": 76,
+                "h": 81
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 81
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 81
+            }
+        },
+        "btn_0_activity_ice_cream": {
+            "frame": {
+                "x": 232,
+                "y": 247,
+                "w": 76,
+                "h": 81
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 81
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 81
+            }
+        },
+        "btn_0_activity_sheep1": {
+            "frame": {
+                "x": 1,
+                "y": 247,
+                "w": 76,
+                "h": 81
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 81
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 81
+            }
+        },
+        "btn_0_activity_skin_lottery": {
+            "frame": {
+                "x": 155,
+                "y": 247,
+                "w": 76,
+                "h": 81
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 81
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 81
+            }
+        },
+        "btn_0_activity_turntable": {
+            "frame": {
+                "x": 78,
+                "y": 247,
+                "w": 76,
+                "h": 81
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 81
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 81
+            }
+        },
+        "btn_0_horn_71": {
+            "frame": {
+                "x": 222,
+                "y": 1,
+                "w": 155,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 155,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 155,
+                "h": 64
+            }
+        },
+        "btn_0_horn_711_battle": {
+            "frame": {
+                "x": 232,
+                "y": 165,
+                "w": 76,
+                "h": 81
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 81
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 81
+            }
+        },
+        "btn_0_horn_712_battle": {
+            "frame": {
+                "x": 1,
+                "y": 165,
+                "w": 76,
+                "h": 81
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 81
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 81
+            }
+        },
+        "btn_0_horn_71_battle": {
+            "frame": {
+                "x": 1,
+                "y": 83,
+                "w": 76,
+                "h": 81
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 81
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 81
+            }
+        },
+        "btn_0_horn_72": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 155,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 155,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 155,
+                "h": 64
+            }
+        },
+        "btn_0_horn_72_battle": {
+            "frame": {
+                "x": 818,
+                "y": 1,
+                "w": 76,
+                "h": 81
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 81
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 81
+            }
+        },
+        "btn_0_keys": {
+            "frame": {
+                "x": 741,
+                "y": 1,
+                "w": 76,
+                "h": 81
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 81
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 81
+            }
+        },
+        "btn_0_soulstone_pass": {
+            "frame": {
+                "x": 508,
+                "y": 1,
+                "w": 155,
+                "h": 72
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 155,
+                "h": 72
+            },
+            "sourceSize": {
+                "w": 155,
+                "h": 72
+            }
+        },
+        "btn_0_soulstone_pass_battle": {
+            "frame": {
+                "x": 664,
+                "y": 1,
+                "w": 76,
+                "h": 81
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 81
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 81
+            }
+        },
+        "btn_act_h55": {
+            "frame": {
+                "x": 232,
+                "y": 83,
+                "w": 76,
+                "h": 81
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 81
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 81
+            }
+        },
+        "btn_act_h56": {
+            "frame": {
+                "x": 463,
+                "y": 83,
+                "w": 76,
+                "h": 81
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 81
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 81
+            }
+        },
+        "btn_act_h58": {
+            "frame": {
+                "x": 694,
+                "y": 83,
+                "w": 76,
+                "h": 81
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 81
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 81
+            }
+        },
+        "btn_act_h59": {
+            "frame": {
+                "x": 848,
+                "y": 83,
+                "w": 76,
+                "h": 81
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 81
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 81
+            }
+        },
+        "btn_act_h60": {
+            "frame": {
+                "x": 771,
+                "y": 83,
+                "w": 76,
+                "h": 81
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 81
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 81
+            }
+        },
+        "btn_act_h61": {
+            "frame": {
+                "x": 617,
+                "y": 83,
+                "w": 76,
+                "h": 81
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 81
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 81
+            }
+        },
+        "btn_activity_balloon": {
+            "frame": {
+                "x": 540,
+                "y": 83,
+                "w": 76,
+                "h": 81
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 81
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 81
+            }
+        },
+        "btn_activity_keylottery": {
+            "frame": {
+                "x": 386,
+                "y": 83,
+                "w": 76,
+                "h": 81
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 81
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 81
+            }
+        },
+        "btn_activity_weapon_lobby": {
+            "frame": {
+                "x": 309,
+                "y": 83,
+                "w": 76,
+                "h": 81
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 81
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 81
+            }
+        },
+        "imagebtn_0_act_square_1152": {
+            "frame": {
+                "x": 78,
+                "y": 165,
+                "w": 76,
+                "h": 81
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 81
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 81
+            }
+        },
+        "imagebtn_act_h61": {
+            "frame": {
+                "x": 617,
+                "y": 83,
+                "w": 76,
+                "h": 81
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 81
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 81
+            }
+        },
+        "imageimg_0_pattygame2": {
+            "frame": {
+                "x": 155,
+                "y": 83,
+                "w": 76,
+                "h": 81
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 81
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 81
+            }
+        },
+        "imageimg_0_tab": {
+            "frame": {
+                "x": 617,
+                "y": 247,
+                "w": 76,
+                "h": 82
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 82
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 82
+            }
+        },
+        "img_horn_pet70": {
+            "frame": {
+                "x": 157,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "img_horn_pet71": {
+            "frame": {
+                "x": 378,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "img_horn_pet72": {
+            "frame": {
+                "x": 443,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "lobby": {
+            "frame": {
+                "x": 78,
+                "y": 83,
+                "w": 76,
+                "h": 81
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 81
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 81
+            }
+        }
+    },
+    "meta": {
+        "image": "game_activity_lobby.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 925,
+            "h": 330
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

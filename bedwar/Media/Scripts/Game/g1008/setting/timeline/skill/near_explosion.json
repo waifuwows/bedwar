@@ -1,0 +1,13 @@
+{
+  "conditionList": [
+    {
+      "radius": 6,
+      "conditionType": "WithinRadius"
+    }
+  ],
+  "triggerRotate": {
+    "radius": 6,
+    "rotateType": "RecentTarget"
+  },
+  "timeline": "near_explosion"
+}

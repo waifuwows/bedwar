@@ -1,0 +1,50 @@
+{
+    "frames": {
+        "img_boss": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 138,
+                "h": 150
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 138,
+                "h": 150
+            },
+            "sourceSize": {
+                "w": 138,
+                "h": 150
+            }
+        },
+        "img_time_bd": {
+            "frame": {
+                "x": 140,
+                "y": 1,
+                "w": 265,
+                "h": 135
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 265,
+                "h": 135
+            },
+            "sourceSize": {
+                "w": 265,
+                "h": 135
+            }
+        }
+    },
+    "meta": {
+        "image": "halloween.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 406,
+            "h": 152
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

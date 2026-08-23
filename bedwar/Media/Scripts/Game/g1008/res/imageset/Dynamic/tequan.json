@@ -1,0 +1,698 @@
+{
+    "frames": {
+        "EXP": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "EXP_1d": {
+            "frame": {
+                "x": 66,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "EXP_2h": {
+            "frame": {
+                "x": 131,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "EXP_3d": {
+            "frame": {
+                "x": 196,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "EXP_6h": {
+            "frame": {
+                "x": 261,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "EXP_7d": {
+            "frame": {
+                "x": 326,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "fm_sword_fire": {
+            "frame": {
+                "x": 391,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "fm_sword_fire_2h": {
+            "frame": {
+                "x": 456,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "fm_sword_fire_3d": {
+            "frame": {
+                "x": 521,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "fm_sword_fire_6h": {
+            "frame": {
+                "x": 586,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "fm_sword_fire_7d": {
+            "frame": {
+                "x": 651,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "gold_chest": {
+            "frame": {
+                "x": 716,
+                "y": 1,
+                "w": 50,
+                "h": 50
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 50,
+                "h": 50
+            },
+            "sourceSize": {
+                "w": 50,
+                "h": 50
+            }
+        },
+        "key_daoju": {
+            "frame": {
+                "x": 767,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "small_diamond_chest": {
+            "frame": {
+                "x": 1,
+                "y": 66,
+                "w": 50,
+                "h": 50
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 50,
+                "h": 50
+            },
+            "sourceSize": {
+                "w": 50,
+                "h": 50
+            }
+        },
+        "tequan_chongsheng": {
+            "frame": {
+                "x": 52,
+                "y": 66,
+                "w": 50,
+                "h": 50
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 50,
+                "h": 50
+            },
+            "sourceSize": {
+                "w": 50,
+                "h": 50
+            }
+        },
+        "tequan_chongsheng_1d": {
+            "frame": {
+                "x": 103,
+                "y": 66,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "tequan_chongsheng_2h": {
+            "frame": {
+                "x": 168,
+                "y": 66,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "tequan_chongsheng_3d": {
+            "frame": {
+                "x": 233,
+                "y": 66,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "tequan_chongsheng_6h": {
+            "frame": {
+                "x": 298,
+                "y": 66,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "tequan_chongsheng_7d": {
+            "frame": {
+                "x": 363,
+                "y": 66,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "tequan_daoju": {
+            "frame": {
+                "x": 428,
+                "y": 66,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "tequan_daoju_1d": {
+            "frame": {
+                "x": 493,
+                "y": 66,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "tequan_daoju_2h": {
+            "frame": {
+                "x": 558,
+                "y": 66,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "tequan_daoju_3d": {
+            "frame": {
+                "x": 623,
+                "y": 66,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "tequan_daoju_6h": {
+            "frame": {
+                "x": 688,
+                "y": 66,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "tequan_daoju_7d": {
+            "frame": {
+                "x": 753,
+                "y": 66,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "tequan_hp": {
+            "frame": {
+                "x": 1,
+                "y": 131,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "tequan_hp_1d": {
+            "frame": {
+                "x": 66,
+                "y": 131,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "tequan_hp_2h": {
+            "frame": {
+                "x": 131,
+                "y": 131,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "tequan_hp_3d": {
+            "frame": {
+                "x": 196,
+                "y": 131,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "tequan_hp_6h": {
+            "frame": {
+                "x": 261,
+                "y": 131,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "tequan_hp_7d": {
+            "frame": {
+                "x": 326,
+                "y": 131,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "tequan_jinding": {
+            "frame": {
+                "x": 391,
+                "y": 131,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "tequan_jinding_1d": {
+            "frame": {
+                "x": 456,
+                "y": 131,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "tequan_jinding_2h": {
+            "frame": {
+                "x": 521,
+                "y": 131,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "tequan_jinding_3d": {
+            "frame": {
+                "x": 586,
+                "y": 131,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "tequan_jinding_6h": {
+            "frame": {
+                "x": 651,
+                "y": 131,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "tequan_jinding_7d": {
+            "frame": {
+                "x": 716,
+                "y": 131,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        }
+    },
+    "meta": {
+        "image": "tequan.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 832,
+            "h": 196
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

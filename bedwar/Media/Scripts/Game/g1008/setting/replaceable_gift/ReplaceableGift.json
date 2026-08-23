@@ -1,0 +1,8 @@
+{
+  "?freeTimes": "免费刷新次数",
+  "freeTimes": 2,
+  "?refreshPrice": "付费刷新价格",
+  "refreshPrice": 20,
+  "?bigPrizeTimes": "保底次数",
+  "bigPrizeTimes": 7
+}

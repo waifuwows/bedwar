@@ -1,0 +1,20 @@
+#整个循环开始时间  这个填北京时间
+CycleStartTime: "2028-03-09-08-00-00"
+#循环间隔 86400 * 7
+CycleInterval: 604800
+#开启时间 [周一，周二....] 1 为开启
+Schedule: [0, 0, 0, 0, 1, 1, 1]
+#循环配置
+Config:
+  -
+    Template: 10101
+  -
+    Template: 10103
+  -
+    Template: 10102
+  -
+    Template: 10104
+  -
+    Template: 10105
+  -
+    Template: 10106

@@ -1,0 +1,50 @@
+{
+    "frames": {
+        "bg": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 1010,
+                "h": 664
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 1010,
+                "h": 664
+            },
+            "sourceSize": {
+                "w": 1010,
+                "h": 664
+            }
+        },
+        "btn_0_go": {
+            "frame": {
+                "x": 1,
+                "y": 666,
+                "w": 216,
+                "h": 68
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 216,
+                "h": 68
+            },
+            "sourceSize": {
+                "w": 216,
+                "h": 68
+            }
+        }
+    },
+    "meta": {
+        "image": "store_activity_merchant.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 1012,
+            "h": 735
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

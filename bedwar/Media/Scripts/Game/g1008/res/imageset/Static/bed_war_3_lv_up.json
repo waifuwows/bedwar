@@ -1,0 +1,176 @@
+{
+    "frames": {
+        "img_0_dots": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 22,
+                "h": 22
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            }
+        },
+        "img_0_grade": {
+            "frame": {
+                "x": 24,
+                "y": 1,
+                "w": 212,
+                "h": 240
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 212,
+                "h": 240
+            },
+            "sourceSize": {
+                "w": 212,
+                "h": 240
+            }
+        },
+        "img_0_light": {
+            "frame": {
+                "x": 237,
+                "y": 1,
+                "w": 126,
+                "h": 125
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 126,
+                "h": 125
+            },
+            "sourceSize": {
+                "w": 126,
+                "h": 125
+            }
+        },
+        "img_9_gradebg": {
+            "frame": {
+                "x": 364,
+                "y": 1,
+                "w": 324,
+                "h": 254
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 324,
+                "h": 254
+            },
+            "sourceSize": {
+                "w": 324,
+                "h": 254
+            }
+        },
+        "img_9_receivedbd": {
+            "frame": {
+                "x": 689,
+                "y": 1,
+                "w": 16,
+                "h": 16
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "img_9_upgrade_edge": {
+            "frame": {
+                "x": 706,
+                "y": 1,
+                "w": 200,
+                "h": 8
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 200,
+                "h": 8
+            },
+            "sourceSize": {
+                "w": 200,
+                "h": 8
+            }
+        },
+        "img_9_upgradebg": {
+            "frame": {
+                "x": 907,
+                "y": 1,
+                "w": 36,
+                "h": 70
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 36,
+                "h": 70
+            },
+            "sourceSize": {
+                "w": 36,
+                "h": 70
+            }
+        },
+        "pbar_9_experience": {
+            "frame": {
+                "x": 944,
+                "y": 1,
+                "w": 33,
+                "h": 22
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 33,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 33,
+                "h": 22
+            }
+        },
+        "pbar_9_experiencebg": {
+            "frame": {
+                "x": 978,
+                "y": 1,
+                "w": 33,
+                "h": 22
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 33,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 33,
+                "h": 22
+            }
+        }
+    },
+    "meta": {
+        "image": "bed_war_3_lv_up.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 1012,
+            "h": 256
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

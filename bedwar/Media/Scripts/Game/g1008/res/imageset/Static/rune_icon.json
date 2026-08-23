@@ -1,0 +1,734 @@
+{
+    "frames": {
+        "blue_level1": {
+            "frame": {
+                "x": 1,
+                "y": 159,
+                "w": 78,
+                "h": 78
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 78
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 78
+            }
+        },
+        "blue_level1_activate": {
+            "frame": {
+                "x": 159,
+                "y": 159,
+                "w": 78,
+                "h": 78
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 78
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 78
+            }
+        },
+        "blue_level2": {
+            "frame": {
+                "x": 80,
+                "y": 159,
+                "w": 78,
+                "h": 78
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 78
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 78
+            }
+        },
+        "blue_level2_activate": {
+            "frame": {
+                "x": 791,
+                "y": 80,
+                "w": 78,
+                "h": 78
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 78
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 78
+            }
+        },
+        "blue_level3": {
+            "frame": {
+                "x": 712,
+                "y": 80,
+                "w": 78,
+                "h": 78
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 78
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 78
+            }
+        },
+        "blue_level3_activate": {
+            "frame": {
+                "x": 554,
+                "y": 80,
+                "w": 78,
+                "h": 78
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 78
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 78
+            }
+        },
+        "blue_level4": {
+            "frame": {
+                "x": 475,
+                "y": 80,
+                "w": 78,
+                "h": 78
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 78
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 78
+            }
+        },
+        "blue_level4_activate": {
+            "frame": {
+                "x": 633,
+                "y": 80,
+                "w": 78,
+                "h": 78
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 78
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 78
+            }
+        },
+        "blue_level5": {
+            "frame": {
+                "x": 743,
+                "y": 238,
+                "w": 105,
+                "h": 105
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 105,
+                "h": 105
+            },
+            "sourceSize": {
+                "w": 105,
+                "h": 105
+            }
+        },
+        "blue_level5_activate": {
+            "frame": {
+                "x": 637,
+                "y": 238,
+                "w": 105,
+                "h": 105
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 105,
+                "h": 105
+            },
+            "sourceSize": {
+                "w": 105,
+                "h": 105
+            }
+        },
+        "purple_level1": {
+            "frame": {
+                "x": 712,
+                "y": 159,
+                "w": 78,
+                "h": 78
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 78
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 78
+            }
+        },
+        "purple_level1_activate": {
+            "frame": {
+                "x": 317,
+                "y": 159,
+                "w": 78,
+                "h": 78
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 78
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 78
+            }
+        },
+        "purple_level2": {
+            "frame": {
+                "x": 396,
+                "y": 159,
+                "w": 78,
+                "h": 78
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 78
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 78
+            }
+        },
+        "purple_level2_activate": {
+            "frame": {
+                "x": 554,
+                "y": 159,
+                "w": 78,
+                "h": 78
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 78
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 78
+            }
+        },
+        "purple_level3": {
+            "frame": {
+                "x": 633,
+                "y": 159,
+                "w": 78,
+                "h": 78
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 78
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 78
+            }
+        },
+        "purple_level3_activate": {
+            "frame": {
+                "x": 475,
+                "y": 159,
+                "w": 78,
+                "h": 78
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 78
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 78
+            }
+        },
+        "purple_level4": {
+            "frame": {
+                "x": 238,
+                "y": 159,
+                "w": 78,
+                "h": 78
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 78
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 78
+            }
+        },
+        "purple_level4_activate": {
+            "frame": {
+                "x": 159,
+                "y": 1,
+                "w": 78,
+                "h": 78
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 78
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 78
+            }
+        },
+        "purple_level5": {
+            "frame": {
+                "x": 107,
+                "y": 238,
+                "w": 105,
+                "h": 105
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 105,
+                "h": 105
+            },
+            "sourceSize": {
+                "w": 105,
+                "h": 105
+            }
+        },
+        "purple_level5_activate": {
+            "frame": {
+                "x": 319,
+                "y": 238,
+                "w": 105,
+                "h": 105
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 105,
+                "h": 105
+            },
+            "sourceSize": {
+                "w": 105,
+                "h": 105
+            }
+        },
+        "red_level1": {
+            "frame": {
+                "x": 396,
+                "y": 80,
+                "w": 78,
+                "h": 78
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 78
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 78
+            }
+        },
+        "red_level1_activate": {
+            "frame": {
+                "x": 396,
+                "y": 1,
+                "w": 78,
+                "h": 78
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 78
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 78
+            }
+        },
+        "red_level2": {
+            "frame": {
+                "x": 317,
+                "y": 1,
+                "w": 78,
+                "h": 78
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 78
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 78
+            }
+        },
+        "red_level2_activate": {
+            "frame": {
+                "x": 475,
+                "y": 1,
+                "w": 78,
+                "h": 78
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 78
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 78
+            }
+        },
+        "red_level3": {
+            "frame": {
+                "x": 238,
+                "y": 1,
+                "w": 78,
+                "h": 78
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 78
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 78
+            }
+        },
+        "red_level3_activate": {
+            "frame": {
+                "x": 80,
+                "y": 1,
+                "w": 78,
+                "h": 78
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 78
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 78
+            }
+        },
+        "red_level4": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 78,
+                "h": 78
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 78
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 78
+            }
+        },
+        "red_level4_activate": {
+            "frame": {
+                "x": 554,
+                "y": 1,
+                "w": 78,
+                "h": 78
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 78
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 78
+            }
+        },
+        "red_level5": {
+            "frame": {
+                "x": 531,
+                "y": 238,
+                "w": 105,
+                "h": 105
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 105,
+                "h": 105
+            },
+            "sourceSize": {
+                "w": 105,
+                "h": 105
+            }
+        },
+        "red_level5_activate": {
+            "frame": {
+                "x": 1,
+                "y": 238,
+                "w": 105,
+                "h": 105
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 105,
+                "h": 105
+            },
+            "sourceSize": {
+                "w": 105,
+                "h": 105
+            }
+        },
+        "yellow_level1": {
+            "frame": {
+                "x": 791,
+                "y": 1,
+                "w": 78,
+                "h": 78
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 78
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 78
+            }
+        },
+        "yellow_level1_activate": {
+            "frame": {
+                "x": 159,
+                "y": 80,
+                "w": 78,
+                "h": 78
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 78
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 78
+            }
+        },
+        "yellow_level2": {
+            "frame": {
+                "x": 317,
+                "y": 80,
+                "w": 78,
+                "h": 78
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 78
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 78
+            }
+        },
+        "yellow_level2_activate": {
+            "frame": {
+                "x": 238,
+                "y": 80,
+                "w": 78,
+                "h": 78
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 78
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 78
+            }
+        },
+        "yellow_level3": {
+            "frame": {
+                "x": 80,
+                "y": 80,
+                "w": 78,
+                "h": 78
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 78
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 78
+            }
+        },
+        "yellow_level3_activate": {
+            "frame": {
+                "x": 1,
+                "y": 80,
+                "w": 78,
+                "h": 78
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 78
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 78
+            }
+        },
+        "yellow_level4": {
+            "frame": {
+                "x": 712,
+                "y": 1,
+                "w": 78,
+                "h": 78
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 78
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 78
+            }
+        },
+        "yellow_level4_activate": {
+            "frame": {
+                "x": 633,
+                "y": 1,
+                "w": 78,
+                "h": 78
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 78
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 78
+            }
+        },
+        "yellow_level5": {
+            "frame": {
+                "x": 213,
+                "y": 238,
+                "w": 105,
+                "h": 105
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 105,
+                "h": 105
+            },
+            "sourceSize": {
+                "w": 105,
+                "h": 105
+            }
+        },
+        "yellow_level5_activate": {
+            "frame": {
+                "x": 425,
+                "y": 238,
+                "w": 105,
+                "h": 105
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 105,
+                "h": 105
+            },
+            "sourceSize": {
+                "w": 105,
+                "h": 105
+            }
+        }
+    },
+    "meta": {
+        "image": "rune_icon.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 870,
+            "h": 371
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

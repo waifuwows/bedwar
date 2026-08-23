@@ -1,0 +1,50 @@
+{
+    "frames": {
+        "icon_equitybd_1": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 305,
+                "h": 517
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 305,
+                "h": 517
+            },
+            "sourceSize": {
+                "w": 305,
+                "h": 517
+            }
+        },
+        "icon_equitybd_2": {
+            "frame": {
+                "x": 307,
+                "y": 1,
+                "w": 453,
+                "h": 645
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 453,
+                "h": 645
+            },
+            "sourceSize": {
+                "w": 453,
+                "h": 645
+            }
+        }
+    },
+    "meta": {
+        "image": "bed_war_horn_vip.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 761,
+            "h": 647
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

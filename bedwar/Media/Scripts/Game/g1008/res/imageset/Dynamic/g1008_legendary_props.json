@@ -1,0 +1,86 @@
+{
+    "frames": {
+        "g1008_legendary_props_ghost": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_legendary_props_pumpkincube": {
+            "frame": {
+                "x": 102,
+                "y": 1,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_legendary_props_pumpkinsword": {
+            "frame": {
+                "x": 203,
+                "y": 1,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "g1008_legendary_props_wolf": {
+            "frame": {
+                "x": 304,
+                "y": 1,
+                "w": 100,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        }
+    },
+    "meta": {
+        "image": "g1008_legendary_props.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 405,
+            "h": 102
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

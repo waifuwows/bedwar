@@ -1,0 +1,176 @@
+{
+    "frames": {
+        "img_0_chips_a_light": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 210,
+                "h": 210
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 210,
+                "h": 210
+            },
+            "sourceSize": {
+                "w": 210,
+                "h": 210
+            }
+        },
+        "img_0_chips_b_light": {
+            "frame": {
+                "x": 212,
+                "y": 1,
+                "w": 210,
+                "h": 210
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 210,
+                "h": 210
+            },
+            "sourceSize": {
+                "w": 210,
+                "h": 210
+            }
+        },
+        "img_0_chips_c_light": {
+            "frame": {
+                "x": 423,
+                "y": 1,
+                "w": 210,
+                "h": 210
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 210,
+                "h": 210
+            },
+            "sourceSize": {
+                "w": 210,
+                "h": 210
+            }
+        },
+        "img_0_chips_d_light": {
+            "frame": {
+                "x": 1,
+                "y": 212,
+                "w": 210,
+                "h": 210
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 210,
+                "h": 210
+            },
+            "sourceSize": {
+                "w": 210,
+                "h": 210
+            }
+        },
+        "img_0_chips_e_light": {
+            "frame": {
+                "x": 212,
+                "y": 212,
+                "w": 210,
+                "h": 210
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 210,
+                "h": 210
+            },
+            "sourceSize": {
+                "w": 210,
+                "h": 210
+            }
+        },
+        "img_0_chips_f_light": {
+            "frame": {
+                "x": 423,
+                "y": 212,
+                "w": 210,
+                "h": 210
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 210,
+                "h": 210
+            },
+            "sourceSize": {
+                "w": 210,
+                "h": 210
+            }
+        },
+        "img_0_chips_g_light": {
+            "frame": {
+                "x": 1,
+                "y": 423,
+                "w": 210,
+                "h": 210
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 210,
+                "h": 210
+            },
+            "sourceSize": {
+                "w": 210,
+                "h": 210
+            }
+        },
+        "img_0_chips_h_light": {
+            "frame": {
+                "x": 212,
+                "y": 423,
+                "w": 210,
+                "h": 210
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 210,
+                "h": 210
+            },
+            "sourceSize": {
+                "w": 210,
+                "h": 210
+            }
+        },
+        "img_0_chips_i_light": {
+            "frame": {
+                "x": 423,
+                "y": 423,
+                "w": 210,
+                "h": 210
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 210,
+                "h": 210
+            },
+            "sourceSize": {
+                "w": 210,
+                "h": 210
+            }
+        }
+    },
+    "meta": {
+        "image": "game_activity_puzzle_icon_light.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 634,
+            "h": 634
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

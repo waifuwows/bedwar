@@ -1,0 +1,86 @@
+{
+    "frames": {
+        "img_0_gifttip": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 107,
+                "h": 115
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 107,
+                "h": 115
+            },
+            "sourceSize": {
+                "w": 107,
+                "h": 115
+            }
+        },
+        "img_0_npc": {
+            "frame": {
+                "x": 1,
+                "y": 117,
+                "w": 474,
+                "h": 363
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 474,
+                "h": 363
+            },
+            "sourceSize": {
+                "w": 474,
+                "h": 363
+            }
+        },
+        "img_0_successbd": {
+            "frame": {
+                "x": 109,
+                "y": 1,
+                "w": 225,
+                "h": 83
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 225,
+                "h": 83
+            },
+            "sourceSize": {
+                "w": 225,
+                "h": 83
+            }
+        },
+        "img_9_talkbd": {
+            "frame": {
+                "x": 1,
+                "y": 481,
+                "w": 522,
+                "h": 183
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 522,
+                "h": 183
+            },
+            "sourceSize": {
+                "w": 522,
+                "h": 183
+            }
+        }
+    },
+    "meta": {
+        "image": "christmas_gift_task.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 524,
+            "h": 665
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

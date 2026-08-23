@@ -1,0 +1,30 @@
+
+#基础奖励次数
+BaseRewardCount: 6
+
+#附加奖励次数
+AppendRewardCount: [0, 0, 0, 0, 3, 3, 3]
+
+#版本
+Version: 1
+
+#奖励任务
+RewardTasks:
+  -
+    #多语言
+    Lang: "gui.day.reward.task.1"
+    #排名 小于等于可获得
+    Rank: 16
+    Win: false
+  -
+    #多语言
+    Lang: "gui.day.reward.task.2"
+    #排名 小于等于可获得
+    Rank: 8
+    Win: true
+  -
+    #多语言
+    Lang: "gui.day.reward.task.3"
+    #排名 小于等于可获得
+    Rank: 1
+    Win: true

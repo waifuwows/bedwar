@@ -1,0 +1,104 @@
+{
+    "frames": {
+        "btn_pet_skin": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "cube": {
+            "frame": {
+                "x": 66,
+                "y": 1,
+                "w": 39,
+                "h": 42
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 39,
+                "h": 42
+            },
+            "sourceSize": {
+                "w": 39,
+                "h": 42
+            }
+        },
+        "icon_pet_skin": {
+            "frame": {
+                "x": 106,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "item_bg": {
+            "frame": {
+                "x": 1,
+                "y": 66,
+                "w": 130,
+                "h": 155
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 130,
+                "h": 155
+            },
+            "sourceSize": {
+                "w": 130,
+                "h": 155
+            }
+        },
+        "item_shadow": {
+            "frame": {
+                "x": 132,
+                "y": 66,
+                "w": 32,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            }
+        }
+    },
+    "meta": {
+        "image": "bed_war_custom_shop.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 171,
+            "h": 222
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

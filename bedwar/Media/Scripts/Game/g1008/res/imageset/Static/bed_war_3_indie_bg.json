@@ -1,0 +1,50 @@
+{
+    "frames": {
+        "img_0_selected03": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 42,
+                "h": 38
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 38
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 38
+            }
+        },
+        "img_9_talkbd_01": {
+            "frame": {
+                "x": 44,
+                "y": 1,
+                "w": 640,
+                "h": 119
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 119
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 119
+            }
+        }
+    },
+    "meta": {
+        "image": "bed_war_3_indie_bg.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 685,
+            "h": 121
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

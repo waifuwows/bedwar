@@ -1,0 +1,338 @@
+{
+    "frames": {
+        "bg": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 702,
+                "h": 334
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 702,
+                "h": 334
+            },
+            "sourceSize": {
+                "w": 702,
+                "h": 334
+            }
+        },
+        "btn_0_buy": {
+            "frame": {
+                "x": 1,
+                "y": 336,
+                "w": 228,
+                "h": 70
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 228,
+                "h": 70
+            },
+            "sourceSize": {
+                "w": 228,
+                "h": 70
+            }
+        },
+        "chb_0_normal": {
+            "frame": {
+                "x": 230,
+                "y": 336,
+                "w": 116,
+                "h": 40
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 116,
+                "h": 40
+            },
+            "sourceSize": {
+                "w": 116,
+                "h": 40
+            }
+        },
+        "chb_0_select": {
+            "frame": {
+                "x": 347,
+                "y": 336,
+                "w": 130,
+                "h": 40
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 130,
+                "h": 40
+            },
+            "sourceSize": {
+                "w": 130,
+                "h": 40
+            }
+        },
+        "img_0_eff_bg": {
+            "frame": {
+                "x": 1,
+                "y": 407,
+                "w": 352,
+                "h": 215
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 352,
+                "h": 215
+            },
+            "sourceSize": {
+                "w": 352,
+                "h": 215
+            }
+        },
+        "img_0_gift": {
+            "frame": {
+                "x": 354,
+                "y": 407,
+                "w": 312,
+                "h": 318
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 312,
+                "h": 318
+            },
+            "sourceSize": {
+                "w": 312,
+                "h": 318
+            }
+        },
+        "img_0_gift_discount%": {
+            "frame": {
+                "x": 667,
+                "y": 407,
+                "w": 32,
+                "h": 36
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 36
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 36
+            }
+        },
+        "img_0_gift_discount+": {
+            "frame": {
+                "x": 1,
+                "y": 726,
+                "w": 24,
+                "h": 36
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 24,
+                "h": 36
+            },
+            "sourceSize": {
+                "w": 24,
+                "h": 36
+            }
+        },
+        "img_0_gift_discount0": {
+            "frame": {
+                "x": 26,
+                "y": 726,
+                "w": 24,
+                "h": 36
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 24,
+                "h": 36
+            },
+            "sourceSize": {
+                "w": 24,
+                "h": 36
+            }
+        },
+        "img_0_gift_discount1": {
+            "frame": {
+                "x": 51,
+                "y": 726,
+                "w": 20,
+                "h": 36
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 20,
+                "h": 36
+            },
+            "sourceSize": {
+                "w": 20,
+                "h": 36
+            }
+        },
+        "img_0_gift_discount2": {
+            "frame": {
+                "x": 72,
+                "y": 726,
+                "w": 26,
+                "h": 36
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 26,
+                "h": 36
+            },
+            "sourceSize": {
+                "w": 26,
+                "h": 36
+            }
+        },
+        "img_0_gift_discount3": {
+            "frame": {
+                "x": 99,
+                "y": 726,
+                "w": 24,
+                "h": 36
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 24,
+                "h": 36
+            },
+            "sourceSize": {
+                "w": 24,
+                "h": 36
+            }
+        },
+        "img_0_gift_discount4": {
+            "frame": {
+                "x": 124,
+                "y": 726,
+                "w": 26,
+                "h": 36
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 26,
+                "h": 36
+            },
+            "sourceSize": {
+                "w": 26,
+                "h": 36
+            }
+        },
+        "img_0_gift_discount5": {
+            "frame": {
+                "x": 151,
+                "y": 726,
+                "w": 26,
+                "h": 36
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 26,
+                "h": 36
+            },
+            "sourceSize": {
+                "w": 26,
+                "h": 36
+            }
+        },
+        "img_0_gift_discount6": {
+            "frame": {
+                "x": 178,
+                "y": 726,
+                "w": 26,
+                "h": 36
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 26,
+                "h": 36
+            },
+            "sourceSize": {
+                "w": 26,
+                "h": 36
+            }
+        },
+        "img_0_gift_discount7": {
+            "frame": {
+                "x": 205,
+                "y": 726,
+                "w": 22,
+                "h": 36
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 36
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 36
+            }
+        },
+        "img_0_gift_discount8": {
+            "frame": {
+                "x": 228,
+                "y": 726,
+                "w": 24,
+                "h": 36
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 24,
+                "h": 36
+            },
+            "sourceSize": {
+                "w": 24,
+                "h": 36
+            }
+        },
+        "img_0_gift_discount9": {
+            "frame": {
+                "x": 253,
+                "y": 726,
+                "w": 26,
+                "h": 36
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 26,
+                "h": 36
+            },
+            "sourceSize": {
+                "w": 26,
+                "h": 36
+            }
+        }
+    },
+    "meta": {
+        "image": "trigger_gift_2.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 704,
+            "h": 763
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

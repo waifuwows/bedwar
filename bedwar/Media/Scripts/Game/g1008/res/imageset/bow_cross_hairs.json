@@ -1,0 +1,50 @@
+{
+    "frames": {
+        "img_0_bow_power": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 104,
+                "h": 104
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 104,
+                "h": 104
+            },
+            "sourceSize": {
+                "w": 104,
+                "h": 104
+            }
+        },
+        "img_0_bow_quasar": {
+            "frame": {
+                "x": 1,
+                "y": 106,
+                "w": 86,
+                "h": 2
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 86,
+                "h": 2
+            },
+            "sourceSize": {
+                "w": 86,
+                "h": 2
+            }
+        }
+    },
+    "meta": {
+        "image": "bow_cross_hairs.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 106,
+            "h": 109
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

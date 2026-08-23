@@ -1,0 +1,140 @@
+{
+    "frames": {
+        "bg": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 640,
+                "h": 360
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 640,
+                "h": 360
+            },
+            "sourceSize": {
+                "w": 640,
+                "h": 360
+            }
+        },
+        "icon_balloon_coin": {
+            "frame": {
+                "x": 1,
+                "y": 362,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "img_dot": {
+            "frame": {
+                "x": 130,
+                "y": 362,
+                "w": 22,
+                "h": 22
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            }
+        },
+        "img_dot_light": {
+            "frame": {
+                "x": 153,
+                "y": 362,
+                "w": 22,
+                "h": 22
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            }
+        },
+        "lobby": {
+            "frame": {
+                "x": 176,
+                "y": 362,
+                "w": 76,
+                "h": 81
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 81
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 81
+            }
+        },
+        "pbar_bg": {
+            "frame": {
+                "x": 253,
+                "y": 362,
+                "w": 10,
+                "h": 10
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 10,
+                "h": 10
+            },
+            "sourceSize": {
+                "w": 10,
+                "h": 10
+            }
+        },
+        "pbar_fg": {
+            "frame": {
+                "x": 264,
+                "y": 362,
+                "w": 10,
+                "h": 10
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 10,
+                "h": 10
+            },
+            "sourceSize": {
+                "w": 10,
+                "h": 10
+            }
+        }
+    },
+    "meta": {
+        "image": "game_activity_anniversary.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 642,
+            "h": 491
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

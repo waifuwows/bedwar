@@ -1,0 +1,122 @@
+{
+    "frames": {
+        "img_0_bd": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 256,
+                "h": 167
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 167
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 167
+            }
+        },
+        "img_0_bd_blue": {
+            "frame": {
+                "x": 258,
+                "y": 1,
+                "w": 159,
+                "h": 208
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 159,
+                "h": 208
+            },
+            "sourceSize": {
+                "w": 159,
+                "h": 208
+            }
+        },
+        "img_0_bd_purple": {
+            "frame": {
+                "x": 418,
+                "y": 1,
+                "w": 159,
+                "h": 208
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 159,
+                "h": 208
+            },
+            "sourceSize": {
+                "w": 159,
+                "h": 208
+            }
+        },
+        "img_0_bd_yellow": {
+            "frame": {
+                "x": 578,
+                "y": 1,
+                "w": 159,
+                "h": 208
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 159,
+                "h": 208
+            },
+            "sourceSize": {
+                "w": 159,
+                "h": 208
+            }
+        },
+        "img_0_frame": {
+            "frame": {
+                "x": 1,
+                "y": 210,
+                "w": 933,
+                "h": 575
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 933,
+                "h": 575
+            },
+            "sourceSize": {
+                "w": 933,
+                "h": 575
+            }
+        },
+        "img_0_title_bd": {
+            "frame": {
+                "x": 1,
+                "y": 786,
+                "w": 506,
+                "h": 112
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 506,
+                "h": 112
+            },
+            "sourceSize": {
+                "w": 506,
+                "h": 112
+            }
+        }
+    },
+    "meta": {
+        "image": "game_activity_lucky_exchange.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 935,
+            "h": 899
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

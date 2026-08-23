@@ -1,0 +1,176 @@
+{
+    "frames": {
+        "icon_ticket": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 41,
+                "h": 36
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 41,
+                "h": 36
+            },
+            "sourceSize": {
+                "w": 41,
+                "h": 36
+            }
+        },
+        "img_bd": {
+            "frame": {
+                "x": 43,
+                "y": 1,
+                "w": 88,
+                "h": 88
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 88,
+                "h": 88
+            },
+            "sourceSize": {
+                "w": 88,
+                "h": 88
+            }
+        },
+        "img_bg": {
+            "frame": {
+                "x": 132,
+                "y": 1,
+                "w": 692,
+                "h": 452
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 692,
+                "h": 452
+            },
+            "sourceSize": {
+                "w": 692,
+                "h": 452
+            }
+        },
+        "img_free_armor": {
+            "frame": {
+                "x": 825,
+                "y": 1,
+                "w": 179,
+                "h": 300
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 179,
+                "h": 300
+            },
+            "sourceSize": {
+                "w": 179,
+                "h": 300
+            }
+        },
+        "img_free_block_skin": {
+            "frame": {
+                "x": 1,
+                "y": 454,
+                "w": 179,
+                "h": 300
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 179,
+                "h": 300
+            },
+            "sourceSize": {
+                "w": 179,
+                "h": 300
+            }
+        },
+        "img_free_footprint": {
+            "frame": {
+                "x": 181,
+                "y": 454,
+                "w": 179,
+                "h": 300
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 179,
+                "h": 300
+            },
+            "sourceSize": {
+                "w": 179,
+                "h": 300
+            }
+        },
+        "img_free_sword_shadow": {
+            "frame": {
+                "x": 361,
+                "y": 454,
+                "w": 179,
+                "h": 300
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 179,
+                "h": 300
+            },
+            "sourceSize": {
+                "w": 179,
+                "h": 300
+            }
+        },
+        "img_free_weapon": {
+            "frame": {
+                "x": 541,
+                "y": 454,
+                "w": 179,
+                "h": 300
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 179,
+                "h": 300
+            },
+            "sourceSize": {
+                "w": 179,
+                "h": 300
+            }
+        },
+        "img_middle": {
+            "frame": {
+                "x": 721,
+                "y": 454,
+                "w": 222,
+                "h": 222
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 222,
+                "h": 222
+            },
+            "sourceSize": {
+                "w": 222,
+                "h": 222
+            }
+        }
+    },
+    "meta": {
+        "image": "bed_war_advert.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 1005,
+            "h": 755
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

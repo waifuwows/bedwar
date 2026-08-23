@@ -1,0 +1,32 @@
+{
+    "frames": {
+        "img_0_limited": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 117,
+                "h": 46
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 117,
+                "h": 46
+            },
+            "sourceSize": {
+                "w": 117,
+                "h": 46
+            }
+        }
+    },
+    "meta": {
+        "image": "bedwar_custom_shop_part.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 119,
+            "h": 48
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

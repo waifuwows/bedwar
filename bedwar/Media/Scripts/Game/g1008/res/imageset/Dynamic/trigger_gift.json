@@ -1,0 +1,338 @@
+{
+    "frames": {
+        "btn_0_close01": {
+            "frame": {
+                "x": 52,
+                "y": 67,
+                "w": 50,
+                "h": 50
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 50,
+                "h": 50
+            },
+            "sourceSize": {
+                "w": 50,
+                "h": 50
+            }
+        },
+        "btn_0_yellow": {
+            "frame": {
+                "x": 1,
+                "y": 393,
+                "w": 68,
+                "h": 67
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 68,
+                "h": 67
+            },
+            "sourceSize": {
+                "w": 68,
+                "h": 67
+            }
+        },
+        "chb_0_select": {
+            "frame": {
+                "x": 1,
+                "y": 461,
+                "w": 93,
+                "h": 48
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 93,
+                "h": 48
+            },
+            "sourceSize": {
+                "w": 93,
+                "h": 48
+            }
+        },
+        "img_0_gift_discount%": {
+            "frame": {
+                "x": 23,
+                "y": 67,
+                "w": 28,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 28,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 28,
+                "h": 32
+            }
+        },
+        "img_0_gift_discount+": {
+            "frame": {
+                "x": 1,
+                "y": 34,
+                "w": 20,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 20,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 20,
+                "h": 32
+            }
+        },
+        "img_0_gift_discount0": {
+            "frame": {
+                "x": 98,
+                "y": 1,
+                "w": 20,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 20,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 20,
+                "h": 32
+            }
+        },
+        "img_0_gift_discount1": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 16,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 32
+            }
+        },
+        "img_0_gift_discount2": {
+            "frame": {
+                "x": 66,
+                "y": 34,
+                "w": 21,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 21,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 21,
+                "h": 32
+            }
+        },
+        "img_0_gift_discount3": {
+            "frame": {
+                "x": 77,
+                "y": 1,
+                "w": 20,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 20,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 20,
+                "h": 32
+            }
+        },
+        "img_0_gift_discount4": {
+            "frame": {
+                "x": 88,
+                "y": 34,
+                "w": 21,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 21,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 21,
+                "h": 32
+            }
+        },
+        "img_0_gift_discount5": {
+            "frame": {
+                "x": 44,
+                "y": 34,
+                "w": 21,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 21,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 21,
+                "h": 32
+            }
+        },
+        "img_0_gift_discount6": {
+            "frame": {
+                "x": 22,
+                "y": 34,
+                "w": 21,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 21,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 21,
+                "h": 32
+            }
+        },
+        "img_0_gift_discount7": {
+            "frame": {
+                "x": 18,
+                "y": 1,
+                "w": 17,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 17,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 17,
+                "h": 32
+            }
+        },
+        "img_0_gift_discount8": {
+            "frame": {
+                "x": 56,
+                "y": 1,
+                "w": 20,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 20,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 20,
+                "h": 32
+            }
+        },
+        "img_0_gift_discount9": {
+            "frame": {
+                "x": 1,
+                "y": 67,
+                "w": 21,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 21,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 21,
+                "h": 32
+            }
+        },
+        "img_0_magic_cube": {
+            "frame": {
+                "x": 1,
+                "y": 118,
+                "w": 55,
+                "h": 55
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 55,
+                "h": 55
+            },
+            "sourceSize": {
+                "w": 55,
+                "h": 55
+            }
+        },
+        "img_0_time": {
+            "frame": {
+                "x": 36,
+                "y": 1,
+                "w": 19,
+                "h": 19
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 19,
+                "h": 19
+            },
+            "sourceSize": {
+                "w": 19,
+                "h": 19
+            }
+        },
+        "img_9_bd": {
+            "frame": {
+                "x": 57,
+                "y": 118,
+                "w": 66,
+                "h": 274
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 274
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 274
+            }
+        }
+    },
+    "meta": {
+        "image": "trigger_gift.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 124,
+            "h": 510
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

@@ -1,0 +1,158 @@
+{
+    "frames": {
+        "bg": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 512,
+                "h": 288
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 512,
+                "h": 288
+            },
+            "sourceSize": {
+                "w": 512,
+                "h": 288
+            }
+        },
+        "btn_sports_chanel": {
+            "frame": {
+                "x": 514,
+                "y": 1,
+                "w": 48,
+                "h": 49
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 48,
+                "h": 49
+            },
+            "sourceSize": {
+                "w": 48,
+                "h": 49
+            }
+        },
+        "img_bgs": {
+            "frame": {
+                "x": 1,
+                "y": 290,
+                "w": 692,
+                "h": 464
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 692,
+                "h": 464
+            },
+            "sourceSize": {
+                "w": 692,
+                "h": 464
+            }
+        },
+        "img_champion": {
+            "frame": {
+                "x": 1,
+                "y": 755,
+                "w": 54,
+                "h": 54
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 54,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 54
+            }
+        },
+        "img_infobd_blue": {
+            "frame": {
+                "x": 56,
+                "y": 755,
+                "w": 165,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 165,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 165,
+                "h": 64
+            }
+        },
+        "img_infobd_orange": {
+            "frame": {
+                "x": 222,
+                "y": 755,
+                "w": 165,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 165,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 165,
+                "h": 64
+            }
+        },
+        "img_vs": {
+            "frame": {
+                "x": 1,
+                "y": 820,
+                "w": 408,
+                "h": 94
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 408,
+                "h": 94
+            },
+            "sourceSize": {
+                "w": 408,
+                "h": 94
+            }
+        },
+        "img_win": {
+            "frame": {
+                "x": 410,
+                "y": 820,
+                "w": 54,
+                "h": 54
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 54,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 54
+            }
+        }
+    },
+    "meta": {
+        "image": "bedwar_competition.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 694,
+            "h": 915
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

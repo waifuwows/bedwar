@@ -1,0 +1,257 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ActorTemplates>
+	<ActorTemplate name="g1008_pet_32.actor" Originalscale="1 1 1" Skeleton="g1008_pet_32.skel" AttackScale="1" TextHeight="0" IsShowShadow="true" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1" ThreadPriority="0" LodLevel="3">
+		<SubActors>
+		</SubActors>
+		<BodyParts>
+			<BodyPart MasterName="body" SlaveName="default" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Effect>
+					<FileName value="g1008_loading_fire.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<Position_X value="0"/>
+					<Position_Y value="0.5"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.6"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="g1008_pet_32" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g1008_pet_32.skin" ChangeColor = "2.29589e-39 4.09234e-38 3.2312e-38 2.8026e-45" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+				<Skin MeshName = "g1008_pet_32_1.skin" ChangeColor = "2.29589e-39 4.09234e-38 3.2312e-38 2.8026e-45" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+				<Effect>
+					<FileName value="g1008_pet_32_2.effect"/>
+					<SocketName value="s_p30"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="-36.7804"/>
+					<pitch value="-32.1286"/>
+					<roll value="23.1531"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill Name="idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_pet_32_idle.anim" BeginTime = "0" Times = "-1" Length = "1.7" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_pet_32_4.effect"/>
+					<SocketName value="s_p_1"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0.00956929"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="88.5"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.75"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_pet_32_4.effect"/>
+					<SocketName value="s_p_2"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0.0018611"/>
+					<Position_Z value="0"/>
+					<yaw value="97"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.75"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="run" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_pet_32_run.anim" BeginTime = "0" Times = "-1" Length = "1.1" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_pet_32_4.effect"/>
+					<SocketName value="s_p_1"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0.00956929"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="88.5"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.75"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_pet_32_4.effect"/>
+					<SocketName value="s_p_2"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0.0018611"/>
+					<Position_Z value="0"/>
+					<yaw value="97"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.75"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="show" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_pet_32_taunt_1.anim" BeginTime = "0" Times = "1" Length = "6.933" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_pet_32_4.effect"/>
+					<SocketName value="s_p_1"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0.00956929"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="88.5"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.75"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_pet_32_4.effect"/>
+					<SocketName value="s_p_2"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0.0018611"/>
+					<Position_Z value="0"/>
+					<yaw value="97"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.75"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_pet_32_show.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="taunt" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_pet_32_taunt.anim" BeginTime = "0" Times = "1" Length = "4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_pet_32_1.effect"/>
+					<SocketName value="Bone003"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="-0.0582948"/>
+					<Position_Y value="-0.909285"/>
+					<Position_Z value="0.0545653"/>
+					<yaw value="-89.9747"/>
+					<pitch value="-79.739"/>
+					<roll value="1.95795"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_pet_32_4.effect"/>
+					<SocketName value="s_p_1"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0.00956929"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="88.5"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.75"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_pet_32_4.effect"/>
+					<SocketName value="s_p_2"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0.0018611"/>
+					<Position_Z value="0"/>
+					<yaw value="97"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.75"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+		</Skills>
+		<Anims>
+				<Anim Name="g1008_pet_32_idle.anim"/>
+				<Anim Name="g1008_pet_32_run.anim"/>
+				<Anim Name="g1008_pet_32_taunt.anim"/>
+				<Anim Name="g1008_pet_32_taunt_1.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

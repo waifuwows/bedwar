@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ActorTemplates>
+	<ActorTemplate name="g1046_mini_game_03_grass.actor" Originalscale="1 1 1" Skeleton="g1046_mini_game_03_grass.skel" AttackScale="1" TextHeight="0" IsShowShadow="true" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1" ThreadPriority="1">
+		<SubActors>
+		</SubActors>
+		<BodyParts>
+			<BodyPart MasterName="body" SlaveName="01" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g1046_mini_game_03_grass.skin" ChangeColor = "4.95912e-39 2.7648e-38 2.20329e-38 2.8026e-45" UVSpeed = "0 0" LocalAlpha = "0.55" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill Name="idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1046_mini_game_03_grass_idle.anim" BeginTime = "0" Times = "1" Length = "0.166" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="run" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1046_mini_game_03_grass_run.anim" BeginTime = "0" Times = "1" Length = "0.8" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+		</Skills>
+		<Anims>
+				<Anim Name="g1046_mini_game_03_grass_idle.anim"/>
+				<Anim Name="g1046_mini_game_03_grass_run.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

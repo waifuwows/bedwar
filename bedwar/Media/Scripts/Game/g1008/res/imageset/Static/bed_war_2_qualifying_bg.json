@@ -1,0 +1,86 @@
+{
+    "frames": {
+        "img_0_dan_introduced_bg": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 512,
+                "h": 224
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 512,
+                "h": 224
+            },
+            "sourceSize": {
+                "w": 512,
+                "h": 224
+            }
+        },
+        "img_0_qualifying01": {
+            "frame": {
+                "x": 1,
+                "y": 226,
+                "w": 512,
+                "h": 288
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 512,
+                "h": 288
+            },
+            "sourceSize": {
+                "w": 512,
+                "h": 288
+            }
+        },
+        "img_0_scenes_bg": {
+            "frame": {
+                "x": 1,
+                "y": 515,
+                "w": 512,
+                "h": 141
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 512,
+                "h": 141
+            },
+            "sourceSize": {
+                "w": 512,
+                "h": 141
+            }
+        },
+        "img_9_decorate": {
+            "frame": {
+                "x": 1,
+                "y": 657,
+                "w": 720,
+                "h": 29
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 720,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 720,
+                "h": 29
+            }
+        }
+    },
+    "meta": {
+        "image": "bed_war_2_qualifying_bg.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 722,
+            "h": 687
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

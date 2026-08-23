@@ -1,0 +1,86 @@
+{
+    "frames": {
+        "img_0_ic_honor_lv10": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 256,
+                "h": 256
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "img_0_ic_honor_lv11": {
+            "frame": {
+                "x": 258,
+                "y": 1,
+                "w": 256,
+                "h": 256
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "img_0_ic_honor_lv12": {
+            "frame": {
+                "x": 1,
+                "y": 258,
+                "w": 256,
+                "h": 256
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "img_0_ic_honor_lv9": {
+            "frame": {
+                "x": 258,
+                "y": 258,
+                "w": 256,
+                "h": 256
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        }
+    },
+    "meta": {
+        "image": "bed_war_2_peak_history.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 515,
+            "h": 515
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

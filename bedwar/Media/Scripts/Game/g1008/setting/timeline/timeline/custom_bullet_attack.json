@@ -1,0 +1,45 @@
+{
+  "?tips": "外部调用自定义配置子弹攻击",
+  "actionList": [ {
+    "actionType": "Trigger",
+    "durationTick": 0,
+    "index": 1,
+    "searchData": {
+      "searchType": "selfPosition"
+    },
+    "sourceConfigData": {
+      "configName": "custom_bullet_attack",
+      "delayShoot": 0,
+      "extraRandomPosOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "playWarning": {
+        "effectScale": 1,
+        "innerEffectName": "g1008_pve_warning_rectangle_01.effect",
+        "outEffectName": "g1008_pve_warning_rectangle.effect",
+        "warningTime": 0
+      },
+      "soundData": {
+        "soundId": 0,
+        "soundType": "2d"
+      },
+      "sourceConfigType": "throwable",
+      "startPosOffset": {
+        "x": 0,
+        "y": 1.5,
+        "z": 0
+      },
+      "throwableDirData": {
+        "dirType": "dynamicPos"
+      }
+    },
+    "startTick": 1,
+    "timelineName": "custom_bullet_attack",
+    "triggerData": {
+      "triggerType": "once"
+    }
+  } ],
+  "endTick": 1
+}

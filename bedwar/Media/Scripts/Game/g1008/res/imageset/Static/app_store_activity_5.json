@@ -1,0 +1,32 @@
+{
+    "frames": {
+        "img_card5": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 512,
+                "h": 512
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 512,
+                "h": 512
+            },
+            "sourceSize": {
+                "w": 512,
+                "h": 512
+            }
+        }
+    },
+    "meta": {
+        "image": "app_store_activity_5.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 514,
+            "h": 514
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

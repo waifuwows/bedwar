@@ -1,0 +1,32 @@
+{
+    "frames": {
+        "background": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 1022,
+                "h": 607
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 1022,
+                "h": 607
+            },
+            "sourceSize": {
+                "w": 1022,
+                "h": 607
+            }
+        }
+    },
+    "meta": {
+        "image": "loading.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 1024,
+            "h": 609
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

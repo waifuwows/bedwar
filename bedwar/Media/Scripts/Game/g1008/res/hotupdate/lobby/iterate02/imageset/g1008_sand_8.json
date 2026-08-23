@@ -1,0 +1,50 @@
+{
+    "frames": {
+        "g1046_xmas_picture_21": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 344,
+                "h": 512
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 344,
+                "h": 512
+            },
+            "sourceSize": {
+                "w": 344,
+                "h": 512
+            }
+        },
+        "g1046_xmas_picture_22": {
+            "frame": {
+                "x": 346,
+                "y": 1,
+                "w": 344,
+                "h": 512
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 344,
+                "h": 512
+            },
+            "sourceSize": {
+                "w": 344,
+                "h": 512
+            }
+        }
+    },
+    "meta": {
+        "image": "g1008_sand_8.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 1024,
+            "h": 1024
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

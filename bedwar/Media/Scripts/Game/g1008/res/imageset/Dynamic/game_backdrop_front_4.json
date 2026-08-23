@@ -1,0 +1,50 @@
+{
+    "frames": {
+        "g1008_frontage_21": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 330,
+                "h": 442
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 330,
+                "h": 442
+            },
+            "sourceSize": {
+                "w": 330,
+                "h": 442
+            }
+        },
+        "g1008_frontage_22": {
+            "frame": {
+                "x": 1,
+                "y": 444,
+                "w": 330,
+                "h": 442
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 330,
+                "h": 442
+            },
+            "sourceSize": {
+                "w": 330,
+                "h": 442
+            }
+        }
+    },
+    "meta": {
+        "image": "game_backdrop_front_4.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 332,
+            "h": 887
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "conditionList": [ {
+    "conditionType": "WithinRadius",
+    "radius": 30
+  } ],
+  "searchData": {
+    "radius": 30,
+    "searchType": "recently"
+  },
+  "timeline": "line_warning_fireball",
+  "triggerRotate": {
+    "rotateType": "LookTarget"
+  }
+}

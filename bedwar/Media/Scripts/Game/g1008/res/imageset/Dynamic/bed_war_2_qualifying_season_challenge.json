@@ -1,0 +1,302 @@
+{
+    "frames": {
+        "img_0_challenge_bg.jpg": {
+            "frame": {
+                "x": 333,
+                "y": 113,
+                "w": 512,
+                "h": 288
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 512,
+                "h": 288
+            },
+            "sourceSize": {
+                "w": 512,
+                "h": 288
+            }
+        },
+        "img_0_challenge_bg": {
+            "frame": {
+                "x": 333,
+                "y": 113,
+                "w": 512,
+                "h": 288
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 512,
+                "h": 288
+            },
+            "sourceSize": {
+                "w": 512,
+                "h": 288
+            }
+        },
+        "img_0_flag": {
+            "frame": {
+                "x": 302,
+                "y": 1,
+                "w": 87,
+                "h": 78
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 87,
+                "h": 78
+            },
+            "sourceSize": {
+                "w": 87,
+                "h": 78
+            }
+        },
+        "img_0_flag_bg": {
+            "frame": {
+                "x": 135,
+                "y": 113,
+                "w": 197,
+                "h": 254
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 197,
+                "h": 254
+            },
+            "sourceSize": {
+                "w": 197,
+                "h": 254
+            }
+        },
+        "img_0_icon_Select": {
+            "frame": {
+                "x": 502,
+                "y": 1,
+                "w": 111,
+                "h": 111
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 111,
+                "h": 111
+            },
+            "sourceSize": {
+                "w": 111,
+                "h": 111
+            }
+        },
+        "img_0_icon_ordinary": {
+            "frame": {
+                "x": 614,
+                "y": 1,
+                "w": 111,
+                "h": 111
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 111,
+                "h": 111
+            },
+            "sourceSize": {
+                "w": 111,
+                "h": 111
+            }
+        },
+        "img_0_icon_receive": {
+            "frame": {
+                "x": 390,
+                "y": 1,
+                "w": 111,
+                "h": 111
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 111,
+                "h": 111
+            },
+            "sourceSize": {
+                "w": 111,
+                "h": 111
+            }
+        },
+        "img_0_qualifying_icon01": {
+            "frame": {
+                "x": 228,
+                "y": 1,
+                "w": 73,
+                "h": 63
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 73,
+                "h": 63
+            },
+            "sourceSize": {
+                "w": 73,
+                "h": 63
+            }
+        },
+        "img_9_icon_bg": {
+            "frame": {
+                "x": 726,
+                "y": 1,
+                "w": 133,
+                "h": 89
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 133,
+                "h": 89
+            },
+            "sourceSize": {
+                "w": 133,
+                "h": 89
+            }
+        },
+        "img_9_icon_bg_mask": {
+            "frame": {
+                "x": 1,
+                "y": 113,
+                "w": 133,
+                "h": 89
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 133,
+                "h": 89
+            },
+            "sourceSize": {
+                "w": 133,
+                "h": 89
+            }
+        },
+        "img_9_integral_bg": {
+            "frame": {
+                "x": 98,
+                "y": 1,
+                "w": 37,
+                "h": 38
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 37,
+                "h": 38
+            },
+            "sourceSize": {
+                "w": 37,
+                "h": 38
+            }
+        },
+        "img_9_reward_bg_1": {
+            "frame": {
+                "x": 33,
+                "y": 1,
+                "w": 31,
+                "h": 75
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 31,
+                "h": 75
+            },
+            "sourceSize": {
+                "w": 31,
+                "h": 75
+            }
+        },
+        "img_9_reward_bg_2": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 31,
+                "h": 75
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 31,
+                "h": 75
+            },
+            "sourceSize": {
+                "w": 31,
+                "h": 75
+            }
+        },
+        "img_9_text_bg": {
+            "frame": {
+                "x": 65,
+                "y": 1,
+                "w": 32,
+                "h": 63
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 63
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 63
+            }
+        },
+        "pbar_9_progress_1": {
+            "frame": {
+                "x": 182,
+                "y": 1,
+                "w": 45,
+                "h": 26
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 45,
+                "h": 26
+            },
+            "sourceSize": {
+                "w": 45,
+                "h": 26
+            }
+        },
+        "pbar_9_progress_2": {
+            "frame": {
+                "x": 136,
+                "y": 1,
+                "w": 45,
+                "h": 26
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 45,
+                "h": 26
+            },
+            "sourceSize": {
+                "w": 45,
+                "h": 26
+            }
+        }
+    },
+    "meta": {
+        "image": "bed_war_2_qualifying_season_challenge.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 860,
+            "h": 402
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

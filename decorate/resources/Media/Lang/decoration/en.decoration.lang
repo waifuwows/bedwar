@@ -1,0 +1,930 @@
+gui_selectable_action_51=%s is ▢FF33FF33shooting▢FFFFFFFF
+gui_selectable_action_51_for_me=You are ▢FF33FF33shooting▢FFFFFFFF
+gui_selectable_action_52=%s is ▢FF33FF33shooting▢FFFFFFFF
+gui_selectable_action_52_for_me=You are ▢FF33FF33shooting▢FFFFFFFF
+
+gui_selectable_action_53=%s is ▢FF33FF33taking off▢FFFFFFFF
+gui_selectable_action_53_for_me=You are ▢FF33FF33taking off▢FFFFFFFF
+gui_selectable_action_54=%s is ▢FF33FF33taking off▢FFFFFFFF
+gui_selectable_action_54_for_me=You are ▢FF33FF33taking off▢FFFFFFFF
+gui_selectable_action_55=%s is ▢FF33FF33cloud riding▢FFFFFFFF
+gui_selectable_action_55_for_me=You are ▢FF33FF33cloud riding▢FFFFFFFF
+gui_selectable_action_56=%s is ▢FF33FF33cloud riding▢FFFFFFFF
+gui_selectable_action_56_for_me=You are ▢FF33FF33cloud riding▢FFFFFFFF
+
+gui_selectable_action_57=%s is ▢FF33FF33fighting▢FFFFFFFF
+gui_selectable_action_57_for_me=You are ▢FF33FF33fighting▢FFFFFFFF
+gui_selectable_action_58=%s is ▢FF33FF33fighting▢FFFFFFFF
+gui_selectable_action_58_for_me=You are ▢FF33FF33fighting▢FFFFFFFF
+gui_selectable_action_59=%s is ▢FF33FF33punching▢FFFFFFFF
+gui_selectable_action_59_for_me=You are ▢FF33FF33punching▢FFFFFFFF
+gui_selectable_action_60=%s is ▢FF33FF33punching▢FFFFFFFF
+gui_selectable_action_60_for_me=You are ▢FF33FF33punching▢FFFFFFFF
+gui_selectable_action_61=%s is ▢FF33FF33performing spells▢FFFFFFFF
+gui_selectable_action_61_for_me=You are ▢FF33FF33performing spells▢FFFFFFFF
+gui_selectable_action_62=%s is ▢FF33FF33performing spells▢FFFFFFFF
+gui_selectable_action_62_for_me=You are ▢FF33FF33performing spells▢FFFFFFFF
+
+gui_selectable_action_63=%s is ▢FF33FF33slashing▢FFFFFFFF
+gui_selectable_action_63_for_me=You are ▢FF33FF33slashing▢FFFFFFFF
+gui_selectable_action_64=%s is ▢FF33FF33slashing▢FFFFFFFF
+gui_selectable_action_64_for_me=You are ▢FF33FF33slashing▢FFFFFFFF
+gui_selectable_action_65=%s is ▢FF33FF33taking a selfie▢FFFFFFFF
+gui_selectable_action_65_for_me=You are ▢FF33FF33taking a selfie▢FFFFFFFF
+gui_selectable_action_66=%s is ▢FF33FF33taking a selfie▢FFFFFFFF
+gui_selectable_action_66_for_me=You are ▢FF33FF33taking a selfie▢FFFFFFFF
+
+gui_selectable_action_67=%s is ▢FF33FF33playing volleyball▢FFFFFFFF
+gui_selectable_action_67_for_me=You are ▢FF33FF33playing volleyball▢FFFFFFFF
+gui_selectable_action_68=%s is ▢FF33FF33playing volleyball▢FFFFFFFF
+gui_selectable_action_68_for_me=You are ▢FF33FF33playing volleyball▢FFFFFFFF
+gui_selectable_action_69=%s is ▢FF33FF33celebrating▢FFFFFFFF
+gui_selectable_action_69_for_me=You are ▢FF33FF33celebrating▢FFFFFFFF
+gui_selectable_action_70=%s is ▢FF33FF33celebrating▢FFFFFFFF
+gui_selectable_action_70_for_me=You are ▢FF33FF33celebrating▢FFFFFFFF
+
+gui_selectable_action_71=%s is ▢FF33FF33Thomas circling▢FFFFFFFF
+gui_selectable_action_71_for_me=You are ▢FF33FF33Thomas circling▢FFFFFFFF
+gui_selectable_action_72=%s is ▢FF33FF33Thomas circling▢FFFFFFFF
+gui_selectable_action_72_for_me=You are ▢FF33FF33Thomas circling▢FFFFFFFF
+gui_selectable_action_73=%s is ▢FF33FF33scattering the pedals▢FFFFFFFF
+gui_selectable_action_73_for_me=You are ▢FF33FF33scattering the pedals▢FFFFFFFF
+gui_selectable_action_74=%s is ▢FF33FF33scattering the pedals▢FFFFFFFF
+gui_selectable_action_74_for_me=You are ▢FF33FF33scattering the pedals▢FFFFFFFF
+
+gui_selectable_action_75=%s is ▢FF33FF33posing like a hero▢FFFFFFFF
+gui_selectable_action_75_for_me=You are ▢FF33FF33posing like a hero▢FFFFFFFF
+gui_selectable_action_76=%s is ▢FF33FF33posing like a hero▢FFFFFFFF
+gui_selectable_action_76_for_me=You are ▢FF33FF33posing like a hero▢FFFFFFFF
+gui_selectable_action_77=%s is ▢FF33FF33fishing▢FFFFFFFF
+gui_selectable_action_77_for_me=You are ▢FF33FF33fishing▢FFFFFFFF
+gui_selectable_action_78=%s is ▢FF33FF33fishing▢FFFFFFFF
+gui_selectable_action_78_for_me=You are ▢FF33FF33fishing▢FFFFFFFF
+
+gui_selectable_action_79=%s is ▢FF33FF33mesmerizing▢FFFFFFFF
+gui_selectable_action_79_for_me=You are ▢FF33FF33mesmerizing▢FFFFFFFF
+gui_selectable_action_80=%s is ▢FF33FF33mesmerizing▢FFFFFFFF
+gui_selectable_action_80_for_me=You are ▢FF33FF33mesmerizing▢FFFFFFFF
+gui_selectable_action_81=%s is ▢FF33FF33practicing Tai Chi▢FFFFFFFF
+gui_selectable_action_81_for_me=You are ▢FF33FF33practicing Tai Chi▢FFFFFFFF
+gui_selectable_action_82=%s is ▢FF33FF33practicing Tai Chi▢FFFFFFFF
+gui_selectable_action_82_for_me=You are ▢FF33FF33practicing Tai Chi▢FFFFFFFF
+
+gui_selectable_action_83=%s is ▢FF33FF33grouping the sand▢FFFFFFFF
+gui_selectable_action_83_for_me=You are ▢FF33FF33grouping the sand▢FFFFFFFF
+gui_selectable_action_84=%s is ▢FF33FF33grouping the sand▢FFFFFFFF
+gui_selectable_action_84_for_me=You are ▢FF33FF33grouping the sand▢FFFFFFFF
+gui_selectable_action_85=%s is ▢FF33FF33skiing▢FFFFFFFF
+gui_selectable_action_85_for_me=You are ▢FF33FF33skiing▢FFFFFFFF
+gui_selectable_action_86=%s is ▢FF33FF33skiing▢FFFFFFFF
+gui_selectable_action_86_for_me=You are ▢FF33FF33skiing▢FFFFFFFF
+
+gui_selectable_action_87=%s is ▢FF33FF33threatening▢FFFFFFFF
+gui_selectable_action_87_for_me=You are ▢FF33FF33threatening▢FFFFFFFF
+gui_selectable_action_88=%s is ▢FF33FF33threatening▢FFFFFFFF
+gui_selectable_action_88_for_me=You are ▢FF33FF33threatening▢FFFFFFFF
+
+gui_selectable_action_89=%s is ▢FF33FF33showing the affection▢FFFFFFFF
+gui_selectable_action_89_for_me=You are ▢FF33FF33showing the affection▢FFFFFFFF
+gui_selectable_action_90=%s is ▢FF33FF33DJing▢FFFFFFFF
+gui_selectable_action_90_for_me=You are ▢FF33FF33DJing▢FFFFFFFF
+gui_selectable_action_91=%s is ▢FF33FF33motorcycle drift▢FFFFFFFF
+gui_selectable_action_91_for_me=You are ▢FF33FF33motorcycle drift▢FFFFFFFF
+gui_selectable_action_92=%s is ▢FF33FF33guitar▢FFFFFFFF
+gui_selectable_action_92_for_me=You are ▢FF33FF33guitar▢FFFFFFFF
+gui_selectable_action_93=%s is ▢FF33FF33skywalk▢FFFFFFFF
+gui_selectable_action_93_for_me=You are ▢FF33FF33skywalk▢FFFFFFFF
+gui_selectable_action_94=%s is ▢FF33FF33back dance▢FFFFFFFF
+gui_selectable_action_94_for_me=You are ▢FF33FF33back dance▢FFFFFFFF
+gui_selectable_action_95=%s is ▢FF33FF33Thunder tumbling▢FFFFFFFF
+gui_selectable_action_95_for_me=You are ▢FF33FF33Thunder tumbling▢FFFFFFFF
+gui_selectable_action_96=%s is ▢FF33FF33burst punch▢FFFFFFFF
+gui_selectable_action_96_for_me=You are ▢FF33FF33burst punch▢FFFFFFFF
+gui_selectable_action_97=%s is ▢FF33FF33psychic▢FFFFFFFF
+gui_selectable_action_97_for_me=You are ▢FF33FF33psychic▢FFFFFFFF
+gui_selectable_action_98=%s is ▢FF33FF33conjuration attack▢FFFFFFFF
+gui_selectable_action_98_for_me=You are ▢FF33FF33conjuration attack▢FFFFFFFF
+gui_selectable_action_99=%s is ▢FF33FF33Na knife▢FFFFFFFF
+gui_selectable_action_99_for_me=You are ▢FF33FF33Na knife▢FFFFFFFF
+gui_selectable_action_100=%s is ▢FF33FF33Shuriken Erlian▢FFFFFFFF
+gui_selectable_action_100_for_me=You are ▢FF33FF33Shuriken Erlian▢FFFFFFFF
+gui_selectable_action_101=%s is ▢FF33FF33lift up▢FFFFFFFF
+gui_selectable_action_101_for_me=You are ▢FF33FF33lift up▢FFFFFFFF
+gui_selectable_action_102=%s is ▢FF33FF33parkour boarding▢FFFFFFFF
+gui_selectable_action_102_for_me=You are ▢FF33FF33parkour boarding▢FFFFFFFF
+gui_selectable_action_103=%s is ▢FF33FF33jump over obstacles▢FFFFFFFF
+gui_selectable_action_103_for_me=You are ▢FF33FF33jump over obstacles▢FFFFFFFF
+gui_selectable_action_104=%s is ▢FF33FF33flying over the wall▢FFFFFFFF
+gui_selectable_action_104_for_me=You are ▢FF33FF33flying over the wall▢FFFFFFFF
+gui_selectable_action_105=%s is ▢FF33FF33Air cut▢FFFFFFFF
+gui_selectable_action_105_for_me=You are ▢FF33FF33Air cut▢FFFFFFFF
+gui_selectable_action_106=%s is ▢FF33FF33hop▢FFFFFFFF
+gui_selectable_action_106_for_me=You are ▢FF33FF33hop▢FFFFFFFF
+gui_selectable_action_107=%s is ▢FF33FF33handstand▢FFFFFFFF
+gui_selectable_action_107_for_me=You are ▢FF33FF33handstand▢FFFFFFFF
+gui_selectable_action_108=%s is ▢FF33FF33juggling balls▢FFFFFFFF
+gui_selectable_action_108_for_me=You are ▢FF33FF33juggling balls▢FFFFFFFF
+gui_selectable_action_109=%s is ▢FF33FF33funny clown▢FFFFFFFF
+gui_selectable_action_109_for_me=You are ▢FF33FF33funny clown▢FFFFFFFF
+gui_selectable_action_110=%s is ▢FF33FF33funny puppy▢FFFFFFFF
+gui_selectable_action_110_for_me=You are ▢FF33FF33funny puppy▢FFFFFFFF
+gui_selectable_action_111=%s is ▢FF33FF33prom dance▢FFFFFFFF
+gui_selectable_action_111_for_me=You are ▢FF33FF33prom dance▢FFFFFFFF
+gui_selectable_action_112=%s is ▢FF33FF33celebrate▢FFFFFFFF
+gui_selectable_action_112_for_me=You are ▢FF33FF33celebrate▢FFFFFFFF
+gui_selectable_action_113=%s is ▢FF33FF33Bounce the ball▢FFFFFFFF
+gui_selectable_action_113_for_me=You are ▢FF33FF33Bounce the ball▢FFFFFFFF
+gui_selectable_action_115=%s is ▢FF33FF33open gift box▢FFFFFFFF
+gui_selectable_action_115_for_me=You are ▢FF33FF33open gift box▢FFFFFFFF
+gui_selectable_action_116=%s is ▢FF33FF33Make a snowman▢FFFFFFFF
+gui_selectable_action_116_for_me=You are ▢FF33FF33Make a snowman▢FFFFFFFF
+gui_selectable_action_117=%s is ▢FF33FF33dance trend fluorescent dance▢FFFFFFFF
+gui_selectable_action_117_for_me=You are ▢FF33FF33dance trend fluorescent dance▢FFFFFFFF
+gui_selectable_action_118=%s is ▢FF33FF33firework heart▢FFFFFFFF
+gui_selectable_action_118_for_me=You are ▢FF33FF33firework heart▢FFFFFFFF
+gui_selectable_action_119=%s is ▢FF33FF33bone dragon dance▢FFFFFFFF
+gui_selectable_action_119_for_me=You are ▢FF33FF33bone dragon dance▢FFFFFFFF
+gui_selectable_action_120=%s is ▢FF33FF33side kick▢FFFFFFFF
+gui_selectable_action_120_for_me=You are ▢FF33FF33side kick▢FFFFFFFF
+gui_selectable_action_121=%s is ▢FF33FF33hip-hop▢FFFFFFFF
+gui_selectable_action_121_for_me=You are ▢FF33FF33hip-hop▢FFFFFFFF
+gui_selectable_action_122=%s is ▢FF33FF33saiyan outbreak▢FFFFFFFF
+gui_selectable_action_122_for_me=You are ▢FF33FF33saiyan outbreak▢FFFFFFFF
+gui_selectable_action_123=%s is ▢FF33FF33Luffy laughs▢FFFFFFFF
+gui_selectable_action_123_for_me=You are ▢FF33FF33Luffy laughs▢FFFFFFFF
+gui_selectable_action_124=%s is ▢FF33FF33Tanjiro wields a sword▢FFFFFFFF
+gui_selectable_action_124_for_me=You are ▢FF33FF33Tanjiro wields a sword▢FFFFFFFF
+gui_selectable_action_125=%s is ▢FF33FF33akimbo play cool▢FFFFFFFF
+gui_selectable_action_125_for_me=You are ▢FF33FF33akimbo play cool▢FFFFFFFF
+gui_selectable_action_126=%s is ▢FF33FF33twirling around for fun▢FFFFFFFF
+gui_selectable_action_126_for_me=You are ▢FF33FF33twirling around for fun▢FFFFFFFF
+gui_selectable_action_127=%s is ▢FF33FF33think on your feet▢FFFFFFFF
+gui_selectable_action_127_for_me=You are ▢FF33FF33think on your feet▢FFFFFFFF
+gui_selectable_action_128=%s is ▢FF33FF33Kiya Dance▢FFFFFFFF
+gui_selectable_action_128_for_me=You are ▢FF33FF33Kiya Dance▢FFFFFFFF
+gui_selectable_action_129=%s is ▢FF33FF33Altron Bodybuilding▢FFFFFFFF
+gui_selectable_action_129_for_me=You are ▢FF33FF33Altron Bodybuilding▢FFFFFFFF
+gui_selectable_action_130=%s is ▢FF33FF33Turn around and expand chest▢FFFFFFFF
+gui_selectable_action_130_for_me=You are ▢FF33FF33Turn around and expand chest▢FFFFFFFF
+gui_selectable_action_131=%s is ▢FF33FF33Hurricane Slash▢FFFFFFFF
+gui_selectable_action_131_for_me=You are ▢FF33FF33Hurricane Slash▢FFFFFFFF
+gui_selectable_action_132=%s is ▢FF33FF33star cut▢FFFFFFFF
+gui_selectable_action_132_for_me=You are ▢FF33FF33star cut▢FFFFFFFF
+gui_selectable_action_133=%s is ▢FF33FF33Hulk Dance▢FFFFFFFF
+gui_selectable_action_133_for_me=You are ▢FF33FF33Hulk Dance▢FFFFFFFF
+gui_selectable_action_134=%s is ▢FF33FF33perform mysteries▢FFFFFFFF
+gui_selectable_action_134_for_me=You are ▢FF33FF33perform mysteries▢FFFFFFFF
+gui_selectable_action_135=%s is ▢FF33FF33spiderman dance▢FFFFFFFF
+gui_selectable_action_135_for_me=You are ▢FF33FF33spiderman dance▢FFFFFFFF
+gui_selectable_action_136=%s is ▢FF33FF33rocky dance▢FFFFFFFF
+gui_selectable_action_136_for_me=You are ▢FF33FF33rocky dance▢FFFFFFFF
+gui_selectable_action_137=%s is ▢FF33FF33Groot dance▢FFFFFFFF
+gui_selectable_action_137_for_me=You are ▢FF33FF33Groot dance▢FFFFFFFF
+gui_selectable_action_138=%s is ▢FF33FF33stand leisurely▢FFFFFFFF
+gui_selectable_action_138_for_me=You are ▢FF33FF33stand leisurely▢FFFFFFFF
+gui_selectable_action_139=%s is ▢FF33FF33hit flies▢FFFFFFFF
+gui_selectable_action_139_for_me=You are ▢FF33FF33hit flies▢FFFFFFFF
+gui_selectable_action_140=%s is ▢FF33FF33Flowing Water Breaking Rock Fist▢FFFFFFFF
+gui_selectable_action_140_for_me=You are ▢FF33FF33Flowing Water Breaking Rock Fist▢FFFFFFFF
+gui_selectable_action_141=%s is ▢FF33FF33incinerator▢FFFFFFFF
+gui_selectable_action_141_for_me=You are ▢FF33FF33incinerator▢FFFFFFFF
+gui_selectable_action_142=%s is ▢FF33FF33Dio laughs▢FFFFFFFF
+gui_selectable_action_142_for_me=You are ▢FF33FF33Dio laughs▢FFFFFFFF
+gui_selectable_action_143=%s is ▢FF33FF33chainsaw swinging▢FFFFFFFF
+gui_selectable_action_143_for_me=You are ▢FF33FF33chainsaw swinging▢FFFFFFFF
+gui_selectable_action_144=%s is ▢FF33FF33Vegeta breaks out▢FFFFFFFF
+gui_selectable_action_144_for_me=You are ▢FF33FF33Vegeta breaks out▢FFFFFFFF
+gui_selectable_action_145=%s is ▢FF33FF33minion dance▢FFFFFFFF
+gui_selectable_action_145_for_me=You are ▢FF33FF33minion dance▢FFFFFFFF
+gui_selectable_action_146=%s is ▢FF33FF33Captain maneuver▢FFFFFFFF
+gui_selectable_action_146_for_me=You are ▢FF33FF33Captain maneuver▢FFFFFFFF
+gui_selectable_action_147=%s is ▢FF33FF33circle clapping dance▢FFFFFFFF
+gui_selectable_action_147_for_me=You are ▢FF33FF33circle clapping dance▢FFFFFFFF
+gui_selectable_action_148=%s is ▢FF33FF33circle clapping dance▢FFFFFFFF
+gui_selectable_action_148_for_me=You are ▢FF33FF33circle clapping dance▢FFFFFFFF
+gui_selectable_action_149=%s is ▢FF33FF33Uta Dance▢FFFFFFFF
+gui_selectable_action_149_for_me=You are ▢FF33FF33Uta Dance▢FFFFFFFF
+gui_selectable_action_150=%s is ▢FF33FF33Luffy breaks out▢FFFFFFFF
+gui_selectable_action_150_for_me=You are ▢FF33FF33Luffy breaks out▢FFFFFFFF
+gui_selectable_action_151=%s is ▢FF33FF33Shanks sword dance▢FFFFFFFF
+gui_selectable_action_151_for_me=You are ▢FF33FF33Shanks sword dance▢FFFFFFFF
+gui_selectable_action_152=%s is ▢FF33FF33Mitsuri Dancing Sword▢FFFFFFFF
+gui_selectable_action_152_for_me=You are ▢FF33FF33Mitsuri Dancing Sword▢FFFFFFFF
+gui_selectable_action_153=%s is ▢FF33FF33Muichiro cut▢FFFFFFFF
+gui_selectable_action_153_for_me=You are ▢FF33FF33Muichiro cut▢FFFFFFFF
+gui_selectable_action_154=%s is ▢FF33FF33Yusui Tianyuan Dancing Sword▢FFFFFFFF
+gui_selectable_action_154_for_me=You are ▢FF33FF33Yusui Tianyuan Dancing Sword▢FFFFFFFF
+gui_selectable_action_155=%s is ▢FF33FF33flying thor▢FFFFFFFF
+gui_selectable_action_155_for_me=You are ▢FF33FF33flying thor▢FFFFFFFF
+gui_selectable_action_156=%s is ▢FF33FF33strange power fist▢FFFFFFFF
+gui_selectable_action_156_for_me=You are ▢FF33FF33strange power fist▢FFFFFFFF
+gui_selectable_action_157=%s is ▢FF33FF33kaleidoscope crow▢FFFFFFFF
+gui_selectable_action_157_for_me=You are ▢FF33FF33kaleidoscope crow▢FFFFFFFF
+gui_selectable_action_158=%s is ▢FF33FF33Eat noodle▢FFFFFFFF
+gui_selectable_action_158_for_me=You are ▢FF33FF33Eat noodle▢FFFFFFFF
+gui_selectable_action_159=%s is ▢FF33FF33Necromancy▢FFFFFFFF
+gui_selectable_action_159_for_me=You are ▢FF33FF33Necromancy▢FFFFFFFF
+gui_selectable_action_160=%s is ▢FF33FF33summon thunder▢FFFFFFFF
+gui_selectable_action_160_for_me=You are ▢FF33FF33summon thunder▢FFFFFFFF
+gui_selectable_action_161=%s is ▢FF33FF33Lost computer▢FFFFFFFF
+gui_selectable_action_161_for_me=You are ▢FF33FF33Lost computer▢FFFFFFFF
+gui_selectable_action_162=%s is ▢FF33FF33Sakura tears▢FFFFFFFF
+gui_selectable_action_162_for_me=You are ▢FF33FF33Sakura tears▢FFFFFFFF
+gui_selectable_action_163=%s is ▢FF33FF33Den-o transformation▢FFFFFFFF
+gui_selectable_action_163_for_me=You are ▢FF33FF33Den-o transformation▢FFFFFFFF
+gui_selectable_action_164=%s is ▢FF33FF33W transformation▢FFFFFFFF
+gui_selectable_action_164_for_me=You are ▢FF33FF33W transformation▢FFFFFFFF
+gui_selectable_action_165=%s is ▢FF33FF33Decade transformation▢FFFFFFFF
+gui_selectable_action_165_for_me=You are ▢FF33FF33Decade transformation▢FFFFFFFF
+gui_selectable_action_166=%s is ▢FF33FF33νGundam appears▢FFFFFFFF
+gui_selectable_action_166_for_me=You are ▢FF33FF33νGundam appears▢FFFFFFFF
+gui_selectable_action_167=%s is ▢FF33FF33Zaku appears▢FFFFFFFF
+gui_selectable_action_167_for_me=You are ▢FF33FF33Zaku appears▢FFFFFFFF
+gui_selectable_action_168=%s is ▢FF33FF33Lightsaber slash▢FFFFFFFF
+gui_selectable_action_168_for_me=You are ▢FF33FF33Lightsaber slash▢FFFFFFFF
+gui_selectable_action_169=%s is ▢FF33FF33laser dodge▢FFFFFFFF
+gui_selectable_action_169_for_me=You are ▢FF33FF33laser dodge▢FFFFFFFF
+gui_selectable_action_170=%s is ▢FF33FF33Strike freedom shooting▢FFFFFFFF
+gui_selectable_action_170_for_me=You are ▢FF33FF33Strike freedom shooting▢FFFFFFFF
+gui_selectable_action_171=%s is ▢FF33FF33Qinglong appears▢FFFFFFFF
+gui_selectable_action_171_for_me=You are ▢FF33FF33Qinglong appears▢FFFFFFFF
+
+gui_selectable_action_172=%s is ▢FF33FF33Thunderbolt▢FFFFFFFF
+gui_selectable_action_172_for_me=You are ▢FF33FF33Thunderbolt▢FFFFFFFF
+gui_selectable_action_173=%s is ▢FF33FF33Bat Phantom▢FFFFFFFF
+gui_selectable_action_173_for_me=You are ▢FF33FF33Bat Phantom▢FFFFFFFF
+gui_selectable_action_174=%s is ▢FF33FF33Shadow attack▢FFFFFFFF
+gui_selectable_action_174_for_me=You are ▢FF33FF33Shadow attack▢FFFFFFFF
+gui_selectable_action_175=%s is ▢FF33FF33hellfire▢FFFFFFFF
+gui_selectable_action_175_for_me=You are ▢FF33FF33hellfire▢FFFFFFFF
+gui_selectable_action_176=%s is ▢FF33FF33Refining medicine▢FFFFFFFF
+gui_selectable_action_176_for_me=You are ▢FF33FF33Refining medicine▢FFFFFFFF
+gui_selectable_action_177=%s is ▢FF33FF33ghost horror▢FFFFFFFF
+gui_selectable_action_177_for_me=You are ▢FF33FF33ghost horror▢FFFFFFFF
+gui_selectable_action_178=%s is ▢FF33FF33chiikawa taunt▢FFFFFFFF
+gui_selectable_action_178_for_me=You are ▢FF33FF33chiikawa taunt▢FFFFFFFF
+gui_selectable_action_179=%s is ▢FF33FF33Kuink-IXA Stab▢FFFFFFFF
+gui_selectable_action_179_for_me=You are ▢FF33FF33Kuink-IXA Stab▢FFFFFFFF
+gui_selectable_action_180=%s is ▢FF33FF33Physical attack▢FFFFFFFF
+gui_selectable_action_180_for_me=You are ▢FF33FF33Physical attack▢FFFFFFFF
+gui_selectable_action_181=%s is ▢FF33FF33Kaneki Ken breaks out▢FFFFFFFF
+gui_selectable_action_181_for_me=You are ▢FF33FF33Kaneki Ken breaks out▢FFFFFFFF
+gui_selectable_action_182=%s is ▢FF33FF33Kirishima Touka Sideslide▢FFFFFFFF
+gui_selectable_action_182_for_me=You are ▢FF33FF33Kirishima Touka Sideslide▢FFFFFFFF
+gui_selectable_action_183=%s is ▢FF33FF33Arima Kisho draw sword▢FFFFFFFF
+gui_selectable_action_183_for_me=You are ▢FF33FF33Arima Kisho draw sword▢FFFFFFFF
+gui_selectable_action_184=%s is ▢FF33FF33card shooting▢FFFFFFFF
+gui_selectable_action_184_for_me=You are ▢FF33FF33card shooting▢FFFFFFFF
+
+gui_selectable_action_185=%s is ▢FF33FF33spreading snowflakes▢FFFFFFFF
+gui_selectable_action_185_for_me=You are ▢FF33FF33 spreading snowflakes▢FFFFFFFF
+
+gui_selectable_action_186=%s is ▢FF33FF33making a Christmas snowman▢FFFFFFFF
+gui_selectable_action_186_for_me=You are ▢FF33FF33making a Christmas snowman▢FFFFFFFF
+
+gui_selectable_action_187=%s is ▢FF33FF33throwing snowflakes▢FFFFFFFF
+gui_selectable_action_187_for_me=You are ▢FF33FF33throwing snowflakes▢FFFFFFFF
+
+gui_selectable_action_188=%s is ▢FF33FF33acting surprise gift box▢FFFFFFFF
+gui_selectable_action_188_for_me=You are ▢FF33FF33acting surprise gift box▢FFFFFFFF
+
+gui_selectable_action_189=%s is ▢FF33FF33riding Christmas Reindeer▢FFFFFFFF
+gui_selectable_action_189_for_me=You are ▢FF33FF33riding Christmas Reindeer▢FFFFFFFF
+
+gui_selectable_action_190=%s is ▢FF33FF33taunting "Somebody goes crazy"▢FFFFFFFF
+gui_selectable_action_190_for_me=You are ▢FF33FF33taunting "Somebody goes crazy"▢FFFFFFFF
+
+gui_selectable_action_191=%s is ▢FF33FF33traveling through black hole▢FFFFFFFF
+gui_selectable_action_191_for_me=You are ▢FF33FF33traveling through black hole▢FFFFFFFF
+
+gui_selectable_action_192=%s is ▢FF33FF33using Black Flashes▢FFFFFFFF
+gui_selectable_action_192_for_me=You are ▢FF33FF33using Black Flashes▢FFFFFFFF
+gui_selectable_action_193=%s is ▢FF33FF33using Chimera Shadow Garden▢FFFFFFFF
+gui_selectable_action_193_for_me=You are ▢FF33FF33using Chimera Shadow Garden▢FFFFFFFF
+
+gui_selectable_action_194=%s is ▢FF33FF33using Hollow Technique: Purple▢FFFFFFFF
+gui_selectable_action_194_for_me=You are ▢FF33FF33using Hollow Technique: Purple▢FFFFFFFF
+gui_selectable_action_195=%s is ▢FF33FF33using Divergent Fist▢FFFFFFFF
+gui_selectable_action_195_for_me=You are ▢FF33FF33using Divergent Fist▢FFFFFFFF
+
+gui_selectable_action_196=%s is ▢FF33FF33riding Mecha Phantom Motor▢FFFFFFFF
+gui_selectable_action_196_for_me=You are ▢FF33FF33riding Mecha Phantom Motor▢FFFFFFFF
+
+gui_selectable_action_197=%s is ▢FF33FF33using Kong Gatling▢FFFFFFFF
+gui_selectable_action_197_for_me=You are ▢FF33FF33using Kong Gatling▢FFFFFFFF
+gui_selectable_action_198=%s is ▢FF33FF33using Diable Jambe▢FFFFFFFF
+gui_selectable_action_198_for_me=You are ▢FF33FF33using Diable Jambe▢FFFFFFFF
+
+gui_selectable_action_199=%s is ▢FF33FF33using Sorcery Clima-Tact▢FFFFFFFF
+gui_selectable_action_199_for_me=You are ▢FF33FF33using Sorcery Clima-Tact▢FFFFFFFF
+gui_selectable_action_200=%s is ▢FF33FF33Eating Meat▢FFFFFFFF
+gui_selectable_action_200_for_me=You are ▢FF33FF33Eating Meat▢FFFFFFFF
+
+gui_selectable_action_201=%s is ▢FF33FF33using Tatsu Maki▢FFFFFFFF
+gui_selectable_action_201_for_me=You are ▢FF33FF33using Tatsu Maki▢FFFFFFFF
+
+gui_selectable_action_202=%s is ▢FF33FF33using Snorlax Body Slam▢FFFFFFFF
+gui_selectable_action_202_for_me=You are ▢FF33FF33using Snorlax Body Slam▢FFFFFFFF
+gui_selectable_action_203=%s is ▢FF33FF33using God King Lion Fist▢FFFFFFFF
+gui_selectable_action_203_for_me=You are ▢FF33FF33using God King Lion Fist▢FFFFFFFF
+
+gui_selectable_action_205=%s is ▢FF33FF33Anya Sleeping▢FFFFFFFF
+gui_selectable_action_205_for_me=You are ▢FF33FF33Anya Sleeping▢FFFFFFFF
+gui_selectable_action_204=%s is ▢FF33FF33playing with Bond▢FFFFFFFF
+gui_selectable_action_204_for_me=You are ▢FF33FF33playing with Bond▢FFFFFFFF
+
+gui_selectable_action_206=%s is ▢FF33FF33Twilight shooting▢FFFFFFFF
+gui_selectable_action_206_for_me=You are ▢FF33FF33Twilight shooting▢FFFFFFFF
+gui_selectable_action_207=%s is ▢FF33FF33using Yor melee Attack▢FFFFFFFF
+gui_selectable_action_207_for_me=You are ▢FF33FF33using Yor melee Attack▢FFFFFFFF
+
+gui_selectable_action_208=%s is ▢FF33FF33riding Somersault Cloud▢FFFFFFFF
+gui_selectable_action_208_for_me=You are ▢FF33FF33riding Somersault Cloud▢FFFFFFFF
+gui_selectable_action_209=%s is ▢FF33FF33taunt dancing▢FFFFFFFF
+gui_selectable_action_209_for_me=You are ▢FF33FF33taunt dancing▢FFFFFFFF
+
+gui_selectable_action_210=%s is ▢FF33FF33"You are blocked for being a noob"▢FFFFFFFF
+gui_selectable_action_210_for_me=You are ▢FF33FF33"You are blocked for being a noob"▢FFFFFFFF
+gui_selectable_action_211=%s is ▢FF33FF33rocking horse dancing▢FFFFFFFF
+gui_selectable_action_211_for_me=You are ▢FF33FF33rocking horse dancing▢FFFFFFFF
+
+gui_selectable_action_212=%s is ▢FF33FF33Dark animal toy suit emote▢FFFFFFFF
+gui_selectable_action_212_for_me=You are ▢FF33FF33Dark animal toy suit emote▢FFFFFFFF
+gui_selectable_action_213=%s is ▢FF33FF33hot dog man dancing▢FFFFFFFF
+gui_selectable_action_213_for_me=You are ▢FF33FF33hot dog man dancing▢FFFFFFFF
+
+gui_selectable_action_214=%s is ▢FF33FF33Champagne Celebration▢FFFFFFFF
+gui_selectable_action_214_for_me=You are ▢FF33FF33Champagne Celebration▢FFFFFFFF
+gui_selectable_action_215=%s is ▢FF33FF33Race Car Donut Drifting▢FFFFFFFF
+gui_selectable_action_215_for_me=You are ▢FF33FF33Race Car Donut Drifting▢FFFFFFFF
+
+gui_selectable_action_216=%s is ▢FF33FF33Racing Motorcycle dance▢FFFFFFFF
+gui_selectable_action_216_for_me=You are ▢FF33FF33Racing Motorcycle dance▢FFFFFFFF
+gui_selectable_action_217=%s is ▢FF33FF33Graffiti Skateboarding▢FFFFFFFF
+gui_selectable_action_217_for_me=You are ▢FF33FF33Graffiti Skateboarding▢FFFFFFFF
+
+gui_selectable_action_218=%s is ▢FF33FF33using Link bullet time▢FFFFFFFF
+gui_selectable_action_218_for_me=You are ▢FF33FF33using Link bullet time▢FFFFFFFF
+gui_selectable_action_219=%s is ▢FF33FF33using 2B Sword skill▢FFFFFFFF
+gui_selectable_action_219_for_me=You are ▢FF33FF33using 2B Sword skill▢FFFFFFFF
+
+gui_selectable_action_220=%s is ▢FF33FF33using Hadouken▢FFFFFFFF
+gui_selectable_action_220_for_me=You are ▢FF33FF33using Hadouken▢FFFFFFFF
+gui_selectable_action_221=%s is ▢FF33FF33Kleee taunting▢FFFFFFFF
+gui_selectable_action_221_for_me=You are ▢FF33FF33Kleee taunting▢FFFFFFFF
+
+gui_selectable_action_222=%s is ▢FF33FF33GWild cooking▢FFFFFFFF
+gui_selectable_action_222_for_me=You are ▢FF33FF33Wild cooking▢FFFFFFFF
+
+gui_selectable_action_223=%s is ▢FF33FF33Fighting with Falming Devil Tentacles▢FFFFFFFF
+gui_selectable_action_223_for_me=You are ▢FF33FF33Fighting with Falming Devil Tentacles▢FFFFFFFF
+
+gui_selectable_action_224=%s is ▢FF33FF33Constellation transmission▢FFFFFFFF
+gui_selectable_action_224_for_me=You are ▢FF33FF33Constellation transmission▢FFFFFFFF
+
+gui_selectable_action_225=%s is ▢FF33FF33Void black hole summons▢FFFFFFFF
+gui_selectable_action_225_for_me=You are ▢FF33FF33Void black hole summons▢FFFFFFFF
+
+gui_selectable_action_226=%s is ▢FF33FF33Arc Planet Slash▢FFFFFFFF
+gui_selectable_action_226_for_me=You are ▢FF33FF33Arc Planet Slash▢FFFFFFFF
+
+gui_selectable_action_227=%s is ▢FF33FF33Throne Call▢FFFFFFFF
+gui_selectable_action_227_for_me=You are ▢FF33FF33Throne Call▢FFFFFFFF
+
+gui_selectable_action_228=%s is ▢FF33FF33Dance with butterflies▢FFFFFFFF
+gui_selectable_action_228_for_me=You are ▢FF33FF33Dance with butterflies▢FFFFFFFF
+
+gui_selectable_action_229=%s is ▢FF33FF33Light the candles on the cake▢FFFFFFFF
+gui_selectable_action_229_for_me=You are ▢FF33FF33Light the candles on the cake▢FFFFFFFF
+
+gui_selectable_action_230=%s is ▢FF33FF33Goose step▢FFFFFFFF
+gui_selectable_action_230_for_me=You are ▢FF33FF33Goose step▢FFFFFFFF
+
+gui_selectable_action_231=%s is ▢FF33FF33Jumping through fire hoops▢FFFFFFFF
+gui_selectable_action_231_for_me=You are ▢FF33FF33Jumping through fire hoops▢FFFFFFFF
+
+gui_selectable_action_232=%s is ▢FF33FF33Sitting on rotating coffee cup▢FFFFFFFF
+gui_selectable_action_232_for_me=You are ▢FF33FF33Sitting on rotating coffee cup▢FFFFFFFF
+
+gui_selectable_action_233=%s is ▢FF33FF33BLACKFROST Burst▢FFFFFFFF
+gui_selectable_action_233_for_me=You are ▢FF33FF33BLACKFROST Burst▢FFFFFFFF
+
+gui_selectable_action_234=%s is ▢FF33FF33Sword Dance▢FFFFFFFF
+gui_selectable_action_234_for_me=You are ▢FF33FF33Sword Dance▢FFFFFFFF
+
+gui_selectable_action_235=%s is ▢FF33FF33Coven Advent▢FFFFFFFF
+gui_selectable_action_235_for_me=You are ▢FF33FF33Coven Advent▢FFFFFFFF
+
+
+gui_selectable_action_236=%s is ▢FF33FF33Enjoy the summer▢FFFFFFFF
+gui_selectable_action_236_for_me=You are ▢FF33FF33Enjoy the summer▢FFFFFFFF
+
+gui_selectable_action_237=%s is ▢FF33FF33Showtime magic▢FFFFFFFF
+gui_selectable_action_237_for_me=You are ▢FF33FF33Showtime magic▢FFFFFFFF
+
+gui_selectable_action_238=%s is ▢FF33FF33Ballet under the Moon▢FFFFFFFF
+gui_selectable_action_238_for_me=You are ▢FF33FF33Ballet under the Moon▢FFFFFFFF
+
+gui_selectable_action_239=%s is ▢FF33FF33Exploding Sun Power▢FFFFFFFF
+gui_selectable_action_239_for_me=You are ▢FF33FF33Exploding Sun Power▢FFFFFFFF
+
+gui_selectable_action_240=%s is ▢FF33FF33Travel in the universe of knowledge▢FFFFFFFF
+gui_selectable_action_240_for_me=You are ▢FF33FF33Travel in the universe of knowledge▢FFFFFFFF
+
+gui_selectable_action_241=%s is ▢FF33FF33Duel with Shadow▢FFFFFFFF
+gui_selectable_action_241_for_me=You are ▢FF33FF33Duel with Shadow▢FFFFFFFF
+
+gui_selectable_action_242=%s is ▢FF33FF33Imitating Deadpool to chop bullets▢FFFFFFFF
+gui_selectable_action_242_for_me=You are ▢FF33FF33Imitating Deadpool to chop bullets▢FFFFFFFF
+
+gui_selectable_action_243=%s is ▢FF33FF33Wolverine Raid▢FFFFFFFF
+gui_selectable_action_243_for_me=You are ▢FF33FF33Wolverine Raid▢FFFFFFFF
+
+gui_selectable_action_244=%s is ▢FF33FF33Excalibur▢FFFFFFFF
+gui_selectable_action_244_for_me=You are ▢FF33FF33Excalibur▢FFFFFFFF
+
+gui_selectable_action_245=%s is ▢FF33FF33Star Burst Stream▢FFFFFFFF
+gui_selectable_action_245_for_me=You are ▢FF33FF33Star Burst Stream▢FFFFFFFF
+
+gui_selectable_action_246=%s is ▢FF33FF33Insect respiration▢FFFFFFFF
+gui_selectable_action_246_for_me=You are ▢FF33FF33Insect respiration▢FFFFFFFF
+
+gui_selectable_action_247=%s is ▢FF33FF33Treasure Sharing▢FFFFFFFF
+gui_selectable_action_247_for_me=You are ▢FF33FF33Treasure Sharing▢FFFFFFFF
+
+gui_selectable_action_248=%s is ▢FF33FF33Energy Fusion▢FFFFFFFF
+gui_selectable_action_248_for_me=You are ▢FF33FF33Energy Fusion▢FFFFFFFF
+
+gui_selectable_action_249=%s is ▢FF33FF33Dragon Flight▢FFFFFFFF
+gui_selectable_action_249_for_me=You are ▢FF33FF33Dragon Flight▢FFFFFFFF
+
+gui_selectable_action_250=%s is ▢FF33FF33Wind Sweep▢FFFFFFFF
+gui_selectable_action_250_for_me=You are ▢FF33FF33Wind Sweep▢FFFFFFFF
+
+gui_selectable_action_251=%s is ▢FF33FF33Dimension Slash▢FFFFFFFF
+gui_selectable_action_251_for_me=You are ▢FF33FF33Dimension Slashn▢FFFFFFFF
+
+gui_selectable_action_252=%s is ▢FF33FF33Fan support▢FFFFFFFF
+gui_selectable_action_252_for_me=You are ▢FF33FF33Fan support▢FFFFFFFF
+
+gui_selectable_action_253=%s is ▢FF33FF33Defense deployment▢FFFFFFFF
+gui_selectable_action_253_for_me=You are ▢FF33FF33Defense deployment▢FFFFFFFF
+
+gui_selectable_action_254=%s is ▢FF33FF33Weakly exploded▢FFFFFFFF
+gui_selectable_action_254_for_me=You are ▢FF33FF33Weakly exploded▢FFFFFFFF
+
+gui_selectable_action_255=%s is ▢FF33FF33K.O.▢FFFFFFFF
+gui_selectable_action_255_for_me=You are ▢FF33FF33K.O.▢FFFFFFFF
+
+gui_selectable_action_256=%s is ▢FF33FF33Stage floating▢FFFFFFFF
+gui_selectable_action_256_for_me=You are ▢FF33FF33Stage floating▢FFFFFFFF
+
+gui_selectable_action_257=%s is ▢FF33FF33Grief alone▢FFFFFFFF
+gui_selectable_action_257_for_me=You are ▢FF33FF33Grief alone▢FFFFFFFF
+
+gui_selectable_action_258=%s is ▢FF33FF33Travel back and forth in the void▢FFFFFFFF
+gui_selectable_action_258_for_me=You are ▢FF33FF33Travel back and forth in the void▢FFFFFFFF
+
+gui_selectable_action_259=%s is ▢FF33FF33The Enderman teleports▢FFFFFFFF
+gui_selectable_action_259_for_me=You are ▢FF33FF33The Enderman teleports▢FFFFFFFF
+
+gui_selectable_action_260=%s is ▢FF33FF33Sing Out Loud▢FFFFFFFF
+gui_selectable_action_260_for_me=You are ▢FF33FF33Sing Out Loud▢FFFFFFFF
+
+gui_selectable_action_261=%s is ▢FF33FF33Guitar Sound Waves▢FFFFFFFF
+gui_selectable_action_261_for_me=You are ▢FF33FF33Guitar Sound Waves▢FFFFFFFF
+
+gui_selectable_action_262=%s is ▢FF33FF33Playing drums▢FFFFFFFF
+gui_selectable_action_262_for_me=You are ▢FF33FF33Playing drums▢FFFFFFFF
+
+gui_selectable_action_263=%s is ▢FF33FF33Riding the waves▢FFFFFFFF
+gui_selectable_action_263_for_me=You are ▢FF33FF33Riding the waves▢FFFFFFFF
+
+gui_selectable_action_264=%s is ▢FF33FF33Open the coffin▢FFFFFFFF
+gui_selectable_action_264_for_me=You are ▢FF33FF33Open the coffin▢FFFFFFFF
+
+gui_selectable_action_265=%s is ▢FF33FF33Chainsaw pruning▢FFFFFFFF
+gui_selectable_action_265_for_me=You are ▢FF33FF33Chainsaw pruning▢FFFFFFFF
+
+gui_selectable_action_266=%s is ▢FF33FF33Flying on a broom▢FFFFFFFF
+gui_selectable_action_266_for_me=You are ▢FF33FF33Flying on a broom▢FFFFFFFF
+
+gui_selectable_action_267=%s is ▢FF33FF33Feather Blade Storm▢FFFFFFFF
+gui_selectable_action_267_for_me=You are ▢FF33FF33Feather Blade Storm▢FFFFFFFF
+
+
+gui_selectable_action_269=%s is ▢FF33FF33dab▢FFFFFFFF
+gui_selectable_action_269_for_me=You are ▢FF33FF33dab▢FFFFFFFF
+
+
+gui_selectable_action_268=%s is ▢FF33FF33I Love Gcube▢FFFFFFFF
+gui_selectable_action_268_for_me=You are ▢FF33FF33I Love Gcube▢FFFFFFFF
+
+gui_selectable_action_270=%s is ▢FF33FF33Fancy Bartending▢FFFFFFFF
+gui_selectable_action_270_for_me=You are ▢FF33FF33Fancy Bartending▢FFFFFFFF
+gui_selectable_action_271=%s is ▢FF33FF33Snowball Fight▢FFFFFFFF
+gui_selectable_action_271_for_me=You are ▢FF33FF33Snowball Fight▢FFFFFFFF
+
+gui_selectable_action_272=%s is ▢FF33FF33use Shura Fist▢FFFFFFFF
+gui_selectable_action_272_for_me=You are ▢FF33FF33use Shura Fist▢FFFFFFFF
+
+gui_selectable_action_273=%s is ▢FF33FF33use Destruction Beam▢FFFFFFFF
+gui_selectable_action_273_for_me=You are ▢FF33FF33use Destruction Beam▢FFFFFFFF
+gui_selectable_action_274=%s is ▢FF33FF33Strike the pose▢FFFFFFFF
+gui_selectable_action_274_for_me=You are ▢FF33FF33Strike the pose▢FFFFFFFF
+gui_selectable_action_275=%s is ▢FF33FF33Ready~charge~take off!▢FFFFFFFF
+gui_selectable_action_275_for_me=You are ▢FF33FF33Ready~charge~take off!▢FFFFFFFF
+
+gui_selectable_action_276=%s is ▢FF33FF33Antares Snipe▢FFFFFFFF
+gui_selectable_action_276_for_me=You are ▢FF33FF33Antares Snipe▢FFFFFFFF
+
+gui_selectable_action_277=%s is ▢FF33FF33Pulling sled▢FFFFFFFF
+gui_selectable_action_277_for_me=You are ▢FF33FF33Pulling sled▢FFFFFFFF
+gui_selectable_action_278=%s is ▢FF33FF33Get Christmas gifts▢FFFFFFFF
+gui_selectable_action_278_for_me=You are ▢FF33FF33Get Christmas gifts▢FFFFFFFF
+gui_selectable_action_279=%s is ▢FF33FF33Gift Giveaway▢FFFFFFFF
+gui_selectable_action_279_for_me=You are ▢FF33FF33Gift Giveaway▢FFFFFFFF
+
+gui_selectable_action_280=%s is ▢FF33FF33Set off New Year fireworks▢FFFFFFFF
+gui_selectable_action_280_for_me=You are ▢FF33FF33Set off New Year fireworks▢FFFFFFFF
+
+gui_selectable_action_281=%s is ▢FF33FF33Blow bubbles▢FFFFFFFF
+gui_selectable_action_281_for_me=You are ▢FF33FF33Blow bubbles▢FFFFFFFF
+
+gui_selectable_action_282=%s is ▢FF33FF33Dance the waltz▢FFFFFFFF
+gui_selectable_action_282_for_me=You are ▢FF33FF33Dance the waltz▢FFFFFFFF
+
+gui_selectable_action_283=%s is ▢FF33FF33The Swords Return to the Sect▢FFFFFFFF
+gui_selectable_action_283_for_me=You are ▢FF33FF33The Swords Return to the Sect▢FFFFFFFF
+gui_selectable_action_284=%s is ▢FF33FF33Sword Strikes Like a Dragon▢FFFFFFFF
+gui_selectable_action_284_for_me=You are ▢FF33FF33Sword Strikes Like a Dragon▢FFFFFFFF
+gui_selectable_action_285=%s is ▢FF33FF33Nirvana▢FFFFFFFF
+gui_selectable_action_285_for_me=You are ▢FF33FF33Nirvana▢FFFFFFFF
+gui_selectable_action_286=%s is ▢FF33FF33Demon Suppression Fist Technique▢FFFFFFFF
+gui_selectable_action_286_for_me=You are ▢FF33FF33Demon Suppression Fist Technique▢FFFFFFFF
+
+gui_selectable_action_287=%s is ▢FF33FF33The holy sword is unsheathed▢FFFFFFFF
+gui_selectable_action_287_for_me=You are ▢FF33FF33The holy sword is unsheathed▢FFFFFFFF
+
+gui_selectable_action_288=%s is ▢FF33FF33The Return of the Great Sage▢FFFFFFFF
+gui_selectable_action_288_for_me=You are ▢FF33FF33The Return of the Great Sage▢FFFFFFFF
+
+gui_selectable_action_289=%s is ▢FF33FF33Gorgeous shooting▢FFFFFFFF
+gui_selectable_action_289_for_me=You are ▢FF33FF33Gorgeous shooting▢FFFFFFFF
+gui_selectable_action_290=%s is ▢FF33FF33Love Magic▢FFFFFFFF
+gui_selectable_action_290_for_me=You are ▢FF33FF33Love Magic▢FFFFFFFF
+gui_selectable_action_291=%s is ▢FF33FF33Eros' Arrow▢FFFFFFFF
+gui_selectable_action_291_for_me=You are ▢FF33FF33Eros' Arrow▢FFFFFFFF
+gui_selectable_action_292=%s is ▢FF33FF33Magic: Flower Presentation▢FFFFFFFF
+gui_selectable_action_292_for_me=You are ▢FF33FF33Magic: Flower Presentation▢FFFFFFFF
+
+gui_selectable_action_293=%s is ▢FF33FF33Bombing enemy aircraft▢FFFFFFFF
+gui_selectable_action_293_for_me=You are ▢FF33FF33Bombing enemy aircraft▢FFFFFFFF
+
+gui_selectable_action_294=%s is ▢FF33FF33Ninjutsu: Darts▢FFFFFFFF
+gui_selectable_action_294_for_me=You are ▢FF33FF33Ninjutsu: Darts▢FFFFFFFF
+gui_selectable_action_295=%s is ▢FF33FF33Multiple Iai Slash▢FFFFFFFF
+gui_selectable_action_295_for_me=You are ▢FF33FF33Multiple Iai Slash▢FFFFFFFF
+gui_selectable_action_296=%s is ▢FF33FF33Divine Dance▢FFFFFFFF
+gui_selectable_action_296_for_me=You are ▢FF33FF33Divine Dance▢FFFFFFFF
+gui_selectable_action_297=%s is ▢FF33FF33Charge a blow▢FFFFFFFF
+gui_selectable_action_297_for_me=You are ▢FF33FF33Charge a blow▢FFFFFFFF
+
+gui_selectable_action_298=%s is ▢FF33FF33Lunar Rage▢FFFFFFFF
+gui_selectable_action_298_for_me=You are ▢FF33FF33Lunar Rage▢FFFFFFFF
+
+gui_selectable_action_299=%s is ▢FF33FF33Looking into the distance▢FFFFFFFF
+gui_selectable_action_299_for_me=You are ▢FF33FF33Looking into the distance▢FFFFFFFF
+gui_selectable_action_300=%s is ▢FF33FF33Fishing for treasure▢FFFFFFFF
+gui_selectable_action_300_for_me=You are ▢FF33FF33Fishing for treasure▢FFFFFFFF
+
+gui_selectable_action_301=%s is ▢FF33FF33Cola Jet▢FFFFFFFF
+gui_selectable_action_301_for_me=You are ▢FF33FF33Cola Jet▢FFFFFFFF
+gui_selectable_action_302=%s is ▢FF33FF33bouncing and vivacious▢FFFFFFFF
+gui_selectable_action_302_for_me=You are ▢FF33FF33bouncing and vivacious▢FFFFFFFF
+gui_selectable_action_303=%s is ▢FF33FF33Trump dance▢FFFFFFFF
+gui_selectable_action_303_for_me=You are ▢FF33FF33Trump dance▢FFFFFFFF
+
+gui_selectable_action_304=%s is ▢FF33FF33Weapon upgrade▢FFFFFFFF
+gui_selectable_action_304_for_me=You are ▢FF33FF33Weapon upgrade▢FFFFFFFF
+
+gui_selectable_action_305=%s is ▢FF33FF33Greeting upside down▢FFFFFFFF
+gui_selectable_action_305_for_me=You are ▢FF33FF33Greeting upside down▢FFFFFFFF
+gui_selectable_action_306=%s is ▢FF33FF33Stone throwing attack▢FFFFFFFF
+gui_selectable_action_306_for_me=You are ▢FF33FF33Stone throwing attack▢FFFFFFFF
+gui_selectable_action_307=%s is ▢FF33FF33Rainbow Charge▢FFFFFFFF
+gui_selectable_action_307_for_me=You are ▢FF33FF33Rainbow Charge▢FFFFFFFF
+gui_selectable_action_308=%s is ▢FF33FF33Butterfly Dance▢FFFFFFFF
+gui_selectable_action_308_for_me=You are ▢FF33FF33Butterfly Dance▢FFFFFFFF
+
+gui_selectable_action_309=%s is ▢FF33FF33Lunar Wrath▢FFFFFFFF
+gui_selectable_action_309_for_me=You are ▢FF33FF33Lunar Wrath▢FFFFFFFF
+
+gui_selectable_action_310=%s is ▢FF33FF33The Dark Shadow King is descending▢FFFFFFFF
+gui_selectable_action_310_for_me=You are ▢FF33FF33The Dark Shadow King is descending▢FFFFFFFF
+gui_selectable_action_311=%s is ▢FF33FF33A Strike of Light▢FFFFFFFF
+gui_selectable_action_311_for_me=You are ▢FF33FF33A Strike of Light▢FFFFFFFF
+gui_selectable_action_312=%s is ▢FF33FF33The Ant King Goes on the Attack▢FFFFFFFF
+gui_selectable_action_312_for_me=You are ▢FF33FF33The Ant King Goes on the Attack▢FFFFFFFF
+gui_selectable_action_313=%s is ▢FF33FF33Shadow extraction▢FFFFFFFF
+gui_selectable_action_313_for_me=You are ▢FF33FF33Shadow extraction▢FFFFFFFF
+gui_selectable_action_314=%s is ▢FF33FF33Be worshipped▢FFFFFFFF
+gui_selectable_action_314_for_me=You are ▢FF33FF33Be worshipped▢FFFFFFFF
+
+
+gui_selectable_action_315=%s is ▢FF33FF33Divine Runeflare▢FFFFFFFF
+gui_selectable_action_315_for_me=You are ▢FF33FF33Divine Runeflare▢FFFFFFFF
+
+gui_selectable_action_316=%s is ▢FF33FF33Duel▢FFFFFFFF
+gui_selectable_action_316_for_me=You are ▢FF33FF33Duel▢FFFFFFFF
+gui_selectable_action_317=%s is ▢FF33FF33Lasso▢FFFFFFFF
+gui_selectable_action_317_for_me=You are ▢FF33FF33Lasso▢FFFFFFFF
+
+gui_selectable_action_318=%s is ▢FF33FF33Accession to the throne▢FFFFFFFF
+gui_selectable_action_318_for_me=You are ▢FF33FF33Accession to the throne▢FFFFFFFF
+gui_selectable_action_319=%s is ▢FF33FF33Call forth snakes with a flute▢FFFFFFFF
+gui_selectable_action_319_for_me=You are ▢FF33FF33Call forth snakes with a flute▢FFFFFFFF
+gui_selectable_action_320=%s is ▢FF33FF33Mandated by Heaven▢FFFFFFFF
+gui_selectable_action_320_for_me=You are ▢FF33FF33Mandated by Heaven▢FFFFFFFF
+gui_selectable_action_321=%s is ▢FF33FF33Rise in rebellion▢FFFFFFFF
+gui_selectable_action_321_for_me=You are ▢FF33FF33Rise in rebellion▢FFFFFFFF
+
+gui_selectable_action_322=%s is ▢FF33FF33The Demon King is Born▢FFFFFFFF
+gui_selectable_action_322_for_me=You are ▢FF33FF33The Demon King is Born▢FFFFFFFF
+
+gui_selectable_action_323=%s is ▢FF33FF33Build a sand castle▢FFFFFFFF
+gui_selectable_action_323_for_me=You are ▢FF33FF33Build a sand castle▢FFFFFFFF
+gui_selectable_action_324=%s is ▢FF33FF33Undersea Swimming▢FFFFFFFF
+gui_selectable_action_324_for_me=You are ▢FF33FF33Undersea Swimming▢FFFFFFFF
+gui_selectable_action_325=%s is ▢FF33FF33Catching big fish▢FFFFFFFF
+gui_selectable_action_325_for_me=You are ▢FF33FF33Catching big fish▢FFFFFFFF
+
+gui_selectable_action_326=%s is ▢FF33FF33Stellar Collapse▢FFFFFFFF
+gui_selectable_action_326_for_me=You are ▢FF33FF33Stellar Collapse▢FFFFFFFF
+
+gui_selectable_action_327=%s is ▢FF33FF33Onmyō Art: Thunder Invocation▢FFFFFFFF
+gui_selectable_action_327_for_me=You are ▢FF33FF33Onmyō Art: Thunder Invocation▢FFFFFFFF
+gui_selectable_action_328=%s is ▢FF33FF33Ninjutsu: Shadow Clone▢FFFFFFFF
+gui_selectable_action_328_for_me=You are ▢FF33FF33Ninjutsu: Shadow Clone▢FFFFFFFF
+gui_selectable_action_329=%s is ▢FF33FF33Spinning Shadow Kunai▢FFFFFFFF
+gui_selectable_action_329_for_me=You are ▢FF33FF33Spinning Shadow Kunai▢FFFFFFFF
+gui_selectable_action_330=%s is ▢FF33FF33Blood Moon Cut▢FFFFFFFF
+gui_selectable_action_330_for_me=You are ▢FF33FF33Blood Moon Cut▢FFFFFFFF
+gui_selectable_action_331=%s is ▢FF33FF33Frenzied Sword Dance▢FFFFFFFF
+gui_selectable_action_331_for_me=You are ▢FF33FF33Frenzied Sword Dance▢FFFFFFFF
+
+gui_selectable_action_332=%s is ▢FF33FF33Throwing money▢FFFFFFFF
+gui_selectable_action_332_for_me=You are ▢FF33FF33Throwing money▢FFFFFFFF
+
+gui_selectable_action_333=%s is ▢FF33FF33Lightning outburst▢FFFFFFFF
+gui_selectable_action_333_for_me=You are ▢FF33FF33Lightning outburst▢FFFFFFFF
+
+gui_selectable_action_334=%s is ▢FF33FF33Blade Unleashed▢FFFFFFFF
+gui_selectable_action_334_for_me=You are ▢FF33FF33Blade Unleashed▢FFFFFFFF
+gui_selectable_action_335=%s is ▢FF33FF33Divination Ritual▢FFFFFFFF
+gui_selectable_action_335_for_me=You are ▢FF33FF33Divination Ritual▢FFFFFFFF
+gui_selectable_action_336=%s is ▢FF33FF33Shatter the Celestials▢FFFFFFFF
+gui_selectable_action_336_for_me=You are ▢FF33FF33Shatter the Celestials▢FFFFFFFF
+
+gui_selectable_action_337=%s is ▢FF33FF33Heaven's Blessing▢FFFFFFFF
+gui_selectable_action_337_for_me=You are ▢FF33FF33Heaven's Blessing▢FFFFFFFF
+
+gui_selectable_action_338=%s is ▢FF33FF33Demonic Sword Summon▢FFFFFFFF
+gui_selectable_action_338_for_me=You are ▢FF33FF33Demonic Sword Summon▢FFFFFFFF
+gui_selectable_action_339=%s is ▢FF33FF33Evil Raven Summon▢FFFFFFFF
+gui_selectable_action_339_for_me=You are ▢FF33FF33Evil Raven Summon▢FFFFFFFF
+gui_selectable_action_340=%s is ▢FF33FF33Lycanthropy▢FFFFFFFF
+gui_selectable_action_340_for_me=You are ▢FF33FF33Lycanthropy▢FFFFFFFF
+
+gui_selectable_action_341=%s is ▢FF33FF33Unleash Dual Eclipse▢FFFFFFFF
+gui_selectable_action_341_for_me=You are ▢FF33FF33Unleash Dual Eclipse▢FFFFFFFF
+
+gui_selectable_action_342=%s is ▢FF33FF33Motorcycle racing▢FFFFFFFF
+gui_selectable_action_342_for_me=You are ▢FF33FF33Motorcycle racing▢FFFFFFFF
+gui_selectable_action_343=%s is ▢FF33FF33Scorched Earth Slash▢FFFFFFFF
+gui_selectable_action_343_for_me=You are ▢FF33FF33Scorched Earth Slash▢FFFFFFFF
+gui_selectable_action_344=%s is ▢FF33FF33Rusty Iron Crushing Fist▢FFFFFFFF
+gui_selectable_action_344_for_me=You are ▢FF33FF33Rusty Iron Crushing Fist▢FFFFFFFF
+
+gui_selectable_action_345=%s is ▢FF33FF33Soul-devour Scythe▢FFFFFFFF
+gui_selectable_action_345_for_me=You are ▢FF33FF33Soul-devour Scythe▢FFFFFFFF
+
+gui_selectable_action_346=%s is ▢FF33FF33Play video games▢FFFFFFFF
+gui_selectable_action_346_for_me=You are ▢FF33FF33Play video games▢FFFFFFFF
+
+gui_selectable_action_347=%s is ▢FF33FF33tsuki no kokyū▢FFFFFFFF
+gui_selectable_action_347_for_me=You are ▢FF33FF33tsuki no kokyū▢FFFFFFFF
+gui_selectable_action_348=%s is ▢FF33FF33Kekki-jutsu Tōmu▢FFFFFFFF
+gui_selectable_action_348_for_me=You are ▢FF33FF33Kekki-jutsu Tōmu▢FFFFFFFF
+gui_selectable_action_349=%s is ▢FF33FF33Hakai Satsu: Roshin▢FFFFFFFF
+gui_selectable_action_349_for_me=You are ▢FF33FF33Hakai Satsu: Roshin▢FFFFFFFF
+gui_selectable_action_350=%s is ▢FF33FF33Ninokata · Hekiraten▢FFFFFFFF
+gui_selectable_action_350_for_me=You are ▢FF33FF33Ninokata · Hekiraten▢FFFFFFFF
+
+gui_selectable_action_351=%s is ▢FF33FF33Chains of the Void▢FFFFFFFF
+gui_selectable_action_351_for_me=You are ▢FF33FF33Chains of the Void▢FFFFFFFF
+
+gui_selectable_action_352=%s is ▢FF33FF33Manipulating spider silk▢FFFFFFFF
+gui_selectable_action_352_for_me=You are ▢FF33FF33Manipulating spider silk▢FFFFFFFF
+gui_selectable_action_353=%s is ▢FF33FF33Pumpkin Juggling▢FFFFFFFF
+gui_selectable_action_353_for_me=You are ▢FF33FF33Pumpkin Juggling▢FFFFFFFF
+gui_selectable_action_354=%s is ▢FF33FF33Candy Delivery▢FFFFFFFF
+gui_selectable_action_354_for_me=You are ▢FF33FF33Candy Delivery▢FFFFFFFF
+
+gui_selectable_action_355=%s is ▢FF33FF33Surprise landing▢FFFFFFFF
+gui_selectable_action_355_for_me=You are ▢FF33FF33Surprise landing▢FFFFFFFF
+
+gui_selectable_action_356=%s is ▢FF33FF33Conduct rocket launch binding▢FFFFFFFF
+gui_selectable_action_356_for_me=You are ▢FF33FF33Conduct rocket launch binding▢FFFFFFFF
+gui_selectable_action_357=%s is ▢FF33FF33Conduct aerial shooting▢FFFFFFFF
+gui_selectable_action_357_for_me=You are ▢FF33FF33Conduct aerial shooting▢FFFFFFFF
+gui_selectable_action_358=%s is ▢FF33FF33use the Holy Hammer to Judgment▢FFFFFFFF
+gui_selectable_action_358_for_me=You are ▢FF33FF33use the Holy Hammer to Judgment▢FFFFFFFF
+
+gui_selectable_action_359=%s is ▢FF33FF33Play The Fragmentation Concerto▢FFFFFFFF
+gui_selectable_action_359_for_me=You are ▢FF33FF33Play The Fragmentation Concerto▢FFFFFFFF
+
+gui_selectable_action_360=%s is ▢FF33FF33Sundown Strike▢FFFFFFFF
+gui_selectable_action_360_for_me=You are ▢FF33FF33Sundown Strike▢FFFFFFFF
+gui_selectable_action_361=%s is ▢FF33FF33Summon and Recline upon the Moon▢FFFFFFFF
+gui_selectable_action_361_for_me=You are ▢FF33FF33Summon and Recline upon the Moon▢FFFFFFFF
+gui_selectable_action_362=%s is ▢FF33FF33Nova's Final Bow▢FFFFFFFF
+gui_selectable_action_362_for_me=You are ▢FF33FF33Nova's Final Bow▢FFFFFFFF
+
+gui_selectable_action_363=%s is ▢FF33FF33use the Aurora Sword Technique▢FFFFFFFF
+gui_selectable_action_363_for_me=You are ▢FF33use the FF33Nova's Final Bow▢FFFFFFFF
+
+gui_selectable_action_364=%s is ▢FF33FF33ues New Year's Salute▢FFFFFFFF
+gui_selectable_action_364_for_me=You are ▢FF33FF33ues New Year's Salute▢FFFFFFFF
+gui_selectable_action_365=%s is ▢FF33FF33Merry Christmas 2025▢FFFFFFFF
+gui_selectable_action_365_for_me=You are ▢FF33FF33Merry Christmas 2025▢FFFFFFFF
+gui_selectable_action_366=%s is ▢FF33FF33Setting off handheld fireworks▢FFFFFFFF
+gui_selectable_action_366_for_me=You are ▢FF33FF33Setting off handheld fireworks▢FFFFFFFF
+
+gui_selectable_action_367=%s is ▢FF33FF33figure skating▢FFFFFFFF
+gui_selectable_action_367_for_me=You are ▢FF33FF33figure skating▢FFFFFFFF
+gui_selectable_action_368=%s is ▢FF33FF33Setting off handheld fireworks▢FFFFFFFF
+gui_selectable_action_368_for_me=You are ▢FF33FF33Setting off handheld fireworks▢FFFFFFFF
+
+gui_selectable_action_370=%s is using ▢FF33FF33Hino Kokyū▢FFFFFFFF
+gui_selectable_action_370_for_me=You are  using ▢FF33FF33Hino Kokyū▢FFFFFFFF
+gui_selectable_action_371=%s is using ▢FF33FF33Blood Demon Arts▢FFFFFFFF
+gui_selectable_action_371_for_me=You are  using ▢FF33FF33Blood Demon Arts▢FFFFFFFF
+gui_selectable_action_372=%s is using ▢FF33FF33Demonization▢FFFFFFFF
+gui_selectable_action_372_for_me=You are  using ▢FF33FF33Demonization▢FFFFFFFF
+gui_selectable_action_373=%s is using ▢FF33FF33Wind Breathing▢FFFFFFFF
+gui_selectable_action_373_for_me=You are  using ▢FF33FF33Wind Breathing▢FFFFFFFF
+gui_selectable_action_374=%s is using ▢FF33FF33First Form▢FFFFFFFF
+gui_selectable_action_374_for_me=You are  using ▢FF33FF33First Form▢FFFFFFFF
+gui_selectable_action_375=%s is using ▢FF33FF33Glows In The Dark▢FFFFFFFF
+gui_selectable_action_375_for_me=You are  using ▢FF33FF33Glows In The Dark▢FFFFFFFF
+
+
+gui_selectable_action_369=%s is ▢FF33FF33riding a ghost ship▢FFFFFFFF
+gui_selectable_action_369_for_me=You are ▢FF33FF33riding a ghost ship▢FFFFFFFF
+
+gui_selectable_action_376=%s is using ▢FF33FF33Codex Unbound▢FFFFFFFF
+gui_selectable_action_376_for_me=You are  using ▢FF33FF33Codex Unbound▢FFFFFFFF
+
+gui_selectable_action_377=%s is using ▢FF33FF33Codex Unbound▢FFFFFFFF
+gui_selectable_action_377_for_me=You are  using ▢FF33FF33Codex Unbound▢FFFFFFFF
+
+gui_selectable_action_378=%s is using ▢FF33FF33Popular Dances▢FFFFFFFF
+gui_selectable_action_378_for_me=You are  using ▢FF33FF33Popular Dances▢FFFFFFFF
+
+gui_selectable_action_10005=%s is ▢FF33FF33ikun dance▢FFFFFFFF
+gui_selectable_action_10005_for_me=You are ▢FF33FF33ikun dance▢FFFFFFFF
+gui_selectable_action_10021=%s is ▢FF33FF33Activate Snow Country Gold Gift▢FFFFFFFF
+gui_selectable_action_10021_for_me=You are ▢FF33FF33Activate Snow Country Gold Gift▢FFFFFFFF
+
+gui_selectable_action_379=%s is using ▢FF33FF33Splashed Ink Edge▢FFFFFFFF
+gui_selectable_action_379_for_me=You are  using ▢FF33FF33Splashed Ink Edge▢FFFFFFFF
+gui_selectable_action_380=%s is using ▢FF33FF33Thunder at Umbrella’s Rise▢FFFFFFFF
+gui_selectable_action_380_for_me=You are  using ▢FF33FF33Thunder at Umbrella’s Rise▢FFFFFFFF
+gui_selectable_action_381=%s is using ▢FF33FF33Ink Falls, the Crane Rises▢FFFFFFFF
+gui_selectable_action_381_for_me=You are  using ▢FF33FF33Ink Falls, the Crane Rises▢FFFFFFFF
+gui_selectable_action_382=%s is using ▢FF33FF33Tai Chi▢FFFFFFFF
+gui_selectable_action_382_for_me=You are  using ▢FF33FF33Tai Chi▢FFFFFFFF
+
+
+gui_selectable_action_383=%s is using ▢FF33FF33Flower Offer▢FFFFFFFF
+gui_selectable_action_383_for_me=You are  using ▢FF33FF33Flower Offer▢FFFFFFFF
+
+gui_selectable_action_384=%s is using ▢FF33FF33Divination of fate▢FFFFFFFF
+gui_selectable_action_384_for_me=You are  using ▢FF33FF33Divination of fate▢FFFFFFFF
+gui_selectable_action_385=%s is using ▢FF33FF33Starfall Secret Technique▢FFFFFFFF
+gui_selectable_action_385_for_me=You are  using ▢FF33FF33Starfall Secret Technique▢FFFFFFFF
+
+gui_selectable_action_386=%s is using ▢FF33FF33Soul Split & Merge▢FFFFFFFF
+gui_selectable_action_386_for_me=You are  using ▢FF33FF33Soul Split & Merge▢FFFFFFFF
+
+gui_selectable_action_387=%s is using ▢FF33FF33Summoning the Dark Throne▢FFFFFFFF
+gui_selectable_action_387_for_me=You are  using ▢FF33FF33Summoning the Dark Throne▢FFFFFFFF
+
+gui_selectable_action_388=%s is using ▢FF33FF33Watch Ads▢FFFFFFFF
+gui_selectable_action_388_for_me=You are  using ▢FF33FF33Watch Ads▢FFFFFFFF
+
+gui_selectable_action_389=%s is using ▢FF33FF33Beat the Cardboard Dinosaur▢FFFFFFFF
+gui_selectable_action_389_for_me=You are  using ▢FF33FF33Beat the Cardboard Dinosaur▢FFFFFFFF
+gui_selectable_action_390=%s is using ▢FF33FF33The Great Vanishing Act▢FFFFFFFF
+gui_selectable_action_390_for_me=You are  using ▢FF33FF33The Great Vanishing Act▢FFFFFFFF
+gui_selectable_action_391=%s is using ▢FF33FF33Come Back from the Dead▢FFFFFFFF
+gui_selectable_action_391_for_me=You are  using ▢FF33FF33Come Back from the Dead▢FFFFFFFF
+gui_selectable_action_392=%s is using ▢FF33FF33Rainbow Vomit▢FFFFFFFF
+gui_selectable_action_392_for_me=You are  using ▢FF33FF33Rainbow Vomit▢FFFFFFFF
+
+gui_selectable_action_393=%s is using ▢FF33FF33Shelter from the rain▢FFFFFFFF
+gui_selectable_action_393_for_me=You are  using ▢FF33FF33Shelter from the rain▢FFFFFFFF
+
+gui_selectable_action_394=%s is using ▢FF33FF33Dragon-Flash▢FFFFFFFF
+gui_selectable_action_394_for_me=You are  using ▢FF33FF33Dragon-Flash▢FFFFFFFF
+
+gui_selectable_action_395=%s is using ▢FF33FF33Enjoy teatime▢FFFFFFFF
+gui_selectable_action_395_for_me=You are  using ▢FF33FF33Enjoy teatime▢FFFFFFFF
+
+gui_selectable_action_396=%s is ▢FF33FF33Summon Golem▢FFFFFFFF
+gui_selectable_action_396_for_me=You are ▢FF33FF33Summon Golem▢FFFFFFFF
+gui_selectable_action_397=%s is using ▢FF33FF33sacrificial ceremony▢FFFFFFFF
+gui_selectable_action_397_for_me=You are  using ▢FF33FF33sacrificial ceremony▢FFFFFFFF
+gui_selectable_action_398=%s is using ▢FF33FF33Broken Sword Reconstruction▢FFFFFFFF
+gui_selectable_action_398_for_me=You are  using ▢FF33FF33Broken Sword Reconstruction▢FFFFFFFF
+
+gui_selectable_action_399=%s is using ▢FF33FF33Heroes Appear▢FFFFFFFF
+gui_selectable_action_399_for_me=You are  using ▢FF33FF33Heroes Appear▢FFFFFFFF
+
+gui_selectable_action_400=%s is using ▢FF33FF33Smash the tentacles▢FFFFFFFF
+gui_selectable_action_400_for_me=You are  using ▢FF33FF33Smash the tentacles▢FFFFFFFF
+gui_selectable_action_401=%s is using ▢FF33FF33Drive away evil spirits▢FFFFFFFF
+gui_selectable_action_401_for_me=You are  using ▢FF33FF33Drive away evil spirits▢FFFFFFFF
+gui_selectable_action_402=%s is using ▢FF33FF33Release hostages▢FFFFFFFF
+gui_selectable_action_402_for_me=You are  using ▢FF33FF33Release hostages▢FFFFFFFF
+
+gui_selectable_action_403=%s is using ▢FF33FF33Skeletal Scatter▢FFFFFFFF
+gui_selectable_action_403_for_me=You are  using ▢FF33FF33Skeletal Scatter▢FFFFFFFF
+
+gui_selectable_action_404=%s is using ▢FF33FF33Portal Building▢FFFFFFFF
+gui_selectable_action_404_for_me=You are  using ▢FF33FF33Portal Building▢FFFFFFFF
+
+gui_selectable_action_405=%s is using ▢FF33FF33Keep punching▢FFFFFFFF
+gui_selectable_action_405_for_me=You are  using ▢FF33FF33Keep punching▢FFFFFFFF
+gui_selectable_action_406=%s is using ▢FF33FF33Goddess Sword Dance▢FFFFFFFF
+gui_selectable_action_406_for_me=You are  using ▢FF33FF33Goddess Sword Dance▢FFFFFFFF
+gui_selectable_action_407=%s is using ▢FF33FF33Break free from the chains▢FFFFFFFF
+gui_selectable_action_407_for_me=You are  using ▢FF33FF33Break free from the chains▢FFFFFFFF
+gui_selectable_action_408=%s is using ▢FF33FF33Step on the colorful clouds▢FFFFFFFF
+gui_selectable_action_408_for_me=You are  using ▢FF33FF33Step on the colorful clouds▢FFFFFFFF
+
+gui_selectable_action_409=%s is using ▢FF33FF33Demon Sword Slash▢FFFFFFFF
+gui_selectable_action_409_for_me=You are  using ▢FF33FF33Demon Sword Slash▢FFFFFFFF
+
+gui_selectable_action_410=%s is using ▢FF33FF33Shoot at goal▢FFFFFFFF
+gui_selectable_action_410_for_me=You are  using ▢FF33FF33Shoot at goal▢FFFFFFFF
+
+gui_selectable_action_411=%s is using ▢FF33FF33Ship Malfunction▢FFFFFFFF
+gui_selectable_action_411_for_me=You are  using ▢FF33FF33Ship Malfunction▢FFFFFFFF
+gui_selectable_action_412=%s is using ▢FF33FF33Activate Swarm Core▢FFFFFFFF
+gui_selectable_action_412_for_me=You are  using ▢FF33FF33Activate Swarm Core▢FFFFFFFF
+gui_selectable_action_413=%s is using ▢FF33FF33Hunter's Counter▢FFFFFFFF
+gui_selectable_action_413_for_me=You are  using ▢FF33FF33Hunter's Counter▢FFFFFFFF
+
+gui_selectable_action_414=%s is using ▢FF33FF33Resurrection Ritual▢FFFFFFFF
+gui_selectable_action_414_for_me=You are  using ▢FF33FF33Resurrection Ritual▢FFFFFFFF
+
+gui_selectable_action_415=%s is using ▢FF33FF33Burger Descent▢FFFFFFFF
+gui_selectable_action_415_for_me=You are  using ▢FF33FF33Burger Descent▢FFFFFFFF
+gui_selectable_action_416=%s is using ▢FF33FF33Refreshing Soda Sip▢FFFFFFFF
+gui_selectable_action_416_for_me=You are  using ▢FF33FF33Refreshing Soda Sip▢FFFFFFFF
+gui_selectable_action_417=%s is using ▢FF33FF33This Isn't Ketchup▢FFFFFFFF
+gui_selectable_action_417_for_me=You are  using ▢FF33FF33This Isn't Ketchup▢FFFFFFFF
+gui_selectable_action_418=%s is using ▢FF33FF33Feast Share▢FFFFFFFF
+gui_selectable_action_418_for_me=You are  using ▢FF33FF33Feast Share▢FFFFFFFF
+
+gui_selectable_action_419=%s is using ▢FF33FF33Rhythm Beat▢FFFFFFFF
+gui_selectable_action_419_for_me=You are  using ▢FF33FF33Rhythm Beat▢FFFFFFFF
+
+gui_selectable_action_420=%s is using ▢FF33FF33Create Planet▢FFFFFFFF
+gui_selectable_action_420_for_me=You are  using ▢FF33FF33Create Planet▢FFFFFFFF
+
+gui_selectable_action_421=%s is using ▢FF33FF33Transform into Wolf Spirit▢FFFFFFFF
+gui_selectable_action_421_for_me=You are  using ▢FF33FF33Transform into Wolf Spirit▢FFFFFFFF
+gui_selectable_action_422=%s is using ▢FF33FF33Breakdance▢FFFFFFFF
+gui_selectable_action_422_for_me=You are  using ▢FF33FF33Breakdance▢FFFFFFFF
+gui_selectable_action_423=%s is using ▢FF33FF33Pet the Cat▢FFFFFFFF
+gui_selectable_action_423_for_me=You are  using ▢FF33FF33Pet the Cat▢FFFFFFFF
+gui_selectable_action_424=%s is using ▢FF33FF33Summon Spirit Beast▢FFFFFFFF
+gui_selectable_action_424_for_me=You are  using ▢FF33FF33Summon Spirit Beast▢FFFFFFFF
+
+gui_selectable_action_425=%s is using ▢FF33FF33Star Crystal Impact▢FFFFFFFF
+gui_selectable_action_425_for_me=You are  using ▢FF33FF33Star Crystal Impact▢FFFFFFFF
+
+gui_selectable_action_426=%s is using ▢FF33FF33Demon-Banishing Shot▢FFFFFFFF
+gui_selectable_action_426_for_me=You are  using ▢FF33FF33Demon-Banishing Shot▢FFFFFFFF
+gui_selectable_action_427=%s is using ▢FF33FF33Comic Freeze▢FFFFFFFF
+gui_selectable_action_427_for_me=You are  using ▢FF33FF33Comic Freeze▢FFFFFFFF
+gui_selectable_action_428=%s is using ▢FF33FF33Slam Dunk▢FFFFFFFF
+gui_selectable_action_428_for_me=You are  using ▢FF33FF33Slam Dunk▢FFFFFFFF
+gui_selectable_action_429=%s is using ▢FF33FF33Meteor Shatter▢FFFFFFFF
+gui_selectable_action_429_for_me=You are  using ▢FF33FF33Meteor Shatter▢FFFFFFFF
+
+gui_selectable_action_430=%s is using ▢FF33FF33Bullet Storm▢FFFFFFFF
+gui_selectable_action_430_for_me=You are  using ▢FF33FF33Bullet Storm▢FFFFFFFF

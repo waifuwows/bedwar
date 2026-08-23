@@ -1,0 +1,50 @@
+{
+    "frames": {
+        "img_card": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 512,
+                "h": 512
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 512,
+                "h": 512
+            },
+            "sourceSize": {
+                "w": 512,
+                "h": 512
+            }
+        },
+        "tab": {
+            "frame": {
+                "x": 1,
+                "y": 514,
+                "w": 209,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 91
+            }
+        }
+    },
+    "meta": {
+        "image": "app_store_activity_1.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 514,
+            "h": 606
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

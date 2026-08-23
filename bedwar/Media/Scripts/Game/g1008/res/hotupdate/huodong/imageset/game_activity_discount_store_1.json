@@ -1,0 +1,50 @@
+{
+    "frames": {
+        "img_0_bg": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 512,
+                "h": 288
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 512,
+                "h": 288
+            },
+            "sourceSize": {
+                "w": 512,
+                "h": 288
+            }
+        },
+        "img_0_listbd": {
+            "frame": {
+                "x": 1,
+                "y": 290,
+                "w": 875,
+                "h": 720
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 875,
+                "h": 720
+            },
+            "sourceSize": {
+                "w": 875,
+                "h": 720
+            }
+        }
+    },
+    "meta": {
+        "image": "game_activity_discount_store_1.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 877,
+            "h": 1011
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

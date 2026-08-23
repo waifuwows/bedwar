@@ -1,0 +1,5 @@
+custom_room_resource_load_error_retry=Nie udało się załadować zasobów. Wyjdź z gry i wejdź ponownie.\\nJeśli problem nadal występuje, wyczyść zasoby i ponownie wejdź do gry.
+chat_moderation_menu_report=Zgłoś użytkownika
+chat_moderation_menu_block=Zablokuj użytkownika
+chat_moderation_report_success=Pomyślnie zgłoszono użytkownika %s
+chat_moderation_block_success=Pomyślnie zablokowano użytkownika %s

@@ -1,0 +1,32 @@
+{
+    "frames": {
+        "img_0_horn_bg": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 512,
+                "h": 289
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 512,
+                "h": 289
+            },
+            "sourceSize": {
+                "w": 512,
+                "h": 289
+            }
+        }
+    },
+    "meta": {
+        "image": "bedwar_new_license_bg.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 514,
+            "h": 291
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

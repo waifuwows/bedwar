@@ -1,0 +1,46 @@
+#排名得分
+RankScore: [45,35,25,15,10,5,3,2]
+#淘汰得分（杀没床的人）
+WeedOutScore: 5
+#========== 淘汰附加 begin==========
+#淘汰搭建超过100方块
+WeedOutBuilderScore: 3
+#淘汰道具使用者
+WeedOutUsePropsScore: 3
+#淘汰拆床者
+WeedOutDestroyBedScore: 3
+#淘汰击杀者
+WeedOutKillerScore: 3
+#淘汰有输出
+WeedOutHighDamageScore: 3
+#淘汰有过交集
+WeedOutRecentScore: -15
+#淘汰同一个ip
+WeedOutSameIpScore: -15
+#========== 淘汰附加 end==========
+#拆床得分
+DestroyBedScore: 3
+#自杀敌人得分
+SuicideEnemyScore: 5
+#自杀得分
+SuicideScore: -15
+#最大游戏局数 满了重置
+MaxGameCount: 10
+#重置轮次花费货币类型 1金魔方
+ResetCurrency: 1
+#重置轮次费用 第一次免费
+ResetPrice: 0
+#离结束多少时间进入结算期 单位秒 1天86400
+OffTime: 950400
+#匹配分组数
+MatchingGroupCount: 2
+#开启时间段[开始星期几，小时，分钟，结束星期几，小时，分钟] 周日如果跟周一相连 就配7，24，0结束 1，0，0开始
+Schedule: [
+  [ 5,00,00,7,24,00 ],
+]
+#开放段位需求
+NeedSegment: 8
+#巅峰赛统一头像Id
+HeadId: 108086
+#巅峰段位
+PeakSegment: [9,10,11,12]

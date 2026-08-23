@@ -1,0 +1,280 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ActorTemplates>
+	<ActorTemplate name="g1008_pet_95.actor" Originalscale="1 1 1" Skeleton="g1008_icon_pet_95.skel" AttackScale="1" TextHeight="0" IsShowShadow="true" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1" ThreadPriority="1" LodLevel="3">
+		<SubActors>
+		</SubActors>
+		<BodyParts>
+			<BodyPart MasterName="body" SlaveName="g1008_icon_pet_95" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g1008_icon_pet_95.skin" ChangeColor = "0 1.11036e-38 1.11036e-38 1.59709e-38" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+				<Effect>
+					<FileName value="g1008_icon_pet_95_01.effect"/>
+					<SocketName value="Bone081"/>
+					<Position_X value="-0.0649476"/>
+					<Position_Y value="0.0615133"/>
+					<Position_Z value="0.113642"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="-90"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_icon_pet_95_02.effect"/>
+					<SocketName value="Bone086"/>
+					<Position_X value="0.0448219"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0.00236076"/>
+					<yaw value="115"/>
+					<pitch value="-6.83019e-06"/>
+					<roll value="-90"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_icon_pet_95_03.effect"/>
+					<SocketName value="Bone077"/>
+					<Position_X value="0.026108"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="108"/>
+					<pitch value="-68"/>
+					<roll value="-89.9999"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_icon_pet_95_02.effect"/>
+					<SocketName value="Bone084"/>
+					<Position_X value="-0.00762329"/>
+					<Position_Y value="0"/>
+					<Position_Z value="-0.014698"/>
+					<yaw value="110.5"/>
+					<pitch value="1.70755e-06"/>
+					<roll value="-91.5"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_icon_pet_95_03.effect"/>
+					<SocketName value="Bone079"/>
+					<Position_X value="0.0484604"/>
+					<Position_Y value="-0.00372243"/>
+					<Position_Z value="0.0105022"/>
+					<yaw value="93.9183"/>
+					<pitch value="62.9316"/>
+					<roll value="94.3985"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_icon_pet_95_02.effect"/>
+					<SocketName value="Bone085"/>
+					<Position_X value="0.143871"/>
+					<Position_Y value="-0.0258571"/>
+					<Position_Z value="0.0144393"/>
+					<yaw value="95.0439"/>
+					<pitch value="-8.06626"/>
+					<roll value="1.72235"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_icon_pet_95_03.effect"/>
+					<SocketName value="Bone078"/>
+					<Position_X value="0.0915776"/>
+					<Position_Y value="-0.000912189"/>
+					<Position_Z value="0.00755891"/>
+					<yaw value="86.4127"/>
+					<pitch value="67.1176"/>
+					<roll value="75.6906"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill Name="idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_icon_pet_95_idle.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="run" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_icon_pet_95_run.anim" BeginTime = "0" Times = "-1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_icon_pet_95_run.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="1.12668"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="show" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_icon_pet_95_show_2.anim" BeginTime = "0" Times = "1" Length = "3.566" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_icon_pet_95_show.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_icon_pet_95_show_01.effect"/>
+					<SocketName value="Bone086"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0.358271"/>
+					<Position_Y value="0"/>
+					<Position_Z value="-0.049409"/>
+					<yaw value="100.5"/>
+					<pitch value="-1.70755e-06"/>
+					<roll value="89"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_icon_pet_95_show_01.effect"/>
+					<SocketName value="Bone084"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0.304444"/>
+					<Position_Y value="-0.000709176"/>
+					<Position_Z value="-0.0494736"/>
+					<yaw value="93.9999"/>
+					<pitch value="-3.41509e-06"/>
+					<roll value="89.5"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_icon_pet_95_show_01.effect"/>
+					<SocketName value="Bone085"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0.463693"/>
+					<Position_Y value="-0.0674092"/>
+					<Position_Z value="-0.0115035"/>
+					<yaw value="93.9993"/>
+					<pitch value="-0.0784551"/>
+					<roll value="0.996918"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="show_1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g1008_icon_pet_95_show.anim" BeginTime = "0" Times = "1" Length = "2.033" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g1008_icon_pet_95_show_02.effect"/>
+					<SocketName value="Bone085"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0.456362"/>
+					<Position_Y value="-0.0626946"/>
+					<Position_Z value="-0.00764489"/>
+					<yaw value="94.5"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_icon_pet_95_show_02.effect"/>
+					<SocketName value="Bone084"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0.304444"/>
+					<Position_Y value="-0.000709176"/>
+					<Position_Z value="-0.0494736"/>
+					<yaw value="93.9999"/>
+					<pitch value="-5.12264e-06"/>
+					<roll value="88.5"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g1008_icon_pet_95_show_02.effect"/>
+					<SocketName value="Bone086"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0.358271"/>
+					<Position_Y value="0"/>
+					<Position_Z value="-0.049409"/>
+					<yaw value="100.5"/>
+					<pitch value="-5.12264e-06"/>
+					<roll value="90"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+		</Skills>
+		<Anims>
+				<Anim Name="g1008_icon_pet_95_idle.anim"/>
+				<Anim Name="g1008_icon_pet_95_run.anim"/>
+				<Anim Name="g1008_icon_pet_95_show_2.anim"/>
+				<Anim Name="g1008_icon_pet_95_show.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

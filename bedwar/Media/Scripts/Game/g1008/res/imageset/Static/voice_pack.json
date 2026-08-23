@@ -1,0 +1,122 @@
+{
+    "frames": {
+        "btn_0_voicet1": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 41,
+                "h": 40
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 41,
+                "h": 40
+            },
+            "sourceSize": {
+                "w": 41,
+                "h": 40
+            }
+        },
+        "btn_0_voicet2": {
+            "frame": {
+                "x": 43,
+                "y": 1,
+                "w": 50,
+                "h": 42
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 50,
+                "h": 42
+            },
+            "sourceSize": {
+                "w": 50,
+                "h": 42
+            }
+        },
+        "img_0_voiceboft": {
+            "frame": {
+                "x": 94,
+                "y": 1,
+                "w": 36,
+                "h": 35
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 36,
+                "h": 35
+            },
+            "sourceSize": {
+                "w": 36,
+                "h": 35
+            }
+        },
+        "img_9_voicedihgst": {
+            "frame": {
+                "x": 131,
+                "y": 1,
+                "w": 8,
+                "h": 8
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 8,
+                "h": 8
+            },
+            "sourceSize": {
+                "w": 8,
+                "h": 8
+            }
+        },
+        "img_9_voicedikt": {
+            "frame": {
+                "x": 1,
+                "y": 44,
+                "w": 82,
+                "h": 104
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 82,
+                "h": 104
+            },
+            "sourceSize": {
+                "w": 82,
+                "h": 104
+            }
+        },
+        "voice": {
+            "frame": {
+                "x": 84,
+                "y": 44,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        }
+    },
+    "meta": {
+        "image": "voice_pack.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 213,
+            "h": 173
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

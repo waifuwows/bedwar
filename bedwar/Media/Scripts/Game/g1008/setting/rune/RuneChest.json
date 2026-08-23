@@ -1,0 +1,26 @@
+{
+  "?oncePrice": "抽一次价格",
+  "oncePrice": 15,
+  "?priceList": "价格组key对应等级 如果对应等级没有就使用oncePrice",
+  "priceList": {
+    "1": 2,
+    "2": 5,
+    "3": 10,
+    "4": 20,
+    "5": 30
+  },
+  "?onceLuckyValue": "抽一次增加幸运值&经验",
+  "onceLuckyValue": 1,
+  "?goldConversion": "黄金宝箱补偿比例",
+  "goldConversion": 3,
+  "?diamondConversion": "钻石宝箱补偿比例",
+  "diamondConversion": 0.1,
+  "?runeChestReportId": "消费上报商品id",
+  "runeChestReportId": 12001,
+  "?bigRewardProbability": "抽到大奖的概率 10000 = 100%",
+  "bigRewardProbability": 10,
+  "?levelConversionLine": "等级转换限制 初次判断佬用户 所有符文到达多少分就升满宝箱等级",
+  "levelConversionLine": 2000,
+  "?oldRuneChestConversion": "黑符文箱子补偿比例 箱子=多少钥匙",
+  "oldRuneChestConversion": 15
+}

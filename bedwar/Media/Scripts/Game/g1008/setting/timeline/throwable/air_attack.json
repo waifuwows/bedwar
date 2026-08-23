@@ -1,0 +1,39 @@
+{
+  "attackEffect": {
+    "effectName": "g1008_aprilfools_airraid_1.effect",
+    "effectScale": 1.5,
+    "soundData": {
+      "soundId": 9040,
+      "soundType": "3d"
+    }
+  },
+  "checkStrategy": "airAttackCheck",
+  "collisionStrategy": "disappear",
+  "damageData": {
+    "canKillPlayer": false,
+    "damage": 5,
+    "damageType": "explosion",
+    "enableHurtFormula": false,
+    "hitBuffList": [],
+    "knockBackDis": 1
+  },
+  "duration": 10000,
+  "explosionRange": 1.5,
+  "explosionSpecialEffect": {
+    "effectType": "fireBombExplosion"
+  },
+  "extraBounds": {
+    "x": 1,
+    "y": 1,
+    "z": 1
+  },
+  "hitEffect": {
+    "effectName": "",
+    "effectScale": 1
+  },
+  "showEffect": {
+    "effectName": "g1008_aprilfools_airraid.effect",
+    "effectScale": 2.5
+  },
+  "speed": 30
+}

@@ -1,0 +1,33 @@
+{
+  "?tips": "末影龙追踪爆炸",
+  "actionList": [ {
+    "actionType": "PlayAnim",
+    "animName": "taunt",
+    "durationTick": 0,
+    "index": 1,
+    "startTick": 1,
+    "tick": 0,
+    "timelineName": "track_explosion_dark"
+  }, {
+    "actionType": "Trigger",
+    "durationTick": 0,
+    "index": 2,
+    "searchData": {
+      "radius": 15,
+      "searchType": "randomLockPlayer"
+    },
+    "sourceConfigData": {
+      "configName": "warning_track_explosion_dark",
+      "sourceConfigType": "timeline"
+    },
+    "startTick": 1,
+    "tick": 0,
+    "timelineName": "track_explosion_dark",
+    "triggerData": {
+      "intervalTime": 20,
+      "triggerCount": 5,
+      "triggerType": "interval"
+    }
+  } ],
+  "endTick": 101
+}

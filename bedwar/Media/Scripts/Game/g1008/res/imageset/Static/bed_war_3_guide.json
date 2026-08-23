@@ -1,0 +1,212 @@
+{
+    "frames": {
+        "btn_9_ordinary": {
+            "frame": {
+                "x": 130,
+                "y": 118,
+                "w": 37,
+                "h": 142
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 37,
+                "h": 142
+            },
+            "sourceSize": {
+                "w": 37,
+                "h": 142
+            }
+        },
+        "img_0_arrow": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 25,
+                "h": 17
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 17
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 17
+            }
+        },
+        "img_0_gradients": {
+            "frame": {
+                "x": 1,
+                "y": 118,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "img_0_guide_arrow": {
+            "frame": {
+                "x": 362,
+                "y": 58,
+                "w": 35,
+                "h": 59
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 35,
+                "h": 59
+            },
+            "sourceSize": {
+                "w": 35,
+                "h": 59
+            }
+        },
+        "img_0_guide_floattipbd": {
+            "frame": {
+                "x": 1,
+                "y": 58,
+                "w": 360,
+                "h": 59
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 360,
+                "h": 59
+            },
+            "sourceSize": {
+                "w": 360,
+                "h": 59
+            }
+        },
+        "img_0_line_leftbottom": {
+            "frame": {
+                "x": 207,
+                "y": 1,
+                "w": 89,
+                "h": 40
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 89,
+                "h": 40
+            },
+            "sourceSize": {
+                "w": 89,
+                "h": 40
+            }
+        },
+        "img_0_line_lefttop": {
+            "frame": {
+                "x": 297,
+                "y": 1,
+                "w": 89,
+                "h": 40
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 89,
+                "h": 40
+            },
+            "sourceSize": {
+                "w": 89,
+                "h": 40
+            }
+        },
+        "img_0_line_rightbottom": {
+            "frame": {
+                "x": 27,
+                "y": 1,
+                "w": 89,
+                "h": 40
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 89,
+                "h": 40
+            },
+            "sourceSize": {
+                "w": 89,
+                "h": 40
+            }
+        },
+        "img_0_line_righttop": {
+            "frame": {
+                "x": 117,
+                "y": 1,
+                "w": 89,
+                "h": 40
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 89,
+                "h": 40
+            },
+            "sourceSize": {
+                "w": 89,
+                "h": 40
+            }
+        },
+        "img_9_npc": {
+            "frame": {
+                "x": 168,
+                "y": 118,
+                "w": 285,
+                "h": 261
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 285,
+                "h": 261
+            },
+            "sourceSize": {
+                "w": 285,
+                "h": 261
+            }
+        },
+        "img_9_textbd": {
+            "frame": {
+                "x": 387,
+                "y": 1,
+                "w": 56,
+                "h": 56
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 56,
+                "h": 56
+            },
+            "sourceSize": {
+                "w": 56,
+                "h": 56
+            }
+        }
+    },
+    "meta": {
+        "image": "bed_war_3_guide.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 454,
+            "h": 380
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

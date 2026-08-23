@@ -1,0 +1,32 @@
+{
+    "frames": {
+        "menu_player_item_line": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 2,
+                "h": 4
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 2,
+                "h": 4
+            },
+            "sourceSize": {
+                "w": 2,
+                "h": 4
+            }
+        }
+    },
+    "meta": {
+        "image": "menu_player_item.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 4,
+            "h": 6
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

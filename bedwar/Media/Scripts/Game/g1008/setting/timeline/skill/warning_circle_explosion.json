@@ -1,0 +1,13 @@
+{
+  "conditionList": [
+    {
+      "radius": 7,
+      "conditionType": "WithinRadius"
+    }
+  ],
+  "triggerRotate": {
+    "radius": 7,
+    "rotateType": "RecentTarget"
+  },
+  "timeline": "warning_circle_explosion"
+}

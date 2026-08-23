@@ -1,0 +1,68 @@
+{
+    "frames": {
+        "icon_2025_top_1": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 256,
+                "h": 256
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "icon_2025_top_2": {
+            "frame": {
+                "x": 258,
+                "y": 1,
+                "w": 256,
+                "h": 256
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "icon_2025_top_3": {
+            "frame": {
+                "x": 515,
+                "y": 1,
+                "w": 256,
+                "h": 256
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        }
+    },
+    "meta": {
+        "image": "bed_war_achievements.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 772,
+            "h": 258
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

@@ -1,0 +1,5 @@
+custom_room_resource_load_error_retry=Falha ao carregar recursos. Saia do jogo e entre novamente.\\nSe o problema persistir, limpe os recursos e entre novamente no jogo.
+chat_moderation_menu_report=Denunciar usuário
+chat_moderation_menu_block=Bloquear usuário
+chat_moderation_report_success=%s foi denunciado com sucesso
+chat_moderation_block_success=%s foi bloqueado com sucesso

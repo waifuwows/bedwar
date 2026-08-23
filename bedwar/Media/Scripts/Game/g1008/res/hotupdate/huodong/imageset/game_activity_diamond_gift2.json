@@ -1,0 +1,194 @@
+{
+    "frames": {
+        "banner_gift_key": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 497,
+                "h": 185
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 497,
+                "h": 185
+            },
+            "sourceSize": {
+                "w": 497,
+                "h": 185
+            }
+        },
+        "banner_gift_pet": {
+            "frame": {
+                "x": 499,
+                "y": 1,
+                "w": 497,
+                "h": 185
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 497,
+                "h": 185
+            },
+            "sourceSize": {
+                "w": 497,
+                "h": 185
+            }
+        },
+        "banner_gift_props": {
+            "frame": {
+                "x": 1,
+                "y": 187,
+                "w": 497,
+                "h": 185
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 497,
+                "h": 185
+            },
+            "sourceSize": {
+                "w": 497,
+                "h": 185
+            }
+        },
+        "banner_gift_runes": {
+            "frame": {
+                "x": 499,
+                "y": 187,
+                "w": 497,
+                "h": 185
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 497,
+                "h": 185
+            },
+            "sourceSize": {
+                "w": 497,
+                "h": 185
+            }
+        },
+        "banner_gift_soulstone": {
+            "frame": {
+                "x": 1,
+                "y": 373,
+                "w": 497,
+                "h": 185
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 497,
+                "h": 185
+            },
+            "sourceSize": {
+                "w": 497,
+                "h": 185
+            }
+        },
+        "bg2": {
+            "frame": {
+                "x": 499,
+                "y": 373,
+                "w": 513,
+                "h": 384
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 513,
+                "h": 384
+            },
+            "sourceSize": {
+                "w": 513,
+                "h": 384
+            }
+        },
+        "img_0_redline": {
+            "frame": {
+                "x": 1,
+                "y": 758,
+                "w": 46,
+                "h": 10
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 46,
+                "h": 10
+            },
+            "sourceSize": {
+                "w": 46,
+                "h": 10
+            }
+        },
+        "img_9_bd_blue": {
+            "frame": {
+                "x": 48,
+                "y": 758,
+                "w": 207,
+                "h": 135
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 207,
+                "h": 135
+            },
+            "sourceSize": {
+                "w": 207,
+                "h": 135
+            }
+        },
+        "img_9_bd_red": {
+            "frame": {
+                "x": 256,
+                "y": 758,
+                "w": 207,
+                "h": 135
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 207,
+                "h": 135
+            },
+            "sourceSize": {
+                "w": 207,
+                "h": 135
+            }
+        },
+        "img_9_limited_blue": {
+            "frame": {
+                "x": 464,
+                "y": 758,
+                "w": 76,
+                "h": 23
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 23
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 23
+            }
+        }
+    },
+    "meta": {
+        "image": "game_activity_diamond_gift2.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 1013,
+            "h": 894
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

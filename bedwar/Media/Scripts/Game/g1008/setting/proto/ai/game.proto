@@ -1,0 +1,58 @@
+syntax = "proto3";
+
+import "common.proto";
+import "player.proto";
+import "team.proto";
+import "resource.proto";
+import "block.proto";
+
+enum MatchType
+{
+    RANK = 0;           // 排位模式
+    SINGLE = 1;         // 单人模式
+    TWO_PLAYER = 2;     // 双人模式
+    FOUR_PLAYER = 3;    // 四人模式
+}
+
+message Drop
+{
+    int32 id = 1;                   // 道具局内ID
+    int32 item_id  = 3;             // 道具ID
+    int32 item_count = 2;           // 道具数量
+    Position position = 4;          // 道具位置
+}
+
+message GameFrameState
+{
+    uint32 frame_no = 1;                                // 帧号
+    bool complete = 2;                                  // 是否全量
+    map<int32, Team> teams = 3;                         // 比赛队伍
+    map<int64, Block> blocks = 4;                       // 方块
+    map<int32, Drop> drops = 5;                         // 地面上的道具
+    map<int32, Drop> del_drops = 6;                     // 删除的道具信息
+    map<int32, ResourcePoint> resource_points = 7;      // 资源点信息
+}
+
+message GameEndState
+{
+    repeated PlayerStat player_stats = 1;   // 玩家结算信息
+    int32 win_team = 2;                     // 赢的队伍ID
+}
+
+message GameState
+{
+    string game_id = 1;             // 对局ID
+    uint32 match_type = 2;          // 比赛模式
+    uint32 map_id = 3;              // 地图ID
+    
+    GameFrameState game_frame = 4;  // 帧信息，每帧同步
+    GameEndState game_end = 5;      // 对局结束后同步一次
+
+    uint32 game_stage = 6;          // 游戏阶段状态
+}
+
+message ResultGameState
+{
+    string game_id = 1;         // 对局ID
+    ResultPlayer player = 2;    // 玩家响应信息
+}

@@ -1,0 +1,12 @@
+{
+  "?price": "价格",
+  "price": 299,
+  "?triggerGameTimes": "触发的游戏局数",
+  "triggerGameTimes": 10,
+  "?triggerCountDown": "触发后存在时间",
+  "triggerCountDown": 259200,
+  "?keyReward": "钥匙奖励",
+  "keyReward": 310030,
+  "?orderId": "订单Id",
+  "orderId": 123433
+}

@@ -1,0 +1,46 @@
+{
+  "?tips": "火男技能1 发射3个火球",
+  "actionList": [ {
+    "actionType": "Trigger",
+    "durationTick": 0,
+    "index": 1,
+    "searchData": {
+      "angleList": [ "-30", "0", "30" ],
+      "searchType": "forwardAngle"
+    },
+    "sourceConfigData": {
+      "configName": "fireball",
+      "delayShoot": 0,
+      "extraRandomPosOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "playWarning": {
+        "effectScale": 1,
+        "innerEffectName": "g1008_pve_attack_circle_02.effect",
+        "outEffectName": "g1008_pve_attack_circle_01.effect",
+        "warningTime": 0
+      },
+      "soundData": {
+        "soundId": 0,
+        "soundType": "2d"
+      },
+      "sourceConfigType": "throwable",
+      "startPosOffset": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "throwableDirData": {
+        "dirType": "playerViewDir"
+      }
+    },
+    "startTick": 1,
+    "timelineName": "fireball",
+    "triggerData": {
+      "triggerType": "once"
+    }
+  } ],
+  "endTick": 1
+}

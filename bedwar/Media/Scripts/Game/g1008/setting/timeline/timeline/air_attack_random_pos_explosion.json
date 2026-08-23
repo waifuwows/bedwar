@@ -1,0 +1,47 @@
+{
+  "?tips": "空袭随机爆炸",
+  "actionList": [ {
+    "actionType": "Trigger",
+    "durationTick": 0,
+    "index": 1,
+    "searchData": {
+      "searchType": "airAttackRandomPosition"
+    },
+    "sourceConfigData": {
+      "configName": "air_attack",
+      "delayShoot": 0,
+      "extraRandomPosOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "playWarning": {
+        "effectScale": 1,
+        "innerEffectName": "g1008_pve_attack_circle_02.effect",
+        "outEffectName": "g1008_pve_attack_circle_01.effect",
+        "warningTime": 20
+      },
+      "soundData": {
+        "soundId": 0,
+        "soundType": "2d"
+      },
+      "sourceConfigType": "throwable",
+      "startPosOffset": {
+        "x": 0,
+        "y": 20,
+        "z": 0
+      },
+      "throwableDirData": {
+        "dirType": "dynamicPos"
+      }
+    },
+    "startTick": 1,
+    "timelineName": "air_attack_random_pos_explosion",
+    "triggerData": {
+      "intervalTime": 10,
+      "triggerCount": 5,
+      "triggerType": "interval"
+    }
+  } ],
+  "endTick": 51
+}

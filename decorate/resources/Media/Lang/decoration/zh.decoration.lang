@@ -1,0 +1,921 @@
+gui_selectable_action_51=%s正在 ▢FF33FF33射击▢FFFFFFFF
+gui_selectable_action_51_for_me=你正在 ▢FF33FF33射击▢FFFFFFFF
+gui_selectable_action_52=%s正在 ▢FF33FF33射击▢FFFFFFFF
+gui_selectable_action_52_for_me=你正在 ▢FF33FF33射击▢FFFFFFFF
+
+gui_selectable_action_53=%s正在 ▢FF33FF33起飞▢FFFFFFFF
+gui_selectable_action_53_for_me=你正在 ▢FF33FF33起飞▢FFFFFFFF
+gui_selectable_action_54=%s正在 ▢FF33FF33起飞▢FFFFFFFF
+gui_selectable_action_54_for_me=你正在 ▢FF33FF33起飞▢FFFFFFFF
+gui_selectable_action_55=%s正在 ▢FF33FF33腾云驾雾▢FFFFFFFF
+gui_selectable_action_55_for_me=你正在 ▢FF33FF33腾云驾雾▢FFFFFFFF
+gui_selectable_action_56=%s正在 ▢FF33FF33腾云驾雾▢FFFFFFFF
+gui_selectable_action_56_for_me=你正在 ▢FF33FF33腾云驾雾▢FFFFFFFF
+
+gui_selectable_action_57=%s正在 ▢FF33FF33战斗▢FFFFFFFF
+gui_selectable_action_57_for_me=你正在 ▢FF33FF33战斗▢FFFFFFFF
+gui_selectable_action_58=%s正在 ▢FF33FF33战斗▢FFFFFFFF
+gui_selectable_action_58_for_me=你正在 ▢FF33FF33战斗▢FFFFFFFF
+gui_selectable_action_59=%s正在 ▢FF33FF33出拳▢FFFFFFFF
+gui_selectable_action_59_for_me=你正在 ▢FF33FF33出拳▢FFFFFFFF
+gui_selectable_action_60=%s正在 ▢FF33FF33出拳▢FFFFFFFF
+gui_selectable_action_60_for_me=你正在 ▢FF33FF33出拳▢FFFFFFFF
+gui_selectable_action_61=%s正在 ▢FF33FF33施行法术▢FFFFFFFF
+gui_selectable_action_61_for_me=你正在 ▢FF33FF33施行法术▢FFFFFFFF
+gui_selectable_action_62=%s正在 ▢FF33FF33施行法术▢FFFFFFFF
+gui_selectable_action_62_for_me=你正在 ▢FF33FF33施行法术▢FFFFFFFF
+
+gui_selectable_action_63=%s正在 ▢FF33FF33挥砍▢FFFFFFFF
+gui_selectable_action_63_for_me=你正在 ▢FF33FF33挥砍▢FFFFFFFF
+gui_selectable_action_64=%s正在 ▢FF33FF33挥砍▢FFFFFFFF
+gui_selectable_action_64_for_me=你正在 ▢FF33FF33挥砍▢FFFFFFFF
+gui_selectable_action_65=%s正在 ▢FF33FF33自拍▢FFFFFFFF
+gui_selectable_action_65_for_me=你正在 ▢FF33FF33自拍▢FFFFFFFF
+gui_selectable_action_66=%s正在 ▢FF33FF33自拍▢FFFFFFFF
+gui_selectable_action_66_for_me=你正在 ▢FF33FF33自拍▢FFFFFFFF
+
+gui_selectable_action_67=%s正在 ▢FF33FF33打排球▢FFFFFFFF
+gui_selectable_action_67_for_me=你正在 ▢FF33FF33打排球▢FFFFFFFF
+gui_selectable_action_68=%s正在 ▢FF33FF33打排球▢FFFFFFFF
+gui_selectable_action_68_for_me=你正在 ▢FF33FF33打排球▢FFFFFFFF
+gui_selectable_action_69=%s正在 ▢FF33FF33庆祝▢FFFFFFFF
+gui_selectable_action_69_for_me=你正在 ▢FF33FF33庆祝▢FFFFFFFF
+gui_selectable_action_70=%s正在 ▢FF33FF33庆祝▢FFFFFFFF
+gui_selectable_action_70_for_me=你正在 ▢FF33FF33庆祝▢FFFFFFFF
+
+gui_selectable_action_71=%s正在 ▢FF33FF33托马斯全旋▢FFFFFFFF
+gui_selectable_action_71_for_me=你正在 ▢FF33FF33托马斯全旋▢FFFFFFFF
+gui_selectable_action_72=%s正在 ▢FF33FF33托马斯全旋▢FFFFFFFF
+gui_selectable_action_72_for_me=你正在 ▢FF33FF33托马斯全旋▢FFFFFFFF
+gui_selectable_action_73=%s正在 ▢FF33FF33撒花▢FFFFFFFF
+gui_selectable_action_73_for_me=你正在 ▢FF33FF33撒花▢FFFFFFFF
+gui_selectable_action_74=%s正在 ▢FF33FF33撒花▢FFFFFFFF
+gui_selectable_action_74_for_me=你正在 ▢FF33FF33撒花▢FFFFFFFF
+
+gui_selectable_action_75=%s正在 ▢FF33FF33英雄登场▢FFFFFFFF
+gui_selectable_action_75_for_me=你正在 ▢FF33FF33英雄登场▢FFFFFFFF
+gui_selectable_action_76=%s正在 ▢FF33FF33英雄登场▢FFFFFFFF
+gui_selectable_action_76_for_me=你正在 ▢FF33FF33英雄登场▢FFFFFFFF
+gui_selectable_action_77=%s正在 ▢FF33FF33钓鱼▢FFFFFFFF
+gui_selectable_action_77_for_me=你正在 ▢FF33FF33钓鱼▢FFFFFFFF
+gui_selectable_action_78=%s正在 ▢FF33FF33钓鱼▢FFFFFFFF
+gui_selectable_action_78_for_me=你正在 ▢FF33FF33钓鱼▢FFFFFFFF
+
+gui_selectable_action_79=%s正在 ▢FF33FF33迷魂▢FFFFFFFF
+gui_selectable_action_79_for_me=你正在 ▢FF33FF33迷魂▢FFFFFFFF
+gui_selectable_action_80=%s正在 ▢FF33FF33迷魂▢FFFFFFFF
+gui_selectable_action_80_for_me=你正在 ▢FF33FF33迷魂▢FFFFFFFF
+gui_selectable_action_81=%s正在 ▢FF33FF33打太极▢FFFFFFFF
+gui_selectable_action_81_for_me=你正在 ▢FF33FF33打太极▢FFFFFFFF
+gui_selectable_action_82=%s正在 ▢FF33FF33打太极▢FFFFFFFF
+gui_selectable_action_82_for_me=你正在 ▢FF33FF33打太极▢FFFFFFFF
+
+gui_selectable_action_83=%s正在 ▢FF33FF33聚沙成塔▢FFFFFFFF
+gui_selectable_action_83_for_me=你正在 ▢FF33FF33聚沙成塔▢FFFFFFFF
+gui_selectable_action_84=%s正在 ▢FF33FF33聚沙成塔▢FFFFFFFF
+gui_selectable_action_84_for_me=你正在 ▢FF33FF33聚沙成塔▢FFFFFFFF
+gui_selectable_action_85=%s正在 ▢FF33FF33滑雪▢FFFFFFFF
+gui_selectable_action_85_for_me=你正在 ▢FF33FF33滑雪▢FFFFFFFF
+gui_selectable_action_86=%s正在 ▢FF33FF33滑雪▢FFFFFFFF
+gui_selectable_action_86_for_me=你正在 ▢FF33FF33滑雪▢FFFFFFFF
+
+gui_selectable_action_87=%s正在 ▢FF33FF33恐吓▢FFFFFFFF
+gui_selectable_action_87_for_me=你正在 ▢FF33FF33恐吓▢FFFFFFFF
+gui_selectable_action_88=%s正在 ▢FF33FF33恐吓▢FFFFFFFF
+gui_selectable_action_88_for_me=你正在 ▢FF33FF33恐吓▢FFFFFFFF
+
+gui_selectable_action_89=%s正在 ▢FF33FF33示爱▢FFFFFFFF
+gui_selectable_action_89_for_me=你正在 ▢FF33FF33示爱▢FFFFFFFF
+gui_selectable_action_90=%s正在 ▢FF33FF33打碟▢FFFFFFFF
+gui_selectable_action_90_for_me=你正在 ▢FF33FF33打碟▢FFFFFFFF
+gui_selectable_action_91=%s正在 ▢FF33FF33摩托漂移▢FFFFFFFF
+gui_selectable_action_91_for_me=你正在 ▢FF33FF33摩托漂移▢FFFFFFFF
+gui_selectable_action_92=%s正在 ▢FF33FF33吉他弹唱▢FFFFFFFF
+gui_selectable_action_92_for_me=你正在 ▢FF33FF33吉他弹唱▢FFFFFFFF
+gui_selectable_action_93=%s正在 ▢FF33FF33跳太空步▢FFFFFFFF
+gui_selectable_action_93_for_me=你正在 ▢FF33FF33跳太空步▢FFFFFFFF
+gui_selectable_action_94=%s正在 ▢FF33FF33跳倒车舞▢FFFFFFFF
+gui_selectable_action_94_for_me=你正在 ▢FF33FF33跳倒车舞▢FFFFFFFF
+gui_selectable_action_95=%s正在 ▢FF33FF33雷电翻滚▢FFFFFFFF
+gui_selectable_action_95_for_me=你正在 ▢FF33FF33雷电翻滚▢FFFFFFFF
+gui_selectable_action_96=%s正在 ▢FF33FF33爆裂拳▢FFFFFFFF
+gui_selectable_action_96_for_me=你正在 ▢FF33FF33爆裂拳▢FFFFFFFF
+gui_selectable_action_97=%s正在 ▢FF33FF33通灵术▢FFFFFFFF
+gui_selectable_action_97_for_me=你正在 ▢FF33FF33通灵术▢FFFFFFFF
+gui_selectable_action_98=%s正在 ▢FF33FF33咒术攻击▢FFFFFFFF
+gui_selectable_action_98_for_me=你正在 ▢FF33FF33咒术攻击▢FFFFFFFF
+gui_selectable_action_99=%s正在 ▢FF33FF33纳刀▢FFFFFFFF
+gui_selectable_action_99_for_me=你正在 ▢FF33FF33纳刀▢FFFFFFFF
+gui_selectable_action_100=%s正在 ▢FF33FF33手里剑二连▢FFFFFFFF
+gui_selectable_action_100_for_me=你正在 ▢FF33FF33手里剑二连▢FFFFFFFF
+gui_selectable_action_101=%s正在 ▢FF33FF33扶起▢FFFFFFFF
+gui_selectable_action_101_for_me=你正在 ▢FF33FF33扶起▢FFFFFFFF
+gui_selectable_action_102=%s正在 ▢FF33FF33跑酷登车▢FFFFFFFF
+gui_selectable_action_102_for_me=你正在 ▢FF33FF33跑酷登车▢FFFFFFFF
+gui_selectable_action_103=%s正在 ▢FF33FF33翻越障碍▢FFFFFFFF
+gui_selectable_action_103_for_me=你正在 ▢FF33FF33翻越障碍▢FFFFFFFF
+gui_selectable_action_104=%s正在 ▢FF33FF33飞檐走壁▢FFFFFFFF
+gui_selectable_action_104_for_me=你正在 ▢FF33FF33飞檐走壁▢FFFFFFFF
+gui_selectable_action_105=%s正在 ▢FF33FF33气流斩▢FFFFFFFF
+gui_selectable_action_105_for_me=你正在 ▢FF33FF33气流斩▢FFFFFFFF
+gui_selectable_action_106=%s正在 ▢FF33FF33单脚跳▢FFFFFFFF
+gui_selectable_action_106_for_me=你正在 ▢FF33FF33单脚跳▢FFFFFFFF
+gui_selectable_action_107=%s正在 ▢FF33FF33单手倒立▢FFFFFFFF
+gui_selectable_action_107_for_me=你正在 ▢FF33FF33单手倒立▢FFFFFFFF
+gui_selectable_action_108=%s正在 ▢FF33FF33杂耍玩球▢FFFFFFFF
+gui_selectable_action_108_for_me=你正在 ▢FF33FF33杂耍玩球▢FFFFFFFF
+gui_selectable_action_109=%s正在 ▢FF33FF33小丑搞怪▢FFFFFFFF
+gui_selectable_action_109_for_me=你正在 ▢FF33FF33小丑搞怪▢FFFFFFFF
+gui_selectable_action_110=%s正在 ▢FF33FF33趣味小狗▢FFFFFFFF
+gui_selectable_action_110_for_me=你正在 ▢FF33FF33趣味小狗▢FFFFFFFF
+gui_selectable_action_111=%s正在 ▢FF33FF33舞会舞蹈▢FFFFFFFF
+gui_selectable_action_111_for_me=你正在 ▢FF33FF33舞会舞蹈▢FFFFFFFF
+gui_selectable_action_112=%s正在 ▢FF33FF33庆祝▢FFFFFFFF
+gui_selectable_action_112_for_me=你正在 ▢FF33FF33庆祝▢FFFFFFFF
+gui_selectable_action_113=%s正在 ▢FF33FF33颠球▢FFFFFFFF
+gui_selectable_action_113_for_me=你正在 ▢FF33FF33颠球▢FFFFFFFF
+gui_selectable_action_115=%s正在 ▢FF33FF33开礼物盒▢FFFFFFFF
+gui_selectable_action_115_for_me=你正在 ▢FF33FF33开礼物盒▢FFFFFFFF
+gui_selectable_action_116=%s正在 ▢FF33FF33堆雪人▢FFFFFFFF
+gui_selectable_action_116_for_me=你正在 ▢FF33FF33堆雪人▢FFFFFFFF
+gui_selectable_action_117=%s正在 ▢FF33FF33跳潮流荧光舞▢FFFFFFFF
+gui_selectable_action_117_for_me=你正在 ▢FF33FF33跳潮流荧光舞▢FFFFFFFF
+gui_selectable_action_118=%s正在 ▢FF33FF33烟花画心▢FFFFFFFF
+gui_selectable_action_118_for_me=你正在 ▢FF33FF33烟花画心▢FFFFFFFF
+gui_selectable_action_119=%s正在 ▢FF33FF33跳骨龙舞▢FFFFFFFF
+gui_selectable_action_119_for_me=你正在 ▢FF33FF33跳骨龙舞▢FFFFFFFF
+gui_selectable_action_120=%s正在 ▢FF33FF33侧踢▢FFFFFFFF
+gui_selectable_action_120_for_me=你正在 ▢FF33FF33侧踢▢FFFFFFFF
+gui_selectable_action_121=%s正在 ▢FF33FF33跳街舞▢FFFFFFFF
+gui_selectable_action_121_for_me=你正在 ▢FF33FF33跳街舞▢FFFFFFFF
+gui_selectable_action_122=%s正在 ▢FF33FF33赛亚人爆发▢FFFFFFFF
+gui_selectable_action_122_for_me=你正在 ▢FF33FF33赛亚人爆发▢FFFFFFFF
+gui_selectable_action_123=%s正在 ▢FF33FF33路飞大笑▢FFFFFFFF
+gui_selectable_action_123_for_me=你正在 ▢FF33FF33路飞大笑▢FFFFFFFF
+gui_selectable_action_124=%s正在 ▢FF33FF33炭治郎挥刀▢FFFFFFFF
+gui_selectable_action_124_for_me=你正在 ▢FF33FF33炭治郎挥刀▢FFFFFFFF
+gui_selectable_action_125=%s正在 ▢FF33FF33叉腰耍酷▢FFFFFFFF
+gui_selectable_action_125_for_me=你正在 ▢FF33FF33叉腰耍酷▢FFFFFFFF
+gui_selectable_action_126=%s正在 ▢FF33FF33转圈耍酷▢FFFFFFFF
+gui_selectable_action_126_for_me=你正在 ▢FF33FF33转圈耍酷▢FFFFFFFF
+gui_selectable_action_127=%s正在 ▢FF33FF33站立思考▢FFFFFFFF
+gui_selectable_action_127_for_me=你正在 ▢FF33FF33站立思考▢FFFFFFFF
+gui_selectable_action_128=%s正在 ▢FF33FF33奇犽舞▢FFFFFFFF
+gui_selectable_action_128_for_me=你正在 ▢FF33FF33奇犽舞▢FFFFFFFF
+gui_selectable_action_129=%s正在 ▢FF33FF33奥创健美▢FFFFFFFF
+gui_selectable_action_129_for_me=你正在 ▢FF33FF33奥创健美▢FFFFFFFF
+gui_selectable_action_130=%s正在 ▢FF33FF33转身扩胸▢FFFFFFFF
+gui_selectable_action_130_for_me=你正在 ▢FF33FF33转身扩胸▢FFFFFFFF
+gui_selectable_action_131=%s正在 ▢FF33FF33飓风斩▢FFFFFFFF
+gui_selectable_action_131_for_me=你正在 ▢FF33FF33飓风斩▢FFFFFFFF
+gui_selectable_action_132=%s正在 ▢FF33FF33星光斩▢FFFFFFFF
+gui_selectable_action_132_for_me=你正在 ▢FF33FF33星光斩▢FFFFFFFF
+gui_selectable_action_133=%s正在 ▢FF33FF33浩克舞▢FFFFFFFF
+gui_selectable_action_133_for_me=你正在 ▢FF33FF33浩克舞▢FFFFFFFF
+gui_selectable_action_134=%s正在 ▢FF33FF33施展秘术▢FFFFFFFF
+gui_selectable_action_134_for_me=你正在 ▢FF33FF33施展秘术▢FFFFFFFF
+gui_selectable_action_135=%s正在 ▢FF33FF33蜘蛛侠舞▢FFFFFFFF
+gui_selectable_action_135_for_me=你正在 ▢FF33FF33蜘蛛侠舞▢FFFFFFFF
+gui_selectable_action_136=%s正在 ▢FF33FF33洛基舞▢FFFFFFFF
+gui_selectable_action_136_for_me=你正在 ▢FF33FF33洛基舞▢FFFFFFFF
+gui_selectable_action_137=%s正在 ▢FF33FF33格鲁特舞▢FFFFFFFF
+gui_selectable_action_137_for_me=你正在 ▢FF33FF33格鲁特舞▢FFFFFFFF
+gui_selectable_action_138=%s正在 ▢FF33FF33悠闲站立▢FFFFFFFF
+gui_selectable_action_138_for_me=你正在 ▢FF33FF33悠闲站立▢FFFFFFFF
+gui_selectable_action_139=%s正在 ▢FF33FF33打苍蝇▢FFFFFFFF
+gui_selectable_action_139_for_me=你正在 ▢FF33FF33打苍蝇▢FFFFFFFF
+gui_selectable_action_140=%s正在 ▢FF33FF33流水碎岩拳▢FFFFFFFF
+gui_selectable_action_140_for_me=你正在 ▢FF33FF33流水碎岩拳▢FFFFFFFF
+gui_selectable_action_141=%s正在 ▢FF33FF33焚烧炮▢FFFFFFFF
+gui_selectable_action_141_for_me=你正在 ▢FF33FF33焚烧炮▢FFFFFFFF
+gui_selectable_action_142=%s正在 ▢FF33FF33DIO大笑▢FFFFFFFF
+gui_selectable_action_142_for_me=你正在 ▢FF33FF33DIO大笑▢FFFFFFFF
+gui_selectable_action_143=%s正在 ▢FF33FF33电锯挥舞▢FFFFFFFF
+gui_selectable_action_143_for_me=你正在 ▢FF33FF33电锯挥舞▢FFFFFFFF
+gui_selectable_action_144=%s正在 ▢FF33FF33贝吉塔爆发▢FFFFFFFF
+gui_selectable_action_144_for_me=你正在 ▢FF33FF33贝吉塔爆发▢FFFFFFFF
+gui_selectable_action_145=%s正在 ▢FF33FF33小黄人舞▢FFFFFFFF
+gui_selectable_action_145_for_me=你正在 ▢FF33FF33小黄人舞▢FFFFFFFF
+gui_selectable_action_146=%s正在 ▢FF33FF33兵长回旋▢FFFFFFFF
+gui_selectable_action_146_for_me=你正在 ▢FF33FF33兵长回旋▢FFFFFFFF
+gui_selectable_action_147=%s正在 ▢FF33FF33转圈拍手舞▢FFFFFFFF
+gui_selectable_action_147_for_me=你正在 ▢FF33FF33转圈拍手舞▢FFFFFFFF
+gui_selectable_action_148=%s正在 ▢FF33FF33转圈拍手舞▢FFFFFFFF
+gui_selectable_action_148_for_me=你正在 ▢FF33FF33转圈拍手舞▢FFFFFFFF
+gui_selectable_action_149=%s正在 ▢FF33FF33乌塔舞▢FFFFFFFF
+gui_selectable_action_149_for_me=你正在 ▢FF33FF33乌塔舞▢FFFFFFFF
+gui_selectable_action_150=%s正在 ▢FF33FF33路飞爆发▢FFFFFFFF
+gui_selectable_action_150_for_me=你正在 ▢FF33FF33路飞爆发▢FFFFFFFF
+gui_selectable_action_151=%s正在 ▢FF33FF33香克斯舞刀▢FFFFFFFF
+gui_selectable_action_151_for_me=你正在 ▢FF33FF33香克斯舞刀▢FFFFFFFF
+gui_selectable_action_152=%s正在 ▢FF33FF33蜜璃舞刀▢FFFFFFFF
+gui_selectable_action_152_for_me=你正在 ▢FF33FF33蜜璃舞刀▢FFFFFFFF
+gui_selectable_action_153=%s正在 ▢FF33FF33无一郎斩▢FFFFFFFF
+gui_selectable_action_153_for_me=你正在 ▢FF33FF33无一郎斩▢FFFFFFFF
+gui_selectable_action_154=%s正在 ▢FF33FF33宇髓天元舞刀▢FFFFFFFF
+gui_selectable_action_154_for_me=你正在 ▢FF33FF33宇髓天元舞刀▢FFFFFFFF
+gui_selectable_action_155=%s正在 ▢FF33FF33飞雷神▢FFFFFFFF
+gui_selectable_action_155_for_me=你正在 ▢FF33FF33飞雷神▢FFFFFFFF
+gui_selectable_action_156=%s正在 ▢FF33FF33怪力拳▢FFFFFFFF
+gui_selectable_action_156_for_me=你正在 ▢FF33FF33怪力拳▢FFFFFFFF
+gui_selectable_action_157=%s正在 ▢FF33FF33万花筒乌鸦▢FFFFFFFF
+gui_selectable_action_157_for_me=你正在 ▢FF33FF33万花筒乌鸦▢FFFFFFFF
+gui_selectable_action_158=%s正在 ▢FF33FF33吃面▢FFFFFFFF
+gui_selectable_action_158_for_me=你正在 ▢FF33FF33吃面▢FFFFFFFF
+gui_selectable_action_159=%s正在 ▢FF33FF33通灵之术▢FFFFFFFF
+gui_selectable_action_159_for_me=你正在 ▢FF33FF33通灵之术▢FFFFFFFF
+gui_selectable_action_160=%s正在 ▢FF33FF33召唤雷电▢FFFFFFFF
+gui_selectable_action_160_for_me=你正在 ▢FF33FF33召唤雷电▢FFFFFFFF
+gui_selectable_action_161=%s正在 ▢FF33FF33丢电脑▢FFFFFFFF
+gui_selectable_action_161_for_me=你正在 ▢FF33FF33丢电脑▢FFFFFFFF
+gui_selectable_action_162=%s正在 ▢FF33FF33樱花流泪▢FFFFFFFF
+gui_selectable_action_162_for_me=你正在 ▢FF33FF33樱花流泪▢FFFFFFFF
+gui_selectable_action_163=%s正在 ▢FF33FF33Den-o变身▢FFFFFFFF
+gui_selectable_action_163_for_me=你正在 ▢FF33FF33Den-o变身▢FFFFFFFF
+gui_selectable_action_164=%s正在 ▢FF33FF33W变身▢FFFFFFFF
+gui_selectable_action_164_for_me=你正在 ▢FF33FF33W变身▢FFFFFFFF
+gui_selectable_action_165=%s正在 ▢FF33FF33Decade变身▢FFFFFFFF
+gui_selectable_action_165_for_me=你正在 ▢FF33FF33Decade变身▢FFFFFFFF
+gui_selectable_action_166=%s正在 ▢FF33FF33ν高达出场▢FFFFFFFF
+gui_selectable_action_166_for_me=你正在 ▢FF33FF33ν高达出场▢FFFFFFFF
+gui_selectable_action_167=%s正在 ▢FF33FF33扎古出场▢FFFFFFFF
+gui_selectable_action_167_for_me=你正在 ▢FF33FF33扎古出场▢FFFFFFFF
+gui_selectable_action_168=%s正在 ▢FF33FF33光剑斩▢FFFFFFFF
+gui_selectable_action_168_for_me=你正在 ▢FF33FF33光剑斩▢FFFFFFFF
+gui_selectable_action_169=%s正在 ▢FF33FF33激光闪避▢FFFFFFFF
+gui_selectable_action_169_for_me=你正在 ▢FF33FF33激光闪避▢FFFFFFFF
+gui_selectable_action_170=%s正在 ▢FF33FF33强袭自由射击▢FFFFFFFF
+gui_selectable_action_170_for_me=你正在 ▢FF33FF33强袭自由射击▢FFFFFFFF
+gui_selectable_action_171=%s正在 ▢FF33FF33青龙出场▢FFFFFFFF
+gui_selectable_action_171_for_me=你正在 ▢FF33FF33青龙出场▢FFFFFFFF
+
+gui_selectable_action_172=%s正在 ▢FF33FF33十万伏特▢FFFFFFFF
+gui_selectable_action_172_for_me=你正在 ▢FF33FF33十万伏特▢FFFFFFFF
+gui_selectable_action_173=%s正在 ▢FF33FF33蝙蝠魔影▢FFFFFFFF
+gui_selectable_action_173_for_me=你正在 ▢FF33FF33蝙蝠魔影▢FFFFFFFF
+gui_selectable_action_174=%s正在 ▢FF33FF33暗影爪▢FFFFFFFF
+gui_selectable_action_174_for_me=你正在 ▢FF33FF33暗影爪▢FFFFFFFF
+gui_selectable_action_175=%s正在 ▢FF33FF33地狱火环▢FFFFFFFF
+gui_selectable_action_175_for_me=你正在 ▢FF33FF33地狱火环▢FFFFFFFF
+gui_selectable_action_176=%s正在 ▢FF33FF33炼药▢FFFFFFFF
+gui_selectable_action_176_for_me=你正在 ▢FF33FF33炼药▢FFFFFFFF
+gui_selectable_action_177=%s正在 ▢FF33FF33幽灵惊魂▢FFFFFFFF
+gui_selectable_action_177_for_me=你正在 ▢FF33FF33幽灵惊魂▢FFFFFFFF
+gui_selectable_action_178=%s正在 ▢FF33FF33chiikawa嘲讽▢FFFFFFFF
+gui_selectable_action_178_for_me=你正在 ▢FF33FF33chiikawa嘲讽▢FFFFFFFF
+gui_selectable_action_179=%s正在 ▢FF33FF33库因克-IXA刺▢FFFFFFFF
+gui_selectable_action_179_for_me=你正在 ▢FF33FF33库因克-IXA刺▢FFFFFFFF
+gui_selectable_action_180=%s正在 ▢FF33FF33体术攻击▢FFFFFFFF
+gui_selectable_action_180_for_me=你正在 ▢FF33FF33体术攻击▢FFFFFFFF
+gui_selectable_action_181=%s正在 ▢FF33FF33金木研爆发▢FFFFFFFF
+gui_selectable_action_181_for_me=你正在 ▢FF33FF33金木研爆发▢FFFFFFFF
+gui_selectable_action_182=%s正在 ▢FF33FF33雾岛董香侧滑▢FFFFFFFF
+gui_selectable_action_182_for_me=你正在 ▢FF33FF33雾岛董香侧滑▢FFFFFFFF
+gui_selectable_action_183=%s正在 ▢FF33FF33有马贵将亮剑▢FFFFFFFF
+gui_selectable_action_183_for_me=你正在 ▢FF33FF33有马贵将亮剑▢FFFFFFFF
+gui_selectable_action_184=%s正在 ▢FF33FF33卡牌射击▢FFFFFFFF
+gui_selectable_action_184_for_me=你正在 ▢FF33FF33卡牌射击▢FFFFFFFF
+
+gui_selectable_action_185=%s正在 ▢FF33FF33撒雪花▢FFFFFFFF
+gui_selectable_action_185_for_me=你正在 ▢FF33FF33撒雪花▢FFFFFFFF
+gui_selectable_action_186=%s正在 ▢FF33FF33堆圣诞雪人▢FFFFFFFF
+gui_selectable_action_186_for_me=你正在 ▢FF33FF33堆圣诞雪人▢FFFFFFFF
+
+gui_selectable_action_187=%s正在 ▢FF33FF33抛雪花▢FFFFFFFF
+gui_selectable_action_187_for_me=你正在 ▢FF33FF33抛雪花▢FFFFFFFF
+gui_selectable_action_188=%s正在 ▢FF33FF33惊喜礼盒▢FFFFFFFF
+gui_selectable_action_188_for_me=你正在 ▢FF33FF33惊喜礼盒▢FFFFFFFF
+gui_selectable_action_189=%s正在 ▢FF33FF33搭乘圣诞驯鹿▢FFFFFFFF
+gui_selectable_action_189_for_me=你正在 ▢FF33FF33搭乘圣诞驯鹿▢FFFFFFFF
+
+gui_selectable_action_190=%s正在 ▢FF33FF33他急了嘲讽▢FFFFFFFF
+gui_selectable_action_190_for_me=你正在 ▢FF33FF33他急了嘲讽▢FFFFFFFF
+gui_selectable_action_191=%s正在 ▢FF33FF33黑洞穿梭▢FFFFFFFF
+gui_selectable_action_191_for_me=你正在 ▢FF33FF33黑洞穿梭▢FFFFFFFF
+
+gui_selectable_action_192=%s正在 ▢FF33FF33黑闪连击▢FFFFFFFF
+gui_selectable_action_192_for_me=你正在 ▢FF33FF33黑闪连击▢FFFFFFFF
+gui_selectable_action_193=%s正在 ▢FF33FF33嵌合暗翳庭▢FFFFFFFF
+gui_selectable_action_193_for_me=你正在 ▢FF33FF33嵌合暗翳庭▢FFFFFFFF
+
+gui_selectable_action_194=%s正在 ▢FF33FF33虚式「茈」▢FFFFFFFF
+gui_selectable_action_194_for_me=你正在 ▢FF33FF33虚式「茈」▢FFFFFFFF
+gui_selectable_action_195=%s正在 ▢FF33FF33迳庭拳▢FFFFFFFF
+gui_selectable_action_195_for_me=你正在 ▢FF33FF33迳庭拳▢FFFFFFFF
+
+gui_selectable_action_196=%s正在 ▢FF33FF33幻影机甲摩托▢FFFFFFFF
+gui_selectable_action_196_for_me=你正在 ▢FF33FF33幻影机甲摩托▢FFFFFFFF
+
+gui_selectable_action_197=%s正在 ▢FF33FF33猿王机关枪▢FFFFFFFF
+gui_selectable_action_197_for_me=你正在 ▢FF33FF33猿王机关枪▢FFFFFFFF
+gui_selectable_action_198=%s正在 ▢FF33FF33恶魔风脚▢FFFFFFFF
+gui_selectable_action_198_for_me=你正在 ▢FF33FF33恶魔风脚▢FFFFFFFF
+
+gui_selectable_action_199=%s正在 ▢FF33FF33雷云龙卷风▢FFFFFFFF
+gui_selectable_action_199_for_me=你正在 ▢FF33FF33雷云龙卷风▢FFFFFFFF
+gui_selectable_action_200=%s正在 ▢FF33FF33大口吃肉▢FFFFFFFF
+gui_selectable_action_200_for_me=你正在 ▢FF33FF33大口吃肉▢FFFFFFFF
+
+gui_selectable_action_201=%s正在 ▢FF33FF33三刀流龙卷▢FFFFFFFF
+gui_selectable_action_201_for_me=你正在 ▢FF33FF33三刀流龙卷▢FFFFFFFF
+
+gui_selectable_action_202=%s正在 ▢FF33FF33卡比兽泰山压顶▢FFFFFFFF
+gui_selectable_action_202_for_me=你正在 ▢FF33FF33卡比兽泰山压顶▢FFFFFFFF
+gui_selectable_action_203=%s正在 ▢FF33FF33神圣狮王拳击▢FFFFFFFF
+gui_selectable_action_203_for_me=你正在 ▢FF33FF33神圣狮王拳击▢FFFFFFFF
+
+gui_selectable_action_205=%s正在 ▢FF33FF33阿尼亚睡觉▢FFFFFFFF
+gui_selectable_action_205_for_me=你正在 ▢FF33FF33阿尼亚睡觉▢FFFFFFFF
+gui_selectable_action_204=%s正在 ▢FF33FF33和邦德一起玩耍▢FFFFFFFF
+gui_selectable_action_204_for_me=你正在 ▢FF33FF33和邦德一起玩耍▢FFFFFFFF
+
+gui_selectable_action_206=%s正在 ▢FF33FF33黄昏射击敌人▢FFFFFFFF
+gui_selectable_action_206_for_me=你正在 ▢FF33FF33黄昏射击敌人▢FFFFFFFF
+gui_selectable_action_207=%s正在 ▢FF33FF33约尔近战攻击▢FFFFFFFF
+gui_selectable_action_207_for_me=你正在 ▢FF33FF33约尔近战攻击▢FFFFFFFF
+
+gui_selectable_action_208=%s正在 ▢FF33FF33腾云驾雾▢FFFFFFFF
+gui_selectable_action_208_for_me=你正在 ▢FF33FF33腾云驾雾▢FFFFFFFF
+gui_selectable_action_209=%s正在 ▢FF33FF33嘲讽舞蹈▢FFFFFFFF
+gui_selectable_action_209_for_me=你正在 ▢FF33FF33嘲讽舞蹈▢FFFFFFFF
+
+gui_selectable_action_210=%s正在 ▢FF33FF33你太菜被封号了▢FFFFFFFF
+gui_selectable_action_210_for_me=你正在 ▢FF33FF33你太菜被封号了▢FFFFFFFF
+gui_selectable_action_211=%s正在 ▢FF33FF33摇摇马跳舞▢FFFFFFFF
+gui_selectable_action_211_for_me=你正在 ▢FF33FF33摇摇马跳舞▢FFFFFFFF
+
+gui_selectable_action_212=%s正在 ▢FF33FF33暗黑动物玩具套装动作▢FFFFFFFF
+gui_selectable_action_212_for_me=你正在 ▢FF33FF33暗黑动物玩具套装动作▢FFFFFFFF
+gui_selectable_action_213=%s正在 ▢FF33FF33热狗人抖胯舞▢FFFFFFFF
+gui_selectable_action_213_for_me=你正在 ▢FF33FF33热狗人抖胯舞▢FFFFFFFF
+
+gui_selectable_action_214=%s正在 ▢FF33FF33喷香槟庆祝▢FFFFFFFF
+gui_selectable_action_214_for_me=你正在 ▢FF33FF33喷香槟庆祝▢FFFFFFFF
+gui_selectable_action_215=%s正在 ▢FF33FF33赛车定圆漂移▢FFFFFFFF
+gui_selectable_action_215_for_me=你正在 ▢FF33FF33赛车定圆漂移▢FFFFFFFF
+
+gui_selectable_action_216=%s正在 ▢FF33FF33摩托赛车转圈表演▢FFFFFFFF
+gui_selectable_action_216_for_me=你正在 ▢FF33FF33摩托赛车转圈表演▢FFFFFFFF
+gui_selectable_action_217=%s正在 ▢FF33FF33涂鸦喷绘玩滑板▢FFFFFFFF
+gui_selectable_action_217_for_me=你正在 ▢FF33FF33涂鸦喷绘玩滑板▢FFFFFFFF
+
+gui_selectable_action_218=%s正在 ▢FF33FF33林克时间▢FFFFFFFF
+gui_selectable_action_218_for_me=你正在 ▢FF33FF33林克时间▢FFFFFFFF
+gui_selectable_action_219=%s正在 ▢FF33FF332B剑技▢FFFFFFFF
+gui_selectable_action_219_for_me=你正在▢FF33FF33 2B剑技▢FFFFFFFF
+
+gui_selectable_action_220=%s正在 ▢FF33FF33波动拳▢FFFFFFFF
+gui_selectable_action_220_for_me=你正在 ▢FF33FF33波动拳▢FFFFFFFF
+gui_selectable_action_221=%s正在 ▢FF33FF33可丽嘲讽▢FFFFFFFF
+gui_selectable_action_221_for_me=你正在 ▢FF33FF33可丽嘲讽▢FFFFFFFF
+
+gui_selectable_action_222=%s正在 ▢FF33FF33野炊做饭▢FFFFFFFF
+gui_selectable_action_222_for_me=你正在 ▢FF33FF33野炊做饭▢FFFFFFFF
+
+gui_selectable_action_223=%s正在 ▢FF33FF33火焰鬼手战斗▢FFFFFFFF
+gui_selectable_action_223_for_me=你正在 ▢FF33FF33火焰鬼手战斗▢FFFFFFFF
+
+gui_selectable_action_224=%s正在 ▢FF33FF33星座传送▢FFFFFFFF
+gui_selectable_action_224_for_me=你正在 ▢FF33FF33星座传送▢FFFFFFFF
+gui_selectable_action_225=%s正在 ▢FF33FF33虚空黑洞召唤▢FFFFFFFF
+gui_selectable_action_225_for_me=你正在 ▢FF33FF33虚空黑洞召唤▢FFFFFFFF
+gui_selectable_action_226=%s正在 ▢FF33FF33电弧星球斩击▢FFFFFFFF
+gui_selectable_action_226_for_me=你正在 ▢FF33FF33电弧星球斩击▢FFFFFFFF
+gui_selectable_action_227=%s正在 ▢FF33FF33王座召唤▢FFFFFFFF
+gui_selectable_action_227_for_me=你正在 ▢FF33FF33王座召唤▢FFFFFFFF
+
+gui_selectable_action_228=%s正在 ▢FF33FF33与蝶共舞▢FFFFFFFF
+gui_selectable_action_228_for_me=你正在 ▢FF33FF33与蝶共舞▢FFFFFFFF
+
+gui_selectable_action_229=%s正在 ▢FF33FF33点燃蛋糕上的蜡烛▢FFFFFFFF
+gui_selectable_action_229_for_me=你正在 ▢FF33FF33点燃蛋糕上的蜡烛▢FFFFFFFF
+
+gui_selectable_action_230=%s正在 ▢FF33FF33正步走▢FFFFFFFF
+gui_selectable_action_230_for_me=你正在 ▢FF33FF33正步走▢FFFFFFFF
+
+gui_selectable_action_231=%s正在 ▢FF33FF33跳火圈▢FFFFFFFF
+gui_selectable_action_231_for_me=你正在 ▢FF33FF33跳火圈▢FFFFFFFF
+
+gui_selectable_action_232=%s正在 ▢FF33FF33坐旋转咖啡杯▢FFFFFFFF
+gui_selectable_action_232_for_me=你正在 ▢FF33FF33坐旋转咖啡杯▢FFFFFFFF
+
+gui_selectable_action_233=%s正在 ▢FF33FF33黯晶爆发▢FFFFFFFF
+gui_selectable_action_233_for_me=你正在 ▢FF33FF33黯晶爆发▢FFFFFFFF
+
+gui_selectable_action_234=%s正在 ▢FF33FF33剑舞▢FFFFFFFF
+gui_selectable_action_234_for_me=你正在 ▢FF33FF33剑舞▢FFFFFFFF
+
+gui_selectable_action_235=%s正在 ▢FF33FF33魔女降临▢FFFFFFFF
+gui_selectable_action_235_for_me=你正在 ▢FF33FF33魔女降临▢FFFFFFFF
+
+gui_selectable_action_236=%s正在 ▢FF33FF33享受夏日▢FFFFFFFF
+gui_selectable_action_236_for_me=你正在 ▢FF33FF33享受夏日▢FFFFFFFF
+
+gui_selectable_action_237=%s正在 ▢FF33FF33表演时间魔法▢FFFFFFFF
+gui_selectable_action_237_for_me=你正在 ▢FF33FF33表演时间魔法▢FFFFFFFF
+
+gui_selectable_action_238=%s正在 ▢FF33FF33月下芭蕾▢FFFFFFFF
+gui_selectable_action_238_for_me=你正在 ▢FF33FF33月下芭蕾▢FFFFFFFF
+
+gui_selectable_action_239=%s正在 ▢FF33FF33爆发太阳之力▢FFFFFFFF
+gui_selectable_action_239_for_me=你正在 ▢FF33FF33爆发太阳之力▢FFFFFFFF
+
+gui_selectable_action_240=%s正在 ▢FF33FF33遨游知识宇宙▢FFFFFFFF
+gui_selectable_action_240_for_me=你正在 ▢FF33FF33遨游知识宇宙▢FFFFFFFF
+
+gui_selectable_action_241=%s正在 ▢FF33FF33与影子决斗▢FFFFFFFF
+gui_selectable_action_241_for_me=你正在 ▢FF33FF33与影子决斗▢FFFFFFFF
+
+gui_selectable_action_242=%s正在 ▢FF33FF33模仿死侍砍子弹▢FFFFFFFF
+gui_selectable_action_242_for_me=你正在 ▢FF33FF33模仿死侍砍子弹▢FFFFFFFF
+
+gui_selectable_action_243=%s正在 ▢FF33FF33金刚狼突袭▢FFFFFFFF
+gui_selectable_action_243_for_me=你正在 ▢FF33FF33金刚狼突袭▢FFFFFFFF
+
+gui_selectable_action_244=%s正在 ▢FF33FF33誓约胜利之剑▢FFFFFFFF
+gui_selectable_action_244_for_me=你正在 ▢FF33FF33誓约胜利之剑▢FFFFFFFF
+
+gui_selectable_action_245=%s正在 ▢FF33FF33星爆气流斩▢FFFFFFFF
+gui_selectable_action_245_for_me=你正在 ▢FF33FF33星爆气流斩▢FFFFFFFF
+
+gui_selectable_action_246=%s正在 ▢FF33FF33虫之呼吸▢FFFFFFFF
+gui_selectable_action_246_for_me=你正在 ▢FF33FF33虫之呼吸▢FFFFFFFF
+
+gui_selectable_action_247=%s正在 ▢FF33FF33财宝分享▢FFFFFFFF
+gui_selectable_action_247_for_me=你正在 ▢FF33FF33财宝分享▢FFFFFFFF
+
+gui_selectable_action_248=%s正在 ▢FF33FF33能量融合▢FFFFFFFF
+gui_selectable_action_248_for_me=你正在 ▢FF33FF33能量融合▢FFFFFFFF
+
+gui_selectable_action_249=%s正在 ▢FF33FF33御龙飞行▢FFFFFFFF
+gui_selectable_action_249_for_me=你正在 ▢FF33FF33御龙飞行▢FFFFFFFF
+
+gui_selectable_action_250=%s正在 ▢FF33FF33疾风横扫▢FFFFFFFF
+gui_selectable_action_250_for_me=你正在 ▢FF33FF33疾风横扫▢FFFFFFFF
+
+gui_selectable_action_251=%s正在 ▢FF33FF33次元斩▢FFFFFFFF
+gui_selectable_action_251_for_me=你正在 ▢FF33FF33次元斩▢FFFFFFFF
+
+gui_selectable_action_252=%s正在 ▢FF33FF33打call▢FFFFFFFF
+gui_selectable_action_252_for_me=你正在 ▢FF33FF33打call▢FFFFFFFF
+
+gui_selectable_action_253=%s正在 ▢FF33FF33防御部署▢FFFFFFFF
+gui_selectable_action_253_for_me=你正在 ▢FF33FF33防御部署▢FFFFFFFF
+
+gui_selectable_action_254=%s正在 ▢FF33FF33弱爆了！▢FFFFFFFF
+gui_selectable_action_254_for_me=你正在 ▢FF33FF33弱爆了！▢FFFFFFFF
+
+gui_selectable_action_255=%s正在 ▢FF33FF33K.O.▢FFFFFFFF
+gui_selectable_action_255_for_me=你正在 ▢FF33FF33K.O.▢FFFFFFFF
+
+gui_selectable_action_256=%s正在 ▢FF33FF33舞台漂浮▢FFFFFFFF
+gui_selectable_action_256_for_me=你正在 ▢FF33FF33舞台漂浮▢FFFFFFFF
+
+gui_selectable_action_257=%s正在 ▢FF33FF33独自哀伤▢FFFFFFFF
+gui_selectable_action_257_for_me=你正在 ▢FF33FF33独自哀伤▢FFFFFFFF
+
+gui_selectable_action_258=%s正在 ▢FF33FF33往返虚空▢FFFFFFFF
+gui_selectable_action_258_for_me=你正在 ▢FF33FF33往返虚空▢FFFFFFFF
+
+gui_selectable_action_259=%s正在 ▢FF33FF33末影人瞬移▢FFFFFFFF
+gui_selectable_action_259_for_me=你正在 ▢FF33FF33末影人瞬移▢FFFFFFFF
+
+gui_selectable_action_260=%s正在 ▢FF33FF33发声高歌▢FFFFFFFF
+gui_selectable_action_260_for_me=你正在 ▢FF33FF33发声高歌▢FFFFFFFF
+
+gui_selectable_action_261=%s正在 ▢FF33FF33吉他音浪▢FFFFFFFF
+gui_selectable_action_261_for_me=你正在 ▢FF33FF33吉他音浪▢FFFFFFFF
+
+gui_selectable_action_262=%s正在 ▢FF33FF33打鼓▢FFFFFFFF
+gui_selectable_action_262_for_me=你正在 ▢FF33FF33打鼓▢FFFFFFFF
+
+gui_selectable_action_263=%s正在 ▢FF33FF33踏浪而去▢FFFFFFFF
+gui_selectable_action_263_for_me=你正在 ▢FF33FF33踏浪而去▢FFFFFFFF
+
+gui_selectable_action_264=%s正在 ▢FF33FF33揭棺而起▢FFFFFFFF
+gui_selectable_action_264_for_me=你正在 ▢FF33FF33揭棺而起▢FFFFFFFF
+
+gui_selectable_action_265=%s正在 ▢FF33FF33电锯修剪▢FFFFFFFF
+gui_selectable_action_265_for_me=你正在 ▢FF33FF33电锯修剪▢FFFFFFFF
+
+gui_selectable_action_266=%s正在 ▢FF33FF33骑着扫帚飞行▢FFFFFFFF
+gui_selectable_action_266_for_me=你正在 ▢FF33FF33骑着扫帚飞行▢FFFFFFFF
+
+gui_selectable_action_267=%s正在 ▢FF33FF33羽刃风暴▢FFFFFFFF
+gui_selectable_action_267_for_me=你正在 ▢FF33FF33羽刃风暴▢FFFFFFFF
+
+gui_selectable_action_269=%s正在 ▢FF33FF33dab手势▢FFFFFFFF
+gui_selectable_action_269_for_me=你正在 ▢FF33FF33dab手势▢FFFFFFFF
+
+gui_selectable_action_268=%s正在 ▢FF33FF33我爱金魔方▢FFFFFFFF
+gui_selectable_action_268_for_me=你正在 ▢FF33FF33我爱金魔方▢FFFFFFFF
+
+gui_selectable_action_270=%s正在 ▢FF33FF33花式调酒▢FFFFFFFF
+gui_selectable_action_270_for_me=你正在 ▢FF33FF33花式调酒▢FFFFFFFF
+gui_selectable_action_271=%s正在 ▢FF33FF33雪球大战▢FFFFFFFF
+gui_selectable_action_271_for_me=你正在 ▢FF33FF33雪球大战▢FFFFFFFF
+
+gui_selectable_action_272=%s正在 ▢FF33FF33使用修罗拳法▢FFFFFFFF
+gui_selectable_action_272_for_me=你正在 ▢FF33FF33使用修罗拳法▢FFFFFFFF
+
+gui_selectable_action_273=%s正在 ▢FF33FF33使用毁灭光束▢FFFFFFFF
+gui_selectable_action_273_for_me=你正在 ▢FF33FF33使用毁灭光束▢FFFFFFFF
+gui_selectable_action_274=%s正在 ▢FF33FF33摆好姿势▢FFFFFFFF
+gui_selectable_action_274_for_me=你正在 ▢FF33FF33摆好姿势▢FFFFFFFF
+gui_selectable_action_275=%s正在 ▢FF33FF33准备~蓄力~起飞！▢FFFFFFFF
+gui_selectable_action_275_for_me=你正在 ▢FF33FF33准备~蓄力~起飞！▢FFFFFFFF
+
+gui_selectable_action_276=%s正在 ▢FF33FF33狙击闪耀星辰▢FFFFFFFF
+gui_selectable_action_276_for_me=你正在 ▢FF33FF33狙击闪耀星辰▢FFFFFFFF
+
+gui_selectable_action_277=%s正在 ▢FF33FF33拉雪橇车▢FFFFFFFF
+gui_selectable_action_277_for_me=你正在 ▢FF33FF33拉雪橇车▢FFFFFFFF
+gui_selectable_action_278=%s正在 ▢FF33FF33领取圣诞礼物▢FFFFFFFF
+gui_selectable_action_278_for_me=你正在 ▢FF33FF33领取圣诞礼物▢FFFFFFFF
+gui_selectable_action_279=%s正在 ▢FF33FF33礼物大派送▢FFFFFFFF
+gui_selectable_action_279_for_me=你正在 ▢FF33FF33礼物大派送▢FFFFFFFF
+
+gui_selectable_action_280=%s正在 ▢FF33FF33放新年烟花！▢FFFFFFFF
+gui_selectable_action_280_for_me=你正在 ▢FF33FF33放新年烟花！▢FFFFFFFF
+
+gui_selectable_action_281=%s正在 ▢FF33FF33吹泡泡▢FFFFFFFF
+gui_selectable_action_281_for_me=你正在 ▢FF33FF33吹泡泡▢FFFFFFFF
+
+gui_selectable_action_282=%s正在 ▢FF33FF33跳华尔兹▢FFFFFFFF
+gui_selectable_action_282_for_me=你正在 ▢FF33FF33跳华尔兹▢FFFFFFFF
+
+gui_selectable_action_283=%s正在 ▢FF33FF33万剑归宗▢FFFFFFFF
+gui_selectable_action_283_for_me=你正在 ▢FF33FF33万剑归宗▢FFFFFFFF
+gui_selectable_action_284=%s正在 ▢FF33FF33剑出如龙▢FFFFFFFF
+gui_selectable_action_284_for_me=你正在 ▢FF33FF33剑出如龙▢FFFFFFFF
+gui_selectable_action_285=%s正在 ▢FF33FF33凤凰涅槃▢FFFFFFFF
+gui_selectable_action_285_for_me=你正在 ▢FF33FF33凤凰涅槃▢FFFFFFFF
+gui_selectable_action_286=%s正在 ▢FF33FF33伏魔拳法▢FFFFFFFF
+gui_selectable_action_286_for_me=你正在 ▢FF33FF33伏魔拳法▢FFFFFFFF
+
+gui_selectable_action_287=%s正在 ▢FF33FF33圣剑出鞘▢FFFFFFFF
+gui_selectable_action_287_for_me=你正在 ▢FF33FF33圣剑出鞘▢FFFFFFFF
+
+gui_selectable_action_288=%s正在 ▢FF33FF33大圣归来▢FFFFFFFF
+gui_selectable_action_288_for_me=你正在 ▢FF33FF33大圣归来▢FFFFFFFF
+
+gui_selectable_action_289=%s正在 ▢FF33FF33绚烂射击▢FFFFFFFF
+gui_selectable_action_289_for_me=你正在 ▢FF33FF33绚烂射击▢FFFFFFFF
+gui_selectable_action_290=%s正在 ▢FF33FF33爱心魔法▢FFFFFFFF
+gui_selectable_action_290_for_me=你正在 ▢FF33FF33爱心魔法▢FFFFFFFF
+gui_selectable_action_291=%s正在 ▢FF33FF33爱神之箭▢FFFFFFFF
+gui_selectable_action_291_for_me=你正在 ▢FF33FF33爱神之箭▢FFFFFFFF
+gui_selectable_action_292=%s正在 ▢FF33FF33魔法：献花▢FFFFFFFF
+gui_selectable_action_292_for_me=你正在 ▢FF33FF33魔法：献花▢FFFFFFFF
+
+gui_selectable_action_293=%s正在 ▢FF33FF33轰炸敌方飞机▢FFFFFFFF
+gui_selectable_action_293_for_me=你正在 ▢FF33FF33轰炸敌方飞机▢FFFFFFFF
+
+gui_selectable_action_294=%s正在 ▢FF33FF33忍术：飞镖▢FFFFFFFF
+gui_selectable_action_294_for_me=你正在 ▢FF33FF33忍术：飞镖▢FFFFFFFF
+gui_selectable_action_295=%s正在 ▢FF33FF33多重居合斩▢FFFFFFFF
+gui_selectable_action_295_for_me=你正在 ▢FF33FF33多重居合斩▢FFFFFFFF
+gui_selectable_action_296=%s正在 ▢FF33FF33神事舞▢FFFFFFFF
+gui_selectable_action_296_for_me=你正在 ▢FF33FF33神事舞▢FFFFFFFF
+gui_selectable_action_297=%s正在 ▢FF33FF33蓄力一击▢FFFFFFFF
+gui_selectable_action_297_for_me=你正在 ▢FF33FF33蓄力一击▢FFFFFFFF
+
+gui_selectable_action_298=%s正在 ▢FF33FF33月之狂怒▢FFFFFFFF
+gui_selectable_action_298_for_me=你正在 ▢FF33FF33月之狂怒▢FFFFFFFF
+
+gui_selectable_action_299=%s正在 ▢FF33FF33瞭望远方▢FFFFFFFF
+gui_selectable_action_299_for_me=你正在 ▢FF33FF33瞭望远方▢FFFFFFFF
+gui_selectable_action_300=%s正在 ▢FF33FF33钓宝物▢FFFFFFFF
+gui_selectable_action_300_for_me=你正在 ▢FF33FF33钓宝物▢FFFFFFFF
+
+gui_selectable_action_301=%s正在 ▢FF33FF33可乐喷射▢FFFFFFFF
+gui_selectable_action_301_for_me=你正在 ▢FF33FF33可乐喷射▢FFFFFFFF
+gui_selectable_action_302=%s正在 ▢FF33FF33蹦蹦跳跳▢FFFFFFFF
+gui_selectable_action_302_for_me=你正在 ▢FF33FF33蹦蹦跳跳▢FFFFFFFF
+gui_selectable_action_303=%s正在 ▢FF33FF33特朗普舞蹈▢FFFFFFFF
+gui_selectable_action_303_for_me=你正在 ▢FF33FF33特朗普舞蹈▢FFFFFFFF
+
+gui_selectable_action_304=%s正在 ▢FF33FF33武装升级▢FFFFFFFF
+gui_selectable_action_304_for_me=你正在 ▢FF33FF33武装升级▢FFFFFFFF
+
+gui_selectable_action_305=%s正在 ▢FF33FF33倒吊打招呼▢FFFFFFFF
+gui_selectable_action_305_for_me=你正在 ▢FF33FF33倒吊打招呼▢FFFFFFFF
+gui_selectable_action_306=%s正在 ▢FF33FF33投石攻击▢FFFFFFFF
+gui_selectable_action_306_for_me=你正在 ▢FF33FF33投石攻击▢FFFFFFFF
+gui_selectable_action_307=%s正在 ▢FF33FF33彩虹冲锋▢FFFFFFFF
+gui_selectable_action_307_for_me=你正在 ▢FF33FF33彩虹冲锋▢FFFFFFFF
+gui_selectable_action_308=%s正在 ▢FF33FF33蝶舞▢FFFFFFFF
+gui_selectable_action_308_for_me=你正在 ▢FF33FF33蝶舞▢FFFFFFFF
+
+gui_selectable_action_309=%s正在 ▢FF33FF33月亮之怒▢FFFFFFFF
+gui_selectable_action_309_for_me=你正在 ▢FF33FF33月亮之怒▢FFFFFFFF
+
+gui_selectable_action_310=%s正在 ▢FF33FF33暗影君王降临▢FFFFFFFF
+gui_selectable_action_310_for_me=你正在 ▢FF33FF33暗影君王降临▢FFFFFFFF
+gui_selectable_action_311=%s正在 ▢FF33FF33光之一击▢FFFFFFFF
+gui_selectable_action_311_for_me=你正在 ▢FF33FF33光之一击▢FFFFFFFF
+gui_selectable_action_312=%s正在 ▢FF33FF33蚁王出击▢FFFFFFFF
+gui_selectable_action_312_for_me=你正在 ▢FF33FF33蚁王出击▢FFFFFFFF
+gui_selectable_action_313=%s正在 ▢FF33FF33影子提取▢FFFFFFFF
+gui_selectable_action_313_for_me=你正在 ▢FF33FF33影子提取▢FFFFFFFF
+gui_selectable_action_314=%s正在 ▢FF33FF33被膜拜▢FFFFFFFF
+gui_selectable_action_314_for_me=你正在 ▢FF33FF33被膜拜▢FFFFFFFF
+
+gui_selectable_action_315=%s正在 ▢FF33FF33神圣符文攻击▢FFFFFFFF
+gui_selectable_action_315_for_me=你正在 ▢FF33FF33神圣符文攻击▢FFFFFFFF
+
+gui_selectable_action_316=%s正在 ▢FF33FF33决斗▢FFFFFFFF
+gui_selectable_action_316_for_me=你正在 ▢FF33FF33决斗▢FFFFFFFF
+gui_selectable_action_317=%s正在 ▢FF33FF33套马索▢FFFFFFFF
+gui_selectable_action_317_for_me=你正在 ▢FF33FF33套马索▢FFFFFFFF
+
+gui_selectable_action_318=%s正在 ▢FF33FF33登基▢FFFFFFFF
+gui_selectable_action_318_for_me=你正在 ▢FF33FF33登基▢FFFFFFFF
+gui_selectable_action_319=%s正在 ▢FF33FF33吹笛唤蛇▢FFFFFFFF
+gui_selectable_action_319_for_me=你正在 ▢FF33FF33吹笛唤蛇▢FFFFFFFF
+gui_selectable_action_320=%s正在 ▢FF33FF33受命于天▢FFFFFFFF
+gui_selectable_action_320_for_me=你正在 ▢FF33FF33受命于天▢FFFFFFFF
+gui_selectable_action_321=%s正在 ▢FF33FF33造反▢FFFFFFFF
+gui_selectable_action_321_for_me=你正在 ▢FF33FF33造反▢FFFFFFFF
+
+gui_selectable_action_322=%s正在 ▢FF33FF33魔王降世▢FFFFFFFF
+gui_selectable_action_322_for_me=你正在 ▢FF33FF33魔王降世▢FFFFFFFF
+
+gui_selectable_action_323=%s正在 ▢FF33FF33堆砌沙堡▢FFFFFFFF
+gui_selectable_action_323_for_me=你正在 ▢FF33FF33堆砌沙堡▢FFFFFFFF
+gui_selectable_action_324=%s正在 ▢FF33FF33海底漂浮▢FFFFFFFF
+gui_selectable_action_324_for_me=你正在 ▢FF33FF33海底漂浮▢FFFFFFFF
+gui_selectable_action_325=%s正在 ▢FF33FF33捕捞大鱼▢FFFFFFFF
+gui_selectable_action_325_for_me=你正在 ▢FF33FF33捕捞大鱼▢FFFFFFFF
+
+gui_selectable_action_326=%s正在 ▢FF33FF33天晶碎裂▢FFFFFFFF
+gui_selectable_action_326_for_me=你正在 ▢FF33FF33天晶碎裂▢FFFFFFFF
+
+gui_selectable_action_327=%s正在 ▢FF33FF33发动阴阳术：唤雷▢FFFFFFFF
+gui_selectable_action_327_for_me=你正在 ▢FF33FF33发动阴阳术：唤雷▢FFFFFFFF
+gui_selectable_action_328=%s正在 ▢FF33FF33使用忍术：影分身▢FFFFFFFF
+gui_selectable_action_328_for_me=你正在 ▢FF33FF33使用忍术：影分身▢FFFFFFFF
+gui_selectable_action_329=%s正在 ▢FF33FF33使用回旋影镖▢FFFFFFFF
+gui_selectable_action_329_for_me=你正在 ▢FF33FF33使用回旋影镖▢FFFFFFFF
+gui_selectable_action_330=%s正在 ▢FF33FF33血月斩▢FFFFFFFF
+gui_selectable_action_330_for_me=你正在 ▢FF33FF33血月斩▢FFFFFFFF
+gui_selectable_action_331=%s正在 ▢FF33FF33狂乱刀舞▢FFFFFFFF
+gui_selectable_action_331_for_me=你正在 ▢FF33FF33狂乱刀舞▢FFFFFFFF
+
+gui_selectable_action_332=%s正在 ▢FF33FF33雷电爆发▢FFFFFFFF
+gui_selectable_action_332_for_me=你正在 ▢FF33FF33雷电爆发▢FFFFFFFF
+
+gui_selectable_action_333=%s正在 ▢FF33FF33撒钱▢FFFFFFFF
+gui_selectable_action_333_for_me=你正在 ▢FF33FF33撒钱▢FFFFFFFF
+
+gui_selectable_action_334=%s正在 ▢FF33FF33剑刃解放▢FFFFFFFF
+gui_selectable_action_334_for_me=你正在 ▢FF33FF33剑刃解放▢FFFFFFFF
+gui_selectable_action_335=%s正在 ▢FF33FF33神谕仪式▢FFFFFFFF
+gui_selectable_action_335_for_me=你正在 ▢FF33FF33神谕仪式▢FFFFFFFF
+gui_selectable_action_336=%s正在 ▢FF33FF33粉碎星体▢FFFFFFFF
+gui_selectable_action_336_for_me=你正在 ▢FF33FF33粉碎星体▢FFFFFFFF
+
+gui_selectable_action_337=%s正在 ▢FF33FF33天恩降临▢FFFFFFFF
+gui_selectable_action_337_for_me=你正在 ▢FF33FF33天恩降临▢FFFFFFFF
+
+gui_selectable_action_338=%s正在 ▢FF33FF33魔剑召唤▢FFFFFFFF
+gui_selectable_action_338_for_me=你正在 ▢FF33FF33魔剑召唤▢FFFFFFFF
+gui_selectable_action_339=%s正在 ▢FF33FF33邪鸦召唤▢FFFFFFFF
+gui_selectable_action_339_for_me=你正在 ▢FF33FF33邪鸦召唤▢FFFFFFFF
+gui_selectable_action_340=%s正在 ▢FF33FF33变狼狂▢FFFFFFFF
+gui_selectable_action_340_for_me=你正在 ▢FF33FF33变狼狂▢FFFFFFFF
+
+gui_selectable_action_341=%s正在 ▢FF33FF33释放光暗双刃▢FFFFFFFF
+gui_selectable_action_341_for_me=你正在 ▢FF33FF33释放光暗双刃▢FFFFFFFF
+
+gui_selectable_action_342=%s正在 ▢FF33FF33摩托狂飙▢FFFFFFFF
+gui_selectable_action_342_for_me=你正在 ▢FF33FF33摩托狂飙▢FFFFFFFF
+gui_selectable_action_343=%s正在 ▢FF33FF33焦土斩▢FFFFFFFF
+gui_selectable_action_343_for_me=你正在 ▢FF33FF33焦土斩▢FFFFFFFF
+gui_selectable_action_344=%s正在 ▢FF33FF33锈铁崩拳▢FFFFFFFF
+gui_selectable_action_344_for_me=你正在 ▢FF33FF33锈铁崩拳▢FFFFFFFF
+
+gui_selectable_action_345=%s正在 ▢FF33FF33魂噬镰▢FFFFFFFF
+gui_selectable_action_345_for_me=你正在 ▢FF33FF33魂噬镰▢FFFFFFFF
+
+gui_selectable_action_346=%s正在 ▢FF33FF33打电动▢FFFFFFFF
+gui_selectable_action_346_for_me=你正在 ▢FF33FF33打电动▢FFFFFFFF
+
+gui_selectable_action_347=%s正在 ▢FF33FF33月之呼吸▢FFFFFFFF
+gui_selectable_action_347_for_me=你正在 ▢FF33FF33月之呼吸▢FFFFFFFF
+gui_selectable_action_348=%s正在 ▢FF33FF33血鬼术·冻雾	▢FFFFFFFF
+gui_selectable_action_348_for_me=你正在 ▢FF33FF33血鬼术·冻雾▢FFFFFFFF
+gui_selectable_action_349=%s正在 ▢FF33FF33破坏杀·罗针	▢FFFFFFFF
+gui_selectable_action_349_for_me=你正在 ▢FF33FF33破坏杀·罗针▢FFFFFFFF
+gui_selectable_action_350=%s正在 ▢FF33FF33火之神神・碧罗天▢FFFFFFFF
+gui_selectable_action_350_for_me=你正在 ▢FF33FF33火之神神・碧罗天▢FFFFFFFF
+
+gui_selectable_action_351=%s正在 ▢FF33FF33虚空之链▢FFFFFFFF
+gui_selectable_action_351_for_me=你正在 ▢FF33FF33虚空之链▢FFFFFFFF
+
+gui_selectable_action_352=%s正在 ▢FF33FF33操控蛛丝▢FFFFFFFF
+gui_selectable_action_352_for_me=你正在 ▢FF33FF33操控蛛丝▢FFFFFFFF
+gui_selectable_action_353=%s正在 ▢FF33FF33南瓜杂耍▢FFFFFFFF
+gui_selectable_action_353_for_me=你正在 ▢FF33FF33南瓜杂耍▢FFFFFFFF
+gui_selectable_action_354=%s正在 ▢FF33FF33糖果派送▢FFFFFFFF
+gui_selectable_action_354_for_me=你正在 ▢FF33FF33糖果派送▢FFFFFFFF
+
+gui_selectable_action_355=%s正在 ▢FF33FF33突袭降落▢FFFFFFFF
+gui_selectable_action_355_for_me=你正在 ▢FF33FF33突袭降落▢FFFFFFFF
+
+gui_selectable_action_356=%s正在 ▢FF33FF33让人强制飞天▢FFFFFFFF
+gui_selectable_action_356_for_me=你正在 ▢FF33FF33让人强制飞天▢FFFFFFFF
+gui_selectable_action_357=%s正在 ▢FF33FF33进行空中射击▢FFFFFFFF
+gui_selectable_action_357_for_me=你正在 ▢FF33FF33进行空中射击▢FFFFFFFF
+gui_selectable_action_358=%s正在 ▢FF33FF33使用圣锤裁决▢FFFFFFFF
+gui_selectable_action_358_for_me=你正在 ▢FF33FF33使用圣锤裁决▢FFFFFFFF
+
+gui_selectable_action_359=%s正在 ▢FF33FF33演奏碎梦协奏曲▢FFFFFFFF
+gui_selectable_action_359_for_me=你正在 ▢FF33FF33演奏碎梦协奏曲▢FFFFFFFF
+
+gui_selectable_action_360=%s正在 ▢FF33FF33使用落日击▢FFFFFFFF
+gui_selectable_action_360_for_me=你正在 ▢FF33FF33使用落日击▢FFFFFFFF
+gui_selectable_action_361=%s正在 ▢FF33FF33进行月眠式▢FFFFFFFF
+gui_selectable_action_361_for_me=你正在 ▢FF33FF33进行月眠式▢FFFFFFFF
+gui_selectable_action_362=%s正在 ▢FF33FF33使用星陨谢幕▢FFFFFFFF
+gui_selectable_action_362_for_me=你正在 ▢FF33FF33使用星陨谢幕▢FFFFFFFF
+
+gui_selectable_action_363=%s正在 ▢FF33FF33使用激光剑法▢FFFFFFFF
+gui_selectable_action_363_for_me=你正在 ▢FF33FF33使用激光剑法▢FFFFFFFF
+
+gui_selectable_action_364=%s正在 ▢FF33FF33使用新年礼炮▢FFFFFFFF
+gui_selectable_action_364_for_me=你正在 ▢FF33FF33使用新年礼炮▢FFFFFFFF
+gui_selectable_action_365=%s正在 ▢FF33FF332025圣诞快乐▢FFFFFFFF
+gui_selectable_action_365_for_me=你正在 ▢FF33FF332025圣诞快乐▢FFFFFFFF
+gui_selectable_action_366=%s正在 ▢FF33FF33燃放手持烟花▢FFFFFFFF
+gui_selectable_action_366_for_me=你正在 ▢FF33FF33燃放手持烟花▢FFFFFFFF
+
+gui_selectable_action_367=%s正在 ▢FF33FF332025花样滑冰▢FFFFFFFF
+gui_selectable_action_367_for_me=你正在 ▢FF33FF332025花样滑冰▢FFFFFFFF
+gui_selectable_action_368=%s正在 ▢FF33FF33进行雪国黄金馈赠▢FFFFFFFF
+gui_selectable_action_368_for_me=你正在 ▢FF33FF33进行雪国黄金馈赠▢FFFFFFFF
+
+gui_selectable_action_369=%s正在使用技能 ▢FF33FF33红莲枪影▢FFFFFFFF
+gui_selectable_action_369_for_me=你正在使用技能 ▢FF33FF33红莲枪影▢FFFFFFFF
+
+gui_selectable_action_370=%s正在使用 ▢FF33FF332025日之呼吸▢FFFFFFFF
+gui_selectable_action_370_for_me=你正在使用 ▢FF33FF332025日之呼吸▢FFFFFFFF
+gui_selectable_action_371=%s正在使用 ▢FF33FF33血鬼术▢FFFFFFFF
+gui_selectable_action_371_for_me=你正在使用 ▢FF33FF33血鬼术▢FFFFFFFF
+gui_selectable_action_372=%s正在进行 ▢FF33FF33鬼化▢FFFFFFFF
+gui_selectable_action_372_for_me=你正在进行 ▢FF33FF33鬼化▢FFFFFFFF
+gui_selectable_action_373=%s正在使用 ▢FF33FF33风之呼吸▢FFFFFFFF
+gui_selectable_action_373_for_me=你正在使用 ▢FF33FF33风之呼吸▢FFFFFFFF
+gui_selectable_action_374=%s正在使用 ▢FF33FF33水面斩▢FFFFFFFF
+gui_selectable_action_374_for_me=你正在使用 ▢FF33FF33水面斩▢FFFFFFFF
+gui_selectable_action_375=%s正在使用 ▢FF33FF33技能：生生流转▢FFFFFFFF
+gui_selectable_action_375_for_me=你正在使用 ▢FF33FF33技能：生生流转▢FFFFFFFF
+
+gui_selectable_action_376=%s正在使用技能： ▢FF33FF33典籍解放▢FFFFFFFF
+gui_selectable_action_376_for_me=你正在使用技能： ▢FF33FF33典籍解放▢FFFFFFFF
+
+gui_selectable_action_377=%s正在： ▢FF33FF33乘坐幽灵船▢FFFFFFFF
+gui_selectable_action_377_for_me=你正在： ▢FF33FF33乘坐幽灵船▢FFFFFFFF
+
+gui_selectable_action_378=%s正在进行 ▢FF33FF33热门舞蹈▢FFFFFFFF
+gui_selectable_action_378_for_me=你正在进行 ▢FF33FF33热门舞蹈▢FFFFFFFF
+
+
+gui_selectable_action_10005=%s正在 ▢FF33FF33铁山靠▢FFFFFFFF
+gui_selectable_action_10005_for_me=你正在 ▢FF33FF33铁山靠▢FFFFFFFF
+gui_selectable_action_10021=%s正在 ▢FF33FF33发动仙法·风遁螺旋手里剑▢FFFFFFFF
+gui_selectable_action_10021_for_me=你正在 ▢FF33FF33发动仙法·风遁螺旋手里剑▢FFFFFFFF
+
+gui_selectable_action_379=%s正在进行 ▢FF33FF33泼墨流锋▢FFFFFFFF
+gui_selectable_action_379_for_me=你正在进行 ▢FF33FF33泼墨流锋▢FFFFFFFF
+gui_selectable_action_380=%s正在进行 ▢FF33FF33伞起惊雷▢FFFFFFFF
+gui_selectable_action_380_for_me=你正在进行 ▢FF33FF33伞起惊雷▢FFFFFFFF
+gui_selectable_action_381=%s正在进行 ▢FF33FF33笔落生鹤▢FFFFFFFF
+gui_selectable_action_381_for_me=你正在进行 ▢FF33FF33笔落生鹤▢FFFFFFFF
+gui_selectable_action_382=%s正在进行 ▢FF33FF33太极拳▢FFFFFFFF
+gui_selectable_action_382_for_me=你正在进行 ▢FF33FF33太极拳▢FFFFFFFF
+
+gui_selectable_action_383=%s正在进行▢FF33FF33赠送粉玫瑰▢FFFFFFFF
+gui_selectable_action_383_for_me=你正在进行▢FF33FF33赠送粉玫瑰▢FFFFFFFF
+
+gui_selectable_action_384=%s正在进行▢FF33FF33命运占卜▢FFFFFFFF
+gui_selectable_action_384_for_me=你正在进行▢FF33FF33命运占卜▢FFFFFFFF
+gui_selectable_action_385=%s正在进行▢FF33FF33星陨秘术▢FFFFFFFF
+gui_selectable_action_385_for_me=你正在进行▢FF33FF33星陨秘术▢FFFFFFFF
+
+gui_selectable_action_386=%s正在进行▢FF33FF33灵魂裂合▢FFFFFFFF
+gui_selectable_action_386_for_me=你正在进行▢FF33FF33灵魂裂合▢FFFFFFFF
+
+gui_selectable_action_387=%s正在进行▢FF33FF33漆黑王座召唤▢FFFFFFFF
+gui_selectable_action_387_for_me=你正在进行▢FF33FF33漆黑王座召唤▢FFFFFFFF
+
+gui_selectable_action_388=%s正在进行▢FF33FF33观看广告▢FFFFFFFF
+gui_selectable_action_388_for_me=你正在进行▢FF33FF33观看广告▢FFFFFFFF
+
+gui_selectable_action_389=%s正在进行▢FF33FF33打败纸皮恐龙▢FFFFFFFF
+gui_selectable_action_389_for_me=你正在进行▢FF33FF33打败纸皮恐龙▢FFFFFFFF
+
+gui_selectable_action_390=%s正在进行▢FF33FF33大变活人▢FFFFFFFF
+gui_selectable_action_390_for_me=你正在进行▢FF33FF33大变活人▢FFFFFFFF
+
+gui_selectable_action_391=%s正在进行▢FF33FF33死而复生▢FFFFFFFF
+gui_selectable_action_391_for_me=你正在进行▢FF33FF33死而复生▢FFFFFFFF
+
+gui_selectable_action_392=%s正在进行▢FF33FF33彩虹呕吐▢FFFFFFFF
+gui_selectable_action_392_for_me=你正在进行▢FF33FF33彩虹呕吐▢FFFFFFFF
+
+gui_selectable_action_393=%s正在进行▢FF33FF33避雨▢FFFFFFFF
+gui_selectable_action_393_for_me=你正在进行▢FF33FF33避雨▢FFFFFFFF
+
+gui_selectable_action_394=%s正在进行▢FF33FF33龙闪一击▢FFFFFFFF
+gui_selectable_action_394_for_me=你正在进行▢FF33FF33龙闪一击▢FFFFFFFF
+
+gui_selectable_action_395=%s正在进行▢FF33FF33享受下午茶时间▢FFFFFFFF
+gui_selectable_action_395_for_me=你正在进行▢FF33FF33享受下午茶时间▢FFFFFFFF
+
+gui_selectable_action_396=%s正在▢FF33FF33召喚魔像▢FFFFFFFF
+gui_selectable_action_396_for_me=你正在▢FF33FF33召喚魔像▢FFFFFFFF
+gui_selectable_action_397=%s正在进行▢FF33FF33祭祀仪式▢FFFFFFFF
+gui_selectable_action_397_for_me=你正在进行▢FF33FF33祭祀仪式▢FFFFFFFF
+gui_selectable_action_398=%s正在进行▢FF33FF33断剑重组▢FFFFFFFF
+gui_selectable_action_398_for_me=你正在进行▢FF33FF33断剑重组▢FFFFFFFF
+
+gui_selectable_action_399=%s正在进行▢FF33FF33英雄登场▢FFFFFFFF
+gui_selectable_action_399_for_me=你正在进行▢FF33FF33英雄登场▢FFFFFFFF
+
+gui_selectable_action_400=%s正在进行▢FF33FF33痛击触手▢FFFFFFFF
+gui_selectable_action_400_for_me=你正在进行▢FF33FF33痛击触手▢FFFFFFFF
+gui_selectable_action_401=%s正在进行▢FF33FF33驱赶恶灵▢FFFFFFFF
+gui_selectable_action_401_for_me=你正在进行▢FF33FF33驱赶恶灵▢FFFFFFFF
+gui_selectable_action_402=%s正在进行▢FF33FF33放飞人质▢FFFFFFFF
+gui_selectable_action_402_for_me=你正在进行▢FF33FF33放飞人质▢FFFFFFFF
+
+gui_selectable_action_403=%s正在进行▢FF33FF33枯骨尽散▢FFFFFFFF
+gui_selectable_action_403_for_me=你正在进行▢FF33FF33枯骨尽散▢FFFFFFFF
+
+gui_selectable_action_404=%s正在进行▢FF33FF33传送门搭建▢FFFFFFFF
+gui_selectable_action_404_for_me=你正在进行▢FF33FF33传送门搭建▢FFFFFFFF
+
+gui_selectable_action_405=%s正在进行▢FF33FF33连续出拳▢FFFFFFFF
+gui_selectable_action_405_for_me=你正在进行▢FF33FF33连续出拳▢FFFFFFFF
+gui_selectable_action_406=%s正在进行▢FF33FF33神女舞剑▢FFFFFFFF
+gui_selectable_action_406_for_me=你正在进行▢FF33FF33神女舞剑▢FFFFFFFF
+gui_selectable_action_407=%s正在进行▢FF33FF33挣脱锁链▢FFFFFFFF
+gui_selectable_action_407_for_me=你正在进行▢FF33FF33挣脱锁链▢FFFFFFFF
+gui_selectable_action_408=%s正在进行▢FF33FF33脚踏彩云▢FFFFFFFF
+gui_selectable_action_408_for_me=你正在进行▢FF33FF33脚踏彩云▢FFFFFFFF
+
+gui_selectable_action_409%s正在进行▢FF33FF33魔剑斩击▢FFFFFFFF
+gui_selectable_action_409_for_me=你正在进行▢FF33FF33魔剑斩击▢FFFFFFFF
+
+gui_selectable_action_410%s正在进行▢FF33FF33射门▢FFFFFFFF
+gui_selectable_action_410_for_me=你正在进行▢FF33FF33射门▢FFFFFFFF
+
+gui_selectable_action_411%s正在进行▢FF33FF33飞行器失控▢FFFFFFFF
+gui_selectable_action_411_for_me=你正在进行▢FF33FF33飞行器失控▢FFFFFFFF
+gui_selectable_action_412%s正在进行▢FF33FF33激活虫核▢FFFFFFFF
+gui_selectable_action_412_for_me=你正在进行▢FF33FF33激活虫核▢FFFFFFFF
+gui_selectable_action_413%s正在进行▢FF33FF33狩猎反击▢FFFFFFFF
+gui_selectable_action_413_for_me=你正在进行▢FF33FF33狩猎反击▢FFFFFFFF
+
+gui_selectable_action_414%s正在进行▢FF33FF33复活仪式▢FFFFFFFF
+gui_selectable_action_414_for_me=你正在进行▢FF33FF33复活仪式▢FFFFFFFF
+
+gui_selectable_action_415=%s正在进行▢FF33FF33汉堡降临▢FFFFFFFF
+gui_selectable_action_415_for_me=你正在进行▢FF33FF33汉堡降临▢FFFFFFFF
+gui_selectable_action_416=%s正在进行▢FF33FF33畅饮汽水▢FFFFFFFF
+gui_selectable_action_416_for_me=你正在进行▢FF33FF33畅饮汽水▢FFFFFFFF
+gui_selectable_action_417=%s正在进行▢FF33FF33这不是番茄酱▢FFFFFFFF
+gui_selectable_action_417_for_me=你正在进行▢FF33FF33这不是番茄酱▢FFFFFFFF
+gui_selectable_action_418=%s正在进行▢FF33FF33美食分享▢FFFFFFFF
+gui_selectable_action_418_for_me=你正在进行▢FF33FF33美食分享▢FFFFFFFF
+
+gui_selectable_action_419=%s正在进行▢FF33FF33节拍律动▢FFFFFFFF
+gui_selectable_action_419_for_me=你正在进行▢FF33FF33节拍律动▢FFFFFFFF
+
+gui_selectable_action_420=%s正在进行▢FF33FF33创造星球▢FFFFFFFF
+gui_selectable_action_420_for_me=你正在进行▢FF33FF33创造星球▢FFFFFFFF
+
+gui_selectable_action_421=%s正在进行▢FF33FF33变身狼灵▢FFFFFFFF
+gui_selectable_action_421_for_me=你正在进行▢FF33FF33变身狼灵▢FFFFFFFF
+gui_selectable_action_422=%s正在进行▢FF33FF33跳街舞▢FFFFFFFF
+gui_selectable_action_422_for_me=你正在进行▢FF33FF33跳街舞▢FFFFFFFF
+gui_selectable_action_423=%s正在进行▢FF33FF33抚摸猫咪▢FFFFFFFF
+gui_selectable_action_423_for_me=你正在进行▢FF33FF33抚摸猫咪▢FFFFFFFF
+gui_selectable_action_424=%s正在进行▢FF33FF33灵兽召唤▢FFFFFFFF
+gui_selectable_action_424_for_me=你正在进行▢FF33FF33灵兽召唤▢FFFFFFFF
+
+gui_selectable_action_425=%s正在进行▢FF33FF33星晶冲击▢FFFFFFFF
+gui_selectable_action_425_for_me=你正在进行▢FF33FF33星晶冲击▢FFFFFFFF
+
+gui_selectable_action_426=%s正在进行▢FF33FF33发射破魔箭矢▢FFFFFFFF
+gui_selectable_action_426_for_me=你正在进行▢FF33FF33发射破魔箭矢▢FFFFFFFF
+gui_selectable_action_427=%s正在进行▢FF33FF33漫画定格▢FFFFFFFF
+gui_selectable_action_427_for_me=你正在进行▢FF33FF33漫画定格▢FFFFFFFF
+gui_selectable_action_428=%s正在进行▢FF33FF33灌篮▢FFFFFFFF
+gui_selectable_action_428_for_me=你正在进行▢FF33FF33灌篮▢FFFFFFFF
+gui_selectable_action_429=%s正在进行▢FF33FF33击碎陨石▢FFFFFFFF
+gui_selectable_action_429_for_me=你正在进行▢FF33FF33击碎陨石▢FFFFFFFF
+
+gui_selectable_action_430=%s正在进行▢FF33FF33子弹倾泻▢FFFFFFFF
+gui_selectable_action_430_for_me=你正在进行▢FF33FF33子弹倾泻▢FFFFFFFF
